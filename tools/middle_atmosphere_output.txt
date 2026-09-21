@@ -1,0 +1,46 @@
+====================================================================
+T6a — bounded expansion: does A_comp prevent runaway?
+====================================================================
+ xi_drive  xi_pull                outcome  late rate
+     0.05     0.05      bounded-saturated    -0.0000
+     0.05     0.10      bounded-saturated     0.0000
+     0.05     0.20      bounded-saturated     0.0003
+     0.10     0.05      bounded-saturated    -0.0001
+     0.10     0.10      bounded-saturated    -0.0000
+     0.10     0.20      bounded-saturated    -0.0001
+     0.20     0.05      bounded-saturated    -0.0007
+     0.20     0.10      bounded-saturated    -0.0007
+     0.20     0.20      bounded-saturated    -0.0006
+     0.40     0.05      bounded-saturated    -0.0047
+     0.40     0.10      bounded-saturated    -0.0048
+     0.40     0.20      bounded-saturated    -0.0050
+
+bounded in 12/12 cells -> compensatory closure HOLDS
+
+====================================================================
+T6b — embedded observer in Cmid: recession & its time profile
+====================================================================
+  middle-layer width : 410 -> 407 sites (-0.8%)  [+= expansion]
+  front drift rate   : -0.0061 -> -0.0013 -> -0.0004 sites/time
+  peak |rate| at t=64 (1% of run)
+  |drift| decays toward zero : True
+  quasi-static buffer at long times (|rate|<=0.005): True
+  -> in minimal membrane dynamics the buffer is BOUNDED and quasi-static;
+     the docs' 'accelerating inflation' is a PROJECTION (P_obs) claim, not an automatic consequence of the three-layer balance
+
+====================================================================
+T6c — foam nucleation threshold: Xi_mid > Xi_crit sheds tension
+====================================================================
+ xi_drive  nucleations  first at t
+     0.10            0          -1
+     0.20            0          -1
+     0.40            0          -1
+     0.80          300         223
+     1.20          300         209
+     1.60          300         201
+     2.00          300         193
+     3.00          300         184
+
+empirical Xi_crit ~ 0.8 (drive rate where the middle layer first exceeds relaxation capacity: damping 0.05 + velocity cap 1.5)
+
+T6 complete.

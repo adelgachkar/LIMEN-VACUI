@@ -39,6 +39,7 @@ license: "CC-BY-4.0"
 
 ## Related
 
+- [[Middle-Atmosphere-Synthesis]] — فرمالیسم سه‌لایهٔ O+/C_mid/D− و آزمون T6 (تعمیم دینامیکی همین نوت)
 - [[A3-Arrow-From-Registration]] — جهت جبهه‌ها
 - [[Popcorn-Vacuum-Birth]] — چه چیزی درون بالشتک زاده می‌شود
 - [[MOC-LIMEN-VACUI]]
