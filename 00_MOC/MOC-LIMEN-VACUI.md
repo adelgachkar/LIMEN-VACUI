@@ -10,6 +10,8 @@ license: "CC-BY-4.0"
 
 # LIMEN-VACUI — Map of Content
 
+> 🇬🇧 **English mirror:** آینهٔ انگلیسی تمام نوت‌ها در پوشهٔ `en/` — نقطهٔ ورود: [[README]] و [[MOC-LIMEN-VACUI-EN]].
+
 ## ادعای مرکزی
 
 $$\text{LIMEN} = \underbrace{\text{سکوت}}_{\text{پیشا-مرز}} + \underbrace{K1}_{\text{سرریز قیدی}} + \underbrace{\vec{\mathcal{A}}}_{\text{پیکان پیشین→پسین}} + \underbrace{K3}_{\text{بالشتک بالانس}} + \underbrace{K4}_{\text{زایش پاپ‌کورنی}} + \underbrace{K2}_{\text{حلقه‌های رهایش}}$$
