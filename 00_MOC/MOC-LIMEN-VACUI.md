@@ -26,11 +26,13 @@ $$\text{LIMEN} = \underbrace{\text{سکوت}}_{\text{پیشا-مرز}} + \underb
 - `04_Balancer/` — بالشتک دو-جبهه‌ای؛ ممنوعیت تورم بی‌نهایت (گزارهٔ کشسانی)؛ **سنتز سه‌لایهٔ O+/C_mid/D− با آزمون T6**.
 - `05_Popcorn/` — زایش پاپ‌کورنی خلا و نوفهٔ بستری؛ پیامد سرخ‌گرایی.
 - `06_Rings/` — نردبان حلقه‌ای پیرامون وید: C_α = n·Φ₀، نجات‌یافته از رهاشدگی.
-- `07_Companion_Mapping/` — پل به SPUMA-VACUI و Emergence-SDF-Vault.
+- `07_Companion_Mapping/` — پل به SPUMA-VACUI و Emergence-SDF-Vault؛ **پل کمّی پارامتری LIMEN→SPUMA**.
 
 ## ابزار و اعداد کانونی
 
 - `tools/limen_core.py` — پنج آزمون اجراشده (خروجی: `tools/limen_core_output.txt`)
+- `tools/middle_atmosphere_test.py` — باتری T6 (خروجی: `tools/middle_atmosphere_output.txt`)
+- `tools/limen_spuma_bridge.py` — پل کمّی LIMEN→SPUMA (خروجی: `tools/limen_spuma_bridge_output.txt`)
 
 | کمیت | مقدار | منبع |
 |---|---|---|
@@ -42,6 +44,7 @@ $$\text{LIMEN} = \underbrace{\text{سکوت}}_{\text{پیشا-مرز}} + \underb
 | کران‌داری انبساط (بستار جبرانی) | ۱۲/۱۲ سلول گرید رانش bounded-saturated | T6a |
 | آستانهٔ هسته‌زایی فوم | Ξ_crit ≈ 0.8 (گذار تمیز زیر/بالا) | T6c |
 | «تورم فزایندهٔ ناظر میانی» | رکود → شبه‌ایستا؛ شتاب = پروجکشن (P_obs)، نه دینامیک | T6b |
+| پل LIMEN↔SPUMA در p_f مشترک | R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] در κ≤0.10؛ نگاشت (g=0.297, τ_q=40, κ=0.03) ↔ b=0.285 | [[Limen-Spuma-Parameter-Bridge]] |
 
 ## Epistemic Status
 

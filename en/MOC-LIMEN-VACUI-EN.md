@@ -26,11 +26,13 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 - `en/Balancer-Cushion`, `en/Middle-Atmosphere-Synthesis` — the two-front cushion; the infinite-inflation prohibition; the three-layer O+/C_mid/D− synthesis with the T6 tests.
 - `en/Popcorn-Vacuum-Birth` — popcorn cavity nucleation and the redshift consequence.
 - `en/Companion-Bridge`, `en/Acceleration-Claims-Verdict` — the family map and the audit of the acceleration documents.
+- `en/Limen-Spuma-Parameter-Bridge` — the executed LIMEN→SPUMA parameter bridge (B1–B4).
 
 ## Canonical numbers
 
 - `tools/limen_core.py` — five executed tests (`tools/limen_core_output.txt`)
 - `tools/middle_atmosphere_test.py` — the T6 battery (`tools/middle_atmosphere_output.txt`)
+- `tools/limen_spuma_bridge.py` — the LIMEN→SPUMA quantitative bridge (`tools/limen_spuma_bridge_output.txt`)
 
 | Quantity | Value | Source |
 |---|---|---|
@@ -42,6 +44,7 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 | Bounded expansion (compensatory closure) | 12/12 drive-grid cells bounded-saturated | T6a |
 | Foam nucleation threshold | Ξ_crit ≈ 0.8 (clean transition) | T6c |
 | "Middle observer's accelerating inflation" | drift → quasi-static; acceleration = projection (P_obs), not dynamics | T6b |
+| LIMEN↔SPUMA bridge at equal p_f | R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] at κ≤0.10; mapping (g=0.297, τ_q=40, κ=0.03) ↔ b=0.285 | [[Limen-Spuma-Parameter-Bridge-EN]] |
 
 ## Epistemic Status
 

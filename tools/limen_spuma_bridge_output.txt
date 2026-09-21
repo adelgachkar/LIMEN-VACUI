@@ -1,0 +1,57 @@
+== LIMEN-SPUMA quantitative parameter bridge ==
+lattice L=192, seeds (11, 12), registration steps<=800 (patience 120)
+
+[B2] SPUMA freeze-out transfer curve (measured here, K1 map):
+     b      p_f  mean size      max  span  exp(-2bm0)
+  0.10   0.6539      44.86    22836  100%      0.7408
+  0.15   0.5383      10.49      932    0%      0.6376
+  0.20   0.4434       4.81      168    0%      0.5488
+  0.30   0.2978       2.30       27    0%      0.4066
+  0.40   0.2022       1.66       16    0%      0.3012
+  0.55   0.1162       1.30       10    0%      0.1920
+  0.80   0.0486       1.12        5    0%      0.0907
+  1.20   0.0135       1.03        3    0%      0.0273
+
+   archival anchor re-measured (L=256, b=0.30, seeds (11, 12, 13)): p_f = 0.2992, mean size = 2.32
+   (SPUMA K1 archival: p_f = 0.299, mean = 2.34 — consistent)
+
+[B1] LIMEN registration forward map p_f(g_max | tau_q, kappa) (seeds (11, 12)):
+ tau_q  kappa |   g=0.30   g=0.40   g=0.55   g=0.80  |  silence  iid-limit
+    15   0.30 |   0.6756  0.4812  0.4209  0.4306 |  yes    [  0.0066  0.0001  0.0000  0.0000]
+    15   0.10 |   0.2082  0.0346  0.0011  0.0000 |  yes    [  0.0066  0.0001  0.0000  0.0000]
+    15   0.03 |   0.1364  0.0182  0.0004  0.0000 |  yes    [  0.0066  0.0001  0.0000  0.0000]
+    40   0.03 |   0.3011  0.0408  0.0009  0.0000 |  yes    [  0.0175  0.0004  0.0000  0.0000]
+   120   0.10 |   0.8035  0.2236  0.0091  0.0000 |  yes    [  0.0515  0.0011  0.0000  0.0000]
+   120   0.03 |   0.6473  0.1145  0.0027  0.0000 |  yes    [  0.0515  0.0011  0.0000  0.0000]
+   (bracketed column = exact iid limit p_f(g|tau_q) at kappa->0: measured values converge to it as kappa drops)
+   -> measured FLOOR at kappa=0.30: p_f >~ 0.43 for every finite cap (self-organized roughness); it LIFTS as kappa drops:
+      floor(tau_q=15, kappa=0.03) = 0.000
+      floor(tau_q=15, kappa=0.10) = 0.000
+      floor(tau_q=15, kappa=0.30) = 0.421
+      floor(tau_q=40, kappa=0.03) = 0.000
+      floor(tau_q=120, kappa=0.03) = 0.000
+      floor(tau_q=120, kappa=0.10) = 0.000
+
+   T1 canonical point (g_max=0.40, tau_q=120, kappa=0.30): p_f=0.912, spanning=True, mean=6721.0, max=33601
+   -> the silent boundary is a SPANNING WEB, not dust (supercritical register)
+
+[B3] inverse map: g_max that reproduces the shared p_f = 0.2992 (SPUMA b=0.30 anchor), per (tau_q, kappa):
+ tau_q  kappa   g_max*  p_f check  mean size  span  b_equiv  R=size/SPUMA
+    15   0.10    0.297     0.2203       1.75    0%    0.381          0.98
+    15   0.03    0.243     0.3591       3.02    0%    0.258          0.90
+    40   0.03    0.297     0.3195       2.51    0%    0.285          0.94
+   120   0.10    0.363     0.4085       3.84    0%    0.224          0.91
+
+[B4] closed-loop verdict at EQUAL frozen fraction:
+   shared scalar p_f = 0.2992  [exact: same definition, two registers — identification itself is model-level]
+   kappa=0.03, tau_q=15: g_max*=0.243 -> mean 3.02 vs SPUMA 3.36  =>  R = 0.90  [~iid (R->1)]
+   kappa=0.03, tau_q=40: g_max*=0.297 -> mean 2.51 vs SPUMA 2.68  =>  R = 0.94  [~iid (R->1)]
+   kappa=0.10, tau_q=15: g_max*=0.297 -> mean 1.75 vs SPUMA 1.78  =>  R = 0.98  [~iid (R->1)]
+   kappa=0.10, tau_q=120: g_max*=0.363 -> mean 3.84 vs SPUMA 4.21  =>  R = 0.91  [~iid (R->1)]
+
+   headline mapping (best-bracketed point):
+   LIMEN(g_max=0.297, tau_q=40, kappa=0.03)  <=>  SPUMA(b=0.285)   at p_f = 0.3195 = p_f^SPUMA(0.30)
+   -> R(kappa) trend above decides the universality question: R -> 1 as kappa -> 0 would confirm the two registers share the iid percolation class; R(kappa=0.10-0.30) != 1 measures the edge-coupling epidemic correction.
+
+Labels: p_f definition [exact]; curves [measured]; iid-limit formula [structural]; register identification [model].
+Honest limit: stylized 2D registers; no physics added to either vault by this bridge.

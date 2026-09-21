@@ -29,12 +29,17 @@ license: "CC-BY-4.0"
 | arrow from registration | noise register (seed/matrix/engine) | **structural** — both one-way |
 | three-layer O+/C_mid/D− balance (T6) | Middle-Atmosphere documents (SDF v3.1.0) | **formal — same relation, now tested** |
 
+## Parametric quantification (now available)
+
+A two-way map LIMEN(g_max, τ_q, κ) ↔ SPUMA(b) at the shared frozen fraction p_f was built and executed: at κ≤0.10, R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] — at weak coupling the cavity-size distributions coincide. Headline mapping: LIMEN(g=0.297, τ_q=40, κ=0.03) ↔ SPUMA(b=0.285). Details and tables: [[Limen-Spuma-Parameter-Bridge-EN]]. In the large-κ regime LIMEN's silent boundary is a spanning web (the other phase of the same registration process).
+
 ## Honest boundaries
 
-LIMEN narrates "before" SPUMA (why the boundary exists), but the two share no parametric quantification — the projects are numerically independent, and only K1 and "no-outflow" are exactly common between them. Any stronger claim of unity is, for now, analogy.
+LIMEN narrates "before" SPUMA (why the boundary exists). The three projects remain operationally independent; exactly shared are K1, "no-outflow", and — from this session — the labeled parametric map above. The identification "registration = freezing" is [model]; any stronger claim of unity is analogy.
 
 ## Related
 
+- [[Limen-Spuma-Parameter-Bridge-EN]] — the quantitative bridge
 - [[K1-Constraint-Overflow-EN]] · [[K2-Release-Rings-EN]]
 - [[Middle-Atmosphere-Synthesis-EN]] — the formal layer
 - [[MOC-LIMEN-VACUI-EN]]

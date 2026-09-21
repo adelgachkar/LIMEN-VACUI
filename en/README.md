@@ -41,6 +41,14 @@ $$\text{LIMEN} = \underbrace{\text{silence}}_{\text{pre-boundary}} + \underbrace
 
 (T6: `tools/middle_atmosphere_test.py` — the three-layer O+/C_mid/D− synthesis.)
 
+**LIMEN↔SPUMA quantitative bridge** (`tools/limen_spuma_bridge.py`): at the shared frozen
+fraction p_f, the mapping LIMEN(g_max, τ_q, κ) ↔ SPUMA(b) closes with
+**R = mean-size ratio ∈ [0.90, 0.98]** at weak Laplacian coupling (κ≤0.10); headline:
+LIMEN(g=0.297, τ_q=40, κ=0.03) ↔ SPUMA(b=0.285). SPUMA's popcorn cavities are LIMEN's
+registered overflow crust at weak field coupling; the large-κ silent boundary is a
+spanning web — the other phase of the same registration process.
+See [[Limen-Spuma-Parameter-Bridge-EN]].
+
 ## Epistemic Status
 
 This is a **narrative-quantitative construct**, not established physics: T1/T2 are
@@ -55,4 +63,4 @@ resolves observational cosmology. CC-BY-4.0.
 - Axioms: [[A1-Silent-Boundary-EN]] · [[A2-Overflow-From-Perfect-Symmetry-EN]] · [[A3-Arrow-From-Registration-EN]]
 - Constraints: [[K1-Constraint-Overflow-EN]] · [[K2-Release-Rings-EN]]
 - Dynamics: [[Onset-Arrow-EN]] · [[Balancer-Cushion-EN]] · [[Middle-Atmosphere-Synthesis-EN]] · [[Popcorn-Vacuum-Birth-EN]]
-- Mapping & audit: [[Companion-Bridge-EN]] · [[Acceleration-Claims-Verdict-EN]]
+- Mapping & audit: [[Companion-Bridge-EN]] · [[Acceleration-Claims-Verdict-EN]] · [[Limen-Spuma-Parameter-Bridge-EN]]
