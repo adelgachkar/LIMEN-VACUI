@@ -1,0 +1,56 @@
+== T7 v5: dynamics of the toroidal constraint-release mechanism ==
+
+annulus K=12 shells x L=256 poloidal sites; defect source fixed at k=1 (axial, m=0); alpha0=0.5, tau_q=800 steps, run 5*tau_q (quench complete); cap_k = 0.15/k^2 (capacity register); noise walk std ~ 8.0e-05 << cap_K = 1.04e-03; DT=0.02
+
+[main] canonical point (D_r=0.2, tau_q=800, axial defect):
+  k    cap_k     F_k    t_reg   clos_k
+  1  0.15000   1.000     0.34   0.0245
+  2  0.03750   1.000     1.86   0.0245
+  3  0.01667   1.000     5.28   0.0245
+  4  0.00937   1.000    10.30   0.0245
+  5  0.00600   1.000    16.98   0.0245
+  6  0.00417   1.000    25.28   0.0245
+  7  0.00306   1.000    34.86   0.0245
+  8  0.00234   1.000    44.20   0.0245
+  9  0.00185   1.000    50.90   0.0245
+ 10  0.00150   1.000    53.62   0.0245
+ 11  0.00124   1.000    54.20   0.0245
+ 12  0.00104   1.000    50.12   0.0245
+   formation order: inside-out (saturation front)
+   ladder depth k* = 12  |  capture = 0.030 of the injected budget (banked capacity)
+   closure: max_k clos_k = 0.0245 rad (grid resolution 2pi/L = 0.0245) -> registered strands are COMPLETE tori, not arcs [measured]
+
+[D_r sweep] saturation-front vs capacity-first race (tau_q=800):
+   D_r | t_reg(k=1..K) successive | order | k* | capture
+  0.05 | 0.32 6.94 20.58 40.66 67.10 -- -- -- -- -- -- -- | inside-out (saturation front) |  5 | 0.028
+  0.20 | 0.34 1.86 5.28 10.30 16.98 25.28 34.86 44.20 50.90 53.62 54.20 50.12 | inside-out (saturation front) | 12 | 0.030
+  0.80 | 0.40 0.62 1.46 2.72 4.40 6.46 8.92 11.42 13.06 13.72 13.86 12.78 | inside-out (saturation front) | 12 | 0.049
+  3.20 | -- 0.42 0.52 0.82 1.24 1.76 2.38 3.00 3.42 3.58 3.62 3.36 | inside-out (saturation front) | 12 | 0.011
+   -> MEASURED VERDICT: the order stays INSIDE-OUT at every D_r — the capacity-first inversion hypothesis is REJECTED by the data (the source is fixed at the defect and transport is diffusive, so inner shells always fill first). What D_r actually controls is DEPTH (k*=5 trapped at D_r=0.05 -> k*=12 at D_r>=0.2) and CAPTURE (peak at D_r=0.8). One capacity-first signature survives: at D_r=3.2 the LARGEST-cap shell k=1 is the only one that fails to register a majority — the deep tiny-cap shells bind on the first tail while the fat cap starves [measured].
+
+[tau_q sweep] ladder depth k*(tau_q) at D_r=0.2:
+   tau_q=  100 (t=  2.0): k* =  3, capture = 0.205
+   tau_q=  200 (t=  4.0): k* =  5, capture = 0.110
+   tau_q=  400 (t=  8.0): k* =  7, capture = 0.057
+   tau_q=  800 (t= 16.0): k* = 12, capture = 0.030
+   depth law: k* ~ t^0.65  (diffusive front benchmark 0.50)
+   -> depth tracks the diffusive front, with a measured excess above 0.50 (0.65) — mild capacity-ladder pre-sensitization [measured]
+
+[C1] alpha0 = 0 (no overflow drive):
+   F_k = ['0.000', '0.000', '0.000', '0.000', '0.000', '0.000', '0.000', '0.000', '0.000', '0.000', '0.000', '0.000']  -> rings do NOT form spontaneously: the toroidal ladder is a child of the overflow [measured]
+
+[C2] flat caps (cap_k = CAP1 for all k) vs main ladder caps:
+   t_reg: 0.34 -- -- -- -- -- -- -- -- -- -- --  |  k* = 1  |  capture = 0.019
+   order: none-registered
+   -> DEPTH COLLAPSES (k*=1 vs 12 in [main]): with the capacity ladder removed, deep shells need the FULL cap_1 level that the decaying budget never delivers — the ladder's role in depth and timing is isolated [measured]
+
+[C3] wounded defect (angularly localized release):
+   F_k(k=1..6) = ['0.44', '0.51', '0.54', '0.56', '0.57', '0.58']; clos_k(k=1..6) = ['3.53', '3.09', '2.95', '2.80', '2.75', '2.65']
+   -> a localized wound builds an OPEN ARC that must wind to close; toroidal closure requires the AXIAL (rotationally symmetric) release channel of the free defect [measured]
+
+[C4] infinite caps (no registration):
+   capture = 0.000 vs main 0.030 -> the envelope (registered tori) is what banks the released constraint; without caps the budget dissipates into the field [measured]
+
+Labels: run identities [exact]; all numbers [measured]; consequences of the stylized dynamics [structural];
+identification of registered C-strands with K2's toroidal ladder [model]. Stylized 2D dynamics; no physics added.
+Honest limit: cap_k = cap_1/k^2 encodes the measured T5 ladder as an INPUT (the capacity profile); what T7 derives is the FORMATION dynamics — order, depth law, closure, capture — not the ladder exponent itself.

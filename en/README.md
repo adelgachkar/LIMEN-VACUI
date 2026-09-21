@@ -38,8 +38,10 @@ $$\text{LIMEN} = \underbrace{\text{silence}}_{\text{pre-boundary}} + \underbrace
 | T6a compensatory closure | 12/12 drive-grid cells bounded-saturated | exact |
 | T6b embedded observer | drift → quasi-static; acceleration is a projection (P_obs), not dynamics | exact |
 | T6c foam threshold | Ξ_crit ≈ 0.8 — clean sub/super-critical transition | exact |
+| T7 ring dynamics | inside-out formation order; complete tori (clos = 0.0245 rad); depth law k* ~ t^0.65; capacity-first inversion REJECTED by data; C1–C4 controls | measured |
 
 (T6: `tools/middle_atmosphere_test.py` — the three-layer O+/C_mid/D− synthesis.)
+(T7: `tools/limen_ring_dynamics.py` — the constraint-release dynamics; K2 made dynamic.)
 
 **LIMEN↔SPUMA quantitative bridge** (`tools/limen_spuma_bridge.py`): at the shared frozen
 fraction p_f, the mapping LIMEN(g_max, τ_q, κ) ↔ SPUMA(b) closes with
@@ -54,8 +56,10 @@ See [[Limen-Spuma-Parameter-Bridge-EN]].
 This is a **narrative-quantitative construct**, not established physics: T1/T2 are
 stylized registration dynamics (the true law of the pre-boundary is by construction
 unspeakable); T3 and T6a/T6b/T6c are exact statements of their stated minimal
-dynamics; T4 inherits SPUMA's K1 map; T5 is a static multipole ladder. No claim
-resolves observational cosmology. CC-BY-4.0.
+dynamics; T4 inherits SPUMA's K1 map; T5 is a static multipole ladder; T7 derives
+the formation of that ladder from a stylized release dynamics (caps = level
+capacities; registered cells = saturated wicks). No claim resolves observational
+cosmology. CC-BY-4.0.
 
 ## Notes (English set)
 

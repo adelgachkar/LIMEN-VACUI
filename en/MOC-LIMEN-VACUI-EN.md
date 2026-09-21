@@ -33,6 +33,7 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 - `tools/limen_core.py` — five executed tests (`tools/limen_core_output.txt`)
 - `tools/middle_atmosphere_test.py` — the T6 battery (`tools/middle_atmosphere_output.txt`)
 - `tools/limen_spuma_bridge.py` — the LIMEN→SPUMA quantitative bridge (`tools/limen_spuma_bridge_output.txt`)
+- `tools/limen_ring_dynamics.py` — the constraint-release dynamics, T7 (`tools/limen_ring_dynamics_output.txt`)
 
 | Quantity | Value | Source |
 |---|---|---|
@@ -45,7 +46,8 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 | Foam nucleation threshold | Ξ_crit ≈ 0.8 (clean transition) | T6c |
 | "Middle observer's accelerating inflation" | drift → quasi-static; acceleration = projection (P_obs), not dynamics | T6b |
 | LIMEN↔SPUMA bridge at equal p_f | R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] at κ≤0.10; mapping (g=0.297, τ_q=40, κ=0.03) ↔ b=0.285 | [[Limen-Spuma-Parameter-Bridge-EN]] |
+| Ring dynamics (T7) | inside-out formation; complete tori (clos=0.0245 rad); depth k* ~ t^0.65; capacity-first inversion rejected; C1–C4 controls | [[K2-Release-Rings-EN]] |
 
 ## Epistemic Status
 
-T1/T2 are stylized registration dynamics (the true pre-boundary law is, by construction, unspeakable — every rendering is an analogy); T3, T6a/T6b/T6c are exact statements of their stated minimal dynamics; T4 inherits SPUMA's K1 map; T5 is a static multipole ladder. Zero claims resolve observational cosmology; all three companion projects are narrative-quantitative constructs.
+T1/T2 are stylized registration dynamics (the true pre-boundary law is, by construction, unspeakable — every rendering is an analogy); T3, T6a/T6b/T6c are exact statements of their stated minimal dynamics; T4 inherits SPUMA's K1 map; T5 is a static multipole ladder; T7 derives the formation of the same ladder from a stylized release dynamics (inside-out order, toroidal closure, depth law k*~t^0.65; caps = level capacities). Zero claims resolve observational cosmology; all three companion projects are narrative-quantitative constructs.
