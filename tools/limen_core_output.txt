@@ -1,0 +1,26 @@
+== LIMEN-VACUI: five quantitative tests of the conservative genesis narrative ==
+
+T1 silence+overflow (L=256, g_max=0.4, quench tau_q=120): registered (silent boundary) fraction = 0.9116; late registration rate = 0.00e+00 (SILENT)
+   -> the boundary is where motion STOPS: finite birth registration, then silence — the conservative picture, quantified
+
+T2 prior->posterior arrow: A(t) slope (2nd half) = 0.4369 registrations/site/step; monotone share over ALL steps = 100.0%
+   -> a directed, never-decreasing RECORD emerges from a strictly undirected law (the 'scratch on the glasses')
+   (law is undirected: grad flow + zero-mean noise; asymmetry only in registration trace)
+
+T3 balancer: max front speed = 0.750 +/- 0.000 sites/step vs elastic bound c = 1.00 -> OBEYS the continuum cone [leapfrog, dt=0.4: CFL=0.40<=1 stable]
+   equalization: final mean s = -0.25000 (exact balance = -0.25) -> released compression SETTLES, no runaway
+   'infinite inflation' structurally forbidden; the intermediate dense front is the balancer cushion
+
+T4 popcorn: frozen fraction = 0.299, mean cavity = 2.34 cells, peak/total birth rate = 0.180
+   cross-check vs SPUMA K1 (subcritical): mean 2.34 cells -> CONSISTENT [structural]
+
+T5 rings: shell ladder C(r) ~ r^-2.00 (target -2), bleed B_r ~ r^-3.00 (target -3)
+   dipole net flux through closed spheres R=0.5,1,2: +0.00e+00, +0.00e+00, +0.00e+00
+   -> net outflow = 0 to quadrature error: the released constraint RINGS the defect (toroidal shells), it does NOT radiate net flux through any closed surface [structural]
+   ladder: C_k/C_1 = 1, 0.250, 0.111, ... (1/r^2 discrete circulation ladder = C_alpha = n*Phi_0 analog)
+
+Caveats (honest): T1/T2 are STYLIZED registration dynamics (the real
+law of the prior is by construction silent — anything we write is an
+analog); T3 is an exact elastic statement; T4 inherits the SPUMA K1
+map with the union-find fix; T5 is a static multipole ladder, not a
+dynamical solver. All seeds fixed; results reproducible.
