@@ -1,0 +1,63 @@
+== UNIFIED REGISTER: SPUMA freeze-out + LIMEN registration, one lattice ==
+L=192, seeds (11, 12, 13), steps<=800
+A: v=kappa*Lap(phi)+sig(t)*xi, exit |v|>g_max   (T1 verbatim)
+B: rho+=b+xi, exit rho<0                        (K1 verbatim)
+headline params: g_max=0.297, tau_q=40.0, kappa=0.03, sigma0=0.15, b=0.3
+
+[U0] solo channels (hard-gated) vs archives:
+   A solo: p_f = 0.3174  (bridge B3 at kappa=0.03, tau_q=40: 0.320)  [exact cross-check]
+           iid formula at kappa->0: 0.0194 (gap = the kappa=0.03 coupling, as in the bridge)
+   B solo: p_f = 0.2990  (K1 archive b=0.30: 0.299; L=192 anchor below)  [exact cross-check]
+
+[U1] beta=0 (competition-only coupling) vs exact identities:
+   exclusive-exit identity: pU ?= pA_ctx + pB_ctx:  0.5236 vs 0.5236   [exact structural identity]
+   competition shift: solo sum 0.6164 vs measured pU 0.5236  (B loses the sites A registers first)
+   union mean size = 9.04 vs iid benchmark at same p_f: 9.14  =>  R(beta=0) = 0.989   [exact benchmark]
+   union spanning share: 0/3 seeds
+
+   SPUMA anchor curve (plain K1, L=192): b=0.70: p_f=0.069/mean=1.16, b=0.45: p_f=0.169/mean=1.50, b=0.30: p_f=0.298/mean=2.30, b=0.20: p_f=0.443/mean=4.80, b=0.12: p_f=0.605/mean=23.58, b=0.08: p_f=0.704/mean=91.75
+
+[U2/U3] coupled sweep (channel masks recorded per run):
+ beta      pU  pA_ctx  pB_ctx    meanU  R_iid  span   (R_iid = meanU / iid benchmark at pU; the K1-anchor interpolation is confounded near p_c)
+ -1.0  0.3700  0.1872  0.1828     2.02   0.63   0/3
+  0.0  0.5236  0.2736  0.2499     9.04   0.98   0/3
+  0.5  0.8416  0.5446  0.2970  1005.96   0.72   3/3
+  1.0  0.9333  0.6196  0.3136  8032.20   0.37   3/3
+  2.0  0.9652  0.6337  0.3315 35581.67   1.00   3/3
+
+   dose histograms at beta=+0.0 (seeds (11, 12)):
+    k |  P(B|k A-nbrs)       n_B |  P(A|k B-nbrs)       n_A
+    0 |         0.3457     15283 |         0.3651     17481
+    1 |         0.3431     38396 |         0.3616     37791
+    2 |     (no sites)         0 |     (no sites)         0
+    3 |     (no sites)         0 |     (no sites)         0
+    4 |     (no sites)         0 |     (no sites)         0
+
+   dose histograms at beta=+1.0 (seeds (11, 12)):
+    k |  P(B|k A-nbrs)       n_B |  P(A|k B-nbrs)       n_A
+    0 |         0.4561        57 |         0.4282      7681
+    1 |         0.8226     28086 |         0.9855     42917
+    2 |     (no sites)         0 |     (no sites)         0
+    3 |     (no sites)         0 |     (no sites)         0
+    4 |     (no sites)         0 |     (no sites)         0
+
+   dose histograms at beta=-1.0 (seeds (11, 12)):
+    k |  P(B|k A-nbrs)       n_B |  P(A|k B-nbrs)       n_A
+    0 |         0.4107     29392 |         0.4144     29732
+    1 |         0.0466     30607 |         0.0462     30498
+    2 |     (no sites)         0 |     (no sites)         0
+    3 |     (no sites)         0 |     (no sites)         0
+    4 |     (no sites)         0 |     (no sites)         0
+
+[U4] shielding test at kappa=0.3:
+   A solo at kappa=0.30, g_max=0.297: p_f = 0.9149 (the bridge 'floor ~0.43' was the g-GRID minimum at g=0.80 — no contradiction)
+   beta=-1.0: pU=0.7551 (pA_ctx=0.6749, pB_ctx=0.0802)  inclusion: OK [structural] | vs solo-sum 1.2139: SHIELDED below
+   beta=+0.0: pU=0.9374 (pA_ctx=0.7864, pB_ctx=0.1510)  inclusion: OK [structural] | vs solo-sum 1.2139: SHIELDED below
+   beta=+1.0: pU=0.9872 (pA_ctx=0.7635, pB_ctx=0.2237)  inclusion: OK [structural] | vs solo-sum 1.2139: SHIELDED below
+
+Verdict: beta=0 with exclusive exits reproduces the iid geometry benchmark; the identity pU = pA_ctx + pB_ctx holds to machine precision; beta!=0 measures the cross-channel coupling.
+Labels: exit rules, p_f, identities, benchmark [exact/structural];
+rates, R(beta), dose histograms [measured]; unified coupling [model].
+Honest limit: the unified register is a NEW stylized dynamics —
+it demonstrates the two vaults' exit semantics cohere on one
+lattice; it does not derive either vault's physics.

@@ -27,6 +27,7 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 - `en/Popcorn-Vacuum-Birth` — popcorn cavity nucleation and the redshift consequence.
 - `en/Companion-Bridge`, `en/Acceleration-Claims-Verdict` — the family map and the audit of the acceleration documents.
 - `en/Limen-Spuma-Parameter-Bridge` — the executed LIMEN→SPUMA parameter bridge (B1–B4).
+- `en/Unified-Register-Integration` — the unified register: one lattice, both canonical exits, the bridge's open question closed.
 
 ## Canonical numbers
 
@@ -34,6 +35,7 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 - `tools/middle_atmosphere_test.py` — the T6 battery (`tools/middle_atmosphere_output.txt`)
 - `tools/limen_spuma_bridge.py` — the LIMEN→SPUMA quantitative bridge (`tools/limen_spuma_bridge_output.txt`)
 - `tools/limen_ring_dynamics.py` — the constraint-release dynamics, T7 (`tools/limen_ring_dynamics_output.txt`)
+- `tools/limen_spuma_unified_register.py` — the unified register (`tools/limen_spuma_unified_output.txt`)
 
 | Quantity | Value | Source |
 |---|---|---|
@@ -47,6 +49,7 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 | "Middle observer's accelerating inflation" | drift → quasi-static; acceleration = projection (P_obs), not dynamics | T6b |
 | LIMEN↔SPUMA bridge at equal p_f | R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] at κ≤0.10; mapping (g=0.297, τ_q=40, κ=0.03) ↔ b=0.285 | [[Limen-Spuma-Parameter-Bridge-EN]] |
 | Ring dynamics (T7) | inside-out formation; complete tori (clos=0.0245 rad); depth k* ~ t^0.65; capacity-first inversion rejected; C1–C4 controls | [[K2-Release-Rings-EN]] |
+| Unified register | exclusive identity p_U=p_A+p_B (machine precision); iid geometry at β=0 (R=0.989); symmetric dose-response (1.8–2.3× / 9× shield); negative coupling breaks the p_f floor (0.7551 < 0.9149) | [[Unified-Register-Integration-EN]] |
 
 ## Epistemic Status
 

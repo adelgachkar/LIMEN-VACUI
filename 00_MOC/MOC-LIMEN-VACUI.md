@@ -34,6 +34,7 @@ $$\text{LIMEN} = \underbrace{\text{سکوت}}_{\text{پیشا-مرز}} + \underb
 - `tools/middle_atmosphere_test.py` — باتری T6 (خروجی: `tools/middle_atmosphere_output.txt`)
 - `tools/limen_spuma_bridge.py` — پل کمّی LIMEN→SPUMA (خروجی: `tools/limen_spuma_bridge_output.txt`)
 - `tools/limen_ring_dynamics.py` — دینامیک رهایش قید (T7) (خروجی: `tools/limen_ring_dynamics_output.txt`)
+- `tools/limen_spuma_unified_register.py` — رجیستر واحد یکپارچه (خروجی: `tools/limen_spuma_unified_output.txt`)
 
 | کمیت | مقدار | منبع |
 |---|---|---|
@@ -47,6 +48,7 @@ $$\text{LIMEN} = \underbrace{\text{سکوت}}_{\text{پیشا-مرز}} + \underb
 | «تورم فزایندهٔ ناظر میانی» | رکود → شبه‌ایستا؛ شتاب = پروجکشن (P_obs)، نه دینامیک | T6b |
 | پل LIMEN↔SPUMA در p_f مشترک | R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] در κ≤0.10؛ نگاشت (g=0.297, τ_q=40, κ=0.03) ↔ b=0.285 | [[Limen-Spuma-Parameter-Bridge]] |
 | دینامیک حلقه‌ها (T7) | ترتیب درون‌به‌بیرون؛ توری کامل (clos=0.0245 rad)؛ k* ~ t^0.65؛ وارونگی ظرفیت-محور رد شد؛ C1/C2/C3/C4 | [[K2-Release-Rings]] |
+| رجیستر واحد | هویت انحصاری p_U=p_A+p_B (دقت ماشین)؛ iid در β=0 (R=0.989)؛ دوز-پاسخ متقارن (۱٫۸–۲٫۳× / سپر ۹×)؛ جفت‌شدگی منفی کف p_f را می‌شکند (0.7551 < 0.9149) | [[Unified-Register-Integration]] |
 
 ## Epistemic Status
 
