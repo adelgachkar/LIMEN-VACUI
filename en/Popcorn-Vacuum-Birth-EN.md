@@ -5,7 +5,7 @@ created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, popcorn, nucleation, redshift, en]
 status: "canonical"
-license: "CC-BY-4.0"
+license: "MIT"
 ---
 
 # Popcorn Vacuum Birth — Cavity Nucleation and Redshift

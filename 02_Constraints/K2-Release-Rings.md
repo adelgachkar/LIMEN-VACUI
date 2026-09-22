@@ -5,7 +5,7 @@ created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, constraint, rings, topological]
 status: "canonical"
-license: "CC-BY-4.0"
+license: "MIT"
 ---
 
 # K2 — Constraint-Release Rings Around the Void

@@ -5,7 +5,7 @@ created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, audit, epistemics, en]
 status: "canonical"
-license: "CC-BY-4.0"
+license: "MIT"
 ---
 
 # Acceleration Claims Verdict — Technical Audit of "Acceleration Is the Pressure of Boundaries on Structure"

@@ -5,7 +5,7 @@ created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, audit, epistemics]
 status: "canonical"
-license: "CC-BY-4.0"
+license: "MIT"
 ---
 
 # Acceleration Claims Verdict — ممیزی فنی سند «شتاب، حاصلِ فشارِ مرزها بر ساختار است»

@@ -59,7 +59,7 @@ unspeakable); T3 and T6a/T6b/T6c are exact statements of their stated minimal
 dynamics; T4 inherits SPUMA's K1 map; T5 is a static multipole ladder; T7 derives
 the formation of that ladder from a stylized release dynamics (caps = level
 capacities; registered cells = saturated wicks). No claim resolves observational
-cosmology. CC-BY-4.0.
+cosmology. MIT.
 
 ## Notes (English set)
 

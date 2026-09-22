@@ -5,7 +5,7 @@ created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, constraint, numerics]
 status: "canonical"
-license: "CC-BY-4.0"
+license: "MIT"
 ---
 
 # K1 — Constraint Overflow and the Discontinuity Limit

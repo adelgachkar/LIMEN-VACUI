@@ -37,4 +37,4 @@ $$\text{LIMEN} = \underbrace{\text{سکوت}}_{\text{پیشا-مرز}} + \underb
 This is a **narrative-quantitative construct**, not established physics: T1/T2 are
 stylized registration dynamics (the true law of the pre-boundary is by construction
 unspeakable); T3 is an exact elastic statement; T4 inherits SPUMA's K1 map; T5 is a
-static multipole ladder. No claim resolves observational cosmology. CC-BY-4.0.
+static multipole ladder. No claim resolves observational cosmology. MIT.

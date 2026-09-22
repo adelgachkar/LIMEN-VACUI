@@ -5,7 +5,7 @@ created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, balancer, three-layer, numerics]
 status: "canonical"
-license: "CC-BY-4.0"
+license: "MIT"
 ---
 
 # Middle-Atmosphere Synthesis — سامانهٔ سه‌لایهٔ O+/C_mid/D−
