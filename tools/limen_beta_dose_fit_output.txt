@@ -1,0 +1,78 @@
+== DOSE COLLAPSE & PREDICTIVITY: p_U(beta) as F(effective cross-noise dose) ==
+L=192, seeds (11, 12, 13, 14, 15), kappa=0.03, g_max=0.297; solo weights 0.3174/0.2988 (archived)
+
+[1] reference occupancy (frozen; measured at beta=0, 5 seeds)
+    wB_k (B-exit sites ~mA by kA): k0=0.282 k1=0.718 k2=0.000 k3=0.000 k4=0.000   n=134095
+    wA_k (A-exit sites ~mB by kB): k0=0.315 k1=0.685 k2=0.000 k3=0.000 k4=0.000   n=138117
+    D_eff(beta) = (pA*D_A + pB*D_B)/(pA+pB); D_min(beta) = min_k |1+beta*k| (naive, unweighted)
+
+[2] collapse table (13 recorded fit points, frozen-q dose)
+  beta   D_eff   D_min      pU
+ -2.00  1.0000  1.0000  0.5238
+ -1.50  0.6497  0.5000  0.3767
+ -1.25  0.4745  0.2500  0.3695
+ -1.00  0.2994  0.0000  0.3692
+ -0.85  0.4045  0.1500  0.3693
+ -0.70  0.5096  0.3000  0.3701
+ -0.50  0.6497  0.0000  0.3761
+ -0.35  0.7548  0.0500  0.3895
+ -0.20  0.8599  0.2000  0.4222
+  0.00  1.0000  1.0000  0.5232
+  0.35  1.2452  1.0000  0.7674
+  0.70  1.4904  1.0000  0.8971
+  1.00  1.7006  1.0000  0.9329
+    Spearman(pU, D_eff) = +0.989   (naive D_min: +0.830)
+    monotonicity violations (D_eff): all=2, shield-branch=2/9, boost-branch=0/4   (D_min: all=3)
+
+[3] isotonic F on (D_eff, pU): 11 blocks; in-sample RMSE = 0.0002
+
+[4] LOOCV predictivity (n=13; lower = more predictive)
+    dose-PAVA  F(D_eff)        : RMSE = 0.0230
+    naive dose-PAVA F(D_min)   : RMSE = 0.1691
+    null: linear in beta       : RMSE = 0.1754
+    null: quartic in beta (5p) : RMSE = 0.1763
+
+[5] held-out validation: 6 RECORDED probe points never fitted
+  beta    pred  recorded     err
+ -2.50  0.8230    0.8402 -0.0172
+  0.05  0.5583    0.5577 +0.0006
+  0.10  0.5932    0.5942 -0.0010
+  0.15  0.6280    0.6312 -0.0032
+  0.20  0.6629    0.6683 -0.0054
+  0.28  0.7186    0.7238 -0.0052
+    held-out RMSE = 0.0078   max|err| = 0.0172
+
+[6] forward test: NEW betas — predict first, then simulate (5 seeds)
+  beta  pred_frozen  pred_self  pU_sim   err_f   err_s  per-seed
+ -2.75       0.9031     0.9294  0.9037 -0.0007 +0.0257  [0.901,0.906]
+ -1.75       0.4113     0.4215  0.4086 +0.0027 +0.0129  [0.407,0.411]
+ -0.60       0.3732     0.3817  0.3722 +0.0010 +0.0094  [0.370,0.374]
+ -0.10       0.4729     0.4772  0.4637 +0.0092 +0.0135  [0.460,0.468]
+  0.22       0.6768     0.7020  0.6825 -0.0057 +0.0195  [0.681,0.684]
+    forward RMSE: frozen-q = 0.0050, self-q = 0.0172
+
+[7] scope: strong coupling (kappa=0.30, recorded) — does the form transfer?
+    occupancy at kappa=0.30, beta=0: k0=0.002 k1=0.998 k2=0.000 k3=0.000 k4=0.000  (wB, normalized)
+  beta  pred_transfer  recorded
+ -1.00         0.3692    0.7551
+ -1.50         0.3764    0.7779
+ -2.00         0.5235    0.9361
+ -3.00         0.9329    0.9867
+    naive transfer RMSE = 0.3476 (expected: FAIL — different phase)
+    re-measured occupancy: Spearman(pU, D_eff@0.30) = +1.000, violations = 0/4  -> dose ORDER transfers
+
+[8] mirror corollary (k=1-dominated => p_U(beta) ~ p_U(-2-beta)) [structural]
+    |pU(-2.00) - pU(+0.00)| = 0.0006
+    |pU(-1.50) - pU(-0.50)| = 0.0006
+    |pU(-1.00) - pU(-1.00)| = 0.0000
+    |pU(-0.50) - pU(-1.50)| = 0.0006
+    |pU(+0.00) - pU(-2.00)| = 0.0006
+
+VERDICT (data-driven):
+  - collapse: Spearman +0.989, violations all=2 (shield=2/9, boost=0/4)
+  - LOOCV ranking: dose-PAVA 0.0230 vs linear 0.1754 / quartic 0.1763 / naive-dose 0.1691
+  - held-out (6 recorded probes): RMSE 0.0078
+  - forward (5 new sims): frozen 0.0050 / self-q 0.0172
+  - scope kappa=0.30: transfer RMSE 0.3476; dose-order spearman +1.000
+Labels: amplitude math, mirror identity [exact/structural]; occupancy, F, LOOCV, errors [measured];
+'amplitude-controlled' claim [model with measured support].

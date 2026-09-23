@@ -98,13 +98,47 @@ Dedicated scan (`tools/limen_beta_plane.py`, output: `tools/limen_beta_plane_out
 4. **The sub-hard-solo window exists only at strong coupling (κ=0.30)** [measured]: p_U is below the A solo (0.9149) at β=−1 and −1.5 (0.7551 / 0.7779) and above it at β=−2, 0, −3 (0.9361 / 0.9374 / 0.9867) ⇒ **window ≈ β∈(−1.9, −0.2)** (crossings bracketed between −2…−1.5 and −1…0). The deep-negative recovery crosses back above the hard solo through the additive identity: both channels are still suppressed individually (0.7646 < 0.9149; 0.2221 < 0.2988) yet their sum rises.
 5. **The dust→tarp geometric transition is continuous and percolation-like** [measured]: between β=0.05 (spanning 0/5, s̄=14.5, R=1.11) and β=0.10 (spanning 5/5, s̄=24.7) — s̄ grows smoothly across the whole β>0 range (9.07 → 14.5 → 24.7 → 42.5 → 71.8 → 161 → 327 → 3011 → 7569) with no first-order jump in p_U (0.5577 → 0.5942). The "sharpness" lives in the geometry (spanning switch), not in the registered rate.
 
-## 8. Labels and honest boundaries
+## 8. Analytic form and predictivity — effective-dose collapse [measured]
+
+(`tools/limen_beta_dose_fit.py`; output: `tools/limen_beta_dose_fit_output.txt` — open work item #2 of v0.4.0, now closed)
+
+**The right variable:** since the dust-phase occupancy is strictly {0,1} (q₂=q₃=q₄=0 at the reference), the naive min_k\|1+βk\| is misleading — it dives to zero near β≈−1/k while k=0 sites always carry dose 1. The right variable is the **occupancy-weighted effective dose**:
+
+$$D_{\text{eff}}(\beta) = \frac{p_A\sum_k q^A_k\,|1+\beta k| \;+\; p_B\sum_k q^B_k\,|1+\beta k|}{p_A+p_B}$$
+
+with a **frozen** reference occupancy (measured at β=0, 5 seeds): q^B = (0.282, 0.718, 0, 0, 0) and q^A = (0.315, 0.685, 0, 0, 0). The response curve F is an isotonic (non-decreasing) fit on the 13 (D_eff, p_U) pairs.
+
+| Test | Result | Label |
+|---|---|---|
+| Collapse | Spearman(p_U, D_eff) = **+0.989** (naive min_k: +0.830); the only violations are a two-fold tie D_eff(−1.5)=D_eff(−0.5) differing by ~6×10⁻⁴ (seed-noise level) | [measured] |
+| LOOCV (n=13) | dose-PAVA **0.0230** vs the best null (linear in β) 0.1754, quartic 0.1763, naive dose 0.1691 ⇒ **7.6× better** | [measured] |
+| Held-out validation | 6 RECORDED probe points never fitted: RMSE **0.0078**, max 0.0172 (β=−2.5) | [measured] |
+| Forward test | 5 unseen betas (−2.75, −1.75, −0.60, −0.10, +0.22): **prediction frozen first, then simulated**; RMSE **0.0050**, max 0.0092 | [measured] |
+| Frozen vs self | frozen-q (0.0050) **beats** self-q (0.0172) — inside suppressed phases the run's own occupancy shifts, so "one measurement + one curve" is the better predictor | [measured] |
+| Scope transfer (κ=0.30) | the curve F does NOT transfer (RMSE 0.3476 — different phase); but the **dose ordering transfers perfectly**: Spearman +1.000, zero violations with re-measured occupancy | [measured] |
+| Mirror symmetry | \|p_U(β) − p_U(−2−β)\| ≤ 0.0006 across all recorded pairs | [measured] |
+
+Forward-prediction table:
+
+| β | Predicted (frozen) | Simulated | Error |
+|---|---|---|---|
+| −2.75 | 0.9031 | 0.9037 | −0.0007 |
+| −1.75 | 0.4113 | 0.4086 | +0.0027 |
+| −0.60 | 0.3732 | 0.3722 | +0.0010 |
+| −0.10 | 0.4729 | 0.4637 | +0.0092 |
+| +0.22 | 0.6768 | 0.6825 | −0.0057 |
+
+**Verdict:** the β map is **predictive** — with one frozen reference measurement + one response curve, p_U(β) predicts new points to RMSE ~0.005 (7.6× better than the best null). "Amplitude-controlled" is now a model claim with measured support: D_eff is the correct ordering variable in both phases, but F itself is phase-local (crossing κ requires fresh occupancy).
+
+## 9. Labels and honest boundaries
 
 - Exit rules, p_f definition, exclusive identity, iid benchmark: **[exact/structural]**
 - Solo rates, dose histograms, R(β), floor break: **[measured]**
 - The unified dynamics itself (how the two channels couple): **[model]** — a new stylized register, not derived from either vault; it demonstrates the semantic compatibility of the two exit rules on one lattice, not the physics of either.
 - Three tool generations (v1→v3) became findings themselves: a −λρ relaxation instead of the K1 drive froze the whole lattice; a shared noise envelope between channels was wrong (each channel keeps its canonical σ); the correct union identity is exclusive, not Bernoulli. A fourth generation (`limen_beta_plane.py`) caught and fixed one of its own bugs mid-run (numpy mean over a generator).
 - β-map-specific labels: the prediction "quiet bands at β=−1/k and re-amplification when 1+βk<0" is structural; the crossing locations and the plateau shape are **[measured]**.
+- Dose-collapse-specific labels: dose math and the mirror identity [exact/structural]; the reference occupancy, F, LOOCV, held-out and forward errors [measured]; the "amplitude-controlled" claim [model with measured support] — and F is phase-local, not universal.
+- The fit itself produced a subtle finding: the frozen β=0 reference predicts better than each run's own occupancy (0.0050 vs 0.0172) — inside suppressed phases the in-run occupancy shifts and is noisier as a predictor.
 
 ## Related
 
