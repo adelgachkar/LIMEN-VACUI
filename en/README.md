@@ -61,6 +61,14 @@ the formation of that ladder from a stylized release dynamics (caps = level
 capacities; registered cells = saturated wicks). No claim resolves observational
 cosmology. MIT.
 
+**Per-number epistemic triage — every number in this repository belongs to exactly one of three classes:**
+
+| Class | Meaning | Numbers in this repo |
+|---|---|---|
+| **Closed geometry** | exact mathematics *of the model*, derivable on paper; **not** a measured quantity of nature | elastic front bound c=1 and front speed 0.75 ≤ c; exact balancer level −0.25; multipole-ladder exponent −2; ladder form C_α = n·Φ₀ |
+| **Our own simulations** | reproducible in silico via `tools/`; no external empirical validation exists for any of them | T1 (p_f=0.912), T2 (+0.4369 reg/site/step), T4 (mean cavity 2.34 cells), T7 (inward-out order, k*~t^0.65, closure 0.0245 rad), the bridge (p_f=0.2992, R∈[0.90,0.98]), the unified register (p_U identity, dose-collapse forward RMSE 0.0050) |
+| **Real empirical phenomena** | measured in the real world by others | **none — this repository has no empirical input whatsoever**; the closest real-world anchor (the graphene-wrinkle experiment) lives in SPUMA-VACUI and certifies only the K2 mechanism there, not this narrative |
+
 ## Notes (English set)
 
 - [[MOC-LIMEN-VACUI-EN]] — map of content
