@@ -1,0 +1,78 @@
+== BETA-PLANE MAP: shield <-> boost transition of the unified register ==
+L=192, seeds (11, 12, 13, 14, 15), kappa=0.03, g_max=0.297, b=0.30 (canonical)
+cross-noise amplitude for k active neighbors: |1 + beta*k|  -> quiet bands at beta=-1/k, re-amplification for 1+beta*k<0
+
+[anchors] A solo p_f = 0.3174 (mean size 2.49)
+[anchors] B solo p_f = 0.2988 (mean size 2.30)
+          'below both solos' threshold = min = 0.2988
+
+  beta      pU  pA_ctx  pB_ctx   meanU  R_iid   span   per-seed pU (scatter)
+ -2.00  0.5238  0.2730  0.2508    9.19   1.00  0/5   [0.523,0.528]
+ -1.50  0.3767  0.1833  0.1934    2.14   0.65  0/5   [0.374,0.379]
+ -1.25  0.3695  0.1859  0.1836    2.01   0.64  0/5   [0.367,0.372]
+ -1.00  0.3692  0.1864  0.1828    2.01   0.64  0/5   [0.367,0.371]
+ -0.85  0.3693  0.1866  0.1827    2.01   0.63  0/5   [0.367,0.371]
+ -0.70  0.3701  0.1859  0.1842    2.02   0.64  0/5   [0.368,0.372]
+ -0.50  0.3761  0.1832  0.1929    2.13   0.65  0/5   [0.373,0.378]
+ -0.35  0.3895  0.1826  0.2069    2.40   0.68  0/5   [0.386,0.391]
+ -0.20  0.4222  0.1976  0.2246    3.19   0.75  0/5   [0.419,0.425]
+  0.00  0.5232  0.2725  0.2507    9.07   1.00  0/5   [0.521,0.526]
+  0.35  0.7674  0.4797  0.2877  326.61   1.20  5/5   [0.765,0.770]
+  0.70  0.8971  0.5918  0.3052 3010.67   0.43  5/5   [0.895,0.900]
+  1.00  0.9329  0.6193  0.3136 7569.00   0.37  5/5   [0.931,0.936]
+
+[crossing] points with pU < pB_solo=0.2988: NONE
+
+[context split] channel rates inside the coupled run:
+   beta= -2.00: pA_ctx=0.2730 (solo 0.3174), pB_ctx=0.2508 (solo 0.2988)
+   beta= -1.50: pA_ctx=0.1833 (solo 0.3174), pB_ctx=0.1934 (solo 0.2988)
+   beta= -1.25: pA_ctx=0.1859 (solo 0.3174), pB_ctx=0.1836 (solo 0.2988)
+   beta= -1.00: pA_ctx=0.1864 (solo 0.3174), pB_ctx=0.1828 (solo 0.2988)
+   beta= -0.85: pA_ctx=0.1866 (solo 0.3174), pB_ctx=0.1827 (solo 0.2988)
+   beta= -0.70: pA_ctx=0.1859 (solo 0.3174), pB_ctx=0.1842 (solo 0.2988)
+   beta= -0.50: pA_ctx=0.1832 (solo 0.3174), pB_ctx=0.1929 (solo 0.2988)
+   beta= -0.35: pA_ctx=0.1826 (solo 0.3174), pB_ctx=0.2069 (solo 0.2988)
+   beta= -0.20: pA_ctx=0.1976 (solo 0.3174), pB_ctx=0.2246 (solo 0.2988)
+   beta= +0.00: pA_ctx=0.2725 (solo 0.3174), pB_ctx=0.2507 (solo 0.2988)
+   beta= +0.35: pA_ctx=0.4797 (solo 0.3174), pB_ctx=0.2877 (solo 0.2988)
+   beta= +0.70: pA_ctx=0.5918 (solo 0.3174), pB_ctx=0.3052 (solo 0.2988)
+   beta= +1.00: pA_ctx=0.6193 (solo 0.3174), pB_ctx=0.3136 (solo 0.2988)
+
+[dose check] P(B|k A-nbrs) ratio vs beta=0 baseline (same seeds; structural prediction: ratio tracks |1+beta*k|):
+   beta=-0.70:
+     k=0: ratio= 1.186   |1+beta*k|=1.00   n_cmp=29421
+     k=1: ratio= 0.145   |1+beta*k|=0.30   n_cmp=30620
+     k=2: (insufficient sites: n_cmp=0, n_ref=0)   |1+beta*k|=0.40
+     k=3: (insufficient sites: n_cmp=0, n_ref=0)   |1+beta*k|=1.10
+     k=4: (insufficient sites: n_cmp=0, n_ref=0)   |1+beta*k|=1.80
+   beta=-2.00:
+     k=0: ratio= 1.009   |1+beta*k|=1.00   n_cmp=15151
+     k=1: ratio= 0.999   |1+beta*k|=1.00   n_cmp=38526
+     k=2: (insufficient sites: n_cmp=0, n_ref=0)   |1+beta*k|=3.00
+     k=3: (insufficient sites: n_cmp=0, n_ref=0)   |1+beta*k|=5.00
+     k=4: (insufficient sites: n_cmp=0, n_ref=0)   |1+beta*k|=7.00
+
+Verdict template (filled from data only):
+  shape: non-monotonic with minimum near the k=1..2 quiet band?
+  below-both-solos: window in beta or persistent phase?
+  transition: sharp (width <= 0.25 in beta) or gradual?
+Labels: anchors, amplitude math, identities [exact]; curve,
+crossings, dose ratios [measured]; unified coupling [model].
+
+[follow-up probe] locating the geometric transition (beta in 0..0.35)
+                  and the re-amplification branch (beta <= -2.5)
+  beta      pU  pA_ctx  pB_ctx     meanU  R_iid   span
+ -2.50  0.8402  0.5436  0.2966   1044.00   0.84  5/5
+  0.05  0.5577  0.3008  0.2569     14.50   1.11  0/5
+  0.10  0.5942  0.3310  0.2632     24.73   1.20  5/5
+  0.15  0.6312  0.3619  0.2693     42.52   1.28  5/5
+  0.20  0.6683  0.3935  0.2748     71.80   1.30  5/5
+  0.28  0.7238  0.4416  0.2823    161.36   1.22  5/5
+
+[strong-coupling probe] kappa=0.30 — where does the union fall
+below BOTH solos (A solo 0.9149, B solo 0.2988 -> threshold 0.2988)?
+  beta      pU  pA_ctx  pB_ctx
+ -1.00  0.7551  0.6749  0.0802
+ -1.50  0.7779  0.6855  0.0923
+ -2.00  0.9361  0.7856  0.1505
+ -3.00  0.9867  0.7646  0.2221
