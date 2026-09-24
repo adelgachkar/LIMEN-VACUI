@@ -28,6 +28,8 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 - `en/Companion-Bridge`, `en/Acceleration-Claims-Verdict` — the family map and the audit of the acceleration documents.
 - `en/Limen-Spuma-Parameter-Bridge` — the executed LIMEN→SPUMA parameter bridge (B1–B4).
 - `en/Unified-Register-Integration` — the unified register: one lattice, both canonical exits, the bridge's open question closed.
+- `en/Aligned-Protocol-EN` — **the Aligned Protocol**: the generative triad, the six norms E0–E5, three regimes of silence, registered fundamentality, the three healthy paradox options + the invariance-residue test, and the seven-pivot atlas [protocol-mirror].
+- `en/Aligned-Protocol-EN` — **the Aligned Protocol**: the generative triad (constraint/silence/event), the six norms E0–E5, three regimes of silence, registered fundamentality, the three healthy paradox options + the invariance-residue test, and the seven-pivot atlas [protocol-mirror].
 
 ## Canonical numbers
 
@@ -52,6 +54,7 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 | Unified register | exclusive identity p_U=p_A+p_B (machine precision); iid geometry at β=0 (R=0.989); symmetric dose-response (1.8–2.3× / 9× shield); negative coupling breaks the p_f floor (0.7551 < 0.9149) | [[Unified-Register-Integration-EN]] |
 | β-plane map | shield plateau 0.3692 on β∈[−1.25,−0.85] at κ=0.03 (gradual, no sub-solo crossing); |1+βk| mirror symmetry; re-amplification from β=−2.5; sub-hard-solo window only at κ=0.30: β∈(−1.9,−0.2); dust→tarp transition continuous (percolation-like) between β=0.05 and 0.10 | [[Unified-Register-Integration-EN]] §7 |
 | Dose collapse | p_U = F(D_eff) with occupancy-weighted dose: Spearman +0.989; LOOCV 0.0230 (7.6× better than best null); forward prediction of 5 new points RMSE 0.0050; curve F is phase-local (dose ordering transfers across κ, F does not) | [[Unified-Register-Integration-EN]] §8 |
+| Aligned Protocol | one architecture from one triadic unit; healthy paradox options only C′/C″/C‴; the invariance-residue test separates dissolution from evasion | [[Aligned-Protocol-EN]] |
 
 ## Epistemic Status
 
