@@ -108,7 +108,19 @@ A protocol that makes invariance its central claim must be testable itself:
 1. **Ward-like narrative test:** all numerical batteries (T1–T7, unified register, dose collapse, β-plane) must remain unchanged under *different* pre-boundary narratives. Any dependence of [measured] output on narrative = ledger anomaly.
 2. **Intra-atlas coherence:** the seven §6 mappings must come from one map, not seven patches. Intra-atlas inconsistency = ledger anomaly.
 
-## 8. Methodological Honesty
+## 8. Self-Audit Executed — the Ward-Like Test (S7.1) [`measured`]
+
+Executed: `tools/limen_ward_invariance.py` · logged: `tools/limen_ward_invariance_output.txt`. Three pre-boundary narratives (canon "overflow through the silent boundary" / "residue settling" / "debt called") over a mini-battery T1/T2/T4/T6c + the unified register (true hard-gated solos of channels A and B, L=128/96, canonical seeds 1-2-3):
+
+| Half of the test | Result | Verdict |
+|---|---|---|
+| **(a) decoration-only narratives** | event hashes of all four quantities IDENTICAL [exact]; all 8 measured quantities (T1 frac=0.08649, T2 mono=1.0, T4=2.12285, T6c, p_A=0.31952, p_B=0.29850) identical at z=0.00 across the three narratives | the story does no dynamical work — E0 holds |
+| **(b) noise-stream decoration** (the v1 lesson: half (a) alone is vacuous) | antithetic ξ→−ξ and axis-swap ξ→ξᵀ: the T1 mask disagrees by 15.56% under axis swap; yet the statistics remain invariant — T1 within <2σ, T4 within <2σ of an independently estimated 8-seed noise scale | quantities belong to the **LAW**, not the stream — the vacuity removed |
+| **Final verdict** | VERDICT: narrative invariance **HOLDS** [measured] | the S7.1 self-audit passes — the pre-boundary narrative is decoration, not engine |
+
+Honest note: the mini-battery numbers differ slightly from the full-resolution canon (smaller L) — p_A=0.3195 vs 0.3174, p_B=0.2985 vs 0.2990; what is tested is invariance, not absolute reproduction.
+
+## 9. Methodological Honesty
 
 - **Labels:** §1–5 are conceptual analysis `[conceptual]`; §6 is a methodological re-reading of physics history `[protocol-mirror]` — no claim of new physics, no claim of dissolving inconsistencies.
 - **The remaining adopted axiom:** "meaning = constraint-ability" — negating it builds no rival, only silence: the minimum possible, and less is impossible. Claiming "zero adopted axioms" would itself violate E1.

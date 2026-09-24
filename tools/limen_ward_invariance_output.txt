@@ -1,0 +1,42 @@
+========================================================================
+WARD-LIKE NARRATIVE-INVARIANCE TEST — Aligned-Protocol S7.1
+mini-battery on L=128, steps=600, seeds=(1, 2, 3); three pre-boundary narratives, identical dynamics
+========================================================================
+
+[gauge identity] per-quantity event hashes identical across narratives:
+  T1_hash  : IDENTICAL [exact]
+  T2_hash  : IDENTICAL [exact]
+  T4_hash  : IDENTICAL [exact]
+  T6c_hash : IDENTICAL [exact]
+  -> the narratives injected nothing: pure decoration
+
+[invariance of measured quantities] spread in seed-noise units (z):
+  T1 registered fraction  : values = 0.08649 / 0.08649 / 0.08649   z =  0.00  INVARIANT   (canon 0.9120)
+  T1 late rate            : values = 0.00000 / 0.00000 / 0.00000   z =  0.00  INVARIANT   (canon 0.0000)
+  T2 monotonicity         : values = 1.00000 / 1.00000 / 1.00000   z =  0.00  INVARIANT   (canon 1.0000)
+  T2 slope                : values = 6869.14462 / 6869.14462 / 6869.14462   z =  0.00  INVARIANT
+  T4 mean cavity          : values = 2.12285 / 2.12285 / 2.12285   z =  0.00  INVARIANT   (canon 2.3400)
+  T6c bounded drift       : values = 1.70325 / 1.70325 / 1.70325   z =  0.00  INVARIANT
+  register p_A (solo)     : values = 0.31952 / 0.31952 / 0.31952   z =  0.00  INVARIANT   (canon 0.3174)
+  register p_B (solo)     : values = 0.29850 / 0.29850 / 0.29850   z =  0.00  INVARIANT   (canon 0.2990)
+
+[noise-decoration invariance] different event sets, same law:
+  T1 fraction     : 0.08649 / 0.08649 / 0.08649   spread < 2sigma_noise: True  INVARIANT   (canon full-res 0.912)
+  T4 mean cavity  : 2.12285 / 2.11082 / 2.12285   spread < 2sigma_noise: True  INVARIANT   (canon full-res 2.340)
+  T1 mask disagreement across decorations: canon~anti = 0.0000, canon~swap = 0.1556, anti~swap = 0.1556
+  event sets genuinely differ under decoration: True [exact]  (decoration is NOT a no-op)
+
+========================================================================
+VERDICT: narrative invariance HOLDS [measured]
+  (a) decoration-only narratives: event hashes bit-identical, all
+      measured quantities within seed noise — the story does no work.
+  (b) noise-decorating narratives: event sets genuinely differ, yet the
+      measured statistics remain invariant — quantities belong to the
+      LAW, not the stream. Both halves together make the S7 audit
+      non-vacuous. (Canon reference values from the full-resolution
+      archived runs; mini-battery uses L=128/96 — INVARIANCE is tested,
+      not absolute values.)
+narrative texts [conceptual]: canon overflow / residue settling / debt
+called — three tellings, one registration.
+
+[log] printed output captured by tee -> limen_ward_invariance_output.txt

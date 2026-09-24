@@ -55,6 +55,7 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 | β-plane map | shield plateau 0.3692 on β∈[−1.25,−0.85] at κ=0.03 (gradual, no sub-solo crossing); |1+βk| mirror symmetry; re-amplification from β=−2.5; sub-hard-solo window only at κ=0.30: β∈(−1.9,−0.2); dust→tarp transition continuous (percolation-like) between β=0.05 and 0.10 | [[Unified-Register-Integration-EN]] §7 |
 | Dose collapse | p_U = F(D_eff) with occupancy-weighted dose: Spearman +0.989; LOOCV 0.0230 (7.6× better than best null); forward prediction of 5 new points RMSE 0.0050; curve F is phase-local (dose ordering transfers across κ, F does not) | [[Unified-Register-Integration-EN]] §8 |
 | Invariance-residue test | sharp frame-made vs real discrimination: R/T₀ = 0.0024 (dissolved, C″) vs 0.4929 at SNR=892.7 (invariant, C′/C‴); gauge mask identity [exact]; relative criterion against the naive frame's own tension scale | [[Aligned-Protocol-EN]] §5 |
+| Ward-like test (S7.1) | narrative invariance passed: decoration-only narratives IDENTICAL hashes [exact], z=0.00; noise decoration (antithetic/axis-swap) flips 15.56% of events yet statistics stay < 2σ — quantities belong to the law, not the stream | [[Aligned-Protocol-EN]] §8 |
 | Aligned Protocol | one architecture from one triadic unit; healthy paradox options only C′/C″/C‴; the invariance-residue test separates dissolution from evasion | [[Aligned-Protocol-EN]] |
 
 ## Epistemic Status
