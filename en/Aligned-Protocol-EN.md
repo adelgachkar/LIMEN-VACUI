@@ -69,6 +69,18 @@ $$\text{arrow} = \underbrace{\text{constraint}}_{\text{potential-maker}} \times 
 
 > Swap the frame. If the tension leaves a measurable, invariant residue under the frame change → the paradox is real (dissolution = evasion). If the residue vanishes → it was frame-made; dissolution is legitimate.
 
+**Executability and the four-generation tool lessons** (`tools/limen_residue_test.py`, logged: `tools/limen_residue_test_output.txt`) — one register testbed, two co-located tensions, one discriminating verdict:
+
+| Version | Finding | Protocol lesson |
+|---|---|---|
+| v1 | both sides residue-zero — blanket vacuity | the frame-change move must actually *move something*, or the test is empty |
+| v2 | still zero — an invariant read is itself gauge-clean | an invariant *read* ≠ an invariance *test*; the reading must be taken against the **frozen anchor** |
+| v3 | the real tension (symmetric K1 cut) also failed — a symmetric cut's content is the frame's own half-normal | **a real tension must live in the dynamics, not the threshold**: a symmetric cut is absorbed by the paradigm swap; a one-sided bias beyond the edge is not |
+| v4 | the absolute criterion R/σ declared the frame-made side REAL too (SNR 2.2 from anchor noise) | **the criterion must be relative**: survival R/T₀ against the naive frame's *own* tension scale — not absolute zero |
+| **v5 (final)** | **sharp discrimination [exact]:** frame-made side R/T₀ = 0.0024 ≤ ε (dissolved, C″); real side R/T₀ = 0.4929, SNR = 892.7 (measurable invariant residue, C′/C‴) | the residue test is now operational: two moves (gauge relabel + paradigm swap), a frozen symmetric-law anchor (same seeds), the relative criterion R/T₀ with ε=0.1 and SNR>10 |
+
+**Structural verdict [exact]:** the gauge identity (frozen masks under the zero shift) holds bit-for-bit — any observable difference afterwards is attributable to the tension, not the frame. And the real tension in the sample is precisely a **one-sided dynamical bias**: what the ontology-side K1 calls noise rectification — the test re-confirms its own substrate's structure.
+
 Applied: twin paradox/Zeno (zero residue → C″) · EFT infinities (half: regulator frame-dependent, flow real) · Λ at 120 orders (measurable residue → C′ or C‴) · measurement (Born statistics invariant → C′: interpretations) · black-hole information (pending vault).
 
 **Fine distinction:** quantitative meaninglessness (value = zero, suspensive silence) ≠ frame-level meaninglessness (not even a value exists, absolute silence). Operational test: is a measurement operator even definable?

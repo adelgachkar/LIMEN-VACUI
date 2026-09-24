@@ -1,0 +1,54 @@
+========================================================================
+INVARIANCE-RESIDUE TEST — Aligned-Protocol S5, executable
+register: N=4096 walkers, b=0.30, tau_q=40, window=60, seeds=8
+frame change: coordinate-zero relabel x->x+Delta (thresholds follow; event set bit-identical)
+========================================================================
+
+[gauge identity] frozen-set masks identical under relabel: True [exact]
+  -> the frame change touches bookkeeping only: any residual difference
+     in an observable is then attributable to the tension, not the frame.
+
+------------------------------------------------------------------------
+SIDE 1 — tension lives in the naive frame's assumption (deficit from b)
+
+[frame-made tension (bookkeeping/assumption)]
+  registered-content mean: A = +0.91720 +/- 0.00067, B = +0.91720 +/- 0.00067
+  frame-native prediction (frozen symmetric-law anchor, same seeds): 0.91720 +/- 0.00067
+  post-swap surviving anomaly: A = +0.00000, B = +0.00000
+  naive-frame tension scale T0 = |<content> - b| = 0.61720
+  residue R = 0.00148   sigma_eff = 0.00067   SNR = R/sigma = 2.2
+  relative survival = R / T0 = 0.0024   (eps = 0.1)
+  verdict: FRAME-MADE (dissolution legitimate, C-dbl-prime)
+
+------------------------------------------------------------------------
+SIDE 2 — tension lives in the event content (one-sided dynamical bias: real)
+
+[content anomaly (invariant bias)]
+  registered-content mean: A = +1.51720 +/- 0.00067, B = +1.51720 +/- 0.00067
+  frame-native prediction (frozen symmetric-law anchor, same seeds): 0.91720 +/- 0.00067
+  post-swap surviving anomaly: A = +0.60000, B = +0.60000
+  naive-frame tension scale T0 = |<content> - b| = 1.21720
+  residue R = 0.60000   sigma_eff = 0.00067   SNR = R/sigma = 892.7
+  relative survival = R / T0 = 0.4929   (eps = 0.1)
+  verdict: REAL (invariant residue; C-prime or C-triple-prime)
+
+========================================================================
+DISCRIMINATOR TABLE — relative survival R/T0 is the criterion
+  assumption tension       : R/T0 =   0.0024  SNR=    2.2  -> FRAME-MADE (dissolution legitimate, C-dbl-prime)
+  content tension          : R/T0 =   0.4929  SNR=  892.7  -> REAL (invariant residue; C-prime or C-triple-prime)
+
+  DISCRIMINATION ACHIEVED: True [exact]
+  (the two sides must land on OPPOSITE verdicts AND the real side must
+   be measurable; a same-verdict outcome means the frame change was not
+   aggressive enough — the tool then fails its own E2 audit)
+------------------------------------------------------------------------
+protocol-mirror mapping [conceptual]:
+  SIDE 1 analogue: twin paradox / Zeno — the tension is a coordinate
+    artifact; the frame change dissolves it (residue ~ 0).
+  SIDE 2 analogue: Lambda's 120 orders / rectification — the tension is
+    a measurable, frame-invariant residue; only C-prime (recorded
+    silence) or C-triple-prime (axiom replacement with registered debt)
+    address it; 'reframing it away' would be evasion.
+one testbed, both verdicts — the discriminator is operational.
+
+[log] printed output captured by tee -> limen_residue_test_output.txt
