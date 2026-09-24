@@ -1,0 +1,75 @@
+========================================================================
+TENSION PARAMETER MAP — residue test (Aligned-Protocol S5)
+register: N=4096, b=0.30, tau_q=40, window=60, seeds=8; criterion R/T0, eps=0.10; SNR gate 10
+one-sided dynamical bias depth d (v5 side-2 knob) mapped over
+========================================================================
+
+[0] anchor identification [exact]: m = phi(b)/Phi(b) = 0.61722 at b=0.30;
+    mu(0) = b + m = 0.91722  vs v5 measured anchor 0.91720 -> agreement to 5 decimals.
+    (v1 of THIS tool used sqrt(2/pi) as anchor; its own MC battery refuted it —
+     systematic drift with d. Lesson registered: closed forms are candidates
+     until the battery passes them. Same discipline as residue-test v1-v4.)
+
+[1] closed form [exact model]: mu(d) = b + m + d ;
+    T0(d) = m + d ; rel(d) = d / (m + d)
+    -> monotone increasing, saturates at 1; no threshold inside the model:
+       rel(0)=0 exactly, and rel(d) > eps  <=>  d > eps*m/(1-eps) (closed form).
+    d_eps (rel = eps = 0.1) = 0.0686   <- closed-form classification edge
+
+[2] Monte-Carlo sweep [measured] (8 seeds x 2 frames x N=4096 each; pooled dev stats):
+      d      R/T0(sim)   R/T0(cf)   SNR(sim)   verdict(rel)     verdict(SNR-gate)
+    0.000      0.0024      0.0000        2.2   FRAME-MADE      unmeasurable
+    0.001      0.0031      0.0016        2.9   FRAME-MADE      unmeasurable
+    0.002      0.0039      0.0032        3.6   FRAME-MADE      unmeasurable
+    0.005      0.0080      0.0080        7.4   FRAME-MADE      unmeasurable
+    0.010      0.0159      0.0159       14.9   FRAME-MADE      measurable
+    0.020      0.0314      0.0314       29.8   FRAME-MADE      measurable
+    0.050      0.0749      0.0749       74.4   FRAME-MADE      measurable
+    0.100      0.1394      0.1394      148.8   REAL            measurable
+    0.200      0.2447      0.2447      297.6   REAL            measurable
+    0.400      0.3932      0.3932      595.1   REAL            measurable
+    0.600      0.4929      0.4929      892.7   REAL            measurable
+    1.000      0.6184      0.6183     1487.8   REAL            measurable
+    2.000      0.7642      0.7642     2975.5   REAL            measurable
+
+[3] classification boundary [measured]: the d where the criterion FLIPS
+    simulated rel(d) crosses eps=0.1 between d=0.05 and d=0.1
+    linear-interpolated d_flip = 0.0694
+    closed form d_eps          = 0.0686   -> agreement to 0.0008 (grid spacing 0.05)
+
+[4] detection vs classification [measured] — the subtle asymmetry:
+    DETECTION  (is there ANY residue?): SNR gate R/sigma > 10.
+      d = 0.010: SNR =     14.9  -> detectable (rel = 0.0159, below classification edge)
+    CLASSIFICATION (is it REAL, not frame-made?): rel(d) > eps.
+      -> d_class = 0.0686 (closed form; grid-verified)
+    CONSEQUENCE: between d_det and d_class there is a window where the
+    residue is measurable but STILL classified frame-made — the test
+    honestly says: 'something survives the swap, but not enough of the
+    naive tension to abandon the frame.' Operating outside this window
+    is what the eps=0.1 choice buys.
+
+[5] threshold calibration [measured] — how eps choice moves the edges:
+      eps    d_det(interp)   d_class(cf) = eps*m/(1-eps)
+     0.05        ---       0.0325
+     0.10        ---       0.0686
+     0.20        ---       0.1543
+     0.30        ---       0.2645
+    (d_det is set by the SNR gate, not by eps: SNR ~ linear in d —
+     measured slope 1488 per unit d at the v5 point -> d_det ~ 0.0067)
+
+[6] v5 canonical points reproduced on the map [measured]:
+    d=0.00 (symmetric cut): rel = 0.0024 (v5: 0.0024), SNR = 2.2 (v5: 2.2)
+    d=0.60 (v5 real side) : rel = 0.4929 (v5: 0.4929), SNR = 892.7 (v5: 892.7)
+    canonical reproduction: OK [exact]
+
+========================================================================
+VERDICT: rel(d) monotone increasing over the sweep: True [measured]
+  closed form rel(d) = d/(m+d) validated (max grid deviation 0.0024 —
+   MC noise of 8-seed pooled stats, no systematic trend)
+  detection edge  d_det  ~ 0.0067 (SNR-linear interpolation; first grid point 0.010)
+  classification edge d_class = 0.0686 (closed form, grid-verified)
+  v5 operating point d=0.60 sits at rel = 0.4929, ~4.9x above eps — safe margin
+labels: closed form [exact model]; sweep/edges [measured]; paradox mapping
+[protocol-mirror, conceptual]. Same register contract as v5 throughout.
+
+[log] printed output captured by tee -> limen_residue_param_map_output.txt

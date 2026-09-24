@@ -81,6 +81,14 @@ $$\text{arrow} = \underbrace{\text{constraint}}_{\text{potential-maker}} \times 
 
 **Structural verdict [exact]:** the gauge identity (frozen masks under the zero shift) holds bit-for-bit — any observable difference afterwards is attributable to the tension, not the frame. And the real tension in the sample is precisely a **one-sided dynamical bias**: what the ontology-side K1 calls noise rectification — the test re-confirms its own substrate's structure.
 
+**Tension parameter map (executed):** `tools/limen_residue_param_map.py` · output: `tools/limen_residue_param_map_output.txt` — the one-sided bias depth d (the real-tension knob) is mapped and the discrimination threshold is quantified:
+
+- **Closed form [exact model]:** mu(d) = b + m + d with m = phi(b)/Phi(b) = 0.61722 (inverse Mills ratio) ⇒ **rel(d) = d/(m+d)** — monotone increasing, saturating at 1. Anchor: mu(0) = 0.91722 vs the v5 measured anchor 0.91720 — five-decimal agreement. **Registered lesson (E4):** this tool's own v1 took sqrt(2/pi) as the anchor and its own Monte-Carlo battery refuted it (systematic drift with d) — a closed form is a candidate until the battery passes it; the same discipline as the parent tool's v1–v4.
+- **Canonical reproduction [measured]:** d=0 → rel=0.0024, SNR=2.2; d=0.60 → rel=0.4929, SNR=892.7 — bit-for-bit v5.
+- **Discrimination threshold — no threshold inside the physics:** rel(d) is continuous and increasing; the threshold is an **epistemic choice of eps on the curve**: d_class = eps*m/(1−eps) = 0.0686 at eps=0.1 (simulation: 0.0694 — agreement 0.0008). The **detection** threshold is independent: SNR ≈ 1488 per unit d ⇒ d_det ≈ 0.0067.
+- **The honest window:** between d_det=0.0067 and d_class=0.0686 the residue is detectable yet still classified frame-made — the test honestly says: "something survives the swap, but not enough of the naive tension to abandon the frame." Operating outside this window is what choosing eps=0.1 buys.
+- **Calibration:** d_class(eps) = eps*m/(1−eps): eps=0.05→0.0325 · 0.10→0.0686 · 0.20→0.1543 · 0.30→0.2645. The v5 operating point (d=0.60) sits at rel=0.4929 — about 4.9x above eps: a safe margin.
+
 Applied: twin paradox/Zeno (zero residue → C″) · EFT infinities (half: regulator frame-dependent, flow real) · Λ at 120 orders (measurable residue → C′ or C‴) · measurement (Born statistics invariant → C′: interpretations) · black-hole information (pending vault).
 
 **Fine distinction:** quantitative meaninglessness (value = zero, suspensive silence) ≠ frame-level meaninglessness (not even a value exists, absolute silence). Operational test: is a measurement operator even definable?
