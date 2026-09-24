@@ -29,7 +29,7 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 - `en/Limen-Spuma-Parameter-Bridge` — the executed LIMEN→SPUMA parameter bridge (B1–B4).
 - `en/Unified-Register-Integration` — the unified register: one lattice, both canonical exits, the bridge's open question closed.
 - `en/Aligned-Protocol-EN` — **the Aligned Protocol**: the generative triad, the six norms E0–E5, three regimes of silence, registered fundamentality, the three healthy paradox options + the invariance-residue test, and the seven-pivot atlas [protocol-mirror].
-- `en/Aligned-Protocol-EN` — **the Aligned Protocol**: the generative triad (constraint/silence/event), the six norms E0–E5, three regimes of silence, registered fundamentality, the three healthy paradox options + the invariance-residue test, and the seven-pivot atlas [protocol-mirror].
+- `09_Literature_Grounding/` (mirrors in `en/LG-*-EN`) — **the protocol's bibliographic anchors** with verified references and row-by-row mappings to E0–E5: Spencer-Brown 1969 (re-entry), Luhmann 1984/1995 (observer = distinction), Lakatos 1976 (hard core), Tarski 1955 (lattice fixed point, DOI).
 
 ## Canonical numbers
 
@@ -57,6 +57,7 @@ The boundary (the limen) is itself **the silent place**; the posterior being is 
 | Invariance-residue test | sharp frame-made vs real discrimination: R/T₀ = 0.0024 (dissolved, C″) vs 0.4929 at SNR=892.7 (invariant, C′/C‴); gauge mask identity [exact]; relative criterion against the naive frame's own tension scale | [[Aligned-Protocol-EN]] §5 |
 | Ward-like test (S7.1) | narrative invariance passed: decoration-only narratives IDENTICAL hashes [exact], z=0.00; noise decoration (antithetic/axis-swap) flips 15.56% of events yet statistics stay < 2σ — quantities belong to the law, not the stream | [[Aligned-Protocol-EN]] §8 |
 | Aligned Protocol | one architecture from one triadic unit; healthy paradox options only C′/C″/C‴; the invariance-residue test separates dissolution from evasion | [[Aligned-Protocol-EN]] |
+| Bibliographic anchors | four anchors with verified references (Tarski 1955 with DOI: 10.2140/pjm.1955.5.285; Luhmann 1995 with ISBN 0-8047-2625-6; Lakatos 1976 with ISBN 0-521-29038-4; Spencer-Brown 1969 with publisher/date) and row-by-row mappings to E0–E5 and clauses §1/§3/§4/§7/§9 | [[LG-1-Spencer-Brown-1969-EN]] · [[LG-2-Luhmann-1995-EN]] · [[LG-3-Lakatos-1976-EN]] · [[LG-4-Tarski-1955-EN]] |
 
 ## Epistemic Status
 

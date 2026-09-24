@@ -126,6 +126,7 @@ Honest note: the mini-battery numbers differ slightly from the full-resolution c
 - **The remaining adopted axiom:** "meaning = constraint-ability" — negating it builds no rival, only silence: the minimum possible, and less is impossible. Claiming "zero adopted axioms" would itself violate E1.
 - **What it does not grant:** not one new empirical confirmation. The upgrade is in methodological status — from scattered adopted norms to one protocol derived from a single triadic core.
 - **Bibliographic anchors:** Kant (conditions of possibility) · Spencer-Brown 1969 (re-entry) · Luhmann (observer = distinction) · Lakatos (core/belt) · Tarski fixed-point (lattice form) · Russell 1903 · cumulative hierarchy · Grothendieck (SGA4) · Feynman (substanceless energy) · Noether 1918.
+- **Documented anchors (Literature-Grounding notes, `09_Literature_Grounding/`):** four primary anchors with verified references and row-by-row mappings to E0–E5 and to this document's clauses — Spencer-Brown [[LG-1-Spencer-Brown-1969-EN]] (re-entry; §1/§3/§4) · Luhmann [[LG-2-Luhmann-1995-EN]] (observer = distinction; §7/§9) · Lakatos [[LG-3-Lakatos-1976-EN]] (core/belt; §2 E2/E5) · Tarski [[LG-4-Tarski-1955-EN]] (lattice fixed point; §4/§5). The remaining anchors (Kant, Russell, Grothendieck, Feynman, Noether) have no dedicated note yet and remain an incomplete list — registering this incompleteness is itself an E4 execution.
 
 ## Related
 
