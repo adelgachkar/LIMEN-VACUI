@@ -25,12 +25,12 @@ flag below carries a tool or a collateralized future tool.
 
 | # | gap / question | flag | conceivable tool (existing or next row) | bank status |
 |---|---|---|---|---|
-| W1 | sharpness of the critical bias b_c: the "universal decade" is size-limited | tool: the same K1 grid at L=512/1024 | L-dependence check → decisive 15.75±0.25 | pending (collateral: existing grid) |
+| W1 | sharpness of the critical bias b_c: the "universal decade" is size-limited | tool: the same K1 grid at L=256/512/1024 (`bc_finiteness_L`) | **b_c = 0.1263 ± 0.0002, stable; R_edge = 1.841 ± 0.002 — decisive + E4 correction (15.75 was a wrong quotient)** | ✅ done 2026-09-25 |
 | W2 | spectrum of the critical∧REAL composition at the meeting point | tool: `spectral_regime_prediction.py` at b_eff = b_c | single-scale/power-law signature of the composition | pending (collateral: existing tool) |
 | W3 | data-requirement threshold: S·N for d_det below the critical calibration d_crit | tool: `limen_window_resources.py` S5 (price form) | price curve down past 0.002 | pending (collateral: existing tool) |
 | W4 | closed form of omega_n (even/odd epsilon_n correction) | tool: wall model with explicit mu(x) | inner-field/edge-bias opposition → spectrum | pending (collateral: K3/K4 contract) |
 | W5 | the 4.6 ratio of working scales (0.12 eV vs 0.026 eV) | tool: independent kappa_hop measurement in both substrates | the ratio in one scale | pending (collateral: narrow window) |
-| W6 | the five undocumented anchors of S9 (Kant, Russell, Grothendieck, Feynman, Noether) | tool: the LG protocol itself (verified reference + mapping table) | the four executed notes are the pattern | pending (collateral: LG-1..4) |
+| W6 | the five undocumented anchors of S9 (Kant, Russell, Grothendieck, Feynman, Noether) | tool: the LG protocol itself (verified reference + mapping table) | **LG-5..9 built in FA+EN** (Kant 1781/1787; Russell AMJ 30(3) 1908; SGA4 Exp.IV; FLP II §12-1; Nachr. Gött. 235–257) | ✅ done 2026-09-25 |
 | W7 | Ward test on the shield/boost transition edge in the beta plane | tool: `limen_beta_plane.py` + the Ward engine | invariance under three narratives | pending (collateral: S8 test) |
 
 ## Realm 2 — Silence: revere [silence: revere]
@@ -42,6 +42,14 @@ flag below carries a tool or a collateralized future tool.
 | S3 | why these values of the universal constants, outside alignment? | without aligned data, every "why" demands entry into a tool-less realm; absolute silence until a signal | revere — permanent flag |
 | S4 | absolute (non-differential) energy | substanceless; no absolute measuring operator is definable | revere — structural suspensive silence |
 
+## Framework-self flags (F) — the protocol's criterion pointed at itself
+
+| # | question | realm | collateral/mechanism | verdict |
+|---|---|---|---|---|
+| F1 | what would demote the generative triad (constraint × silence × event)? | work | self-falsification clause §3; mechanism: an in-model violator (Ward-neutral + fresh alignment residue) | banked work — open |
+| F2 | can the key [measured] distinctions become theorems? | work | formal core in draft; executed tools are special cases | banked work — open |
+| F3 | are the imported constants (δθ, φ_max, f_c) derivable in-model? | revere | deriving without aligned data = E1; the values stay "imported and labeled" (the honesty triad) | revere — until aligned data |
+
 ## Migration rule for this register
 
 - W→S: if a review finds the claimed tool inconceivable in practice, the flag migrates to realm 2 (lesson registered, E4).
@@ -51,10 +59,11 @@ flag below carries a tool or a collateralized future tool.
 ## Canonical numbers of this register
 
 | quantity | value | source |
-|---|---|---|
-| flagged work-realm questions | 7 | this document |
-| flagged revere-realm questions | 4 | this document |
-| current ratio | 7:4 | re-reviewed at every new alignment |
+| work-realm flagged questions | 6 | this register |
+| revere-realm flagged questions | 4 | this register |
+| framework-self flags (F) | 3 (2 work / 1 revere) | this register |
+| W1 | ✅ done — b_c = 0.1263 ± 0.0002, R_edge = 1.841 ± 0.002 (E4 correction) | `bc_finiteness_L` |
+| current ratio | 6:4 (plus 3 framework-self flags: 2 work / 1 revere) | re-reviewed at every new alignment |
 
 ## Epistemic Status
 
