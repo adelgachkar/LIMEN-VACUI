@@ -1,0 +1,80 @@
+========================================================================
+HONEST-WINDOW RESOURCE MAP — which edge moves with compute?
+register: v5 (b=0.30, N=4096, w=60, seeds=8); deterministic one-sided
+law: chi = C(seed) + d [exact, gauge identity]; SNR gate 10;
+d_class = 0.0686 [exact model, pinned by eps=0.10]
+========================================================================
+
+[1] structure of the two edges [exact model]:
+    d_det(S,N) ~ gate * std(C)/sqrt(S), std(C) ~ 1/sqrt(N*w)
+        -> noise edge: MOVES with compute (1/sqrt(S*N*w) law).
+    d_class = eps*m/(1-eps) = 0.0686
+        -> epistemic edge: PINNED by the choice eps — does NOT move.
+    -> resources push the LOWER edge down: the SILENT zone
+       [0, d_det] shrinks (what compute buys) while the honest
+       window [d_det, d_class] WIDENS from below; its right edge
+       stays pinned. Closing BOTH edges is the epistemic choice
+       eps* = rel(d_det) = d_det/(m+d_det), never a compute purchase.
+
+[2] canonical anchor + gain calibration [measured]:
+    d=0 health: native anchor = 0.91720 +- 6.72e-04 (s.e.m.)  [v5: 0.91720]
+    frame-made side at d=0: R(0) = 0.00148 (R/T0 = 0.0024 [v5: 0.0024]),
+    SNR = 2.2 [v5: 2.2]
+    d_det(canonical 8x4096) = 0.00672  ->  k0 = 1488 per unit d
+    [v5 map: d_det ~ 0.0067, SNR ~ 1488 per unit d]
+
+[3] (S, N) grid [measured] — d_det measured, d_class pinned:
+    S      N      | d_det     | d_class*  | window width (class - det)
+    4      1024   | 0.01552   | 0.00016   | 0.05306
+    8      1024   | 0.01101   | 0.00011   | 0.05757
+    16     1024   | 0.00864   | 0.00009   | 0.05994
+    8      4096   | 0.00672   | 0.00007   | 0.06186
+    32     4096   | 0.00248   | 0.00002   | 0.06610
+    16     16384  | 0.00226   | 0.00002   | 0.06632
+    64     16384  | 0.00096   | 0.00001   | 0.06762
+    32     65536  | 0.00069   | 0.00001   | 0.06789
+    64     65536  | 0.00055   | 0.00001   | 0.06803
+
+[4] noise-edge power law [measured]: d_det ~ A * (S*N*w)^(-gamma):
+    gamma = 0.500  (theory: 0.5) ; A = 8.051
+    max |log residual| = 0.0677 dex
+
+[5] the closing standard per budget [exact model + measured d_det]:
+    eps*_close = d_det/(m+d_det) — the epistemic choice that makes
+    the classification edge MEET the detection edge (eps=0.1 is
+    pinned; its window never closes at any feasible budget):
+    S      N      | d_det      eps*_close  
+    4      1024   | 0.01552    0.02453     
+    8      1024   | 0.01101    0.01752     
+    16     1024   | 0.00864    0.01381     
+    8      4096   | 0.00672    0.01077     
+    32     4096   | 0.00248    0.00399     
+    16     16384  | 0.00226    0.00365     
+    64     16384  | 0.00096    0.00155     
+    32     65536  | 0.00069    0.00111     
+    64     65536  | 0.00055    0.00088     
+    law: eps*_close ~ (A/m)*(S*N*w)^-1/2 — the affordable standard
+    tightens like a noise floor; price of a FIXED standard:
+      eps*=1e-02 -> d_det=0.0062, S*N*w=1.67e+06 (S*N=2.78e+04)
+      eps*=1e-03 -> d_det=0.0006, S*N*w=1.70e+08 (S*N=2.83e+06)
+      eps*=1e-04 -> d_det=0.0001, S*N*w=1.70e+10 (S*N=2.84e+08)
+
+========================================================================
+VERDICT:
+  1. the two edges MOVE DIFFERENTLY [measured vs exact model]:
+     d_det (noise) ~ A*(S*N*w)^-0.500 — recedes with compute;
+     d_class (epistemic) pinned by eps at 0.0686 — does NOT move.
+  2. compute buys DETECTION, never classification: the silent zone
+     [0, d_det] shrinks [0.00672 -> 0.00069]; the honest window
+     [d_det, d_class(0.1)] WIDENS from below: width 0.0619 -> 0.0679.
+  3. closing BOTH edges is an epistemic choice that must TRACK the
+     budget: eps*_close = d_det/(m+d_det): 0.0108 (canonical) -> 0.00111
+     at the best cell — the affordable standard tightens like a
+     noise floor, (S*N*w)^-1/2; each decade = x100 compute
+     (eps*=1e-4: S*N*w ~ 1.7e+10).
+labels: gauge identity chi=C+d, d_class form, S_eff=S [exact model];
+grid, gamma, eps* table [measured]; interpretation
+[protocol-mirror, conceptual]. E4 lessons registered: v1 injected
+   Gaussian noise instead of the deterministic drift (a different
+   law: Mills-scale jump, caught by the battery); v2 let the mask
+   move with d (edge re-evaluated) — also not v5.
