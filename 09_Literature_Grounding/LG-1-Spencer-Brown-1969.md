@@ -1,51 +1,52 @@
 ---
 title: "LG-1 — Spencer-Brown (Laws of Form, 1969)"
-aliases: ["Spencer-Brown 1969", "Laws of Form", "بازورود", "Re-entry"]
+aliases: ["Spencer-Brown 1969", "Laws of Form", "Re-entry"]
 created: 2026-09-25
 updated: 2026-09-25
 tags: [limen-vacui, literature-grounding, spencer-brown, re-entry, laws-of-form]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
-# LG-1 — Spencer-Brown, Laws of Form (1969)
+# LG-1 — Spencer-Brown, *Laws of Form* (1969)
 
-> **نقش در پروتکل:** لنگرِ **بازورود (re-entry)** — مکانیزمی که کل §۴ پروتکل (بنیادیشمری و مرجع) و خودارجاعِ سالم معنا بر آن استوار است. [[Aligned-Protocol]]
+> **Role in the protocol:** the anchor for **re-entry** — the mechanism on which §4 of the protocol (registered fundamentality and reference) and the healthy self-reference of meaning both rest. [[Aligned-Protocol-EN]]
 
-## ارجاع دقیق [verified 2026-09-25]
+## Exact reference [verified 2026-09-25]
 
 - **Spencer-Brown, G. (1969). *Laws of Form*. London: George Allen and Unwin Ltd.**
-- نخستین انتشار بریتانیایی: George Allen and Unwin Ltd، لندن؛ ۱۷ آوریل ۱۹۶۹. چاپ آمریکا: The Julian Press (New York). ویراست‌های بعدی: Portogruaro/Plume.
-- ISBN ویراست نخست در منابع ثانویه ناسازگار گزارش شده؛ **ISBN استناد نمی‌شود** — نشانی ناشر و تاریخِ نخستین چاپ، مرجع کتاب‌شناختی است.
-- واژگان کلیدی متن اصلی: *draw a distinction*؛ *the form enters the form* (re-entry)؛ *call the space*.
+- First British edition: George Allen and Unwin Ltd, London; April 17, 1969. US edition: The Julian Press (New York); later editions: Portogruaro/Plume.
+- ISBNs of the first edition are inconsistently reported in secondary sources; **no ISBN is cited** — publisher and date of first printing serve as the bibliographic anchor.
+- Key vocabulary of the original text: *draw a distinction*; *the form enters the form* (re-entry); *call the space*.
 
-## ادعای اصلی کتاب
+## The book's core claim
 
-سرآغاز همه‌چیز نه شیء است و نه جوهر — **یک رخداد**: «تمایزی بکش». صورتِ (قلمرو) درون و بیرون تمایز، و هر حسابِ ممکن (بول، عدد، فضا، زمان)، از عملِ نشانه‌گذاری زاده می‌شود. محورِ بحث‌برانگیز و بارورترین بخش، **بازورود** است: فرمِ بازورده‌شده به فرم — تمایزی که در تمایزِ سازندهٔ خودش بازمی‌گردد. در جبرِ لوفر قانون است (علت‌نشانی ⇄ علت‌نشانی)، اما **عملِ کشیدن برگشت‌ناپذیر است**: لغوِ نماد، رخدادِ ثبت را پاک نمی‌کند.
+The beginning of everything is neither an object nor a substance — it is an **event**: "draw a distinction". The form (the inside/outside of the distinction), and every conceivable calculus (Boolean, number, space, time), is born from the act of marking. The most contested and most fertile section is **re-entry**: the form re-entering the form — a distinction that folds back into the very distinction that drew it. In the algebra the law holds (marking ⇄ unmarking), but **the act of drawing is irreversible**: canceling the symbol does not erase the registered event.
 
-## نگاشت دقیق به پروتکل
+## Precise mapping to the protocol
 
-| مفهوم اسپنسر-براون | بند پروتکل | پیکره |
+| Spencer-Brown concept | Protocol clause | Corpus |
 |---|---|---|
-| «تمایزی بکش» | هستهٔ سه‌گانه §۱ — رخدادِ بر نقطه، جهت‌ساز | رجیستر یک‌طرفهٔ T1 |
-| فرمِ بازورده‌شده به فرم (re-entry) | §۴ — پیشین→پسین معنا به خودش ارجاع می‌دهد؛ خودارجاعِ سالم | Vault دربارهٔ معنا به زبان معنا؛ A1 به‌مثابه نقطهٔ ثابت مصداقی |
-| علامت×علامت = خلأ **در جبر**، ولی عملِ کشیدن برگشت‌ناپذیر **در زمان** | §۱ — رجیستر جذب‌شونده؛ لغو نماد ≠ لغو ثبت | T1: سایت ثبت‌شده هرگز برنمی‌گردد |
-| جازِ تمایز پیش از هر ارزیابی | §۳ — سکوت-مجوز (اتخاذ نه اشتقاق) | پستولات‌های هیلبرت؛ الگوی گروتندیک |
+| "Draw a distinction" | §1 — the event on a point, the direction-maker | The one-way register T1 |
+| The form re-entering the form (re-entry) | §4 — meaning's prior→posterior passage refers to itself; healthy self-reference | The Vault written in meaning about meaning; A1 as the exemplar fixed point |
+| Mark × mark = void **in the algebra**, but the act of drawing is irreversible **in time** | §1 — the absorbing register; symbol cancellation ≠ event erasure | T1: a registered site never returns |
+| The standing permission of a distinction before any evaluation | §3 — silence-as-permission (adoption, not derivation) | Hilbert's postulates; the Grothendieck pattern |
 
-## پیوند با لنگرهای دیگر
+## Links to the other anchors
 
-- **لومان** [[LG-2-Luhmann-1995]] مستقیماً از همین کتاب ساخته می‌شود — «ناظر = تمایز» ترجمهٔ جامعه‌شناختیِ «تمایزی بکش» است؛ عبارت لومان در *Soziale Systeme* صریح است: با کارهای اسپنسر-براون و ماچورانا.
-- **تارسکی** [[LG-4-Tarski-1955]] همان بازورود را صوری می‌کند: بازورودِ سالم = نقطهٔ ثابتِ عملگر یکنوا؛ بازورودِ نایکنوا (دروغگو، راسل) بی‌نقطه‌ثابت است.
-- **لاکاتوش** [[LG-3-Lakatos-1976]] نشان می‌دهد تمایزهای اولیه (چندوجهی) چگونه زیر آزمون اصلاح می‌شوند — جازِ موقتِ سکوت، مشروعیت‌بخش تمایز است نه ثباتش.
+- **Luhmann** [[LG-2-Luhmann-1995-EN]] is built directly on this book — "the observer = the distinction" is the sociological translation of "draw a distinction"; Luhmann's own acknowledgments in *Soziale Systeme* name Spencer-Brown and Maturana explicitly.
+- **Tarski** [[LG-4-Tarski-1955-EN]] formalizes the same re-entry: healthy re-entry = the fixed point of a monotone operator; non-monotone re-entry (liar, Russell) has no fixed point.
+- **Lakatos** [[LG-3-Lakatos-1976-EN]] shows how initial distinctions (the polyhedron) get repaired under counterexamples — the temporary license of silence legitimizes a distinction, not its permanence.
 
-## صداقت
+## Integrity
 
-- برچسب: `[literature-grounding]` — گزاره‌های تاریخی دربارهٔ متن اصلی؛ نگاشت‌ها `[conceptual]`.
-- دقت: «فرم وارد فرم می‌شود» دقیق‌ترش «فرمِ بازورده‌شده» است؛ ترجمهٔ فارسی «بازورود» پذیرفته‌شدهٔ این کتاب است.
-- ادعای مادرِ مجموعه‌ها (∅ §۴ پروتکل) به اسپنسر-براون نسبت داده **نمی‌شود** — آن شاهد، متنی ZF است؛ اینجا فقط تمایز و بازورود است.
+- Label: `[literature-grounding]` — historical claims about the original text; mappings `[conceptual]`.
+- Precision: "the form enters the form" is more exactly "the re-entered form"; the Persian "بازورود" is the accepted rendering.
+- The mother-of-sets claim (∅, §4 of the protocol) is **not** attributed to Spencer-Brown — that witness is the ZF text; here it is only distinction and re-entry.
 
 ## Related
 
-- [[Aligned-Protocol]] — بند میزبان: §۱ (رخداد)، §۳ (سکوت)، §۴ (بازورود)
-- [[LG-2-Luhmann-1995]] · [[LG-3-Lakatos-1976]] · [[LG-4-Tarski-1955]]
-- آینهٔ انگلیسی: [[LG-1-Spencer-Brown-1969-EN]]
+- [[Aligned-Protocol-EN]] — hosting clauses: §1 (event), §3 (silence), §4 (re-entry)
+- [[LG-2-Luhmann-1995-EN]] · [[LG-3-Lakatos-1976-EN]] · [[LG-4-Tarski-1955-EN]]
+- Persian original (canonical): `09_Literature_Grounding/LG-1-Spencer-Brown-1969.md`

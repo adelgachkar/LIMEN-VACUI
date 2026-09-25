@@ -1,45 +1,46 @@
 ---
 title: "Balancer Cushion — Two-Front Compression and the Forbidden Runaway"
-aliases: ["Balancer", "Infinite Inflation Forbidden"]
+aliases: ["Balancer", "Infinite Inflation Forbidden", "بالشتک بالانس"]
 created: 2026-09-21
 updated: 2026-09-21
-tags: [limen-vacui, balancer, numerics, elastic]
+tags: [limen-vacui, balancer, numerics, elastic, en]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
 # Balancer Cushion — Two-Front Compression and the Forbidden Runaway
 
-## بالشتک بالانس؛ ممنوعیت تورم بی‌نهایت
+## The balance cushion; the infinite-inflation prohibition
 
-> روایت: «جبههٔ پیشتاز در فشار پیشین و جبههٔ پسینِ تراکم میانی می‌تواند به یک بالشتک بالانس و مانع از تورم بی‌نهایت … برسد»
+> Narrative: "the leading front in prior pressure and the posterior front of middle compression can reach a balance cushion — and forbid infinite inflation"
 
-صورت‌بندی کشسانی: تراکمِ رهاشده در تختِ کشسانی با مدول K پخش می‌شود؛ جبههٔ میانی متراکم **بالشتک** است — نه موتور. دو گزارهٔ قابل‌آزمون:
+Elastic formulation: compression released into an elastic sheet of modulus K spreads out; the compressed middle front is a **cushion** — not an engine. Two testable propositions:
 
-1. **کون علّی:** هیچ سیگنالی از سرعت کشسانی c=√K تندتر نمی‌رود (پویایی CFL-مقید).
-2. **برابرسایی:** تراکم رهاشده به تعادل یکنواخت می‌نشیند؛ نمی‌رَد.
+1. **Causal cone:** no signal outruns the elastic speed c=√K (CFL-bounded dynamics).
+2. **Equalization:** released compression settles to uniform equilibrium; it does not run away.
 
-## Testable Content — T3 (اجرا شده)
+## Testable Content — T3 (executed)
 
-`tools/limen_core.py::t3_balancer` (leapfrog، K=1، dt=0.4، دو سر ثابت، L=256):
+`tools/limen_core.py::t3_balancer` (leapfrog, K=1, dt=0.4, pinned ends, L=256):
 
-| کمیت | مقدار | حکم |
+| Quantity | Value | Verdict |
 |---|---|---|
-| بیشینه سرعت جبهه | **0.750 ± 0.000** سایت/گام | از کون کشسانی c = 1.00 **عبور نمی‌کند** [دقیق] |
-| CFL | 0.40 ≤ 1 — پایدار | |
-| میانگین نهایی s | **−0.25000** (تعادل دقیق) | تراکم رهاشده **می‌نشیند**؛ بدون رانش [دقیق] |
+| Max front speed | **0.750 ± 0.000** sites/step | does not exceed the elastic cone c = 1.00 [exact] |
+| CFL | 0.40 ≤ 1 — stable | |
+| Final mean s | **−0.25000** (exact equilibrium) | released compression **settles**; no drift [exact] |
 
-**جملهٔ بسته:** «تورم بی‌نهایت» در هر مدل کشسانیِ محدود-سرعت، گزاره‌ای ممنوع است — بالشتک بالانس فقط نام دیگر همین دو گزاره است. [دقیق — نتیجهٔ ساختار معادله]
+**Closing statement:** "infinite inflation" is a forbidden proposition in any finite-speed elastic model — the balance cushion is just another name for these two statements. [exact — a consequence of the equation structure]
 
-## نگاشت به روایت
+## Mapping to the narrative
 
-- «جبههٔ پیشتاز در فشار پیشین» = موج فشاری که از سمت تراکم رها می‌شود
-- «جبههٔ پسینِ تراکم میانی» = دنبالهٔ برابرسایی
-- «مانع از تورم بی‌نهایت» = کون علّی (گزارهٔ ۱)
+- "leading front in prior pressure" = the compression wave released from the compressed region
+- "posterior front of middle compression" = the equalization tail
+- "forbidding infinite inflation" = the causal cone (proposition 1)
 
 ## Related
 
-- [[Middle-Atmosphere-Synthesis]] — فرمالیسم سه‌لایهٔ O+/C_mid/D− و آزمون T6 (تعمیم دینامیکی همین نوت)
-- [[A3-Arrow-From-Registration]] — جهت جبهه‌ها
-- [[Popcorn-Vacuum-Birth]] — چه چیزی درون بالشتک زاده می‌شود
-- [[MOC-LIMEN-VACUI]]
+- [[A3-Arrow-From-Registration-EN]] — the direction of the fronts
+- [[Middle-Atmosphere-Synthesis-EN]] — the three-layer formalism and the T6 tests (the dynamical generalization of this note)
+- [[Popcorn-Vacuum-Birth-EN]] — what is born inside the cushion
+- [[MOC-LIMEN-VACUI-EN]]

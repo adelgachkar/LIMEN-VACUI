@@ -1,156 +1,154 @@
 ---
-title: "Aligned-Protocol"
-aliases: ["پروتکل سازگار واحد", "Aligned Protocol", "پروتکل معرفتی واحد"]
+title: "Aligned-Protocol-EN"
+aliases: ["The Aligned Protocol", "Unified Epistemic Protocol"]
 created: 2026-09-24
 updated: 2026-09-24
 tags: [limen-vacui, governance, aligned-protocol, epistemology, protocol-mirror]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
-# Aligned-Protocol — پروتکل سازگار واحد
+# Aligned-Protocol-EN — The Aligned Protocol
 
 > **Structural Causal Chain:**
-> معنا = قیدشوندگی (بستر) → هم‌ترازی قیود (رخداد) → مرجع (پسماندِ منجمد) → بنیادیشمری (نخستینِ ثبت) → نردبان مرجع نسبی → سکوت (فراتر از آخرین هم‌ترازی)
+> meaning = constraint-ability (substrate) → constraint alignment (event) → reference (frozen residue) → registered fundamentality (the first registration) → ladder of relative reference → silence (beyond the last alignment)
 
-> **جایگاه:** این نوت، صورت‌بندیِ صریحِ پروتکلی است که هر چهار مخزن خانواده (LIMEN، SPUMA، CADENCE، Vault) عملاً اجرا می‌کنند و فیزیکِ پذیرفته‌شده در نقاط عطفِ متناقضش بی‌نام اجرا کرده است. کانونی‌سازی این پروتکل در LIMEN است (خانهٔ پیشا-مرز)؛ SPUMA و CADENCE پوینتر دارند.
+> **Position:** This note is the explicit formulation of the protocol that all four family repositories (LIMEN, SPUMA, CADENCE, Vault) already execute in practice, and that accepted physics has been executing *unnamed* at its paradoxical pivots. Canonical home: LIMEN (the pre-boundary repository); SPUMA and CADENCE carry pointers.
 
 ---
 
-## ۱. هسته — سه‌گانهٔ مولد
+## 1. Core — The Generative Triad
 
-یک معماری، از یک واحد سه‌ضلعی مشتق می‌شود:
+One architecture derives from one unit:
 
-$$\text{پیکان} = \underbrace{\text{قید}}_{\text{پتانسیل‌ساز}} \times \underbrace{\text{سکوت}}_{\text{مجوز}} \times \underbrace{\text{رخداد}}_{\text{جهت‌ساز}}$$
+$$\text{arrow} = \underbrace{\text{constraint}}_{\text{potential-maker}} \times \underbrace{\text{silence}}_{\text{licensor}} \times \underbrace{\text{event}}_{\text{direction-maker}}$$
 
-- **قید پتانسیل می‌سازد** — نه فقط ممنوع است: کازیمیر (قیدِ مُدِ خلأ → نیروی واقعی)، شرایط مرزی (ممنوعیت → طیف گسسته)، دیوار K2 پیکره (انرژی راکتیوِ درون کپسول، لنگر تجربی: گرافن).
-- **سکوتِ بر مرجعِ قید، آن را مجاز می‌کند** — قید حقِ فرمانش را از پذیرشِ بی‌پرسش می‌گیرد (پستولات‌ها، اصل پنجم اقلیدس تا لحظهٔ پرسش). این جاز **موقتی است**: تا لبهٔ آزمونِ قاطع، سکوت باید جا بدهد یا قید اصلاح شود.
-- **رخدادِ بر نقطه، جهت می‌سازد** — نقطهٔ محض بی‌جهت است (جهت‌مندی صفر-بعدی بی‌معناست، نه صفر)؛ علامت‌زدنِ یک‌باره، تقارن را می‌شکند و جهت را سراسری می‌کند (جهت‌دهی توپولوژیک؛ رجیستر یک‌طرفهٔ T1).
+- **Constraint makes potential** — not merely prohibition: Casimir (vacuum-mode restriction → real force), boundary conditions (prohibition → discrete spectrum), the K2 wall (reactive energy stored *by* confinement; empirical anchor: graphene).
+- **Silence over the constraint's reference licenses it** — a constraint's right to command comes from un-questioned adoption (postulates; Euclid's fifth until asked). This license is **temporary**: up to the decisive test edge, silence must yield or the constraint must be revised.
+- **The event-on-a-point makes direction** — a bare point is directionless (directionality in zero dimensions is *meaningless*, not zero); a single marking breaks the symmetry and globalizes direction (topological orientation; the one-way register T1).
 
-**واحدِ مشترک هر سه ضلع: رخدادِ ثبت‌شده، سکوتِ مجاز، قیدِ مولد — همه از یک نوع‌اند.**
+**The common unit of all three: registered event, licensing silence, generative constraint — all of one kind.**
 
-## ۲. شش هنجار مشتق‌شده (E0–E5)
+## 2. Six Derived Norms (E0–E5)
 
-از همین سه‌گانه، شش هنجارِ دفتر مشتق می‌شود — هر یک از یک ضلع یا ترکیب:
-
-| هنجار | صورت | اشتقاق از |
+| Norm | Statement | Derived from |
 |---|---|---|
-| **E0 — گویایی** | محمول فقط پس از ثبت؛ پیشا-ثبت بی‌قالب است نه نادرست | S1: تمایز پیشین/پسین فقط با ثبت مرز |
-| **E1 — رده‌بندی کامل** | هر عدد دقیقاً یک کلاس منشأ: هندسهٔ بسته / شبیه‌سازی خودمان / پدیدهٔ واقعی / بازتولید مستقل (خالی) | S2: معنای ادعا = مجموعه قیودش |
-| **E2 — fail-closed** | status=verified ⟺ آزمون اجرا و قبول؛ عدم اجرا هرگز ارتقا نمی‌دهد | S3-حافظ: حفاظت هسته از فرمان |
-| **E3 — منجمدسازی** | پیش‌بینی پیش از آزمون ثبت و قفل می‌شود (شبه-پیش‌ثبت) | S1+S3-ناظر: معنای پیکان = ثبتِ پیش از رخداد |
-| **E4 — دادهٔ منفی** | نتیجهٔ منفی ورودی دفتر است نه ناهنجاری | U4: رجیستر تک‌خروجی معیوب است؛ دفتر کامل دو خروج می‌خواهد |
-| **E5 — آزمون سطح-برنامه** | ادامهٔ برنامه موجه است فقط اگر آزمون‌های اجراشده رشد کند و آزمون قاطع زمان‌بندی شده باشد | S4-پویا: مترقی/متحلل = حضور/غیاب رخدادهای هم‌ترازی |
+| **E0 — Sayability** | Predicates only after registration; pre-registration is *frame-less*, not false | S1: before/after distinction only via boundary registration |
+| **E1 — Complete triage** | Every number has exactly one provenance class: closed geometry / own simulation / real phenomenon / independent reproduction (currently empty) | S2: an claim's meaning = its constraint set |
+| **E2 — fail-closed** | status=verified ⟺ test executed and passed; non-execution never promotes | S3-guardian: protecting the core from decree |
+| **E3 — Freezing** | Predictions frozen before the test (quasi-preregistration) | S1+S3-observer: the arrow's meaning = registering before the event |
+| **E4 — Negative data** | Negative results are ledger entries, not anomalies | U4: a single-exit register is defective; a complete ledger needs two exits |
+| **E5 — Program-level test** | Continuing is warranted only if executed tests grow and a decisive test is scheduled | S4-dynamic: progressive/degenerating = presence/absence of alignment events |
 
-## ۳. سه رژیم سکوت
+## 3. Three Regimes of Silence
 
-| رژیم | موضوع | فرم عملیاتی | نقش مرزی |
+| Regime | Subject | Operational form | Boundary role |
 |---|---|---|---|
-| **مطلق** | ناگفتنیِ ساختاری (پیشا-مرز) | نبودِ ادعا + نبودِ ثبت | حافظ — دائمی |
-| **تعلیقی** | گفته‌شدنی ولی تغییرناپذیر-فعلاً | **نبودِ ادعا + بودِ ثبت** (انبار pending با وثیقهٔ آزمون) | ناظر — موقت، پایان‌پذیر |
-| **پسندیده** | سکوتِ بارورِ کسب‌شده | فقط پس از علامتِ آماریِ نفی | پویا — جایزهٔ اجرا، نه پیش‌فرض |
+| **Absolute** | the structurally unsayable (pre-boundary) | no claim + no record | guardian — permanent |
+| **Suspensive** | sayable-but-unsettled | **no claim + present record** (pending vault, test-collateralized) | observer — temporary, terminable |
+| **Virtuous** | earned fertile silence | only after a statistical negative signal | dynamic — a reward for execution, never an assumption |
 
-**قاعدهٔ مهاجرت:** گزارهٔ تعلیق‌شده با آزمون قابل‌تصور در pending می‌ماند؛ بدون آزمون قابل‌تصور به سکوت مطلق مهاجرت می‌کند (E0). مرزِ «اثبات‌پذیر-در-اصل» متحرک است — هر هم‌ترازیِ ابزار-داده-هنجار، ساکنان تازه وارد می‌کند.
+**Migration rule:** a suspended claim with a conceivable test stays pending; with no conceivable test it migrates to absolute silence (E0). The "in-principle-testable" boundary is moving: every new alignment of tool+data+norm admits new residents.
 
-**حرمت مرز و تفکیک ابهام از سکوت (تصحیح هنجاری ۲۰۲۶-۰۹-۲۵):** سکوتِ مطلق، فراغ نیست — **حرمت است**: سرک‌کشیدن از مرز و ورود به پیشا-مرز روا نیست؛ هر کوششِ تصرف، ردهٔ E1 می‌گیرد نه جواب. اما دو تفاوتِ سخت:
+**The sanctity of the boundary; ambiguity ≠ silence (normative correction, 2026-09-25):** absolute silence is not vacancy — it is **sanctity**: peeking over the boundary and entering the pre-boundary is forbidden; every attempt at appropriation lands in category E1, not in an answer. Two hard distinctions:
 
-- **گپ ≠ سکوت:** هر گپِ شناخته‌شده درونِ مرز باید **پرچم** بخورد (نبودِ ادعا + بودِ ثبت = سکوت تعلیقی با وثیقه)؛ گپِ بی‌پرچم، سکوتِ گریز است و نقض E4. پرچم، تعهدِ بازاجراست، نه اعلامیهٔ سکوت.
-- **ابهام ≠ سکوت:** ابهام صفتِ گزاره است؛ درونِ مرز که گزاره هست، ابهامِ قابل‌رفعِ منطقی **موظف** است (ابزار، تفکیک، آزمون پسماند)؛ پیشا-مرز که گزاره نیست، «ابهام» ندارد که رفع شود — حرمت دارد که نقض نشود. آزمونِ مرز دو قلمرو: **ابزارِ قابل‌تصور هست؟ → ابهام، کار کنید. نیست؟ → سکوت، حرمت کنید.** اجرای عملیاتی: [[Two-Realm-Register]] — هر پرسشِ بازِ پیکره پرچم‌گذاری و بانک‌شده (۶:۴ + سه پرچمِ خودِ چهارچوب F، در ۲۰۲۶-۰۹-۲۵).
-- **P0 — بند خود-فالسیفایش (۲۰۲۶-۰۹-۲۵):** پروتکل معیار پسماند را برای هر مدعایی دارد؛ **خودش نیز مشمولش است.** چه پسماندی سه‌گانهٔ مولد (قید × سکوت × رخداد) را تنزل می‌دهد؟ همهٔ آزمون‌های قابل‌تصورِ فعلی مدل‌سطح‌اند — پس از تعویض قاب در رجیستر بازتولید می‌شوند؛ حکمِ صادق: **هنوز هیچ آزمونِ قابل‌تصوری هسته را تهدید نمی‌کند** — و ثبتِ این حکم الزامی است، نه عیب. ساختارِ تنزلِ عملی: هر ادعای آتیِ «عبور از مرز قلمرو حرمت» (مثلاً «قانونِ پیشا-مرز یافت شد») باید (الف) پسماندِ هم‌ترازیِ تازه‌ای نسبت به مدعای معنایی «معنا = قیدشوندگی» بسازد و (ب) در آزمون Ward بی‌طرف بماند؛ در غیر این صورت ردهٔ E1 (مصادره) است — و همین، علامتِ تنزل است. پرچم F1 در [[Two-Realm-Register]] بانک شد؛ مهاجرتش (S→W): ساختنِ «نقض‌گرِ درون‌مدل».
+- **gap ≠ silence:** every known gap inside the boundary must be **flagged** (no claim + present record = suspensive silence with test collateral); an unflagged gap is evasive silence, a violation of E4. A flag is a re-execution commitment, not a declaration of silence.
+- **ambiguity ≠ silence:** ambiguity is a predicate of propositions; inside the boundary, where propositions exist, logically resolvable ambiguity is a **duty** (tools, distinctions, the residue test); at the pre-boundary, where no proposition exists, there is no "ambiguity" to remove — there is sanctity to respect. The two-realm boundary test: **is a tool conceivable? → ambiguity: work. Not? → silence: revere.** Operational execution: [[Two-Realm-Register-EN]] — every open question of the corpus flagged and banked (6:4 + three framework-self F-flags, as of 2026-09-25).
+- **P0 — self-falsification clause (2026-09-25):** the protocol owns a residue criterion for every claim; **it applies to itself.** What residue would demote the generative triad (constraint × silence × event)? Every currently conceivable test is model-level — reproducible under a register frame swap; the honest verdict: **no conceivable test currently threatens the core** — and recording this verdict is mandatory, not a defect. Operational demotion structure: any future claim of "crossing into the sanctity realm" (e.g., "a pre-boundary law was found") must (a) generate a fresh alignment residue against the meaning claim "meaning = constraint-bearing", and (b) stay neutral under the Ward battery; otherwise it lands in E1 (appropriation) — which is precisely the demotion signal. Flag F1 banked in [[Two-Realm-Register-EN]]; its migration (S→W): building an in-model violator.
 
-## ۴. بنیادیشمری و مرجع
+## 4. Fundamentality and Reference
 
-- **بنیادی = نخستینِ ثبت، نه ساده‌ترینِ ساختار.** آنچه از مرز می‌گذرد همیشه مرکب است؛ چارچوب آن را «بنیادیِ-در-مدل-X» می‌شمارد. مرکب‌بودنِ بنیادی موتور است: درونش درجات آزادی لایهٔ بعد حمل می‌شود (کاواک مرکب است که هارمونی می‌زند).
-- **مرجع = پسماندِ رخدادِ هم‌ترازی.** انرژی (بی‌ذات، فقط تفاضل محتوا دارد؛ پایستگی‌اش مشروط به هم‌ترازیِ تقارن انتقال-زمان — نوتر؛ شکست هم‌ترازی = نشت حسابداری: سرخ‌گرایی کیهانی) و c (از اندازه‌گیری به تعریف، ۱۹۸۳): هرچه مطلقیت کم شد، بنیادیشمری بیشتر شد. جهانییت از هم‌قراردادِ ناورداست، نه بستر مطلق.
-- **مادر مجموعه‌ها = نخستین علامت (∅).** مادرِ سالم، عملِ تشکیل است نه عضوِ ممنوعِ راسل؛ الگوی اتخاذ: اصل جهانی‌های گروتندیک (پستولات، نه اشتقاق) = سکوت-مجوز.
+- **Fundamental = the first registered, not the simplest built.** What crosses the boundary is always composite; the framework *counts* it as "fundamental-within-model-X". Composite fundamentality is the engine: it carries the next layer's observables inside (the cavity is composite — that is why it rings).
+- **Reference = the residue of the alignment event.** Energy (substanceless; only differences carry content; its conservation conditional on time-translation alignment — Noether; alignment-breaking = accounting leakage: cosmological redshift) and c (from measurement to definition, 1983): the less absolute each became, the more fundamental it was counted. Universality comes from consensual invariance, not an absolute substrate.
+- **The mother of sets = the first mark (∅).** A healthy mother is the *act* of set-formation, not Russell's forbidden member; the adoption pattern: Grothendieck universes (postulate, not derivation) = licensing silence.
 
-## ۵. متناقض‌ها — سه شق سالم (و یک شق مرگ)
+## 5. Paradoxes — Three Healthy Options (and One Dead End)
 
-| شق | صورت | حکم |
+| Option | Form | Verdict |
 |---|---|---|
-| C-خام | حل مجانی، بدون علامت تجربی | ❌ ناممکن — نقض E0/E1 |
-| **C′ — سکوتِ ثبت‌شده** | جای‌گذاری به‌عنوان بیرون-قالب؛ برچسب `[out-of-frame]`، هرگز «حل‌شده» | ✅ ممکن |
-| **C″ — تغییر رو (انحلال)** | متناقض ساختهٔ قاب است؛ ناپدید می‌شود — **فقط اگر آزمون پسماند صفر بدهد** | ✅ مشروط |
-| **C‴ — تعویض اصل** | اصل تازه اتخاذ می‌شود (نه اشتقاق)، بدهی ثبت و زمان‌بندی می‌شود (الگو: پلانک) | ✅ ممکن — بدهکار |
+| C-raw | a free solution with no empirical signal | ❌ impossible — violates E0/E1 |
+| **C′ — recorded silence** | placement *out-of-frame*; label `[out-of-frame]`, never "solved" | ✅ possible |
+| **C″ — reframing (dissolution)** | the paradox is frame-made and vanishes — **only if the residue test yields zero** | ✅ conditional |
+| **C‴ — axiom replacement** | a new axiom is *adopted* (not derived), its debt registered and scheduled (the Planck pattern) | ✅ possible — indebted |
 
-### آزمون پسماند ناوردایی (سهم کانونی این پروتکل)
+### The Invariance-Residue Test (this protocol's canonical contribution)
 
-> قاب را عوض کن. اگر کشمکش، پسماندِ قابل‌اندازه‌گیریِ ناوردای زیر تغییر قاب باقی گذاشت → متناقضِ واقعی است (انحلال = گریز). اگر پسماند صفر شد → ساختهٔ قاب بوده؛ انحلال مشروع است.
+> Swap the frame. If the tension leaves a measurable, invariant residue under the frame change → the paradox is real (dissolution = evasion). If the residue vanishes → it was frame-made; dissolution is legitimate.
 
-**اجراپذیرسازی و درس‌های چهارنسلی ابزار** (`tools/limen_residue_test.py`، خروجی ثبت: `tools/limen_residue_test_output.txt`) — یک بستر رجیستر، دو تنش هم‌محل، یک حکم تفکیک‌گر:
+**Executability and the four-generation tool lessons** (`tools/limen_residue_test.py`, logged: `tools/limen_residue_test_output.txt`) — one register testbed, two co-located tensions, one discriminating verdict:
 
-| نسخه | یافته | درس پروتکلی |
+| Version | Finding | Protocol lesson |
 |---|---|---|
-| v1 | هر دو سمت پسماند صفر — مصادرهٔ کل | کمانهٔ تغیر چارچوب باید واقعاً «چیزی را» جابه‌جا کند، نه هیچ؛ وگرنه آزمون تهی است |
-| v2 | باز هم صفر — خوانش ناوردا از محتوای ثبت، خودش گِیج-خنثی است | خوانش ناوردا ≠ آزمون ناوردایی؛ باید به **مرجع منجمد** نسبت داده شود |
-| v3 | تنش واقعی (برش متقارن K1) هم مردود شد — برش متقارن، محتوای نیم-نرمالِ خودِ قاب است | **تنش واقعی باید در دینامیک باشد نه در آستانه**: برش متقارن زیر تعویض پارادایم جذب می‌شود؛ سوگیری یک‌طرفهٔ فراتر از مرز نمی‌شود |
-| v4 | معیار مطلق R/σ سمت قاب‌ساخته را هم REAL اعلام کرد (SNR=2.2 از نویز مرجع) | **معیار باید نسبی باشد**: بقاء R/T₀ نسبت به مقیاسِ تنشِ خودِ قاب بدوی — نه صفرِ مطلق |
-| **v5 (نهایی)** | **تفکیک قاطع [exact]:** سمت قاب‌ساخته R/T₀ = 0.0024 ≤ ε (منحل، C″)؛ سمت واقعی R/T₀ = 0.4929، SNR = 892.7 (ناوردای اندازه‌گیری‌پذیر، C′/C‴) | آزمون پسماند اکنون عملیاتی است: دو حرکت (کمانهٔ گِیج + تعویض پارادایم)، مرجع منجمدِ قانون متقارن (همان بذرها)، و معیار نسبی R/T₀ با آستانهٔ ε=0.1 و شرط SNR>10 |
+| v1 | both sides residue-zero — blanket vacuity | the frame-change move must actually *move something*, or the test is empty |
+| v2 | still zero — an invariant read is itself gauge-clean | an invariant *read* ≠ an invariance *test*; the reading must be taken against the **frozen anchor** |
+| v3 | the real tension (symmetric K1 cut) also failed — a symmetric cut's content is the frame's own half-normal | **a real tension must live in the dynamics, not the threshold**: a symmetric cut is absorbed by the paradigm swap; a one-sided bias beyond the edge is not |
+| v4 | the absolute criterion R/σ declared the frame-made side REAL too (SNR 2.2 from anchor noise) | **the criterion must be relative**: survival R/T₀ against the naive frame's *own* tension scale — not absolute zero |
+| **v5 (final)** | **sharp discrimination [exact]:** frame-made side R/T₀ = 0.0024 ≤ ε (dissolved, C″); real side R/T₀ = 0.4929, SNR = 892.7 (measurable invariant residue, C′/C‴) | the residue test is now operational: two moves (gauge relabel + paradigm swap), a frozen symmetric-law anchor (same seeds), the relative criterion R/T₀ with ε=0.1 and SNR>10 |
 
-**حکم ساختاری [exact]:** هویت گِیج (ماسک منجمد زیر جابه‌جایی صفر) بیت‌به‌بیت برقرار است — هر تفاوتِ مشاهده‌پذیرِ پس از آن به تنش نسبت داده می‌شود نه قاب. و تنشِ واقعیِ نمونه، دقیقاً **سوگیری یک‌طرفهٔ دینامیک** است: همین چیزی که K1 پیکره هستی‌شناسی آن را «تصحیح نوفه» می‌نامد — آزمون، هم‌ساختِ خودِ بستر را بازتأیید می‌کند.
+**Structural verdict [exact]:** the gauge identity (frozen masks under the zero shift) holds bit-for-bit — any observable difference afterwards is attributable to the tension, not the frame. And the real tension in the sample is precisely a **one-sided dynamical bias**: what the ontology-side K1 calls noise rectification — the test re-confirms its own substrate's structure.
 
-**نقشهٔ پارامتری تنش (اجرا شده):** `tools/limen_residue_param_map.py` · خروجی: `tools/limen_residue_param_map_output.txt` — عمق سوگیری یک‌طرفه d (دستگاه تنش واقعی) نقشه‌برداری شد و آستانهٔ تفکیک کمّی شد:
+**Tension parameter map (executed):** `tools/limen_residue_param_map.py` · output: `tools/limen_residue_param_map_output.txt` — the one-sided bias depth d (the real-tension knob) is mapped and the discrimination threshold is quantified:
 
-- **فرم بسته [exact model]:** μ(d) = b + m + d با m = φ(b)/Φ(b) = 0.61722 (نسبت Mills معکوس) ⇒ **rel(d) = d/(m+d)** — یکنوای صعودی، اشباع در ۱. لنگر: μ(0) = 0.91722 در برابر لنگر اندازه‌گیری‌شدهٔ v5 = 0.91720 — توافق پنج رقم اعشار. **درس ثبت‌شده (E4):** نسخهٔ اول همین ابزار √(2/π) را لنگر گرفت و باتری مونت‌کارلوی خودش ردش کرد (رانش سیستماتیک با d) — فرم بسته کاندید است تا باتری قبولش کند؛ همان انضباط v1–v4 ابزار والد.
-- **بازتولید کانونی [measured]:** d=0 → rel=0.0024, SNR=2.2؛ d=0.60 → rel=0.4929, SNR=892.7 — بیت‌به‌بیت v5.
-- **آستانهٔ تفکیک — درون فیزیک آستانه‌ای نیست:** rel(d) پیوسته و صعودی است؛ آستانه، **انتخاب معرفتی ε روی منحنی** است: d_class = ε·m/(1−ε) = 0.0686 برای ε=0.1 (شبیه‌سازی: 0.0694 — توافق 0.0008). آستانهٔ **آشکارسازی** مستقل است: SNR ≈ ۱۴۸۸ بر واحد d ⇒ d_det ≈ 0.0067.
-- **پنجرهٔ صداقت‌آمیز:** بین d_det=0.0067 و d_class=0.0686 پسماند آشکاراست ولی هنوز قاب‌ساخته طبقه‌بندی می‌شود — آزمون صادقانه می‌گوید: «چیزی از تعویض قاب جانبه سالم می‌ماند، اما برای رهاکردن قاب کافی نیست.» عملکرد بیرون این پنجره، همان چیزی است که انتخاب ε=0.1 می‌خرد.
-- **کالیبراسیون:** d_class(ε) = ε·m/(1−ε): ε=0.05→0.0325 · 0.10→0.0686 · 0.20→0.1543 · 0.30→0.2645. نقطهٔ کاری v5 (d=0.60) در rel=0.4929 — حدود ۴.۹ برابر بالاتر از ε: حاشیهٔ امن.
-- **گلوگاه بحرانی K1 (پل اجراشده به SPUMA):** لبهٔ بحرانی لبه‌تیز K1 در b_c = 0.126 (p_f = 0.593 ≈ p_c) با بند اشتراکیِ فرم گذار-اول p_f = e^{−2bm₀} هم‌قرارداد است ⇒ **d_class به‌طور دقیق زیر قلمرو دقتِ کالیبراسیون b_c می‌افتد**: b_c/d_class = **1.841 ± 0.002** (پایداری سه‌اندازه L=256/512/1024: b_c = 0.1263 ± 0.0002؛ نوار کالیبراسیون ±0.03). **تصحیح E4:** مقدار پیشینِ «15.75 ± 0.25» خارج‌قسمتِ اشتباهی بود که هرگز مستقلاً بازمحاسبه نشد — باتریِ قطعیت (SPUMA `tools/bc_finiteness_L.py`) آن را اصلاح و پایداری را قطعی کرد.. لبهٔ بحرانی SPUMA و لبهٔ REAL پسماند **در یک رژیم جهان‌شمول (همان دهک) قرار دارند — ولی یک آستانهٔ واحد نیستند**: هویت گِیج انجماد mask(b,d) = mask(b+d,0) بیت‌به‌بیت برقرار است ⇒ p_f د-کور و طبقه‌بندی پسماند p_f-کور — دو محور متعامد یک رجیستر که در نقطهٔ ملاقات (b, d) = (0.0574, 0.0686)، یعنی b_eff = b_c، هم‌رخداد کامل دارند (baha: گذر از پشتِ لبهٔ بحرانی در کانال b با جبران دقیق در کانال d). نهیِ در b_c: d_crit ≈ 0.002 < d_det ≈ 0.0067 < d_class = 0.0686 — بحرانیتِ صرف، پسماندِ آشکارشونده را مستثنا می‌کند؛ لبهٔ REAL درگاه ورود به رژیم کاواک‌های منزوی است. ابزار: SPUMA `tools/spuma_residue_regime_bridge.py` + `_output.txt`.
-- **دینامیک منابعِ پنجرهٔ صداقت‌آمیز (نقشهٔ اجراشده):** دو لبهٔ پنجره ذاتاً متفاوت‌اند — **d_det لبهٔ نوفه است** (تمام نویزِ آشکارسازی، خطای تخمینِ مرجع منجمد است: d_det = g·std(C)/√(S·N·w)؛ قانون اندازه‌گیری‌شده d_det ≈ 8.05·(S·N·w)^−0.500، باقی‌ماندهٔ <0.07 dex) و **d_class لبهٔ معرفتی است** (با ε=0.1 ثابت). پس منابع بیشتر پنجره را **نمی‌بندند — از پایین باز می‌کنند**: ناحیهٔ سکوت [0, d_det] جمع می‌شود (0.0067 → 0.00055 در بودجهٔ ×192)، پهنای پنجره (0.0619 → 0.0680) می‌روید، و لبهٔ راست در هیچ بودجهٔ شدنی حرکت نمی‌کند — **محاسبه آشکارسازی می‌خرد، هرگز طبقه‌بندی نه.** بستن هر دو لبه یعنی اتخاذِ استاندارد ردیاب‌گر **eps*_close = d_det/(m+d_det)** که مثل کف نوفه تنگ می‌شود (0.0108 کانونی → 0.00088 در بهترین سلول) — هر دهکِ تنگ‌تر = ×۱۰۰ منابع (ε*=1e-4 نیازمند S·N·w ≈ 1.7e10). ابزار: `tools/limen_window_resources.py` + `_output.txt`. درس‌های ثبت‌شده (E4): v1 به‌جای رانش قطعی، نوفهٔ گاوسی تزریق کرد (قانون دیگر — پرش Mills؛ باتری ردش کرد)؛ v2 لبه را با d جابه‌جا کرد (نیز نه v5).
-- **منحنی قیمت نقطهٔ نهی بحرانیت (W3، اجرا شده):** `tools/limen_d_crit_price.py` + `_output.txt` — معافیتِ نهی (d_crit = 0.002 < d_det) **بودجه‌محدود است نه مطلق**: نردبان موتور v5 براکتِ X* ∈ [1.97e7, 2.36e7] گام-راهرو (۱۰–۱۲× کانونی؛ تحلیلی ۸.۲×) را می‌دهد — در X*، d_det = 0.00194 ≤ d_crit و پسماندِ نقطهٔ نهی آشکارساز می‌شود. قیمت نیمه‌نقطه ۳۳× و ربع‌نقطه ۱۳۲× — معافیت در یک دهک بودجه بسته می‌شود (برخلاف استاندارد eps*=1e-4 با ~۴ دهک). d_class هنوز با ε سنجاق است — بندِ «محاسبه آشکارسازی می‌خرد، هرگز طبقه‌بندی نه» بی‌تغییر.
-- **آزمون Ward مرزِ سپر→تقویت (W7، اجرا شده):** `tools/limen_beta_ward.py` + `_output.txt` — مرزِ هندسیِ گذار در صفحهٔ β (BETA* = +0.076 محدود-به-گرید؛ S = +0.743؛ D = −0.0704 با علامتِ صادقانه: اتحاد هرگز زیر سولوی کوچک‌تر نمی‌رود — مرز (الف) وجود ندارد) زیر سه روایت پیشا-مرز **هش IDENTICAL [exact]** و زیر تزئین نوفه (پادمتقارن/جابجایی محور؛ رویدادها واقعاً متفاوت 5/5) **ناورداست**: S و D با z انسامبلی 0.74 و 0.96؛ BETA* رزولوشن‌محدود (z=1.41 < 2σ در گام گرید 0.02 — پرچم‌گذاری شد، نه دفن؛ ردیابی بهتر با بودجهٔ بزرگ‌تر طبق قانون منابع). لنگر شکل: بازتقویت در β=−2 (0.5238 در برابر کف 0.3692). مرزِ سپر→تقویت به **قانون** تعلق دارد نه روایت یا جریان نوفه — بندِ خود-فالسیفایش §۳ اکنون یک مرزِ آزمون‌شدهٔ دیگر دارد.
+- **Closed form [exact model]:** mu(d) = b + m + d with m = phi(b)/Phi(b) = 0.61722 (inverse Mills ratio) ⇒ **rel(d) = d/(m+d)** — monotone increasing, saturating at 1. Anchor: mu(0) = 0.91722 vs the v5 measured anchor 0.91720 — five-decimal agreement. **Registered lesson (E4):** this tool's own v1 took sqrt(2/pi) as the anchor and its own Monte-Carlo battery refuted it (systematic drift with d) — a closed form is a candidate until the battery passes it; the same discipline as the parent tool's v1–v4.
+- **Canonical reproduction [measured]:** d=0 → rel=0.0024, SNR=2.2; d=0.60 → rel=0.4929, SNR=892.7 — bit-for-bit v5.
+- **Discrimination threshold — no threshold inside the physics:** rel(d) is continuous and increasing; the threshold is an **epistemic choice of eps on the curve**: d_class = eps*m/(1−eps) = 0.0686 at eps=0.1 (simulation: 0.0694 — agreement 0.0008). The **detection** threshold is independent: SNR ≈ 1488 per unit d ⇒ d_det ≈ 0.0067.
+- **The honest window:** between d_det=0.0067 and d_class=0.0686 the residue is detectable yet still classified frame-made — the test honestly says: "something survives the swap, but not enough of the naive tension to abandon the frame." Operating outside this window is what choosing eps=0.1 buys.
+- **Calibration:** d_class(eps) = eps*m/(1−eps): eps=0.05→0.0325 · 0.10→0.0686 · 0.20→0.1543 · 0.30→0.2645. The v5 operating point (d=0.60) sits at rel=0.4929 — about 4.9x above eps: a safe margin.
+- **The K1 critical bottleneck (bridge executed to SPUMA):** the sharp-corner K1 critical edge sits at b_c = 0.126 (p_f = 0.593 ≈ p_c), contract-shared through the transition-first form p_f = e^{−2bm₀} ⇒ **d_class falls exactly inside b_c's calibration resolution**: b_c/d_class = **1.841 ± 0.002** (three-size stability L=256/512/1024: b_c = 0.1263 ± 0.0002; calibration band ±0.03). **E4 correction:** the previously deposited "15.75 ± 0.25" was a wrong quotient never independently recomputed — the finiteness battery (SPUMA `tools/bc_finiteness_L.py`) corrected it and settled stability.. SPUMA's critical edge and the residue REAL edge **land in one universal regime (same decade) — but are not one threshold**: the freeze-out gauge identity mask(b,d) = mask(b+d,0) holds bit-for-bit ⇒ p_f is d-blind and the residue classification is p_f-blind — two orthogonal axes of one register meeting exactly once at (b, d) = (0.0574, 0.0686), i.e. b_eff = b_c (the price: crossing behind the critical edge in the b channel, exactly compensated in the d channel). No-go at b_c: d_crit ≈ 0.002 < d_det ≈ 0.0067 < d_class = 0.0686 — bare criticality excludes any detectable residue; the REAL edge is the gateway to the isolated-cavity regime. Tool: SPUMA `tools/spuma_residue_regime_bridge.py` + `_output.txt`.
+- **Resource dynamics of the honest window (map executed):** the two edges are of different nature — **d_det is a noise edge** (the whole detection noise is the frozen-anchor estimation error: d_det = g*std(C)/sqrt(S*N*w); measured law d_det ≈ 8.05*(S*N*w)^−0.500, residual <0.07 dex) and **d_class is an epistemic edge** (pinned at eps=0.1). Hence more compute does NOT close the window — it OPENS it from below: the silent zone [0, d_det] shrinks (0.0067 → 0.00055 at a x192 budget), the window width grows (0.0619 → 0.0680), and the right edge never moves at any feasible budget — **compute buys detection, never classification.** Closing both edges means adopting the tracking standard **eps*_close = d_det/(m+d_det)**, which tightens like a noise floor (0.0108 canonical → 0.00088 at the best cell) — each tighter decade = x100 compute (eps*=1e-4 needs S*N*w ≈ 1.7e10). Tool: `tools/limen_window_resources.py` + `_output.txt`. Registered lessons (E4): v1 injected Gaussian noise instead of the deterministic drift (a different law — the Mills jump; caught by the battery); v2 let the edge move with d (also not v5).
+- **The price curve of the criticality notch (W3, executed):** `tools/limen_d_crit_price.py` + `_output.txt` — the notch exemption (d_crit = 0.002 < d_det) is **BUDGET-LIMITED, not absolute**: a v5-engine budget ladder gives the bracket X* ∈ [1.97e7, 2.36e7] walker-steps (10–12x canonical; analytic 8.2x) — at X*, d_det = 0.00194 ≤ d_crit and the notch residue becomes detectable. Half-notch price 33x, quarter-notch 132x — the exemption closes at ONE decade of budget (unlike the eps*=1e-4 standard at ~4 decades). d_class stays pinned by eps — the "compute buys detection, never classification" clause is unchanged.
+- **Ward test of the shield->boost boundary (W7, executed):** `tools/limen_beta_ward.py` + `_output.txt` — the geometric boundary on the beta plane (BETA* = +0.076 grid-limited; S = +0.743; D = −0.0704 with the honest sign: the union never goes below the smaller solo — boundary (a) does not exist) is **mask-IDENTICAL under the three pre-boundary narratives [exact]** and **invariant under noise decorations** (antithetic / axis-swap; genuinely different event sets 5/5): S and D at ensemble z = 0.74 and 0.96; BETA* resolution-limited (z = 1.41 < 2 sigma at grid step 0.02 — flagged, not buried; tighter tracking is a resource question per the window law). Shape anchor: re-amplification at beta = −2 (0.5238 vs floor 0.3692). The shield->boost boundary belongs to the LAW, not to a narrative or a stream — the S3 self-falsification clause now has one more tested boundary.
 
-اعمال بر نقاط عطف: دوقلویی/زنون (پسماند صفر → C″) · بی‌نهایت‌های EFT (نیمه: ریگولاتور قاب‌وابسته، جریان واقعی) · Λ با ۱۲۰ مرتبه (پسماند قابل‌اندازه‌گیری → C′ یا C‴) · اندازه‌گیری (آمار ناورداست → C′: تفسیرها) · اطلاعات سیاه‌چاله (انبار pending).
+Applied: twin paradox/Zeno (zero residue → C″) · EFT infinities (half: regulator frame-dependent, flow real) · Λ at 120 orders (measurable residue → C′ or C‴) · measurement (Born statistics invariant → C′: interpretations) · black-hole information (pending vault).
 
-**تفکیک ظریف:** بی‌معناییِ کمّی (صفرِ ارزش، سکوت تعلیقی) ≠ بی‌معناییِ قالبی (حتی ارزش نیست، سکوت مطلق). آزمون عملیاتی: آیا عملگرِ اندازه‌گیری تعریف‌پذیر است؟
+**Fine distinction:** quantitative meaninglessness (value = zero, suspensive silence) ≠ frame-level meaninglessness (not even a value exists, absolute silence). Operational test: is a measurement operator even definable?
 
-## ۶. اطلس نقاط عطف — [protocol-mirror]
+## 6. Pivot Atlas — [protocol-mirror]
 
-فیزیکِ پذیرفته‌شده در هفت نقطهٔ عطفِ متناقضش، این پروتکل را بی‌نام اجرا می‌کند:
+Accepted physics, at seven paradoxical pivots, executes this protocol unnamed:
 
-| نقطهٔ عطف | پروتکلِ ضمنی فیزیک | بندِ این پروتکل |
+| Pivot | Physics' implicit protocol | This protocol's clause |
 |---|---|---|
-| پیکان زمان | پیکان در شرط مرزی و آمار است، نه قوانین؛ سکوتِ شرط اولیه | رخداد-جهت‌ساز؛ فرمانِ نفیِ آماری؛ سکوت مطلق |
-| اندازه‌گیری | قاعدهٔ بورن پستولات؛ تفسیر ساکت | رخداد بر نقطه؛ سکوت-مجوز (اتخاذ نه اشتقاق) |
-| ثابت کیهان‌شناسی | انرژی خلأِ مطلق بی‌صفرِ قابل‌مشاهده ندارد؛ فقط تفاضل محتوا دارد | انرژی بی‌ذات؛ مقدار مطلق بی‌قالب است نه غلط |
-| بی‌نهایت‌ها | cutoff جزیی گزاره ثبت می‌شود | سکوت مکتوم؛ بنیادیشمریِ مقیاس-نسبت |
-| گرانش کوانتومی | قلمروِ معتبری «تا مرز» اعلام می‌شود | E2؛ مرزِ قلمرو جزیی گزاره |
-| اطلاعات سیاه‌چاله | سکوت تعلیقی با کاندیدهای وثیقه‌دار | انبار pending؛ قاعدهٔ مهاجرت |
-| ظریف‌سازی ثابت‌ها | بیرون هم‌ترازی؛ بدون آزمون قابل‌تصور | E0/S4: بی‌قالب نه غلط؛ سکوت تا علامت |
+| Arrow of time | the arrow lives in the boundary condition and statistics, not the laws; silence over the initial condition | event-direction-maker; statistical prohibition; absolute silence |
+| Measurement | Born's rule is postulated; interpretation silent | event on a point; licensing silence (adoption, not derivation) |
+| Cosmological constant | absolute vacuum energy has no observable zero; only differences carry content | substanceless energy; the absolute value is frame-less, not false |
+| Infinities | the cutoff is registered *as part of the statement* | recorded silence; scale-relative fundamentality |
+| Quantum gravity | validity declared "up to a boundary" | E2; the scope boundary is part of the claim |
+| Black-hole information | suspensive silence with collateralized candidates | the pending vault; the migration rule |
+| Fine-tuning | outside alignment; no conceivable test | E0/S4: frame-less, not false; silence until a signal |
 
-**حکم جایگاه:** پیکره در این اطلس آینه است نه رقیب — نه حل‌کننده که **سنجهٔ پسماند**. هر ادعای «رفعِ پارادوکس» به‌طور خودکار به ردهٔ خطای E1 می‌افتد.
+**Position verdict:** here the corpus is a *mirror*, not a rival — not a solver but a **residue measurer**. Any claim of "removing a paradox" automatically falls into the E1 error class.
 
-## ۷. خودکاروزی — دو آزمونِ خودِ پروتکل
+## 7. Self-Audit — Two Tests of the Protocol Itself
 
-پروتکلی که «ناوردایی» را گزارهٔ مرکزی می‌داند، باید خودش آزمون‌پذیر باشد:
+A protocol that makes invariance its central claim must be testable itself:
 
-1. **آزمون Ward-مانندِ روایت:** همهٔ باتری‌های عددی (T1–T7، رجیستر واحد، فروپاشی دوز، پویش β) باید زیر روایت‌های متفاوتِ پیشا-مرز بی‌تغییر بمانند. وابستگی خروجی [measured] به روایت = ناهنجاریِ دفتر.
-2. **سازگاری درون‌اطلس:** نگاشت‌های هفت‌نقطه‌ایِ §۶ باید از یک نقشهٔ واحد بیرون بیایند، نه هفت وصلهٔ جدا. ناسازگاری درون‌اطلس = ناهنجاریِ دفتر.
+1. **Ward-like narrative test:** all numerical batteries (T1–T7, unified register, dose collapse, β-plane) must remain unchanged under *different* pre-boundary narratives. Any dependence of [measured] output on narrative = ledger anomaly.
+2. **Intra-atlas coherence:** the seven §6 mappings must come from one map, not seven patches. Intra-atlas inconsistency = ledger anomaly.
 
-## ۸. اجرای خودکاروزی — آزمون Ward-مانند (S7.1) [`measured`]
+## 8. Self-Audit Executed — the Ward-Like Test (S7.1) [`measured`]
 
-اجرا شد: `tools/limen_ward_invariance.py` · خروجی ثبت: `tools/limen_ward_invariance_output.txt`. سه روایت پیشا-مرز (کانون «سرریز از مرز ساکت» / «ته‌نشینی پسماند» / «فراخوانی بدهی») روی مینی-باتری T1/T2/T4/T6c + رجیستر واحد (سولوهای واقعی کانال A و B با گیت سخت، L=128/96، بذرهای کانونی ۱-۲-۳):
+Executed: `tools/limen_ward_invariance.py` · logged: `tools/limen_ward_invariance_output.txt`. Three pre-boundary narratives (canon "overflow through the silent boundary" / "residue settling" / "debt called") over a mini-battery T1/T2/T4/T6c + the unified register (true hard-gated solos of channels A and B, L=128/96, canonical seeds 1-2-3):
 
-| نیمهٔ آزمون | نتیجه | حکم |
+| Half of the test | Result | Verdict |
 |---|---|---|
-| **الف — روایتِ فقط-تزئینی** | هش رویداد هر چهار کمیت IDENTICAL [exact]؛ هر ۸ کمیت اندازه‌گیری‌شده (T1 frac=0.08649، T2 mono=1.0، T4=2.12285، T6c، p_A=0.31952، p_B=0.29850) با z=0.00 در هر سه روایت یکسان | روایت هیچ کار دینامیکی نمی‌کند — E0 برقرار |
-| **ب — تزئین جریان نوفه** (آموزش v1: نیمهٔ الف به‌تنهایی بدیهی است) | پادمتقارن ξ→−ξ و جابجایی محور ξ→ξᵀ: ماسک T1 زیر جابجایی محور ۱۵.۵۶٪ مخالف؛ ولی آمار ناورداست — T1 با پهنای < 2σ، T4 با مقیاس نویز بذر مستقل (۸ بذر) < 2σ | کمیت‌ها به **قانون** تعلق دارند نه به جریان نوفه — نیمهٔ بدیهی‌زدوده |
-| **حکم نهایی** | VERDICT: narrative invariance **HOLDS** [measured] | خودکاروزی S7.1 گذشت — روایت پیشا-مرز، تزئین است نه موتور |
+| **(a) decoration-only narratives** | event hashes of all four quantities IDENTICAL [exact]; all 8 measured quantities (T1 frac=0.08649, T2 mono=1.0, T4=2.12285, T6c, p_A=0.31952, p_B=0.29850) identical at z=0.00 across the three narratives | the story does no dynamical work — E0 holds |
+| **(b) noise-stream decoration** (the v1 lesson: half (a) alone is vacuous) | antithetic ξ→−ξ and axis-swap ξ→ξᵀ: the T1 mask disagrees by 15.56% under axis swap; yet the statistics remain invariant — T1 within <2σ, T4 within <2σ of an independently estimated 8-seed noise scale | quantities belong to the **LAW**, not the stream — the vacuity removed |
+| **Final verdict** | VERDICT: narrative invariance **HOLDS** [measured] | the S7.1 self-audit passes — the pre-boundary narrative is decoration, not engine |
 
-نکتهٔ صادقانه: اعداد مینی-باتری با کانونیِ تمام‌قد کمی متفاوت‌اند (L کوچک‌تر) — p_A=0.3195 در برابر 0.3174، p_B=0.2985 در برابر 0.2990؛ موضوع آزمون ناوردایی بود نه بازتولید مطلق.
+Honest note: the mini-battery numbers differ slightly from the full-resolution canon (smaller L) — p_A=0.3195 vs 0.3174, p_B=0.2985 vs 0.2990; what is tested is invariance, not absolute reproduction.
 
-## ۹. صداقت روش‌شناختی
+## 9. Methodological Honesty
 
-- **برچسب‌ها:** محتوای §۱–۵ تحلیل مفهومی است `[conceptual]`؛ §۶ بازخوانی روش‌شناختیِ تاریخ فیزیک است `[protocol-mirror]` — نه مدعیِ فیزیک تازه، نه رفعِ ناسازگاری.
-- **حد اتخاذی باقی‌مانده:** اصلِ «معنا = قیدشوندگی» نفی‌اش رقیب نمی‌سازد، سکوت می‌سازد — حداقلِ ممکن و کمترش ناممکن. ادعای «صفر اصل اتخاذی» خودش نقض E1 بود.
-- **آنچه عطا نمی‌کند:** حتی یک تأیید تجربی تازه. ارتقا، ارتقای وضعیت روش‌شناختی است — از هنجارهای اتخاذیِ پراکنده به پروتکلِ واحدِ اشتقاق‌یافته از یک هستهٔ سه‌گانه.
-- **لنگرهای کتاب‌شناختی:** کانت (شرط امکان) · اسپنسر-براون ۱۹۶۹ (بازورود) · لومان (ناظر=تمایز) · لاکاتوش (هسته/کمربند) · تارسکی-نقطه‌ثابت (شبکه‌ای) · راسل ۱۹۰۳ · سلسله‌مراتب تجمعی · گروتندیک (SGA4) · فاینمن (انرژی بی‌ذات) · نوتر ۱۹۱۸.
-- **لنگرهای مستندشده (نوت‌های Literature-Grounding، `09_Literature_Grounding/`):** **نه لنگر** با ارجاع راستی‌آزمایی‌شده و نگاشت ردیف‌به‌ردیف به E0–E5 و بندهای همین سند — اسپنسر-براون [[LG-1-Spencer-Brown-1969]] (بازورود؛ §۱/§۳/§۴) · لومان [[LG-2-Luhmann-1995]] (ناظر=تمایز؛ §۷/§۹) · لاکاتوش [[LG-3-Lakatos-1976]] (هسته/کمربند؛ §۲ E2/E5) · تارسکی [[LG-4-Tarski-1955]] (نقطهٔ ثابت شبکه‌ای؛ §۴/§۵) · کانت [[LG-5-Kant-1781-1787]] (روش استعلایی؛ §۳/§۵/P0) · راسل [[LG-6-Russell-1908]] (انواع؛ §۴/F1) · گروتندیک [[LG-7-Grothendieck-1963-64]] (پستول جهانی؛ §۱/§۳) · فاینمن [[LG-8-Feynman-1964]] (همان معادله‌ها؛ §۲/§۴) · نوتر [[LG-9-Noether-1918]] (تقارن→پایستگی؛ §۴). فهرستِ لنگرهای مستندشده اکنون **کامل** است (۱۴ مرجعِ سطر بالا ← ۹ نوت).
+- **Labels:** §1–5 are conceptual analysis `[conceptual]`; §6 is a methodological re-reading of physics history `[protocol-mirror]` — no claim of new physics, no claim of dissolving inconsistencies.
+- **The remaining adopted axiom:** "meaning = constraint-ability" — negating it builds no rival, only silence: the minimum possible, and less is impossible. Claiming "zero adopted axioms" would itself violate E1.
+- **What it does not grant:** not one new empirical confirmation. The upgrade is in methodological status — from scattered adopted norms to one protocol derived from a single triadic core.
+- **Bibliographic anchors:** Kant (conditions of possibility) · Spencer-Brown 1969 (re-entry) · Luhmann (observer = distinction) · Lakatos (core/belt) · Tarski fixed-point (lattice form) · Russell 1903 · cumulative hierarchy · Grothendieck (SGA4) · Feynman (substanceless energy) · Noether 1918.
+- **Documented anchors (Literature-Grounding notes, `09_Literature_Grounding/`):** **nine anchors** with verified references and row-by-row mappings to E0–E5 and to this document's clauses — Spencer-Brown [[LG-1-Spencer-Brown-1969-EN]] (re-entry; §1/§3/§4) · Luhmann [[LG-2-Luhmann-1995-EN]] (observer = distinction; §7/§9) · Lakatos [[LG-3-Lakatos-1976-EN]] (core/belt; §2 E2/E5) · Tarski [[LG-4-Tarski-1955-EN]] (lattice fixed point; §4/§5) · Kant [[LG-5-Kant-1781-1787-EN]] (transcendental method; §3/§5/P0) · Russell [[LG-6-Russell-1908-EN]] (types; §4/F1) · Grothendieck [[LG-7-Grothendieck-1963-64-EN]] (universe postulate; §1/§3) · Feynman [[LG-8-Feynman-1964-EN]] (same equations; §2/§4) · Noether [[LG-9-Noether-1918-EN]] (symmetry → conservation; §4). The documented-anchor list is now **complete** (the ten names above ← nine notes).
 
 ## Related
 
-- [[A1-Silent-Boundary]] — نقطهٔ ثابتِ مصداقی: گزارهٔ مرزی
-- [[Unified-Register-Integration]] — هویت انحصاری و دو خروج، منشأ E4
-- [[Limen-Spuma-Parameter-Bridge]] — پل کمّی
-- آینهٔ انگلیسی: [[Aligned-Protocol-EN]]
+- [[A1-Silent-Boundary-EN]] — the exemplar fixed point: the boundary statement
+- [[Unified-Register-Integration-EN]] — the exclusive-identity and two-exit origin of E4
+- English mirror of this note: [[Aligned-Protocol]]

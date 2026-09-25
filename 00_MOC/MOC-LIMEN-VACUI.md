@@ -2,68 +2,70 @@
 title: "LIMEN-VACUI MOC"
 aliases: ["LIMEN MOC", "Map of Content"]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-25
 tags: [limen-vacui, moc]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
 # LIMEN-VACUI — Map of Content
 
-> 🇬🇧 **English mirror:** آینهٔ انگلیسی تمام نوت‌ها در پوشهٔ `en/` — نقطهٔ ورود: [[README]] و [[MOC-LIMEN-VACUI-EN]].
+> 🇮🇷 **Persian originals:** `fa/` — same folder layout, canonical Persian text.
 
-## ادعای مرکزی
+## Central claim
 
-$$\text{LIMEN} = \underbrace{\text{سکوت}}_{\text{پیشا-مرز}} + \underbrace{K1}_{\text{سرریز قیدی}} + \underbrace{\vec{\mathcal{A}}}_{\text{پیکان پیشین→پسین}} + \underbrace{K3}_{\text{بالشتک بالانس}} + \underbrace{K4}_{\text{زایش پاپ‌کورنی}} + \underbrace{K2}_{\text{حلقه‌های رهایش}}$$
+$$\text{LIMEN} = \underbrace{\text{silence}}_{\text{pre-boundary}} + \underbrace{K1}_{\text{constraint overflow}} + \underbrace{\vec{\mathcal{A}}}_{\text{prior}\to\text{posterior arrow}} + \underbrace{K3}_{\text{balance cushion}} + \underbrace{K4}_{\text{popcorn birth}} + \underbrace{K2}_{\text{release rings}}$$
 
-مرز (لیمن) خود **محل سکوت** است؛ هستی پسین نه از کش‌آمدن هندسهٔ اقلیدسی محض، که از **سرریز قیدی از تقارن کامل** زاده می‌شود — و همین سرریز، پیکان زمان را به‌مثابه ثبتِ یک‌سویه ایجاد می‌کند.
+The boundary (the limen) is itself **the silent place**; the posterior being is born not from the stretching of a purely Euclidean geometry but from a **constraint overflow from perfect symmetry** — and this very overflow creates the arrow of time as one-way registration.
 
-## Folder Map
+## Folder map
 
-- `01_Axioms/` — سه اصل: A1 سکوت مرز، A2 سرریز از تقارن کامل، A3 پیکان از ثبت.
-- `02_Constraints/` — K1 سرریز و حد انفصال، K2 حلقه‌های رهایش قید.
-- `03_Onset_Arrow/` — پتانسیل جهت‌دار پیشین→پسین (خراش عینک).
-- `04_Balancer/` — بالشتک دو-جبهه‌ای؛ ممنوعیت تورم بی‌نهایت (گزارهٔ کشسانی)؛ **سنتز سه‌لایهٔ O+/C_mid/D− با آزمون T6**.
-- `05_Popcorn/` — زایش پاپ‌کورنی خلا و نوفهٔ بستری؛ پیامد سرخ‌گرایی.
-- `06_Rings/` — نردبان حلقه‌ای پیرامون وید: C_α = n·Φ₀، نجات‌یافته از رهاشدگی.
-- `07_Companion_Mapping/` — پل به SPUMA-VACUI و Emergence-SDF-Vault؛ **پل کمّی پارامتری LIMEN→SPUMA**.
-- `08_Protocol/` — **پروتکل سازگار واحد**: هستهٔ سه‌گانهٔ قید/سکوت/رخداد، شش هنجار E0–E5، سه رژیم سکوت، بنیادیشمریِ ثبت‌شده، سه شق متناقض + آزمون پسماند ناوردایی، و اطلس هفت‌نقطه‌ای [protocol-mirror].
-- `09_Literature_Grounding/` — **لنگرهای کتاب‌شناختی پروتکل** با ارجاع راستی‌آزمایی‌شده و نگاشت به E0–E5: اسپنسر-براون ۱۹۶۹ (بازورود)، لومان ۱۹۸۴/۱۹۹۵ (ناظر=تمایز)، لاکاتوش ۱۹۷۶ (هستهٔ سخت)، تارسکی ۱۹۵۵ (نقطهٔ ثابت شبکه‌ای، DOI) — و (۲۰۲۶-۰۹-۲۵) کانت ۱۷۸۱/۱۷۸۷ (روش استعلایی)، راسل ۱۹۰۸ (انواع)، گروتندیک SGA4 (پستول جهانی)، فاینمن ۱۹۶۴ (همان معادله‌ها)، نوتر ۱۹۱۸ (تقارن→پایستگی).
+(Persian originals live in `fa/` with the same folder layout; the English editions at the repository root are canonical.)
 
-## ابزار و اعداد کانونی
+- `01_Axioms/` A1–A3 — three axioms: the silent boundary, overflow from perfect symmetry, the arrow from registration.
+- `02_Constraints/` K1–K2 — the overflow/discontinuity limit and the release rings.
+- `03_Onset_Arrow/` — the prior→posterior directed potential (the glasses scratch).
+- `04_Balancer/` — the two-front cushion; the infinite-inflation prohibition; the three-layer O+/C_mid/D− synthesis with the T6 tests.
+- `05_Popcorn/` — popcorn cavity nucleation and the redshift consequence.
+- `07_Companion_Mapping/` — the family map, the acceleration audit, the executed LIMEN→SPUMA parameter bridge (B1–B4), and the unified register (one lattice, both canonical exits).
+- `08_Protocol/` — **the Aligned Protocol** (English edition): the generative triad, the six norms E0–E5, three regimes of silence, registered fundamentality, the three healthy paradox options + the invariance-residue test, and the seven-pivot atlas [protocol-mirror]; plus the Two-Realm Register.
+- `09_Literature_Grounding/` — **the protocol's bibliographic anchors** with verified references and row-by-row mappings to E0–E5: Spencer-Brown 1969 (re-entry), Luhmann 1984/1995 (observer = distinction), Lakatos 1976 (hard core), Tarski 1955 (lattice fixed point, DOI), Kant 1781/1787, Russell 1908, Grothendieck (SGA4), Feynman (FLP), Noether 1918.
 
-- `tools/limen_core.py` — پنج آزمون اجراشده (خروجی: `tools/limen_core_output.txt`)
-- `tools/middle_atmosphere_test.py` — باتری T6 (خروجی: `tools/middle_atmosphere_output.txt`)
-- `tools/limen_spuma_bridge.py` — پل کمّی LIMEN→SPUMA (خروجی: `tools/limen_spuma_bridge_output.txt`)
-- `tools/limen_ring_dynamics.py` — دینامیک رهایش قید (T7) (خروجی: `tools/limen_ring_dynamics_output.txt`)
-- `tools/limen_spuma_unified_register.py` — رجیستر واحد یکپارچه (خروجی: `tools/limen_spuma_unified_output.txt`)
+## Canonical numbers
 
-| کمیت | مقدار | منبع |
+- `tools/limen_core.py` — five executed tests (`tools/limen_core_output.txt`)
+- `tools/middle_atmosphere_test.py` — the T6 battery (`tools/middle_atmosphere_output.txt`)
+- `tools/limen_spuma_bridge.py` — the LIMEN→SPUMA quantitative bridge (`tools/limen_spuma_bridge_output.txt`)
+- `tools/limen_ring_dynamics.py` — the constraint-release dynamics, T7 (`tools/limen_ring_dynamics_output.txt`)
+- `tools/limen_spuma_unified_register.py` — the unified register (`tools/limen_spuma_unified_output.txt`)
+
+| Quantity | Value | Source |
 |---|---|---|
-| کسر مرز ثبت‌شده (ساکت) | 0.912؛ نرخ ثبت پس از خاموشی = 0.00 | T1 |
-| یکنوایی پیکان A(t) | 100%؛ از قانون بدون-پیکان | T2 |
-| سرعت جبهه / کون کشسانی | 0.75 / 1.00 — اطاعت؛ برابرسایی دقیق −0.25 | T3 |
-| میانگین کاواک پاپ‌کورنی | 2.34 سلول (= SPUMA K1) | T4 |
-| شار خالص دیپل از سطح بسته | 0.00 (سه شعاع)؛ نردبان C~r⁻² | T5 |
-| کران‌داری انبساط (بستار جبرانی) | ۱۲/۱۲ سلول گرید رانش bounded-saturated | T6a |
-| آستانهٔ هسته‌زایی فوم | Ξ_crit ≈ 0.8 (گذار تمیز زیر/بالا) | T6c |
-| «تورم فزایندهٔ ناظر میانی» | رکود → شبه‌ایستا؛ شتاب = پروجکشن (P_obs)، نه دینامیک | T6b |
-| پل LIMEN↔SPUMA در p_f مشترک | R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] در κ≤0.10؛ نگاشت (g=0.297, τ_q=40, κ=0.03) ↔ b=0.285 | [[Limen-Spuma-Parameter-Bridge]] |
-| دینامیک حلقه‌ها (T7) | ترتیب درون‌به‌بیرون؛ توری کامل (clos=0.0245 rad)؛ k* ~ t^0.65؛ وارونگی ظرفیت-محور رد شد؛ C1/C2/C3/C4 | [[K2-Release-Rings]] |
-| رجیستر واحد | هویت انحصاری p_U=p_A+p_B (دقت ماشین)؛ iid در β=0 (R=0.989)؛ دوز-پاسخ متقارن (۱٫۸–۲٫۳× / سپر ۹×)؛ جفت‌شدگی منفی کف p_f را می‌شکند (0.7551 < 0.9149) | [[Unified-Register-Integration]] |
-| نقشهٔ صفحهٔ β | فلات سپر 0.3692 روی β∈[−1.25,−0.85] در κ=0.03 (تدریجی، بدون عبور زیر سولو)؛ آینهٔ |1+βk|؛ بازتقویت از β=−2.5؛ پنجرهٔ زیر-سولوی سخت فقط در κ=0.30: β∈(−1.9,−0.2)؛ گذار غبار→پوشا پیوسته (سبک پرکولیشن) بین β=0.05 و 0.10 | [[Unified-Register-Integration]] §۷ |
-| فروپاشی دوز | p_U = F(D_eff) با دوز اشغال‌وزن‌دار: Spearman +0.989؛ LOOCV 0.0230 (۷.۶× بهتر از بهترین null)؛ پیش‌بینی روبه‌جلو ۵ نقطهٔ نو RMSE 0.0050؛ منحنی F فاز-محلی (ترتیب دوز بین κ منتقل می‌شود، F نه) | [[Unified-Register-Integration]] §۸ |
-| آزمون پسماند ناوردایی | تفکیک قاطع قاب‌ساخته از واقعی: R/T₀ = 0.0024 (منحل، C″) در برابر 0.4929 با SNR=892.7 (ناوردای، C′/C‴)؛ هویت گِیج ماسک [exact]؛ معیار نسبی به مقیاس تنش قاب بدوی | [[Aligned-Protocol]] §۵ |
-| آزمون Ward-مانند (S7.1) | ناوردایی روایتی گذشت: روایت‌های تزئینی هش IDENTICAL [exact] و z=0.00؛ تزئین نوفه (پادمتقارن/جابجایی محور) رویدادها را ۱۵.۵۶٪ مخالف می‌کند ولی آمار < 2σ ناوردا — کمیت به قانون تعلق دارد نه جریان | [[Aligned-Protocol]] §۸ |
-| Ward مرز سپر→تقویت (W7) | مرزِ هندسیِ گذار زیر سه روایت هش IDENTICAL [exact]؛ زیر تزئین نوفه ناوردا: BETA* = +0.076 (رزولوشن‌محدود، z=1.41 — پرچم)، S = +0.743 (z=0.74)، D = −0.0704 (z=0.96؛ منفی = مرزِ زیر-سولو وجود ندارد)؛ بازتقویت در β=−2 — مرز به قانون تعلق دارد نه روایت/جریان | [[Aligned-Protocol]] §۵ (`limen_beta_ward`) |
-| منحنی قیمت نقطهٔ نهی (W3) | معافیت بحرانیت بودجه‌محدود: براکت X* ∈ [1.97e7, 2.36e7] گام-راهرو (۱۰–۱۲× کانونی؛ تحلیلی ۸.۲×) — در X*، d_det = 0.00194 ≤ d_crit = 0.002؛ نیمه‌نقطه ۳۳×، ربع‌نقطه ۱۳۲×؛ d_class با ε سنجاق | [[Aligned-Protocol]] §۵ (`limen_d_crit_price`) |
-| نقشهٔ پارامتری تنش | rel(d) = d/(m+d) با m = φ(b)/Φ(b) = 0.61722؛ لنگر 0.91722 (توافق ۵ رقم با v5)؛ d_class = 0.0686 در ε=0.1 و d_det ≈ 0.0067؛ بازتولید بیت‌به‌بیت v5 در d=0 و d=0.60 | [[Aligned-Protocol]] §۵ |
-| گلوگاه بحرانی K1 | b_c = 0.1263 ± 0.0002 (L=256/512/1024) / d_class = 0.0686 → R_edge = 1.841 ± 0.002 — یک دهک جهانی، نه یک آستانه؛ تصحیح E4 از 15.75 (خارج‌قسمت اشتباه)؛ هویت گِیج mask(b,d)=mask(b+d,0) بیت‌به‌بیت؛ ملاقات (0.0574, 0.0686) در b_eff = b_c، p_f = 0.593؛ نهی: d_crit 0.002 < d_det 0.0067 < d_class | [[Aligned-Protocol]] §۵ (SPUMA: `spuma_residue_regime_bridge`) |
-| دینامیک منابع پنجره | d_det ~ 8.05·(S·N·w)^−0.500 (γ=0.500، باقی‌مانده <0.07 dex)؛ منابع ناحیهٔ سکوت را جمع می‌کنند (0.0067→0.00055) و پنجره را از پایین باز می‌کنند؛ d_class با ε ثابت؛ eps*_close = d_det/(m+d_det): 0.0108→0.00088؛ هر دهک = ×۱۰۰ منابع | [[Aligned-Protocol]] §۵ (`limen_window_resources`) |
-| رجیستر دو-قلمرو | بند حرمت اجراشده: ۷ پرسش کار [ambiguity] در برابر ۴ پرسش حرمت [silence]، با پرچم و بانکِ وثیقه‌دار؛ قاعدهٔ مهاجرت رخداد-ثبت | [[Two-Realm-Register]] |
-| پروتکل سازگار واحد | معماری از یک واحد سه‌ضلعی مشتق می‌شود؛ شق‌های سالم متناقض فقط C′/C″/C‴؛ آزمون پسماند ناوردایی سنجهٔ انحلال از گریز | [[Aligned-Protocol]] |
-| لنگرهای کتاب‌شناختی | **نه لنگر** با ارجاع راستی‌آزمایی‌شده: چهار لنگر نخست (Tarski با DOI؛ Luhmann و Lakatos با ISBN؛ Spencer-Brown با ناشر/تاریخ) + پنج لنگر جدید ۲۰۲۶-۰۹-۲۵ (Kant 1781/1787 Riga-Hartknoch؛ Russell AMJ 30(3):222–262؛ SGA4 Exp.IV ۱۹۶۳–۶۴؛ FLP II §12-1؛ Noether Nachr. Gött. 235–257، arXiv:physics/0503066) و نگاشت ردیف‌به‌ردیف به E0–E5 | [[LG-1-Spencer-Brown-1969]] · … · [[LG-9-Noether-1918]] |
+| Registered (silent) boundary fraction | 0.912; post-quench rate = 0.00 | T1 |
+| Arrow monotonicity A(t) | 100%, out of an undirected law | T2 |
+| Front speed / elastic cone | 0.75 / 1.00 — obeys; exact equalization to −0.25 | T3 |
+| Mean popcorn cavity | 2.34 cells (= SPUMA K1) | T4 |
+| Net dipole flux through closed surfaces | 0.00 (three radii); ladder C~r⁻² | T5 |
+| Bounded expansion (compensatory closure) | 12/12 drive-grid cells bounded-saturated | T6a |
+| Foam nucleation threshold | Ξ_crit ≈ 0.8 (clean transition) | T6c |
+| "Middle observer's accelerating inflation" | drift → quasi-static; acceleration = projection (P_obs), not dynamics | T6b |
+| LIMEN↔SPUMA bridge at equal p_f | R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] at κ≤0.10; mapping (g=0.297, τ_q=40, κ=0.03) ↔ b=0.285 | [[Limen-Spuma-Parameter-Bridge]] |
+| Ring dynamics (T7) | inside-out formation; complete tori (clos=0.0245 rad); depth k* ~ t^0.65; capacity-first inversion rejected; C1–C4 controls | [[K2-Release-Rings]] |
+| Unified register | exclusive identity p_U=p_A+p_B (machine precision); iid geometry at β=0 (R=0.989); symmetric dose-response (1.8–2.3× / 9× shield); negative coupling breaks the p_f floor (0.7551 < 0.9149) | [[Unified-Register-Integration]] |
+| β-plane map | shield plateau 0.3692 on β∈[−1.25,−0.85] at κ=0.03 (gradual, no sub-solo crossing); |1+βk| mirror symmetry; re-amplification from β=−2.5; sub-hard-solo window only at κ=0.30: β∈(−1.9,−0.2); dust→tarp transition continuous (percolation-like) between β=0.05 and 0.10 | [[Unified-Register-Integration]] §7 |
+| Dose collapse | p_U = F(D_eff) with occupancy-weighted dose: Spearman +0.989; LOOCV 0.0230 (7.6× better than best null); forward prediction of 5 new points RMSE 0.0050; curve F is phase-local (dose ordering transfers across κ, F does not) | [[Unified-Register-Integration]] §8 |
+| Invariance-residue test | sharp frame-made vs real discrimination: R/T₀ = 0.0024 (dissolved, C″) vs 0.4929 at SNR=892.7 (invariant, C′/C‴); gauge mask identity [exact]; relative criterion against the naive frame's own tension scale | [[Aligned-Protocol]] §5 |
+| Ward-like test (S7.1) | narrative invariance passed: decoration-only narratives IDENTICAL hashes [exact], z=0.00; noise decoration (antithetic/axis-swap) flips 15.56% of events yet statistics stay < 2σ — quantities belong to the law, not the stream | [[Aligned-Protocol]] §8 |
+| Ward test of the shield->boost boundary (W7) | the geometric transition boundary under three narratives: masks IDENTICAL [exact]; under noise decorations invariant: BETA* = +0.076 (resolution-limited, z=1.41 — flagged), S = +0.743 (z=0.74), D = −0.0704 (z=0.96; negative = the below-solo boundary does not exist); re-amplification at β=−2 — the boundary belongs to the law, not to a narrative/stream | [[Aligned-Protocol]] §5 (`limen_beta_ward`) |
+| Criticality-notch price curve (W3) | the exemption is budget-limited: measured bracket X* ∈ [1.97e7, 2.36e7] walker-steps (10–12x canonical; analytic 8.2x) — at X*, d_det = 0.00194 ≤ d_crit = 0.002; half-notch 33x, quarter-notch 132x; d_class stays pinned by eps | [[Aligned-Protocol]] §5 (`limen_d_crit_price`) |
+| Tension parameter map | rel(d) = d/(m+d) with m = φ(b)/Φ(b) = 0.61722; anchor 0.91722 (5-decimal agreement with v5); d_class = 0.0686 at eps=0.1 and d_det ≈ 0.0067; bit-for-bit v5 reproduction at d=0 and d=0.60 | [[Aligned-Protocol]] §5 |
+| K1 critical bottleneck | b_c = 0.1263 ± 0.0002 (L=256/512/1024) / d_class = 0.0686 → R_edge = 1.841 ± 0.002 — one universal decade, not one threshold; E4-corrected from 15.75 (wrong quotient); gauge identity mask(b,d)=mask(b+d,0) bit-for-bit; meeting point (0.0574, 0.0686) at b_eff = b_c, p_f = 0.593; no-go: d_crit 0.002 < d_det 0.0067 < d_class | [[Aligned-Protocol]] §5 (SPUMA: `spuma_residue_regime_bridge`) |
+| Window resource dynamics | d_det ~ 8.05·(S·N·w)^−0.500 (γ=0.500, residual <0.07 dex); compute shrinks the silent zone (0.0067→0.00055) and OPENS the window from below; d_class pinned by eps; eps*_close = d_det/(m+d_det): 0.0108→0.00088; each decade = x100 compute | [[Aligned-Protocol]] §5 (`limen_window_resources`) |
+| Two-realm register | sanctity clause executed: 7 work questions [ambiguity] vs 4 revere questions [silence], flagged and collateralized; migration is a registered event | [[Two-Realm-Register]] |
+| Aligned Protocol | one architecture from one triadic unit; healthy paradox options only C′/C″/C‴; the invariance-residue test separates dissolution from evasion | [[Aligned-Protocol]] |
+| Bibliographic anchors | **nine anchors** with verified references: the first four (Tarski with DOI; Luhmann & Lakatos with ISBNs; Spencer-Brown with publisher/date) + five added 2026-09-25 (Kant 1781/1787 Riga-Hartknoch; Russell AMJ 30(3):222–262; SGA4 Exp.IV 1963–64; FLP II §12-1; Noether Nachr. Gött. 235–257, arXiv:physics/0503066) with row-by-row mappings to E0–E5 | [[LG-1-Spencer-Brown-1969]] · … · [[LG-9-Noether-1918]] |
 
 ## Epistemic Status
 
-T1/T2 دینامیک ثبتِ سبک‌مندند (قانونِ واقعیِ پیشا-مرز به‌بنای سکوت، ناشنودنی است — هر نوشتنی تمثیل است)؛ T3 گزارهٔ دقیق کشسانی است؛ T4 نقشهٔ K1 را با رفع باگ union-find به‌ارث می‌برد؛ T5 نردبان چندقطبی ساکن است؛ T7 شکل‌گیری همان نردبان را از یک دینامیک رهایش سبک‌مند مشتق می‌کند (ترتیب درون‌به‌بیرون، بستار توری، قانون عمق k*~t^0.65؛ سقف = ظرفیت سطح). صفر ادعای حل کیهان‌شناسی واقعی؛ هر سه پروژه سازه‌های روایی-کمّی‌اند.
+T1/T2 are stylized registration dynamics (the true pre-boundary law is, by construction, unspeakable — every rendering is an analogy); T3, T6a/T6b/T6c are exact statements of their stated minimal dynamics; T4 inherits SPUMA's K1 map; T5 is a static multipole ladder; T7 derives the formation of the same ladder from a stylized release dynamics (inside-out order, toroidal closure, depth law k*~t^0.65; caps = level capacities). Zero claims resolve observational cosmology; all three companion projects are narrative-quantitative constructs.

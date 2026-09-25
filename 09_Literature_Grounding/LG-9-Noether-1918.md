@@ -1,51 +1,52 @@
 ---
 title: "LG-9 — Noether (Invariante Variationsprobleme, 1918)"
-aliases: ["Noether 1918", "Emmy Noether", "قضیه نوتر", "تقارن و پایستگی"]
+aliases: ["Noether 1918", "Emmy Noether", "Noether's Theorems", "Symmetry and Conservation"]
 created: 2026-09-25
 updated: 2026-09-25
 tags: [limen-vacui, literature-grounding, noether, symmetry, conservation]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
-# LG-9 — Noether, «Invariante Variationsprobleme» (1918)
+# LG-9 — Noether, "Invariante Variationsprobleme" (1918)
 
-> **نقش در پروتکل:** لنگرِ **مرجع = هم‌ترازیِ تقارن** — پایهٔ حکم §۴ پروتکل دربارهٔ انرژی: «پایستگی‌اش مشروط به هم‌ترازیِ تقارنِ انتقال-زمان است؛ شکستِ هم‌ترازی = نشتِ حسابداری (سرخ‌گرایی کیهانی)». بدون نوتر، بندِ مرجعِ پروتکل بی‌پایهٔ تاریخی است. [[Aligned-Protocol]]
+> **Role in the protocol:** the anchor for **reference = symmetry alignment** — the basis of §4's clause on energy: "its conservation is conditional on the alignment of time-translation symmetry (Noether); a misalignment = a bookkeeping leak (cosmic reddening)". Without Noether, the protocol's reference clause has no historical footing. [[Aligned-Protocol-EN]]
 
-## ارجاع دقیق [verified 2026-09-25]
+## Exact reference [verified 2026-09-25]
 
 - **Noether, E. (1918). "Invariante Variationsprobleme." *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse*, 235–257.**
-- جلد/صفحات با EuDML (doc/59024)، آرشیو UCLA (M. A. Tavel/H. M. Paynter: «1918, pp 235–257») و ترجمهٔ انگلیسیِ arXiv:physics/0503066 راستی‌آزمایی شد.
-- DOI: مقالهٔ ۱۹۱۸ DOI انتشاری ندارد؛ مرجع، جلد/صفحه است (الگوی LG-1). نسخهٔ دیجیتالِ استنادپذیر: arXiv:physics/0503066 (ترجمهٔ Tavel).
-- واژگان کلیدی متن اصلی: * Invariante Variationsprobleme؛ * دو قضیهٔ نوتر (تفاضلی و سراسری)؛ * بی‌نهایت‌کوچک‌های دورگرد (Noether identities).
+- Volume/pages verified via EuDML (doc/59024), the UCLA archive (M. A. Tavel / H. M. Paynter: "1918, pp 235–257"), and the English translation at arXiv:physics/0503066.
+- DOI: the 1918 paper has no publisher DOI; volume/page is the reference (LG-1's practice). Citable digital version: arXiv:physics/0503066 (Tavel's translation).
+- Key original vocabulary: *Invariante Variationsprobleme*; the two Noether theorems (differential and global); infinitesimal roundabout identities (Noether identities).
 
-## ادعای اصلی مقاله
+## The paper's core claim
 
-**قضیهٔ اول (تفاضلی):** هر تبدیلِ پیوسته‌ای که اصلِ وردشی را ناوردا می‌کند، یک کمیتِ پایسته می‌سازد — ناورداییِ زمان → انرژی؛ ناورداییِ فضا → تکانه؛ چرخش → تکانهٔ زاویه‌ای. **قضیهٔ دوم:** برای تقارن‌های دورگرد (گِیج)، اتحادهای نوتر برقرارند. منطقِ اثبات صرفاً حسابداریِ وردشی است: پایستگی، **صورتِ محلیِ ناورداییِ** است — نه قانونی مستقل. اگر تقارن بشکند (کاچینگ‌محور، اصطکاک، انبساط)، کمیتِ «پایسته» دیگر پایسته نیست و **نشتِ حسابداری** دقیقاً قابل‌محاسبه می‌شود.
+**First theorem (differential):** every continuous transformation leaving the action invariant yields a conserved quantity — time invariance → energy; space → momentum; rotation → angular momentum. **Second theorem:** for roundabout (gauge) symmetries, Noether identities hold. The proof is pure variational bookkeeping: conservation is the **local face of invariance** — not an independent law. If the symmetry breaks (drag, friction, expansion), the "conserved" quantity is no longer conserved, and the **bookkeeping leak is exactly computable**.
 
-## نگاشت دقیق به پروتکل
+## Mapping to the protocol
 
-| مفهوم نوتر | بند پروتکل | پیکره |
+| Noether | Protocol clause | Corpus |
 |---|---|---|
-| پایستگی = صورتِ ناورداییِ تقارن | §۴ — «مرجع = پسماندِ رخدادِ هم‌ترازی» | انرژی: نسبی، بی‌ذات، مشروط |
-| شکستِ ناوردایی → نشتِ محاسبه‌پذیر | §۴ — «شکست هم‌ترازی = نشت حسابداری؛ سرخ‌گرایی کیهانی» | سنجهٔ سرخ‌گرایی Vault/CADENCE |
-| تقارن، پیش‌فرضِ حسابداری است نه جهانِ مطلق | §۴ — «بی‌ذات، فقط تفاضلِ محتوا» | آزمون پسماند: تقارن‌شکسته = پسماند ناوردای |
-| دو قضیه: تقارن تفاضلی/دورگرد | §۳ — دو رژیمِ قید (محلی/سراسری) | رجیستر: قابِ محلی در برابر قابِ سراسری |
+| conservation = the face of symmetry invariance | §4 — "reference = the residue of the alignment event" | energy: relative, substanceless, conditional |
+| broken invariance → computable leak | §4 — "alignment failure = bookkeeping leak; cosmic reddening" | the reddening metrics in Vault/CADENCE |
+| symmetry is the presupposition of bookkeeping, not an absolute world | §4 — "substanceless; only content differential" | residue test: broken symmetry = invariant residue |
+| two theorems: differential / roundabout symmetry | §3 — two constraint regimes (local/global) | register: the local frame vs. the global frame |
 
-## پیوند با لنگرهای دیگر
+## Links to other anchors
 
-- **فاینمن** [[LG-8-Feynman-1964]]: دو نیمهٔ جهانیتِ ساختاری — فاینمن: «همان معادله‌ها، همان جواب‌ها»؛ نوتر: «تقارنِ معادله، پایستگی می‌سازد». پیکره هر دو را به یک حکم می‌بندد: جهانیت از ساختارِ هم‌تراز می‌آید.
-- **کانت** [[LG-5-Kant-1781-1787]]: نوتر نشان می‌دهد حتی «مرجع» (انرژی) مشروط به هم‌ترازی است — عین حکمِ استعلایی: پرسش از چیزِ مطلقِ فراتر از قاب بی‌معناست.
-- **تارسکی** [[LG-4-Tarski-1955]]: پسماندِ هم‌ترازیِ پروتکل، صوری‌شده با نقطه‌ثابت است؛ نوتر همان پسماند را در وردش، «اتحاد» می‌نامد.
+- **Feynman** [[LG-8-Feynman-1964-EN]]: two halves of structural universality — Feynman: "same equations, same solutions"; Noether: "an equation's symmetry yields conservation". The corpus binds both: universality from aligned structure.
+- **Kant** [[LG-5-Kant-1781-1787-EN]]: Noether shows even "reference" (energy) is conditional on alignment — precisely the transcendental verdict: asking for an absolute thing beyond the frame is meaningless.
+- **Tarski** [[LG-4-Tarski-1955-EN]]: the protocol's alignment residue is formalized via fixed points; Noether calls the same residue an "identity" in variational form.
 
-## صداقت
+## Honesty
 
-- برچسب: `[literature-grounding]` — کتاب‌شناسی سه-منبعی راستی‌آزمایی‌شده؛ نگاشت‌ها `[conceptual]`.
-- نوتر دربارهٔ کیهان‌شناسی حرف نمی‌زند؛ «سرخ‌گرایی کیهانی» تعبیرِ خودِ پیکره از «شکستِ هم‌ترازی → نشتِ محاسبه‌پذیر» است و برچسب `[conceptual]` می‌گیرد — نسبت‌دادنش به نوتر مصادره می‌بود.
-- دقت: قضیهٔ نوتر برای اصلِ وردشیِ هم‌ریخت است؛ در نظریه‌های گِیج-ناوردای مکانیکِ کوانتومیِ آنومالیک، شکستِ آنومالیکِ خودش یک «نشت» است — همین قیدِ کاربرد، ثبت شد.
+- Label: `[literature-grounding]` — bibliography verified by three converging sources; mappings `[conceptual]`.
+- Noether says nothing about cosmology; "cosmic reddening" is the corpus's reading of "misalignment → computable leak" and takes the `[conceptual]` label — attributing it to Noether would be appropriation.
+- Precision: Noether's theorem applies to isomorphic variational principles; in gauge-invariant quantum theories, anomalous breaking is itself a "leak" — this restriction on its use is registered.
 
 ## Related
 
-- [[Aligned-Protocol]] — بند میزبان: §۴ (مرجع و انرژی)
-- [[LG-8-Feynman-1964]] · [[LG-5-Kant-1781-1787]] · [[LG-4-Tarski-1955]]
-- آینهٔ انگلیسی: [[LG-9-Noether-1918-EN]]
+- [[Aligned-Protocol-EN]] — host clause: §4 (reference and energy)
+- [[LG-8-Feynman-1964-EN]] · [[LG-5-Kant-1781-1787-EN]] · [[LG-4-Tarski-1955-EN]]
+- Persian original: [[LG-9-Noether-1918]]

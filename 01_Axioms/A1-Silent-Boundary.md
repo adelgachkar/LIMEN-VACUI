@@ -1,48 +1,39 @@
 ---
 title: "A1 — The Boundary Is the Silent Place"
-aliases: ["A1 Silence", "Silent Boundary Axiom"]
+aliases: ["A1 Silence", "Silent Boundary Axiom", "A1 — مرز، محل سکوت است"]
 created: 2026-09-21
-updated: 2026-09-25
-tags: [limen-vacui, axiom]
+updated: 2026-09-21
+tags: [limen-vacui, axiom, en]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
 # A1 — The Boundary Is the Silent Place
 
-## اصل ۱ — مرز، محل سکوت است
+## Axiom 1 — The boundary is where silence lives
 
 > **Structural Causal Chain (LIMEN):**
-> پیشا-مرز (سکوت) → سرریز قیدی (K1) → مرزِ ثبت‌شده = ساکت → هستی پسین (فوم، پیکان، حلقه‌ها)
+> pre-boundary (silence) → constraint overflow (K1) → the registered boundary = silent → posterior being (foam, arrow, rings)
 
-هیچ گزاره‌ای دربارهٔ «قانونِ» پیشا-مرز قابلیت نگارش ندارد — پیشا-مرز سرشت خود را در هر گزاره‌ای فرومی‌ریزد. تنها چیز قابل‌گفتن **منفی** است: پیشا-مرز نه پیشینی دارد نه پسینی؛ تفکیک پیشین/پسین خودش زادهٔ مرز است، نه ورودی آن. به همین دلیل این اصل، پیشا-مرز را با واژهٔ «سکوت» نام می‌گذارد: نه فراغ فعال، که **نامشکنندگی ثبت**.
+No statement about the "law" of the pre-boundary can be written — the pre-boundary collapses into whatever predicate is asserted about it. The only sayable things are **negative**: the pre-boundary has neither a prior nor a posterior; the prior/posterior distinction is itself born at the boundary, not fed into it. For this reason the axiom names the pre-boundary with a single word — **silence**: not an active void, but the **unspeakability of registration**.
 
-پس از سرریز (K1)، «مرز» دیگر یک شیء متعالی نیست — همان جایی است که حرکت **متوقف می‌شود**. کمّاً: سیت/ناحیه‌ای که نیاز سرعتی‌اش از سقف سرریز می‌گذرد، از رجیستر سیال خارج و ساکت می‌شود (جذب‌شونده).
+After the overflow (K1), the "boundary" is no longer a transcendent object — it is wherever motion **stopped**. Quantitatively: a site/region whose velocity demand exceeds the overflow cap leaves the fluid register and goes silent (an absorbing state).
 
-## Testable Content — T1 (اجرا شده)
+## Testable Content — T1 (executed)
 
-`tools/limen_core.py::t1_silence_overflow` (خاموشی نوفه τ_q=120، سقف g_max=0.4):
+`tools/limen_core.py::t1_silence_overflow` (noise quench τ_q=120, cap g_max=0.4):
 
-| کمیت | مقدار | معنا |
+| Quantity | Value | Meaning |
 |---|---|---|
-| کسر مرز ثبت‌شده (ساکت) | **0.912** | زایش یک‌باره، نه نشتی پیوسته |
-| نرخ ثبت پس از خاموشی | **0.00** | مرز پس از رویداد، ساکت |
-| duty در حین خاموشی | بالا → فروکش | سرریز رویداد آغازین است |
+| Registered (silent) boundary fraction | **0.912** | one-shot genesis, not continuous leaking |
+| Registration rate after the quench | **0.00** | the boundary is silent after the event |
+| Duty during the quench | high → decay | the overflow is an onset event |
 
-گزارهٔ معکوس هم آزمون شد و **رد** شد: با نوفهٔ پایا، سقف سرعتِ پیوسته یک رجیستر خودسامانِ زبر می‌سازد (duty ~0.95 پایا) — یعنی «سرریز بدون خاموشی» مرزِ ساکت نمی‌سازد؛ خاموشیِ رانش جزء ضروری روایت است. [تست مشخص‌شده:گذشت]
-
-## مرز، حرمت است — سه بند عملیاتی
-
-> قرائت تصحیح‌شده (رسوب ۲۰۲۶-۰۹-۲۵): «مرز، محل سکوت است» یعنی چه — و چه نیست.
-
-۱. **سرک‌کشیدن از مرز روا نیست.** سکوت، نه واگذاری است نه دعوت به توقفِ پرسش — ممنوعیتِ نقضِ حریم است: هیچ گزاره، ابزار یا استعاره‌ای از قلمروی پیشا-مرز «وارد» نمی‌شود. کوشش برای تصرفِ پیشا-مرز (هر قدر هم منظم) حرمت‌شکنی است و در دفتر ردهٔ E1 می‌گیرد — نه جواب.
-
-۲. **هر گپ، پرچم می‌خواهد.** گپِ شناخته‌شده (شکافی که درونِ مرز دیده شده) باید با پرچم ثبت شود: نبودِ ادعا + بودِ ثبت — همان سکوتِ تعلیقی با وثیقهٔ آزمون. گپِ بی‌پرچم = سکوتِ گریز (نقض E4). پرچم، اعلامیهٔ سکوت نیست؛ **تعهدِ بازاجراست**.
-
-۳. **ابهام با سکوت فرق دارد.** پیشا-مرز «مبهم» نیست — ابهام صفتِ گزاره است و آنجا گزاره‌ای نیست؛ پس «رفعِ ابهام» آنجا بی‌معناست، نه ممکن. اما درونِ مرز، ابهام دینامیک دارد و موظف است: هر ابهامِ قابل‌رفعِ منطقی باید با ابزار، تفکیک و آزمونِ پسماند رفع یا پرچم شود. آزمونِ مرزِ دو قلمرو: **اگر ابزاری قابل‌تصور است، ابهام است — کار کنید؛ اگر نیست، سکوت است — حرمت کنید.**
+The converse proposition was also tested and **rejected**: with sustained noise, a continuous velocity cap builds a self-organizing rough register (steady duty ≈ 0.95) — i.e. "overflow without quench" does **not** make a silent boundary; quenching of the drive is a necessary component of the narrative. [test-specified:passed]
 
 ## Related
 
-- [[K1-Constraint-Overflow]] — صورت‌بندی کمّی سرریز
-- [[A2-Overflow-From-Perfect-Symmetry]] — چرا سرریز از تقارن کامل
-- [[MOC-LIMEN-VACUI]] — نقشه
+- [[K1-Constraint-Overflow-EN]] — quantitative form of the overflow
+- [[A2-Overflow-From-Perfect-Symmetry-EN]] — why the overflow comes from perfect symmetry
+- [[MOC-LIMEN-VACUI-EN]] — the map

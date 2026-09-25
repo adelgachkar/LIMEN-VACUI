@@ -1,48 +1,51 @@
 ---
 title: "Companion Bridge — SPUMA-VACUI and Emergence-SDF"
-aliases: ["Companion Bridge", "Project Family Map"]
+aliases: ["Companion Bridge", "Project Family Map", "پل همتا"]
 created: 2026-09-21
 updated: 2026-09-21
-tags: [limen-vacui, companion, mapping]
+tags: [limen-vacui, companion, mapping, en]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
-# Companion Bridge — SPUMA-VACUI و Emergence-SDF
+# Companion Bridge — SPUMA-VACUI and Emergence-SDF
 
-## جایگاه LIMEN در خانواده
+## LIMEN's place in the family
 
-| پروژه | پرسش هسته‌ای | سهم |
+| Project | Core question | Contribution |
 |---|---|---|
-| **Emergence-SDF-Vault** | طیف و دینامیک شبکهٔ کاواک‌های قطبی | فنومنولوژی (τ_d، κ_hop، گام نوری) |
-| **SPUMA-VACUI** | چرا کاواک‌ها متولد می‌شوند و هم‌گن/قطبی‌اند؟ | دو قید K1/K2 → فوم |
-| **LIMEN-VACUI** (این پروژه) | چرا اصلاً مرزی هست که فوم در آن متولد شود؟ | سرریز از تقارن کامل → مرز ساکت → پیکان → حلقه‌ها |
+| **Emergence-SDF-Vault** | the spectrum and dynamics of the polar-cavity network | phenomenology (τ_d, κ_hop, optical stepping) |
+| **SPUMA-VACUI** | why are cavities born, and why homogeneous/polarized? | two constraints K1/K2 → foam |
+| **LIMEN-VACUI** (this project) | why is there a boundary at all, where the foam can be born? | overflow from perfect symmetry → silent boundary → arrow → rings |
 
-## نگاشت دوسویه (برچسب‌دار)
+## Two-way mapping (labeled)
 
-| LIMEN | همتا | نوع نگاشت |
+| LIMEN | Companion | Mapping type |
 |---|---|---|
-| حد انفصال (سرریز→سکوت) | K1-Vacuum-Discontinuity (یک‌سوژه‌سازی نوفه) | **همان قید، دو نقش** — دقیق |
-| حلقه‌های رهایش C~r⁻²، شار صفر | K2-Polarization-Discontinuity (دیواره محبوس، مونوپل=0) | **ساختاری** — هر دو «بدون برون‌ریز» |
-| کاواک پاپ‌کورنی ۲٫۳۴ سلول | K1 size study (2.34) | **عددی — یکسان** (یک نقشه) |
-| بالشتک/کون c=√K | c_eff ≈ 0.1c (مدل همتا) | **موضوعی** — سرعت‌های محدود دو جهان |
-| پیکان از ثبت | رجیستر نوفه (بذر/ماتریس/موتور) | **ساختاری** — هر دو یک‌سویه |
+| discontinuity limit (overflow→silence) | K1-Vacuum-Discontinuity (one-way noise registration) | **the same constraint, two roles** — exact |
+| release rings C~r⁻², zero flux | K2-Polarization-Discontinuity (trapped wall, monopole=0) | **structural** — both "no outflow" |
+| popcorn cavity 2.34 cells | K1 size study (2.34) | **numerical — identical** (one map) |
+| cushion / cone c=√K | c_eff ≈ 0.1c (companion model) | **thematic** — bounded speeds in both worlds |
+| arrow from registration | noise register (seed/matrix/engine) | **structural** — both one-way |
+| three-layer O+/C_mid/D− balance (T6) | Middle-Atmosphere documents (SDF v3.1.0) | **formal — same relation, now tested** |
 
-## کمّی‌سازی پارامتری (اکنون موجود است)
+## Parametric quantification (now available)
 
-نگاشت دوطرفهٔ LIMEN(g_max, τ_q, κ) ↔ SPUMA(b) در کسری مشترک p_f ساخته و اجرا شد: در κ≤0.10، R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] — توزیع اندازهٔ کاواک‌ها در جفت‌شدگی ضعیف یکی است. نگاشت سردرخبر: LIMEN(g=0.297, τ_q=40, κ=0.03) ↔ SPUMA(b=0.285). جزئیات و جدول‌ها: [[Limen-Spuma-Parameter-Bridge]]. در قلمرو κ بزرگ، مرزِ ساکت LIMEN تار پوشاست (فاز دیگرِ همان ثبت).
+A two-way map LIMEN(g_max, τ_q, κ) ↔ SPUMA(b) at the shared frozen fraction p_f was built and executed: at κ≤0.10, R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] — at weak coupling the cavity-size distributions coincide. Headline mapping: LIMEN(g=0.297, τ_q=40, κ=0.03) ↔ SPUMA(b=0.285). Details and tables: [[Limen-Spuma-Parameter-Bridge-EN]]. In the large-κ regime LIMEN's silent boundary is a spanning web (the other phase of the same registration process).
 
-### رجیستر واحد (پرسش باز پل، اکنون بسته)
+### The unified register (the bridge's open question, now closed)
 
-حتی فراتر از نگاشت دو رجیستر جدا: یک شبکهٔ واحد با هر دو خروج یک‌طرفهٔ **کانونی و عیناً** (ثبت T1 + انجماد K1) ساخته و اجرا شد. نتایج کلیدی: بازتولید دقیق هر دو آرشیو در انزوا (0.3174/0.2990 در برابر 0.320/0.299)، هویت انحصاری p_U = p_A+p_B با دقت ماشین، بازسازی هندسهٔ iid در β=0 (R=0.989)، دوز-پاسخ متقارن (تقویت ۱٫۸–۲٫۳× در β=+1، سپر ۹× در β=−1)، و یافتهٔ اصلی: **جفت‌شدگی منفی کف p_f پل را می‌شکند** — اجتماعِ سپرشده زیر نرخ سولوی مجرای سخت می‌رود (0.7551 در برابر 0.9149). جزئیات: [[Unified-Register-Integration]].
+Going beyond mapping two separate registers: a SINGLE lattice with both canonical one-way exits (T1 registration + K1 freeze) verbatim was built and run. Key results: both archives reproduced in isolation (0.3174/0.2990 vs 0.320/0.299), the exclusive-exit identity p_U = p_A+p_B to machine precision, iid geometry recovered at β=0 (R=0.989), symmetric dose-response (1.8–2.3× amplification at β=+1, 9× shielding at β=−1), and the headline: **negative coupling breaks the bridge's p_f floor** — the shielded union drops below the hard channel's solo rate (0.7551 vs 0.9149). Details: [[Unified-Register-Integration-EN]].
 
-## مرزهای صادقانه
+## Honest boundaries
 
-LIMEN «قبل از» SPUMA روایت می‌کند (چرا مرز هست). سه پروژه از نظر اجرایی مستقل‌اند؛ تنها K1، «بدون-برون‌ریز»، و — از این نوبت — نگاشت پارامتریِ برچسب‌دار بالا دقیقاً مشترک‌اند. شناسایی «ثبت = انجماد» [model] است؛ هر ادعای اتحاد بیش از این تمثیل است.
+LIMEN narrates "before" SPUMA (why the boundary exists). The three projects remain operationally independent; exactly shared are K1, "no-outflow", and — from this session — the labeled parametric map above. The identification "registration = freezing" is [model]; any stronger claim of unity is analogy.
 
 ## Related
 
-- [[Limen-Spuma-Parameter-Bridge]] — پل کمّی
-- [[Unified-Register-Integration]] — رجیستر واحد
-- [[K1-Constraint-Overflow]] · [[K2-Release-Rings]]
-- [[MOC-LIMEN-VACUI]]
+- [[Limen-Spuma-Parameter-Bridge-EN]] — the quantitative bridge
+- [[Unified-Register-Integration-EN]] — the unified register
+- [[K1-Constraint-Overflow-EN]] · [[K2-Release-Rings-EN]]
+- [[Middle-Atmosphere-Synthesis-EN]] — the formal layer
+- [[MOC-LIMEN-VACUI-EN]]

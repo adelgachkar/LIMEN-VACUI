@@ -1,37 +1,38 @@
 ---
 title: "Onset Arrow — Prior to Posterior Directed Potential"
-aliases: ["Onset Arrow", "Scratch on the Glasses"]
+aliases: ["Onset Arrow", "Scratch on the Glasses", "پیکان آغازین"]
 created: 2026-09-21
 updated: 2026-09-21
-tags: [limen-vacui, arrow-of-time, numerics]
+tags: [limen-vacui, arrow-of-time, numerics, en]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
 # Onset Arrow — Prior→Posterior Directed Potential
 
-## پتانسیلِ خودِ جهت‌دار: پیکان رو به جلو
+## The self-directed potential: a forward arrow
 
-> روایت: «پتانسیل خود جهت‌دار، یک پیکان رو به جلو است؛ اثری که نگاشت می‌شود مثل خراش روی عینک»
+> Narrative: "the self-directed potential is a forward arrow; the effect it maps is like a scratch on the glasses"
 
-تمثیل دقیق است: عینک (پسین) خراش می‌خورد (ثبت می‌شود) ولی خودش را پاک نمی‌کند. نکتهٔ کمّی: خراش **اثرِ نگاشت** است، نه خاصیت قانون. T2 این را جدا می‌کند:
+The analogy is exact: the glasses (the posterior) get scratched (registered) but do not un-scratch themselves. The quantitative point: the scratch is the **mapped effect**, not a property of the law. T2 separates the two:
 
-## Testable Content — T2 (اجرا شده)
+## Testable Content — T2 (executed)
 
-| لایه | محتوا | آزمون |
+| Layer | Content | Test |
 |---|---|---|
-| قانون | جریان گرادیانی + نوفهٔ میانگین-صفر — **بدون هیچ پیکانی** | ساختار کد (فراخوان‌پذیر، بازبینی‌پذیر) |
-| اثر | ثبتِ پایا (هرگز بازخوانی نمی‌شود) | یکنوایی A(t) = **100%** |
-| نتیجه | رکورد جهت‌دار از قانون بی‌جهت | شیب +0.4369 ثبت/سایت/گام |
+| Law | gradient flow + zero-mean noise — **no arrow whatsoever** | code structure (inspectable, callable) |
+| Effect | persistent registration (never read back) | monotonicity of A(t) = **100%** |
+| Result | a directed record from an undirected law | slope +0.4369 registrations/site/step |
 
-**حکم:** پیکان پیشین→پسین، خاصیت **کتابداری** است نه دینامیک — «خراش» دقیقاً همین است. نگاشت به انتروپی واقعی (لینک A3) ساختاری است، نه اثبات.
+**Verdict:** the prior→posterior arrow is a property of **bookkeeping**, not of dynamics — "the scratch" is precisely this. The mapping to real entropy (A3's link) is structural, not a proof.
 
 ## Epistemic Status
 
-دینامیک T1/T2 سبک‌مند است (نمادِ ثبت، نه ادعای قانون واقعی پیشا-مرز). آنچه آزمون شد، **سازگاری درونی روایت** است: پیکان می‌تواند از بی‌پیکانی ظاهر شود — به شرط کتابداریِ یک‌سو. [تست مشخص‌شده:گذشت]
+The T1/T2 dynamics are stylized (a registration symbol, not a claim about the true pre-boundary law). What was tested is the **internal consistency of the narrative**: an arrow can emerge from arrowlessness — provided the bookkeeping is one-way. [test-specified:passed]
 
 ## Related
 
-- [[A3-Arrow-From-Registration]] — اصل
-- [[K1-Constraint-Overflow]] — رویداد زایش
-- [[MOC-LIMEN-VACUI]]
+- [[A3-Arrow-From-Registration-EN]] — the axiom
+- [[K1-Constraint-Overflow-EN]] — the generative event
+- [[MOC-LIMEN-VACUI-EN]]

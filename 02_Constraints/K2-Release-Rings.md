@@ -1,61 +1,62 @@
 ---
 title: "K2 — Constraint-Release Rings Around the Void"
-aliases: ["K2 Rings", "Toroidal Release Ladder"]
+aliases: ["K2 Rings", "Toroidal Release Ladder", "K2 — حلقه‌های رهایش قید"]
 created: 2026-09-21
 updated: 2026-09-21
-tags: [limen-vacui, constraint, rings, topological]
+tags: [limen-vacui, constraint, rings, topological, en]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
 # K2 — Constraint-Release Rings Around the Void
 
-## قید ۲ — ویدهای پیرامونی به نجیر حلقوی؛ پوش تراوایی حاصل
+## Constraint 2 — Peripheral voids join a toroidal ladder; the resulting permeability envelope
 
 > **Structural Causal Chain (LIMEN):**
-> وید مرکزی (قید رهاشده) → قیود همسایه به نجیر حلقوی درمی‌آیند → **نردبان حلقه‌ای** + پوش تراوایی
+> central void (released constraint) → neighboring constraints join a toroidal ladder → **the ring ladder** + a permeability envelope
 
-روایت تصویر پیوست (void-structured-axial-field.png) را چنین خواندنی می‌کند: قیدِ رهاشده در مرکز (محل سرریز) یک **عیب محوری آزاد** است؛ قیود پیرامونی که دیگر «هم‌ترازِ» تقارن کامل نیستند، به‌مثابه **نجیرهای حلقوی** (شکل‌های چنبره‌ای دور محور) ثبت می‌شوند. نردبان کمّیِ این ثبت:
+The attached image (void-structured-axial-field.png) reads as follows: the constraint released at the center (the overflow site) is a **free axial defect**; the peripheral constraints, no longer level-matched to perfect symmetry, register as **toroidal strands** (donut-shaped forms around the axis). The quantitative ladder of this registration:
 
-$$\mathcal{C}_\alpha = \oint_{\alpha} \vec{A}\cdot d\vec{\ell} = n\,\Phi_0 \;\longrightarrow\; \text{پوش نجیر } k:\; \mathcal{C}_k \sim \frac{\Phi_0}{r_k^2},\quad r_k = k\,\Delta r$$
+$$\mathcal{C}_\alpha = \oint_{\alpha} \vec{A}\cdot d\vec{\ell} = n\,\Phi_0 \;\longrightarrow\; \text{shell } k \text{ of the ladder: } \mathcal{C}_k \sim \frac{\Phi_0}{r_k^2},\quad r_k = k\,\Delta r$$
 
-## Testable Content — T5 (اجرا شده)
+## Testable Content — T5 (executed)
 
-`tools/limen_core.py::t5_rings` (n=8 پوش، شار دیپل واقعی روی کره‌های بسته):
+`tools/limen_core.py::t5_rings` (n=8 shells, true dipole flux over closed spheres):
 
-| آزمون | نتیجه | حکم |
+| Test | Result | Verdict |
 |---|---|---|
-| نردبان پوش‌ها | C(r) ~ r^−2.00 (دقیقاً هدف) | نردبان گردش گسسته = آنالوگ C_α = n·Φ₀ [ساختاری] |
-| افت خون رادیال | B_r ~ r^−3.00 | قطبی — بدون انتشار مونوپل [ساختاری] |
-| **شار خالص از سطح بسته** (R=0.5, 1, 2) | **0.00، 0.00، 0.00** | رهایش، **حلقه می‌سازد نه برون‌ریز** — «پوش تراوایی» [ساختاری] |
+| Shell ladder | C(r) ~ r^−2.00 (exactly the target) | the discrete circulation ladder = an analog of C_α = n·Φ₀ [structural] |
+| Radial bleed falloff | B_r ~ r^−3.00 | dipolar — no monopole propagates [structural] |
+| **Net flux through closed spheres** (R=0.5, 1, 2) | **0.00, 0.00, 0.00** | release **builds rings, not outflow** — the "permeability envelope" [structural] |
 
-نسبت‌های نردبان: C_k/C_1 = 1, 0.250, 0.111, … (1, ¼, 1/9) — پوش‌ها نجیرهای هم‌ریخت با قدرت 1/k².
+Ladder ratios: C_k/C_1 = 1, 0.250, 0.111, … (1, ¼, 1/9) — shells are similar tori with strength 1/k².
 
-## Testable Content — T7 (دینامیک رهایش — اجرا شده)
+## Testable Content — T7 (release dynamics — executed)
 
-`tools/limen_ring_dynamics.py` (v5): رهایش به‌مثابه دینامیک انتقال روی چنبرهٔ (k, ζ) — منبع ثابت در عیب محوری (k=1، مد محوری m=0)، انتقال پخشی شعاعی+پولوئیدال، ثبت یک‌طرفه روی **سطح** در سقف ظرفیت cap_k = cap_1/k² (نردبان T5 به‌مثابه پروفایل ظرفیت)، سلول ثبت‌شده = لنگر دیریکلهٔ اشباع (فتیل)، خاموشی کامل در 5τ_q، نوفهٔ زیرسقف در تمام طول اجرا. K=12 پوسته × L=256 سایت پولوئیدال.
+`tools/limen_ring_dynamics.py` (v5): the release modeled as a transport dynamics on the (k, ζ) annulus — fixed source at the axial defect (k=1, axial m=0 mode), radial+poloidal diffusive transport, one-way registration on the **level** at the capacity cap cap_k = cap_1/k² (the T5 ladder as the capacity profile), registered cells as saturated Dirichlet anchors (wicks), quench complete at 5τ_q, noise sub-cap for the whole run. K=12 shells × L=256 poloidal sites.
 
-| آزمون | نتیجه | حکم |
+| Test | Result | Verdict |
 |---|---|---|
-| ترتیب شکل‌گیری (نقطهٔ کانونی) | درون‌به‌بیرون: t_reg از 0.34 (k=1) تا 54.2 (k=11) — همبستگی رتبه‌ای > 0.85 | نردبان **از عیب به بیرون رشد می‌کند** — جبههٔ اشباع [measured] |
-| بستار حلقه‌ها | max clos_k = 0.0245 rad = قدرت تفکیک شبکه | رشته‌های ثبت‌شده **توری کامل‌اند، نه کمان** [measured] |
-| پویش D_r {0.05→3.2} | ترتیب در همهٔ D_r درون‌به‌بیرون می‌ماند؛ D_r عمق را کنترل می‌کند (k*: 5→12) و capture (اوج 0.049 در D_r=0.8) | فرضیهٔ وارونگی ظرفیت‌محور **رد شد**؛ امضای ظرفیت-اول محدود مانده: در D_r=3.2 تنها پوستهٔ پرسقف (k=1) اکثریت را ثبت نمی‌کند — سقف‌های کوچکِ عمیق روی دنبالهٔ اول می‌شکنند [measured] |
-| قانون عمق k*(τ_q) | k* = 3, 5, 7, 12 → k* ~ t^0.65 | ردیابی جبههٔ پخشی با فزونی اندازه‌گیری‌شده (0.65 > 0.50) — پیش‌حساس‌سازی ملایمِ نردبان ظرفیت [measured] |
-| C1 — بی‌رانش (α=0) | F_k = 0 در همهٔ پوسته‌ها | نردبان **فرزند سرریز است**، نه بافت خودسازمان [measured] |
-| C2 — سقف‌های تخت | عمق فرومی‌ریزد: k* = 1 (در برابر 12) | نقش نردبان در عمق و زمان‌بندی ایزوله شد [measured] |
-| C3 — عیب زخمی (منبع موضعی) | کمان باز (clos_k ~ 2.6–3.5 rad) در برابر توری کامل | بستار چنبره‌ای **فقط از کانال محوری** [measured] |
-| C4 — سقف بی‌نهایت | capture = 0 (در برابر 0.030) | پوش (توری‌های ثبت‌شده) بودجهٔ رهاشده را بانک می‌کند [measured] |
+| Formation order (canonical point) | inside-out: t_reg from 0.34 (k=1) to 54.2 (k=11) — rank correlation > 0.85 | the ladder **grows from the defect outward** — a saturation front [measured] |
+| Ring closure | max clos_k = 0.0245 rad = the grid resolution | registered strands are **complete tori, not arcs** [measured] |
+| D_r sweep {0.05→3.2} | order stays inside-out at every D_r; D_r controls depth (k*: 5→12) and capture (peak 0.049 at D_r=0.8) | the capacity-first inversion hypothesis is **rejected**; one capacity-first signature survives: at D_r=3.2 only the largest-cap shell (k=1) fails to register a majority — deep tiny-cap shells bind on the first tail [measured] |
+| Depth law k*(τ_q) | k* = 3, 5, 7, 12 → k* ~ t^0.65 | diffusive-front tracking with a measured excess (0.65 > 0.50) — mild capacity-ladder pre-sensitization [measured] |
+| C1 — no drive (α=0) | F_k = 0 on every shell | the ladder is **a child of the overflow**, not self-organized texture [measured] |
+| C2 — flat caps | depth collapses: k* = 1 (vs 12) | the ladder's role in depth and timing is isolated [measured] |
+| C3 — wounded defect (localized source) | open arc (clos_k ~ 2.6–3.5 rad) vs complete tori | toroidal closure requires **the axial release channel** [measured] |
+| C4 — infinite caps | capture = 0 (vs 0.030) | the envelope (registered tori) banks the released budget [measured] |
 
-capture در نقطهٔ کانونی 0.030 بودجهٔ تزریقی را بانک می‌کند — بودجهٔ باقی در میدان سیال می‌ماند؛ در خاموشیِ کامل این «باقی» همان بخشی است که K1 (سرریزِ بعدی) خواهد بود.
+capture at the canonical point banks 0.030 of the injected budget — the remainder stays in the fluid field; at complete quench, that remainder is exactly what a later K1 overflow (a subsequent release event) would consume.
 
-سه نسل ابزار (v1→v5) خودشان یافته‌اند و در هدر ابزار ثبت‌اند: ثبت-روی-انباشت با نوفهٔ مطلق آلوده می‌شود (C1 فاش کرد)، منبع خودپیش‌رونده خودش سازوکار ثبت می‌شود، و خوانش درست: **سقف = ظرفیتِ سطح است نه شار لحظه‌ای**؛ سلول ثبت‌شده نه دیوار است نه حذف‌شده — فتیلِ اشباعی که همسایه را تغذیه می‌کند.
+Three tool generations (v1→v5) are findings in themselves (recorded in the tool header): registration-on-accumulator with absolute noise is contaminated (C1 exposed it), a self-advancing source becomes the registration mechanism itself, and the right reading is: **a cap is a LEVEL capacity, not an instantaneous flux**; a registered cell is neither a wall nor deleted — it is a saturated wick feeding its neighbors.
 
-## تصویر
+## Image
 
 ![Structured void: axial chain, toroidal vector-potential rings, radial bleed, constraint region](../attachments/void-structured-axial-field.png)
 
 ## Related
 
-- [[K1-Constraint-Overflow]] — خاستگاه وید مرکزی
-- [[Companion-Bridge]] — نگاشت به SPUMA K2
-- [[MOC-LIMEN-VACUI]]
+- [[K1-Constraint-Overflow-EN]] — origin of the central void
+- [[Companion-Bridge-EN]] — mapping to SPUMA K2
+- [[MOC-LIMEN-VACUI-EN]]

@@ -1,50 +1,51 @@
 ---
 title: "LG-8 — Feynman (The Feynman Lectures on Physics, Vol. II, Ch. 12, 1964)"
-aliases: ["Feynman 1964", "Same Equations Same Solutions", "همان معادله‌ها همان جواب‌ها", "فاینمن"]
+aliases: ["Feynman 1964", "Same Equations Same Solutions"]
 created: 2026-09-25
 updated: 2026-09-25
 tags: [limen-vacui, literature-grounding, feynman, universality, same-equations]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
-# LG-8 — Feynman, Lectures Vol. II §12-1 «The Same Equations Have the Same Solutions» (1964)
+# LG-8 — Feynman, Lectures Vol. II §12-1 "The Same Equations Have the Same Solutions" (1964)
 
-> **نقش در پروتکل:** لنگرِ **جهانیتِ هم‌قراردادی** — مؤثرترین متنِ آموزشیِ فیزیک دربارهٔ اینکه «جهانیت» از یکسانیِ ساختارِ ریاضی می‌آید نه از یکسانیِ جوهر؛ پایهٔ حکم §۴ پروتکل: «جهانییت از هم‌قراردادِ ناورداست، نه بستر مطلق». [[Aligned-Protocol]]
+> **Role in the protocol:** the anchor for **contractual universality** — physics' most effective pedagogical text on how "universality" comes from sameness of mathematical structure, not sameness of substance; the basis of §4's verdict: "universality from the invariance agreement, not an absolute substrate". [[Aligned-Protocol-EN]]
 
-## ارجاع دقیق [verified 2026-09-25]
+## Exact reference [verified 2026-09-25]
 
-- **Feynman, R. P., Leighton, R. B., Sands, M. (1964). *The Feynman Lectures on Physics*, Vol. II. Addison-Wesley. Chapter 12, §12-1: «The same equations have the same solutions.»**
-- عنوانِ بخش در نسخهٔ رسمیِ آنلاین (feynmanlectures.caltech.edu، فصل II-12) و نسخهٔ چاپی (New Millennium edition) تأیید شد؛ خوانشِ مستقیمِ صفحه از مرورگر این جلسه مسدود بود (403) — عنوانِ بخش و محتوای استانداردش از دو منبع مستقلِ ثانویه (Motion Mountain III به فصل II-12 ارجاع می‌دهد؛ Adhesives/Scribd: «Section 12-1, The Same Equations Have the Same Solutions») همگرا است.
-- واژگان کلیدی متن اصلی: «the same equations have the same solutions»؛ مثال‌های مکانیکِ صوتی/جریان پتانسیل/الکتروستاتیک/گرانشِ نیوتنی با **همان معادلهٔ لاپلاس**.
+- **Feynman, R. P., Leighton, R. B., Sands, M. (1964). *The Feynman Lectures on Physics*, Vol. II. Addison-Wesley. Chapter 12, §12-1: "The same equations have the same solutions."**
+- The section title is confirmed in the official online edition (feynmanlectures.caltech.edu, ch. II-12) and the print New Millennium edition; direct page reading was blocked this session (403) — the section title and standard content converge from two independent secondary sources (Motion Mountain III cites II-12; an Adhesives text: "Section 12-1, The Same Equations Have the Same Solutions").
+- Key original vocabulary: "the same equations have the same solutions"; acoustics / potential flow / electrostatics / Newtonian gravity all sharing **the same Laplace equation**.
 
-## ادعای اصلی درس
+## The lecture's core claim
 
-پدیده‌های به‌ظاهر بی‌ربط (جرمِ گرانشی، بارِ الکتریکی، جریانِ گرما، سرعتِ پتانسیلِ سیال) اگر **همان معادلهٔ** دیفرانسیلی و همان شرط مرزی را ارضا کنند، همان جواب‌ها — و همان کل رفتار — را دارند؛ فیزیک‌دان می‌تواند جوابِ یک حوزه را با تغییرِ نامِ نمادها به حوزهٔ دیگر منتقل کند. فاینمن این را «کشف بسیار مهم» می‌نامد: فیزیکِ هر حوزه، ترجمهٔ ساختاریِ حوزهٔ دیگر است. (فصل ۵ همان جلد هم همین جهانیت را در هم‌ریختیِ مدلی نشان می‌دهد — آبِ خشک و برق.)
+Seemingly unrelated phenomena (gravitational mass, electric charge, heat flow, potential fluid velocity) obeying **the same differential equation with the same boundary conditions** have the same solutions — hence the same behavior; a physicist can carry a solution from one domain to another by renaming symbols. Feynman calls this a very important discovery: the physics of each domain is a structural translation of the other. (Ch. 5 of the same volume makes the same point via model-isomorphism — "dry water".)
 
-## نگاشت دقیق به پروتکل
+## Mapping to the protocol
 
-| مفهوم فاینمن | بند پروتکل | پیکره |
+| Feynman | Protocol clause | Corpus |
 |---|---|---|
-| جهانیت = یکسانیِ معادله + شرط مرزی | §۴ — «جهانییت از هم‌قراردادِ ناورداست» | پل‌های بین‌روایت: R(T1)∈[0.90,0.98] زیر تعویض قاب |
-| ترجمهٔ نمادها میان حوزه‌ها | §۲ — تعویض قاب؛ باتری Ward | آزمون Ward: بازاجرا زیر سه روایت |
-| مرزِ مشترک = بخشی از هم‌قرارداد | §۳ — مرز، کارکردِ قاب است | کالیبراسیون مشترک p_c در دو مخزن |
-| همان ساختار → همان رفتار (بدون جوهر) | P0 — تنزل از ساختار، نه از ذوات | آزمون پسماند: قاب‌ساخته = پسماند صفر |
+| universality = same equation + boundary condition | §4 — "universality from the invariance agreement" | cross-narrative bridges: R(T1) ∈ [0.90, 0.98] under frame swap |
+| symbol translation between domains | §2 — frame swap; the Ward battery | Ward test: re-execution under three narratives |
+| shared boundary = part of the contract | §3 — the boundary as a function of the frame | the shared p_c calibration across two vaults |
+| same structure → same behavior (no substance) | P0 — demotion via structure, not essences | residue test: frame-made = zero residue |
 
-## پیوند با لنگرهای دیگر
+## Links to other anchors
 
-- **نوتر** [[LG-9-Noether-1918]]: فاینمن می‌گوید همان معادله‌ها همان جواب‌ها دارند؛ نوتر می‌گوید تقارنِ معادله‌ها پایستگی می‌سازد — دو نیمهٔ یک حکمِ جهانیتِ ساختاری: ساختارِ محاسباتیِ فاینمن + ناورداییِ نوتر.
-- **تارسکی** [[LG-4-Tarski-1955]]: «ترجمهٔ معتبر میان قاب‌ها» نقطهٔ تماسِ صوریِ همین ایده است.
-- **لاکاتوش** [[LG-3-Lakatos-1976]]: انتقالِ جواب از حوزه‌ای به حوزهٔ دیگر، نمونهٔ «بازسازی منطقیِ استقرایی» است که لاکاتوش هشدارش را می‌دهد — انتقال مشروعیتِ آزمون‌شده می‌خواهد، نه شباهتِ چشمی؛ به همین دلیل پیکره انتقال‌ها را با آزمون اجرا می‌کند.
+- **Noether** [[LG-9-Noether-1918-EN]]: two halves of structural universality — Feynman: "same equations, same solutions"; Noether: "an equation's symmetry yields conservation". The corpus binds both into one verdict: universality comes from aligned structure.
+- **Tarski** [[LG-4-Tarski-1955-EN]]: "valid translation between frames" is the formal meeting point of the same idea.
+- **Lakatos** [[LG-3-Lakatos-1976-EN]]: carrying solutions between domains is precisely the "inductive rational reconstruction" Lakatos warns about — transfer needs tested legitimacy, not visual similarity; which is why the corpus executes transfers with tests.
 
-## صداقت
+## Honesty
 
-- برچسب: `[literature-grounding]` — عنوانِ بخش دو-منبعی راستی‌آزمایی شد؛ متنِ کامل صفحه [verified-by-proxy] (دسترسی مستقیم مسدود بود — گپِ پرچم‌دار، نه سکوتِ گریز؛ بازراستی‌آزمایی با نسخهٔ چاپی).
-- فاینمن دربارهٔ خلأِ ساختاری حرف نمی‌زند؛ اتخاذ فقط **قاعدهٔ جهانیتِ ساختاری** است.
-- دقت: قاعده در معادلاتِ خطیِ هم‌ریخت کاملاً برقرار است؛ برای معادلات غیرخطی فقط تحلیل‌گونه است — پیکره آن را در «قاب‌های هم‌ریخت» (همان شرطِ باتری Ward) به‌کار می‌برد و این قید ثبت است.
+- Label: `[literature-grounding]` — the section title verified by two converging sources; the full page text `[verified-by-proxy]` (direct access blocked — a flagged gap, not evasive silence; re-verify against the print edition).
+- Feynman says nothing about structured vacuum; what is adopted is only the **rule of structural universality**.
+- Precision: the rule holds exactly for isomorphic linear equations; for nonlinear ones it is heuristic — the corpus applies it to "isomorphic frames" (the Ward battery's condition) and this restriction is registered.
 
 ## Related
 
-- [[Aligned-Protocol]] — بند میزبان: §۲ (تعویض قاب)، §۴ (جهانیت)
-- [[LG-9-Noether-1918]] · [[LG-3-Lakatos-1976]]
-- آینهٔ انگلیسی: [[LG-8-Feynman-1964-EN]]
+- [[Aligned-Protocol-EN]] — host clauses: §2 (frame swap), §4 (universality)
+- [[LG-9-Noether-1918-EN]] · [[LG-3-Lakatos-1976-EN]]
+- Persian original: [[LG-8-Feynman-1964]]

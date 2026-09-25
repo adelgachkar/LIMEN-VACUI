@@ -1,37 +1,38 @@
 ---
 title: "K1 — Constraint Overflow and the Discontinuity Limit"
-aliases: ["K1 Overflow", "LIMEN K1"]
+aliases: ["K1 Overflow", "LIMEN K1", "K1 — سرریز قید و حد انفصال"]
 created: 2026-09-21
 updated: 2026-09-21
-tags: [limen-vacui, constraint, numerics]
+tags: [limen-vacui, constraint, numerics, en]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
 # K1 — Constraint Overflow and the Discontinuity Limit
 
-## قید ۱ — سرریز قید و حد انفصال خلا
+## Constraint 1 — Constraint overflow and the vacuum discontinuity limit
 
 > **Structural Causal Chain (LIMEN):**
-> تقارن کامل → انباشت قید → **سرریز** → مرز ساکت (حد انفصال) + پسین پتانسیل‌دار
+> perfect symmetry → constraint accumulation → **overflow** → silent boundary (the discontinuity limit) + a potential-bearing posterior
 
-دو قیدِ به‌ارث‌رسیده از SPUMA-VACUI اینجا نقش آغازین دارند: **حد انفصال خلا** (ثبت در آستانه، بدون گذار پیوسته) و **عدم پیوستگی بی‌نهایت تنش** (سقف g_max). روایت اضافه می‌کند: این قیدها آن‌قدر انباشته می‌شوند که **سرریز** کنند — و سرریز، تولد مرز است.
+The two constraints inherited from SPUMA-VACUI play the opening roles here: the **vacuum discontinuity limit** (registration at the threshold, no continuous transition) and the **absence of infinite polarization-tension continuity** (a cap, g_max). The narrative adds: these constraints accumulate until they **overflow** — and the overflow is the birth of the boundary.
 
-## Testable Content — T1 (اجرا شده)
+## Testable Content — T1 (executed)
 
-`tools/limen_core.py::t1_silence_overflow` — رجیستر با سقف سرعت + خاموشی رانش:
+`tools/limen_core.py::t1_silence_overflow` — a register with a velocity cap + drive quench:
 
-| کمیت | مقدار |
+| Quantity | Value |
 |---|---|
-| کسر ثبت‌شده (مرز ساکت) | **0.912** |
-| نرخ ثبت پس از خاموشی (۱۰۰ گام آخر) | **0.00** — سکوت کامل |
-| معکوس (نوفهٔ پایا، بدون خاموشی) | duty پایا ~0.95 — مرز ساکت **نمی‌سازد** (رد شد) |
+| Registered fraction (silent boundary) | **0.912** |
+| Registration rate after the quench (last 100 steps) | **0.00** — total silence |
+| Converse (sustained noise, no quench) | steady duty ≈ 0.95 — does **not** build a silent boundary (rejected) |
 
-**جملهٔ بسته:** سرریز یک رویداد زایشی متناهی است؛ «مرز» همان جایی است که حرکت متوقف شد — و پس از آن ساکت می‌ماند. [دقیق — دینامیک با جذب‌شونده]
+**Closing statement:** the overflow is a finite generative event; the "boundary" is where motion stopped — and it stays silent afterwards. [exact — dynamics with an absorbing state]
 
 ## Related
 
-- [[A1-Silent-Boundary]] — تفسیر
-- [[Popcorn-Vacuum-Birth]] — پیامد پسین
-- [[Companion-Bridge]] — همتای SPUMA
-- [[MOC-LIMEN-VACUI]]
+- [[A1-Silent-Boundary-EN]] — interpretation
+- [[Popcorn-Vacuum-Birth-EN]] — the posterior consequence
+- [[Companion-Bridge-EN]] — the SPUMA counterpart
+- [[MOC-LIMEN-VACUI-EN]]

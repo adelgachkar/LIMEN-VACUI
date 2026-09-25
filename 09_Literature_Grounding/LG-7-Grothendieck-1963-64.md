@@ -1,50 +1,51 @@
 ---
 title: "LG-7 — Grothendieck (SGA 4, Exposé IV, 1963–64)"
-aliases: ["Grothendieck Universe", "SGA 4", "جهان‌های گروتندیک", "پستولات جهانی"]
+aliases: ["Grothendieck Universe", "SGA 4", "Universe Postulate"]
 created: 2026-09-25
 updated: 2026-09-25
 tags: [limen-vacui, literature-grounding, grothendieck, topos, universe]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
 # LG-7 — Grothendieck/Verdier, SGA 4 Exposé IV — Universes (1963–64)
 
-> **نقش در پروتکل:** لنگرِ **سکوت-مجوز به‌مثابه پستول** — الگوی رسمیِ «اتخاذ نه اشتقاق» در §۱ پروتکل: جهانِ U پستول می‌شود تا ممنوعیت‌های راسلی نرم شود، نه اینکه از چیزِ ساده‌تری «اثبات» شود. [[Aligned-Protocol]]
+> **Role in the protocol:** the anchor for **silence-permits as postulate** — the formal model of "adoption, not derivation" in §1 of the protocol: the universe U is postulated so that Russellian prohibitions soften, not "proved" from something simpler. [[Aligned-Protocol-EN]]
 
-## ارجاع دقیق [verified 2026-09-25]
+## Exact reference [verified 2026-09-25]
 
-- **Artin, M., Grothendieck, A., Verdier, J.-L. (1963–64). *Théorie des Topos et Cohomologie Étale des Schémas* (SGA 4), Exposé IV: «Topos» — بخشِ Universes.** سمینار Bois-Marie، IHÉS؛ بعدها Springer LNM 269/270/305 (1972–73).
-- متن اصلی در وب‌سایت‌های آرشیوی (نسخهٔ انگلیسیِ ترجمه‌شدهٔ SGA 4، P. Rodrigo؛ nLab «SGA4»: «introduced systematically in SGA 4, 1963–64») راستی‌آزمایی شد.
-- واژگان کلیدی: * univers (جهانِ گروتندیک: مجموعهٔ U که تحت مجموعه‌توانی و اجتماع‌های خانواده‌های U-ای بسته است)؛ * topos (دستهٔ شیئیِ Sheaves)؛ * axiome des univers.
+- **Artin, M., Grothendieck, A., Verdier, J.-L. (1963–64). *Théorie des Topos et Cohomologie Étale des Schémas* (SGA 4), Exposé IV: "Topos" — the Universes section.** Séminaire de Bois-Marie, IHÉS; later Springer LNM 269/270/305 (1972–73).
+- Verified via archival texts (the English translation of SGA 4 by P. Rodrigo; nLab "SGA4": "introduced systematically in SGA 4, 1963–64").
+- Key vocabulary: *univers* (Grothendieck universe: a set U closed under power sets and U-indexed unions); *topos*; *axiome des univers*.
 
-## ادعای اصلی (بخش Universes)
+## The core claim (Universes section)
 
-برای کارِ دسته‌ایِ بزرگ، به‌جای اصلاحِ اصلِ ممنوعیت (نظریهٔ انواع)، **پستولِ وجودِ جهان‌های هرمی** اتخاذ می‌شود: هر مجموعه در U-ای بزرگ‌تر می‌نشیند؛ درونِ U همهٔ سازه‌های معمول قابل‌ساخت‌اند و «بزرگ» (large) بودن صرفاً یعنی بیرونِ Uِ فعلی — نه بی‌معنا. قاب‌بندیِ جهان‌ها **پارادوکس را حل نمی‌کند؛ آن را مرتب می‌کند**: هر سازه، مرزِ جهانِ خودش را دارد و مرز، کارکردی است نه حصارِ متافیزیکی.
+For large categorical work, instead of reformulating the prohibition principle (type theory), the **existence of a hierarchy of universes is postulated**: every set sits inside some larger U; within U all ordinary constructions work, and "large" simply means "outside the current U" — not meaningless. The universe framing **does not solve the paradox; it orders it**: every construction carries its own universe boundary, and the boundary is functional, not metaphysical.
 
-## نگاشت دقیق به پروتکل
+## Mapping to the protocol
 
-| مفهوم گروتندیک | بند پروتکل | پیکره |
+| Grothendieck | Protocol clause | Corpus |
 |---|---|---|
-| پستولِ جهانی (اتخاذ، نه اشتقاق) | §۱ — سکوت-مجوز؛ §۳ — اتخاذ با بدهی | الگوی گروتندیک (نقلِ صریح §۴) |
-| هرمیِ جهان‌ها U ∈ U′ | §۳ — قاب‌ها روی هم؛ مرزِ هر قاب کارکردی است | لایه‌های ثبت: رجیسترِ هر قاب = عضوِ قابِ بالاتر |
-| large ≠ بی‌معنا (فقط بیرونِ U فعلی) | §۳ — گپِ پرچم‌دار: بیرونِ مرزِ فعلی = سکوتِ تعلیقی، نه انکار | رجیستر دو-قلمرو: پرچم‌ها مرزِ فعلی‌اند نه ابدی |
-| مرتب‌کردن پارادوکس (نه حل‌کردنش) | §۵ — «حل» یعنی پسماندِ صفر در قابِ معتبر؛ ادعای عبور = E1 | بند P0 / F1 |
+| universe postulate (adoption, not derivation) | §1 — silence-permits; §3 — adoption with debt | the Grothendieck pattern (explicitly quoted in §4) |
+| the hierarchy U ∈ U′ | §3 — frames on frames; each frame's boundary is functional | registration layers: each frame's register is a member of the next |
+| large ≠ meaningless (just outside the current U) | §3 — flagged gaps: outside the current boundary = suspensive silence, not denial | Two-Realm Register: flags mark the current boundary, not an eternal one |
+| ordering the paradox (not solving it) | §5 — "solution" means zero residue within a valid frame; claims of crossing = E1 | clause P0 / F1 |
 
-## پیوند با لنگرهای دیگر
+## Links to other anchors
 
-- **راسل** [[LG-6-Russell-1908]]: گروتندیک پاسخِ نرم‌تر به همان پارادوکس است — ممنوعیتِ نوعی ↔ پستولِ جهانی؛ پیکره دوم را انتخاب کرد چون «اتخاذِ اعلام‌شده» صادق‌تر از «اجتنابِ ساختاری» است.
-- **کانت** [[LG-5-Kant-1781-1787]]: جهان‌های هرمی نسخهٔ ریاضیِ «قاب‌بندی استعلایی» است — هر قاب، شرایطِ امکانِ سازه‌های درونش را می‌سازد.
-- **لاکاتوش** [[LG-3-Lakatos-1976]]: پستولِ جهانی‌ها خودش یک «اتخاذِ با بدهی» تاریخی بود — دقیقاً الگویی که لاکاتوش در بازساختِ منطقیِ تاریخِ ریاضیات نشان می‌دهد.
+- **Russell** [[LG-6-Russell-1908-EN]]: Grothendieck is the softer answer to the same paradox — type prohibition ↔ universe postulate; the corpus chose the latter because a "declared adoption" is more honest than "structural avoidance".
+- **Kant** [[LG-5-Kant-1781-1787-EN]]: universe hierarchies are the mathematical version of transcendental framing — each frame supplies the conditions of possibility of what lives inside it.
+- **Lakatos** [[LG-3-Lakatos-1976-EN]]: the universe postulate was itself a historical "adoption with debt" — exactly the pattern Lakatos documents in his rational reconstructions of mathematics.
 
-## صداقت
+## Honesty
 
-- برچسب: `[literature-grounding]` — کتاب‌شناسی راستی‌آزمایی‌شده؛ نگاشت‌ها `[conceptual]`.
-- گروتندیک نظریهٔ فومِ خلأ یا فیزیک ندارد؛ آنچه اتخاذ می‌شود فقط **الگوی پستولی** است (عین همان جملهٔ §۴ پروتکل: «پستولات، نه اشتقاق»).
-- دقت: مفهوم universe نخستین‌بار در SGA 4 Exposé IV (تدوین Verdier از طرح گروتندیک) سیستماتیک شد؛ استنادِ «Grothendieck universe» اختصاریِ همین مرجع است — سندِ مستقلِ منتشرشده از گروتندیک با این عنوان وجود ندارد و همین ثبت شد.
+- Label: `[literature-grounding]` — verified bibliography; mappings `[conceptual]`.
+- Grothendieck has no theory of vacuum foam or physics; what is adopted is only the **postulational pattern** (verbatim §4's "postulates, not derivations").
+- Precision: the universe notion was systematized in SGA 4 Exposé IV (Verdier's redaction of Grothendieck's plan); the shorthand "Grothendieck universe" refers to this source — no standalone published Grothendieck paper under that title exists, and this is recorded.
 
 ## Related
 
-- [[Aligned-Protocol]] — بند میزبان: §۱ (سکوت-مجوز)، §۳ (اتخاذ)، §۴ (مادر مجموعه‌ها)
-- [[LG-6-Russell-1908]] · [[LG-5-Kant-1781-1787]]
-- آینهٔ انگلیسی: [[LG-7-Grothendieck-1963-64-EN]]
+- [[Aligned-Protocol-EN]] — host clauses: §1 (silence-permits), §3 (adoption), §4 (mother of collections)
+- [[LG-6-Russell-1908-EN]] · [[LG-5-Kant-1781-1787-EN]]
+- Persian original: [[LG-7-Grothendieck-1963-64]]

@@ -1,80 +1,82 @@
 ---
-title: "Two-Realm-Register"
-aliases: ["Two Realm Register", "Sanctity Register", "رجیستر دو-قلمرو"]
+title: "Two-Realm-Register (EN)"
+aliases: ["Two Realm Register EN", "Sanctity Register EN"]
 created: 2026-09-25
 updated: 2026-09-25
-tags: [limen-vacui, two-realm-register, sanctity, flags, pending-vault]
+tags: [limen-vacui, two-realm-register, sanctity, flags, pending-vault, en]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
-# Two-Realm-Register — رجیستر دو-قلمرو
+# Two-Realm-Register (EN Mirror)
 
 > **Structural Causal Chain:**
-> بند حرمت (A1/§۳) → آزمون «ابزارِ قابل‌تصور؟» → دو قلمرو: ابهام (کار) / سکوت (حرمت) → پرچم بر هر گپ → انبار pending → مهاجرت با آزمون
+> sanctity clause (A1/S3) → "is a tool conceivable?" test → two realms: ambiguity (work) / silence (revere) → flag every gap → pending vault → migration with a test
 
-اجرای عملیاتیِ بند حرمت (A1 + §۳ پروتکل): هر پرسشِ بازِ فعلیِ پیکره با معیار
-**«آیا ابزاری قابل‌تصور است؟»** دسته‌بندی و پرچم‌گذاری شده است. برچسب‌ها:
-`[ambiguity: work]` (ابزار هست — موظف به رفع)، `[silence: revere]` (ابزار نیست —
-حرمت، پرچمِ دائمی)، `[bank: pending]` (ابزارِ نامعلوم — تعلیق با وثیقه، اجازهٔ
-مهاجرت به دو سمت). تعهد اجرا: پرچم بدون ابزارِ ردیف‌بعدی، E4 است — هر پرچمِ این
-رجیستر یا ابزار دارد یا وثیقهٔ ابزارِ آینده.
+Operational execution of the sanctity clause: every currently open question of
+the corpus is classified and flagged by the criterion **"is a tool
+conceivable?"**. Labels: `[ambiguity: work]` (a tool exists — resolution is a
+duty), `[silence: revere]` (none — reverence, permanent flag), `[bank:
+pending]` (tool status unknown — suspension with collateral, migration allowed
+both ways). Execution commitment: a flag without a next-row tool is E4 — every
+flag below carries a tool or a collateralized future tool.
 
-## قلمرو ۱ — ابهام: کار [ambiguity: work]
+## Realm 1 — Ambiguity: work [ambiguity: work]
 
-| # | گپ / پرسش | پرچم | ابزارِ قابل‌تصور (موجود یا ردیف بعدی) | وضعیت بانک |
+| # | gap / question | flag | conceivable tool (existing or next row) | bank status |
 |---|---|---|---|---|
-| W1 | قطعیت بند بحرانی b_c: «دهک جهانی» اندازه‌محدود است | ابزار: همان گِید K1 در L=256/512/1024 (`bc_finiteness_L`) | **b_c = 0.1263 ± 0.0002، پایدار؛ R_edge = 1.841 ± 0.002 — قطعی + تصحیح E4 (15.75 خارج‌قسمت اشتباه بود)** | ✅ done 2026-09-25 |
-| W2 | طیف اجتماع بحرانی-و-REAL در نقطهٔ ملاقات | ابزار: `spectral_regime_prediction.py` در b_eff = b_c | امضای تک‌مقیاس/توانیِ ترکیب | pending (وثیقه: ابزار موجود) |
-| W3 | آستانهٔ نیازمندی داده: S·N برای d_det زیر d_crit کالیبراسیون | ابزار: `limen_d_crit_price.py` (نردبان موتور v5 + فرم قیمت) | **معافیت بحرانیت بودجه‌محدود است، نه مطلق:** براکت اندازه‌گیری‌شده X* ∈ [1.97e7, 2.36e7] گام-راهرو (۱۰–۱۲× بودجهٔ کانونی؛ تحلیلی ۸.۲×) — در X*، d_det = 0.00194 ≤ d_crit = 0.002 و پسماندِ نقطهٔ نهی آشکارساز می‌شود؛ d_class هنوز با ε سنجاق است | ✅ done 2026-09-25 |
-| W4 | فرمول بستهٔ ω_n (اصلاح زوج/فرد ε_n) | ابزار: مدل دیواره با μ(x) صریح | تقابل میدان درونی/سوگیری لبه‌ای → طیف | pending (وثیقه: قرارداد K3/K4) |
-| W5 | نسبت 4.6 دو مقیاس کاری (0.12 eV در برابر 0.026 eV) | ابزار: سنجش مستقل κ_hop در هر دو بستر | نسبت در مقیاس واحد | pending (وثیقه: پنجرهٔ باریک) |
-| W6 | پنج لنگر مستندنشدهٔ §۹ (کانت، راسل، گروتندیک، فاینمن، نوتر) | ابزار: همان پروتکل LG (ارجاع راستی‌آزمایی‌شده + جدول نگاشت) | **LG-5..9 فا+EN ساخته شد** (Kant 1781/1787؛ Russell AMJ 30(3) 1908؛ SGA4 Exp.IV؛ FLP II §12-1؛ Nachr. Gött. 235–257) | ✅ done 2026-09-25 |
-| W7 | آزمون Ward روی مرز گذار سپر/تقویت در صفحهٔ β | ابزار: `limen_beta_ward.py` (سه روایت + تزئین نوفه؛ قاعدهٔ z انسامبلی S7.1) | **ناوردایی برقرار:** روایت‌ها هش IDENTICAL [exact]؛ تزئین نوفه — S و D ناوردا (z=0.74 / 0.96)، BETA* رزولوشن‌محدود (z=1.41 < 2σ، گام گرید 0.02 — پرچم‌گذاری شد نه دفن)؛ BETA* = +0.076، S = +0.743، D = −0.0704 (منفی = مرز «زیر هر دو سولو» وجود ندارد — تصحیح صادقانهٔ v0.3.0 حفظ شد)؛ لنگر شکل: بازتقویت در β=−2 [measured] | ✅ done 2026-09-25 (BETA* پرچم رزولوشن) |
+| W1 | sharpness of the critical bias b_c: the "universal decade" is size-limited | tool: the same K1 grid at L=256/512/1024 (`bc_finiteness_L`) | **b_c = 0.1263 ± 0.0002, stable; R_edge = 1.841 ± 0.002 — decisive + E4 correction (15.75 was a wrong quotient)** | ✅ done 2026-09-25 |
+| W2 | spectrum of the critical∧REAL composition at the meeting point | tool: `spectral_regime_prediction.py` at b_eff = b_c | single-scale/power-law signature of the composition | pending (collateral: existing tool) |
+| W3 | data-requirement threshold: S·N for d_det below the critical calibration d_crit | tool: `limen_d_crit_price.py` (v5-engine budget ladder + price form) | **the criticality exemption is BUDGET-LIMITED, not absolute:** measured bracket X* ∈ [1.97e7, 2.36e7] walker-steps (10–12x canonical; analytic 8.2x) — at X*, d_det = 0.00194 ≤ d_crit = 0.002 and the notch residue becomes detectable; d_class stays pinned by eps | ✅ done 2026-09-25 |
+| W4 | closed form of omega_n (even/odd epsilon_n correction) | tool: wall model with explicit mu(x) | inner-field/edge-bias opposition → spectrum | pending (collateral: K3/K4 contract) |
+| W5 | the 4.6 ratio of working scales (0.12 eV vs 0.026 eV) | tool: independent kappa_hop measurement in both substrates | the ratio in one scale | pending (collateral: narrow window) |
+| W6 | the five undocumented anchors of S9 (Kant, Russell, Grothendieck, Feynman, Noether) | tool: the LG protocol itself (verified reference + mapping table) | **LG-5..9 built in FA+EN** (Kant 1781/1787; Russell AMJ 30(3) 1908; SGA4 Exp.IV; FLP II §12-1; Nachr. Gött. 235–257) | ✅ done 2026-09-25 |
+| W7 | Ward test on the shield/boost transition edge in the beta plane | tool: `limen_beta_ward.py` (three narratives + noise decorations; the S7.1 ensemble-z rule) | **invariance holds:** narrative masks IDENTICAL [exact]; decorations — S and D invariant (z=0.74 / 0.96), BETA* resolution-limited (z=1.41 < 2 sigma, grid step 0.02 — flagged, not buried); BETA* = +0.076, S = +0.743, D = −0.0704 (negative = the below-both-solos boundary does NOT exist — the honest v0.3.0 correction preserved); shape anchor: re-amplification at beta=-2 [measured] | ✅ done 2026-09-25 (BETA* resolution flag) |
 
-## قلمرو ۲ — سکوت: حرمت [silence: revere]
+## Realm 2 — Silence: revere [silence: revere]
 
-| # | پرسش | چرا ابزار قابل‌تصور نیست (به زبان فعلیِ دفتر) | حکم |
+| # | question | why no tool is conceivable (in the ledger's current language) | verdict |
 |---|---|---|---|
-| S1 | «قانونِ» پیشا-مرز چیست؟ | هر گزاره پیشا-مرز را فرومی‌ریزد (A1)؛ ابزار، گزاره‌ساز است — پس خودش ورود است | حرمت — پرچمِ دائمی |
-| S2 | چرا سرریز، سرریز شد؟ (علتِ اول) | علت‌مندی زادهٔ مرز است؛ پرسش، قابِ علّی را به آن‌سو می‌کشد | حرمت — پرچمِ دائمی |
-| S3 | مقادیر ثابت‌های جهانی (چرا این؟) بیرونِ هم‌ترازی | بدون دادهٔ هم‌تراز، هر «چرا» طلبِ ورود به قلمروِ بی‌ابزار دارد؛ سکوتِ مطلق تا علامت | حرمت — پرچمِ دائمی |
-| S4 | انرژیِ مطلق (نه تفاضل) | بی‌ذات است؛ عملگرِ اندازه‌گیریِ مطلقش تعریف‌پذیر نیست | حرمت — سکوت تعلیقیِ ساختاری |
+| S1 | what is the "law" of the pre-boundary? | any proposition collapses the pre-boundary (A1); a tool is a proposition-maker — so the tool itself is the entry | revere — permanent flag |
+| S2 | why did the overflow overflow? (the first cause) | causality is a creature of the boundary; the question drags the causal frame across it | revere — permanent flag |
+| S3 | why these values of the universal constants, outside alignment? | without aligned data, every "why" demands entry into a tool-less realm; absolute silence until a signal | revere — permanent flag |
+| S4 | absolute (non-differential) energy | substanceless; no absolute measuring operator is definable | revere — structural suspensive silence |
 
-## پرچم‌های خودِ چهارچوب (F) — معیارِ پروتکل، رو به خودش
+## Framework-self flags (F) — the protocol's criterion pointed at itself
 
-| # | پرسش | قلمرو | وثیقه/سازوکار | حکم |
+| # | question | realm | collateral/mechanism | verdict |
 |---|---|---|---|---|
-| F1 | چه چیزی سه‌گانهٔ مولد (قید×سکوت×رخداد) را تنزل می‌دهد؟ | کار | بند خود-فالسیفایش §۳؛ سازوکار: «نقض‌گرِ درون‌مدل» (Ward-ناوردا + پسماندِ هم‌ترازی تازه) | کار بانکدار — باز |
-| F2 | آیا تفکیک‌های کلیدی ([measured]) به قضیه بدل می‌شوند؟ | کار | هستهٔ صوری در پیش‌نویس؛ ابزارهای اجراشده حالت‌های خاص‌اند | کار بانکدار — باز |
-| F3 | آیا مقادیر ثابت‌های واردشده (δθ، φ_max، f_c) درون‌مدل اشتقاق‌پذیرند؟ | حرمت | اشتقاقِ بی‌دادهٔ هم‌تراز = E1؛ مقدار «واردشده و برچسب‌خورده» می‌ماند (سه‌گانهٔ صداقت) | حرمت — تا دادهٔ هم‌تراز |
+| F1 | what would demote the generative triad (constraint × silence × event)? | work | self-falsification clause §3; mechanism: an in-model violator (Ward-neutral + fresh alignment residue) | banked work — open |
+| F2 | can the key [measured] distinctions become theorems? | work | formal core in draft; executed tools are special cases | banked work — open |
+| F3 | are the imported constants (δθ, φ_max, f_c) derivable in-model? | revere | deriving without aligned data = E1; the values stay "imported and labeled" (the honesty triad) | revere — until aligned data |
 
-## قاعدهٔ مهاجرت این رجیستر
+## Migration rule for this register
 
-- W→S: اگر در بازبینی، ابزارِ ادعاشده در عمل قابل‌تصور نیامد، پرچم به قلمرو ۲ مهاجرت می‌کند (با ثبتِ درس، E4).
-- S→W: هر هم‌ترازیِ ابزار-داده-هنجارِ تازه (مثل دادهٔ تجربی تازه یا اصلِ اتخاذیِ جدید) پرچمِ قلمرو ۲ را کاندیدِ مهاجرت می‌کند — مهاجرت باید **رخدادی ثبت‌شده** باشد، نه امید.
-- بانکِ هر دو قلمرو در MOC بازنگری می‌شود؛ حذفِ پرچم بدون حکمِ مهاجرت = سکوتِ گریز (E4).
+- W→S: if a review finds the claimed tool inconceivable in practice, the flag migrates to realm 2 (lesson registered, E4).
+- S→W: every new tool+data+norm alignment (new empirical data or a newly adopted axiom) makes a realm-2 flag a migration candidate — migration must be a **registered event**, not a hope.
+- both banks are reviewed in the MOC; removing a flag without a migration verdict = evasive silence (E4).
 
-## بانک اعداد کانونی این رجیستر
+## Canonical numbers of this register
 
-| کمیت | مقدار | منبع |
-|---|---|---|
-| پرسش‌های پرچم‌دار قلمرو کار | ۶ | همین سند |
-| پرسش‌های پرچم‌دار قلمرو حرمت | ۴ | همین سند |
-| پرچم‌های خودِ چهارچوب (F) | ۳ (۲ کار / ۱ حرمت) | همین سند |
-| W1 | ✅ done — b_c = 0.1263 ± 0.0002، R_edge = 1.841 ± 0.002 (تصحیح E4) | `bc_finiteness_L` |
-| W3 | ✅ done — معافیت بحرانیت بودجه‌محدود: X* ∈ [1.97e7, 2.36e7] (۱۰–۱۲× کانونی)؛ قیمت نیمه‌نقطه ۳۳×، ربع‌نقطه ۱۳۲× | `limen_d_crit_price` |
-| W7 | ✅ done — ناوردایی روایتی [exact] + تزئین نوفه ناوردا (S، D)؛ BETA* رزولوشن‌محدود | `limen_beta_ward` |
-| نسبت کنونی | 6:4 (+۳ پرچمِ خودِ چهارچوب: ۲ کار / ۱ حرمت) | بازبینی با هر هم‌ترازیِ تازه |
+| quantity | value | source |
+| work-realm flagged questions | 6 | this register |
+| revere-realm flagged questions | 4 | this register |
+| framework-self flags (F) | 3 (2 work / 1 revere) | this register |
+| W1 | ✅ done — b_c = 0.1263 ± 0.0002, R_edge = 1.841 ± 0.002 (E4 correction) | `bc_finiteness_L` |
+| W3 | ✅ done — the criticality exemption is budget-limited: X* ∈ [1.97e7, 2.36e7] (10–12x canonical); half-notch price 33x, quarter-notch 132x | `limen_d_crit_price` |
+| W7 | ✅ done — narrative invariance [exact] + decoration invariance (S, D); BETA* resolution-limited | `limen_beta_ward` |
+| current ratio | 6:4 (plus 3 framework-self flags: 2 work / 1 revere) | re-reviewed at every new alignment |
 
 ## Epistemic Status
 
-دسته‌بندیِ خودِ دفتر در تاریخ 2026-09-25 — پرچم‌ها احکامِ نهایی نیستند؛ قراردادِ
-بازبینی‌اند. ساختِ رجیستر خودش اجرای بند حرمت است؛ صادق‌ترین برچسب:
-`[protocol-mirror, self-audit]`. خانهٔ مفهومی: A1 سه بند + §۳ پروتکل.
+the ledger's own classification as of 2026-09-25 — flags are not final
+verdicts; they are review contracts. Building the register is itself an
+execution of the sanctity clause; the honest label: `[protocol-mirror,
+self-audit]`. Conceptual home: A1 three clauses + Protocol S3.
 
 ## Related
 
-- [[A1-Silent-Boundary]] — بند حرمت (سه بند عملیاتی)
-- [[Aligned-Protocol]] — §۳ (سه رژیم سکوت + تفکیک ابهام/سکوت) · §۸ (اجرای خودکاروزی)
-- [[MOC-LIMEN-VACUI]] — نقشه
+- [[A1-Silent-Boundary]] — the sanctity clause (three operational clauses)
+- [[Aligned-Protocol-EN]] — S3 (three regimes of silence + ambiguity/silence) · S8 (self-audit runs)
+- [[MOC-LIMEN-VACUI-EN]] — the map

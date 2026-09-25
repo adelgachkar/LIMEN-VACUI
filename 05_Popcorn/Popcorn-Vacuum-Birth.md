@@ -1,42 +1,44 @@
 ---
 title: "Popcorn Vacuum Birth — Cavity Nucleation and Redshift"
-aliases: ["Popcorn Birth", "Quenched Noise Nucleation"]
+aliases: ["Popcorn Birth", "Quenched Noise Nucleation", "زایش پاپ‌کورنی"]
 created: 2026-09-21
 updated: 2026-09-21
-tags: [limen-vacui, popcorn, nucleation, redshift]
+tags: [limen-vacui, popcorn, nucleation, redshift, en]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
 # Popcorn Vacuum Birth — Cavity Nucleation and Redshift
 
-## زایش پاپ‌کورنی خلا و پیامدهای پسین
+## Popcorn vacuum birth and its posterior consequences
 
-> روایت: «جبران کسری از راه حد کاهنده سرکوب درجهٔ آزادی و قیود هم‌ترازشده … تورم ناحیه‌ای، زایش پاپ‌کورنی خلا و نوفه‌های بستری را موجب شود؛ پیامد ردشیفت در گرایش به سرخ یکی از نتایج آن می‌تواند باشد؛ و تثبیت ثابت‌های جهانی — نه کش‌آمدن هندسهٔ محض اقلیدسی»
+> Narrative: "the compensation of deficit through the reducing limit of DOF suppression and the level-matched constraints … regional inflation, popcorn vacuum birth, and bedrock noise follow; redshift bias toward the red is one of its consequences; and the fixation of universal constants — not the stretching of a purely Euclidean geometry"
 
-سه پیامد، سه سطح اعتبار:
+Three consequences, three levels of credential:
 
-1. **زایش پاپ‌کورنی** [ساختاری — اجرا شده]: نوفهٔ خاموش + حد انفصال K1 → هسته‌زایی کاواک‌های پراکنده (T4)
-2. **سرخ‌گرایی** [مدل]: مسیر نوری در بستر کاواک‌دار، مؤثراً کش می‌آید (بسط همتا؛ فالسیفایبل در مدل همتا)
-3. **تثبیت ثابت‌ها** [ساختاری]: مقادیر ویژهٔ دامنه‌های متناهیِ ثبت‌شده گسسته‌اند — «ثابت‌ها» معلول قفل‌شدن مقیاس‌های ثبت‌شده‌اند، نه کش‌آمدن پیوسته
+1. **Popcorn birth** [structural — executed]: quenched noise + the K1 discontinuity limit → scattered cavity nucleation (T4)
+2. **Redshift** [model]: light paths through a cavity-bearing substrate stretch effectively (a companion-model extension; falsifiable there)
+3. **Constant fixation** [structural]: special values of registered finite domains are discrete — "constants" are the effect of registered scales locking, not of continuous stretching
 
-## Testable Content — T4 (اجرا شده)
+## Testable Content — T4 (executed)
 
-`tools/limen_core.py::t4_popcorn` (همان نقشهٔ K1 با رفع باگ union-find):
+`tools/limen_core.py::t4_popcorn` (the K1 map with the union-find fix):
 
-| کمیت | مقدار | مقایسه |
+| Quantity | Value | Comparison |
 |---|---|---|
-| کسر منجمد | 0.299 | رژیم تک‌افتادهٔ SPUMA (b=0.30) |
-| میانگین کاواک | **2.34 سلول** | = SPUMA K1 (همخوان) |
-| اوج/کل نرخ زایش | 0.180 | زایش پاپ‌کورنی: تکانه‌ای، نه پیوسته |
+| Frozen fraction | 0.299 | SPUMA's isolated regime (b=0.30) |
+| Mean cavity size | **2.34 cells** | = SPUMA K1 (consistent) |
+| Peak/total birth rate | 0.180 | popcorn birth: impulsive, not continuous |
 
 ## Epistemic Status
 
-«سرخ‌گرایی» و «تثبیت ثابت‌ها» اینجا **گزاره‌های برچسب‌دار مدل**‌اند — صورت‌بندی کمّی‌شان در همتا (Emergence-SDF-Vault: τ_d، c_eff و…) انجام شده و این نوت فقط نگاشت روایی می‌سازد. ادعای تطابق مشاهده‌ای وجود ندارد.
+"Redshift" and "constant fixation" are here **labeled model propositions** — their quantitative formulation lives in the companion (Emergence-SDF-Vault: τ_d, c_eff, …) and this note only builds the narrative mapping. No observational-concordance claim. A second, independent trigger for the same nucleation — a super-critical transfer rate (Ξ > Ξ_crit ≈ 0.8) — was added by the Middle-Atmosphere synthesis (T6c).
 
 ## Related
 
-- [[K1-Constraint-Overflow]] — سازوکار زایش
-- [[Balancer-Cushion]] — محیط زایش
-- [[Companion-Bridge]] — پیوند کمّی به همتا
-- [[MOC-LIMEN-VACUI]]
+- [[K1-Constraint-Overflow-EN]] — the birth mechanism
+- [[Balancer-Cushion-EN]] — the birth environment
+- [[Middle-Atmosphere-Synthesis-EN]] — the threshold trigger (T6c)
+- [[Companion-Bridge-EN]] — the quantitative link to the companion
+- [[MOC-LIMEN-VACUI-EN]]

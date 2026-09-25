@@ -1,49 +1,50 @@
 ---
 title: "Acceleration Claims Verdict — Technical Audit of the Boundary-Pressure Documents"
-aliases: ["Acceleration Verdict", "Dark Claims Audit"]
+aliases: ["Acceleration Verdict", "Dark Claims Audit", "حکم ادعاهای شتاب"]
 created: 2026-09-21
 updated: 2026-09-21
-tags: [limen-vacui, audit, epistemics]
+tags: [limen-vacui, audit, epistemics, en]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
-# Acceleration Claims Verdict — ممیزی فنی سند «شتاب، حاصلِ فشارِ مرزها بر ساختار است»
+# Acceleration Claims Verdict — Technical Audit of "Acceleration Is the Pressure of Boundaries on Structure"
 
-## منشأ
+## Source
 
-سند سوم (۱۱۳KB، گفت‌وگوی SDF با دستیار متنی) ادعاهای بزرگی مطرح می‌کند. حکم عضوبه‌عضو — با معیار خانواده: [دقیق = قابل محاسبه/اجرا؛ ساختاری = نگاشت مفهومی؛ مدل = برچسب‌دار، فالسیفایبل در همتا؛ رد = ناسازگار با خود Vault]:
+The third document (113 KB, an SDF dialogue with a text assistant) makes large claims. Item-by-item verdict — with the family's criteria: [exact = computable/executed; structural = conceptual mapping; model = labeled, falsifiable in the companion; rejected = inconsistent with the vaults' own policy]:
 
-## جدول حکم
+## Verdict table
 
-| ادعای سند | صورت‌بندی | حکم | دلیل |
+| Claim in the document | Form | Verdict | Reason |
 |---|---|---|---|
-| «شتاب از فشار مرزها بر ساختار است» | شتاب = پاسخ تراکمی به قید مرزی؛ نه جرم/بار | ✅ **دقیق** | T6a: تعادل سه‌مؤلفه‌ای اجرا شد؛ کران‌داری ۱۲/۱۲ — مکانیزم واقعی و کمّی‌پذیر |
-| «مادهٔ تاریک = صلابت هندسی دیواره‌ها؛ Φ_total = Φ_Newton + Φ_Stress» | پتانسیل تنشیِ وابسته به σ (ضخامت دیواره) | 🟡 **مدل** — بی‌پشتوانهٔ عددی | هیچ رابطهٔ σ→v(r) داده نشده؛ منحنی تخت v(r) نیازمند حل خودسازگار است. در همتا چنین مدلی ساخته نشده — کارِ باز بزرگ |
-| «انرژی تاریک = جبران ساختاری حجم در برابر سطح (توان ۳ در برابر ۲)» | a_obs = a_geo × (V_req/V_present) | 🟡 **مدل** — فرمول بی‌مقیاس | V∝R³ vs A∝R² در هستیِ نامتناهی/بزرگ بی‌معیار؛ «فشار خودزا» نیازمند معادلهٔ حالت w است؛ در Vault سرخ‌گرایی [مدل] است، اینجا کیهان‌شناسی کامل ادعا شده |
-| «JWST: کهکشان‌های بالغ در ۵۰۰M سال → زایش پاپ‌کورنی فوری» | زایش ماده در محل تنش | 🟠 **ابره‌کشیده** | زایش پاپ‌کورنیِ Vault، **کاواک** می‌زند (T4: ۲٫۳۴ سلول)، نه ستاره/کهکشان؛ جهش از کاواک به کهکشان بی‌پل کمّی |
-| «CMB: لکه‌های سرد/گرم = گره‌های تنشی» | ناهمسانی از پتانسیل حجم اولیه | 🟠 **ساختاری صرف** | بدون طیف توان P(k) قابل مقایسه با Planck؛ ادعای «تأییدکننده» نادرست — هنوز **تفکیک‌ناپذیر** از τ-میدان‌های استاندارد |
-| «تنش هابل = تغییرپذیری نرخ انبساط با بافت موضعی» | ΔH از ضخامت بافت | 🟡 **مدل همتا** | در Vault به‌عنوان «تست مشخص‌شده» ثبت شده (Pantheon+؛ Δχ²≈1، ΔH_c≈0) — سند آن را «حل‌شده» می‌خواند؛ **مبالغه** |
-| «مدل استاندارد در حال فروپاشی است؛ SDF ناهنجاری‌ها را می‌بلعد» | برتری معرفتی | 🔴 **رد** | «جذب هر ناهنجاری به‌عنوان شاهد» معیار فالسیفایبل را از بین می‌برد — دقیقاً ضد سیاست هر سه Vault که هر ادعا را برچسب‌دار و آستانه‌دار ثبت می‌کند |
+| "acceleration is the pressure of boundaries on structure" | acceleration = a compressive response to a boundary constraint; not mass/charge | ✅ **exact** | T6a: the three-component balance was executed; boundedness 12/12 — a real, quantifiable mechanism |
+| "dark matter = the geometric stiffness of the walls; Φ_total = Φ_Newton + Φ_Stress" | a stress potential depending on σ (wall thickness) | 🟡 **model** — no numerical support | no σ→v(r) relation given; a flat v(r) curve requires a self-consistent solve — unbuilt in the companion; a large open task |
+| "dark energy = the structural compensation of volume against surface (3 vs 2 powers)" | a_obs = a_geo × (V_req/V_present) | 🟡 **model** — scale-free formula | V∝R³ vs A∝R² has no yardstick in a large/limitless universe; a "self-driving pressure" needs an equation of state w; in the vault redshift is [model] only |
+| "JWST: mature galaxies at 500 Myr → instant popcorn birth" | matter born where tension is | 🟠 **over-stretched** | the vaults' popcorn birth makes **cavities** (T4: 2.34 cells), not stars/galaxies; the jump from cavity to galaxy has no quantitative bridge |
+| "CMB: hot/cold spots = tension nodes" | anisotropy from primordial volume potential | 🟠 **structural only** | without a power spectrum P(k) comparable to Planck, the "confirming" claim is wrong — at best **indistinguishable** from standard fields for now |
+| "Hubble tension = expansion-rate variability with local texture" | ΔH from texture thickness | 🟡 **companion model** | registered in the vault as "test-specified" (Pantheon+; Δχ²≈1, ΔH_c≈0) — the document calls it "solved"; **overstatement** |
+| "the standard model is collapsing; SDF swallows the anomalies" | epistemic superiority | 🔴 **rejected** | "every new datum = confirmation for us" destroys falsifiability — exactly against all three vaults' policy of labeling and thresholding every claim |
 
-## سه ریسک ساختاری که باید ثبت بمانند
+## Three structural risks to keep on record
 
-1. **ریسک unfalsifiability:** «هر دادهٔ جدید = تأیید ما» الگوی خطرناک سند است؛ Vaultها باید برعکس: هر ادعا آستانهٔ رد صریح دارد (مثل ماتریس تیزی/بستر SPUMA).
-2. **ریسک جهش مقیاس:** از کاواک ۲٫۳۴ سلولی به کهکشان — بدون هیچ معادلهٔ پیوند مقیاس. پل مجاز فقط از نوع Companion-Bridge است (برچسب‌دار، تمثیل تا اثبات).
-3. **ریسک دوگانهٔ نقش:** سند هم «فوم = میدان تشخیصی، نه شبکهٔ صلب» می‌گوید (✅ هم‌راستا با قید تفکیک کانونیکال) و هم فوم را بنیاد کیهان‌شناسی می‌خواند — تناقض درونی که رفعش همان راه‌حل ماست: فوم تشخیصی، شتاب پروجکشن.
+1. **Unfalsifiability risk:** "any new data = our evidence" is the document's dangerous pattern; the vaults must do the opposite: every claim carries an explicit rejection threshold (like SPUMA's sharpness/substrate matrix).
+2. **Scale-jump risk:** from a 2.34-cell cavity to a galaxy — with no scale-bridging equation. The only permitted bridge is a Companion-Bridge type (labeled; analogy until proven).
+3. **Dual-role risk:** the document says "foam = a diagnostic field, not a rigid network" (✅ aligned with the canonical delimitation guardrail) and also reads the foam as the foundation of cosmology — an internal contradiction whose resolution is our own: foam diagnostic, acceleration projection.
 
-## آنچه از سند رسوب شد (بعد از ممیزی)
+## What was deposited from the document (after the audit)
 
-- **رابطهٔ سه‌مؤلفه‌ای** A = A_drive − A_comp + A_bdry → T6a [دقیق] — نوت [[Middle-Atmosphere-Synthesis]]
-- **آستانهٔ Ξ_crit** → T6c [دقیق] — پیوند فوم/نرخ-انتقال
-- **«ناظر داخل C_mid»** به‌مثابه آزمون → T6b [دقیق، حکم: پروجکشن]
+- **The three-component relation** A = A_drive − A_comp + A_bdry → T6a [exact] — see [[Middle-Atmosphere-Synthesis-EN]]
+- **The Ξ_crit threshold** → T6c [exact] — the foam/transfer-rate link
+- **"An observer inside C_mid"** as a test → T6b [exact; verdict: projection]
 
-## جملهٔ بسته
+## Closing statement
 
-هستهٔ صادق سند — شتاب به‌مثابه پاسخ تراکمی به قید مرزی — در LIMEN **حتی بهتر از خود سند** پشتیبانی می‌شود (۱۲/۱۲ کران‌دار، آستانهٔ فوم عددی). اما برون‌افکنی‌های تاریک (ماده/انرژی تاریک، JWST، CMB) از آستانهٔ پشتوانهٔ کمّی فراترند و با برچسب [مدل]/[ساختاری] ثبت شدند — نه بیشتر.
+The document's honest core — acceleration as a compressive response to boundary constraints — is supported in LIMEN **even better than in the document itself** (12/12 bounded, a numeric foam threshold). But the dark extrapolations (dark matter/energy, JWST, CMB) exceed the quantitative backing and are registered as [model]/[structural] — no more.
 
 ## Related
 
-- [[Middle-Atmosphere-Synthesis]] — رسوب سندهای ۱و۲
-- [[Popcorn-Vacuum-Birth]] — زایش واقعیِ اجراشده
-- [[Companion-Bridge]] · [[MOC-LIMEN-VACUI]]
+- [[Middle-Atmosphere-Synthesis-EN]] — the deposit of documents 1–2
+- [[Popcorn-Vacuum-Birth-EN]] — the birth actually executed
+- [[Companion-Bridge-EN]] · [[MOC-LIMEN-VACUI-EN]]

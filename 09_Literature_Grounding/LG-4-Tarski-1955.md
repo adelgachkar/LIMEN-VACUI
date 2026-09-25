@@ -1,59 +1,60 @@
 ---
 title: "LG-4 — Tarski (A lattice-theoretical fixpoint theorem and its applications, 1955)"
-aliases: ["Tarski 1955", "Tarski fixpoint", "نقطهٔ ثابت تارسکی", "لغو روایت دفتر"]
+aliases: ["Tarski 1955", "Tarski fixpoint", "lattice fixed point"]
 created: 2026-09-25
 updated: 2026-09-25
 tags: [limen-vacui, literature-grounding, tarski, fixpoint, lattice]
 status: "canonical"
 license: "MIT"
+lang: "en"
 ---
 
 # LG-4 — Tarski, *A lattice-theoretical fixpoint theorem and its applications* (1955)
 
-> **نقش در پروتکل:** لنگرِ **نقطهٔ ثابت شبکه‌ای** — صورت صوریِ «بازورودِ سالم»: چرا خودارجاعِ معنا پارادوکس نمی‌زاید و به گزارهٔ مرزی همگرا می‌شود؛ هستهٔ ریاضی §۴ پروتکل. [[Aligned-Protocol]]
+> **Role in the protocol:** the anchor for the **lattice-theoretical fixed point** — the formal form of "healthy re-entry": why the self-reference of meaning does not produce a paradox and converges to the boundary proposition; the mathematical core of protocol §4. [[Aligned-Protocol-EN]]
 
-## ارجاع دقیق [verified 2026-09-25]
+## Exact reference [verified 2026-09-25]
 
-- **Tarski, A. (1955). A lattice-theoretical fixpoint theorem and its applications. *Pacific Journal of Mathematics*, 5(2), 285–309. DOI: 10.2140/pjm.1955.5.285.**
-- دسترس‌پذیر آزاد در MSP و Project Euclid؛ بازتاب معروف در Journal of Symbolic Logic 22(4)، نقد گریک (1957).
-- واژگان کلیدی: *complete lattice* (شبکهٔ کامل)؛ *monotone mapping* (گمارش یکنوا)؛ *least fixed point* (نقطهٔ ثابت کمینه)؛ Knaster–Tarski.
+- **Tarski, A. (1955). A lattice-theoretical fixpoint theorem and its applications. *Pacific Journal of Mathematics*, 5(2), 285–309. DOI: [10.2140/pjm.1955.5.285](https://doi.org/10.2140/pjm.1955.5.285).**
+- Freely available via MSP and Project Euclid; reviewed in Journal of Symbolic Logic 22(4) (Gericke, 1957).
+- Key vocabulary: *complete lattice*; *monotone mapping*; *least fixed point*; Knaster–Tarski.
 
-## قضیه و تعریف فشرده
+## The theorem, compressed
 
-در هر **شبکهٔ کامل**، هر **گمارش یکنوا** (یکنوا نسبت به ترتیب؛ فقط-انباشته، رفت‌وبرگشت‌ناپذیر) **نقطهٔ ثابتِ کمینه** دارد — و حتی مجموعهٔ همهٔ نقطه‌های ثابت، خود یک شبکهٔ کامل است. صورت عملیاتی در پروتکل:
+In any **complete lattice**, every **monotone map** (order-preserving; accumulate-only, no back-and-forth) has a **least fixed point** — and the set of all fixed points is itself a complete lattice. The operational form in the protocol:
 
-$$\text{اگر } L\ \text{شبکه‌ای کامل و } f:L\to L\ \text{یکنوا، آنگاه } \exists\, x^*\!: f(x^*)=x^*,\ \ x^* = \min\{x : x \le f(x)\}$$
+$$\text{If } L\ \text{is a complete lattice and } f:L\to L\ \text{is monotone, then } \exists\, x^*\!: f(x^*)=x^*,\ \ x^* = \min\{x : x \le f(x)\}$$
 
-و هم‌بندی صریحِ سه لنگر دیگر: **بازورود سالم = نقطهٔ ثابتِ عملگرِ یکنوا**؛ **بازورود نایکنوا (دروغگو، راسل) = بی‌نقطه‌ثابت = پارادوکس**.
+And the explicit pairing with the other anchors: **healthy re-entry = the fixed point of a monotone operator**; **non-monotone re-entry (the liar, Russell) = no fixed point = paradox**.
 
-## نگاشت دقیق به پروتکل
+## Mapping to the protocol
 
-| مفهوم تارسکی | بند پروتکل | پیکره |
+| Tarski concept | Protocol clause | Corpus |
 |---|---|---|
-| شبکهٔ کامل | §۴ — دفترِ ثبت (ساختار ترتیب‌دار) | رجیستر یک‌طرفهٔ T1 |
-| گمارش یکنوا | §۱ — رجیسترِ فقط-انباشته؛ رفت‌وبرگشت‌ناپذیر | ثبت یک‌سویه؛ «خراش عینک» |
-| نقطهٔ ثابتِ کمینه | §۴ — گزارهٔ مرزی = کمینهٔ سخن؛ لنگر خودارجاع | A1؛ مرجعِ منجمدِ فروپاشی دوز [measured] |
-| بی‌نقطه‌ثابتی عملگر نایکنوا | §۵ — C-خام؛ دروغگو و راسل به‌مثابه حدودِ ناممکن | ممنوعیت خود-رده‌ای (E1) |
-| تقسیم‌بندی عملگرها | §۵ — خودارجاع در عملگرهای ثبت ✅ / عملگرهای داوری ❌ | KSTهای ثبت‌شده vs ارزیابی‌های تعلیقی |
+| Complete lattice | §4 — the registration ledger (an ordered structure) | The one-way register T1 |
+| Monotone map | §1 — the accumulate-only register; no back-and-forth | One-way registration; the "glasses scratch" |
+| Least fixed point | §4 — the boundary proposition = the least utterance; the anchor of self-reference | A1; the frozen reference of the dose collapse [measured] |
+| Fixed-pointlessness of non-monotone operators | §5 — the raw option C; the liar and Russell as the impossible boundary | E1's ban on self-classification |
+| The operator partition | §5 — self-reference in registration operators ✅ / in verdict operators ❌ | Registered KSTs vs suspending evaluations |
 
-## چرا تارسکی، نه تارسکی-سلسله‌مراتبی
+## Why Tarski-the-fixpoint, not Tarski-the-hierarchy
 
-تارسکی در نظریهٔ مدل‌ها مجبور شد صدق را سلسله‌مراتبی کند (زبان-شیء / فرا-زبان) — چون عملگر صدق نایکنواست. اما **نقطهٔ ثابت شبکه‌ایِ همین مقالهٔ ۱۹۵۵، مسیر مقابل را می‌دهد**: وقتی عملگر یکنواست، خودارجاعِ بی‌سلسله‌مراتبِ همگرا ممکن است. پروتکل دقیقاً این را برمی‌دارد: **سکوتِ سلسله‌مراتب‌ساز نمی‌خواهد — یکنوایی می‌خواهد.** همین، علتِ برتری‌اش بر الگوی لومان-فرا-زبان در §۴ پروتکل است.
+In model theory Tarski was forced to make truth hierarchical (object-language / meta-language) — because the truth operator is not monotone. But **the lattice fixed point of this very 1955 paper offers the opposite route**: when the operator is monotone, non-hierarchical, convergent self-reference is possible. The protocol takes exactly this: **it does not want the hierarchy-making silence — it wants monotonicity.** This is why §4 prefers it over the Luhmann-style meta-language pattern.
 
-## پیوند با لنگرهای دیگر
+## Links to the other anchors
 
-- **اسپنسر-براون** [[LG-1-Spencer-Brown-1969]] — بازورود، نسخهٔ عملیاتیِ نقطهٔ ثابت شبکه‌ای است؛ «فرمِ بازورده‌شده» همان x* است.
-- **لومان** [[LG-2-Luhmann-1995]] — مشاهدهٔ مرتبهٔ دوم لومان، بدون تارسکی به فرا-زبان بی‌انتها می‌لغزد؛ نقطهٔ ثابت آن را مهار می‌کند: مشاهدهٔ مرتبهٔ دومِ سالم، نقطهٔ ثابتِ کمینه دارد (خودِ گزارهٔ مرزی).
-- **لاکاتوش** [[LG-3-Lakatos-1976]] — اثبات‌های لاکاتوشی همیشه جایی نقطهٔ ثابت دارند که فرایند اصلاح به آن همگرا شود؛ بدون آن، کشش مفهوم بی‌انتها می‌شود.
+- **Spencer-Brown** [[LG-1-Spencer-Brown-1969-EN]] — re-entry is the operational face of the lattice fixed point; the "re-entered form" is exactly x*.
+- **Luhmann** [[LG-2-Luhmann-1995-EN]] — without Tarski, second-order observation slides into an infinite meta-regress; the fixed point caps it: a healthy second-order observation has a least fixed point (the boundary proposition itself).
+- **Lakatos** [[LG-3-Lakatos-1976-EN]] — Lakatosian proofs always have somewhere the repair process converges; without it, concept-stretching runs without limit.
 
-## صداقت
+## Integrity
 
-- برچسب: `[literature-grounding]`؛ صورت‌بندی صوری در این نوت بازتولیدِ استاندارد قضیه است `[exact]`؛ نگاشت‌ها `[conceptual]`.
-- مدعای «معنا یگانهٔ عملگر یکنوای خود-اعمال‌شونده» با تارسکی **اثبات نمی‌شود** — تارسکی فقط سازوکارِ همگرایی را می‌دهد؛ «یگانه‌بودن» گزارهٔ قالبی خودِ پروتکل است (§۹).
-- تعریف شبکه‌ای‌بودن حداقلی است: دفترهای واقعی، کامل‌بودن در حد مدل‌سازی دارند — این تفاوت صریح شده، نه پنهان.
+- Label: `[literature-grounding]`; the formal statement here is a standard reproduction of the theorem `[exact]`; mappings `[conceptual]`.
+- The claim "meaning is the unique monotone self-applicable operator" is **not proven by Tarski** — Tarski supplies only the convergence mechanism; the uniqueness claim is the protocol's own in-frame proposition (§9).
+- The lattice formulation is minimal: real ledgers are complete only in the modeling sense — this gap is stated openly, not hidden.
 
 ## Related
 
-- [[Aligned-Protocol]] — بند میزبان: §۴ (نقطهٔ ثابت) و §۵ (تفکیک ثبت/داوری)
-- [[LG-1-Spencer-Brown-1969]] · [[LG-2-Luhmann-1995]] · [[LG-3-Lakatos-1976]]
-- آینهٔ انگلیسی: [[LG-4-Tarski-1955-EN]]
+- [[Aligned-Protocol-EN]] — hosting clauses: §4 (the fixed point) and §5 (the registration/verdict partition)
+- [[LG-1-Spencer-Brown-1969-EN]] · [[LG-2-Luhmann-1995-EN]] · [[LG-3-Lakatos-1976-EN]]
+- Persian original (canonical): `09_Literature_Grounding/LG-4-Tarski-1955.md`
