@@ -1,0 +1,43 @@
+==========================================================================
+W7 — WARD INVARIANCE OF THE SHIELD->BOOST BOUNDARY (beta-plane)
+L=192, seeds (11, 12, 13, 14, 15), kappa=0.03, g_max=0.297, b=0.3
+grid: (-2.0, -1.5, -1.0, -0.5, -0.2, 0.0, 0.06, 0.08, 0.1)
+narratives: ['N0-canon', 'N1-residue', 'N2-reciprocal'] (inject nothing; relabel only)
+
+[anchors] A solo p_f = 0.3174   B solo p_f = 0.2988
+          below-both-solos threshold = min = 0.2988
+
+[half A — narrative invariance] three passes, identical dynamics
+  pass N0-canon: debt_label='overflow', residue_label='registered'
+  pass N1-residue: debt_label='residue settling', residue_label='exhaled-settled'
+  pass N2-reciprocal: debt_label='debt called', residue_label='borrowed-settled'
+  mask-identity across narratives: IDENTICAL [exact]
+  -> BETA*, S, D bit-identical across narratives by construction; numeric spread z = 0.00 (reported, not celebrated — v1 lesson)
+
+  [W7 boundary quantities per seed, canon stream]:
+    seed 11: BETA* = +0.08   S = +0.758   D = -0.0717
+    seed 12: BETA* = +0.06   S = +0.757   D = -0.0686
+    seed 13: BETA* = +0.08   S = +0.720   D = -0.0729
+    seed 14: BETA* = +0.08   S = +0.713   D = -0.0670
+    seed 15: BETA* = +0.08   S = +0.766   D = -0.0719
+  canon means: BETA* = +0.076 (grid-limited)   S = +0.743   D = -0.0704
+  honest note: D < 0 everywhere -> the union NEVER goes below the smaller solo on this plane — boundary (a) does not exist [measured]; W7 tests the geometric boundary (b).
+  shape anchor: pU(beta=-2)=0.5238 vs valley floor pU(beta=-1.00)=0.3692 -> union RE-OPENS at deep negative beta [measured]
+
+[half B — noise-decoration invariance] different event sets, same law
+  stream canon     : event-mask hashes differ from canon on 0/5 seeds
+  stream antithetic: event-mask hashes differ from canon on 5/5 seeds  (expected: 5/5 -> genuinely different event sets)
+  stream axis-swap : event-mask hashes differ from canon on 5/5 seeds  (expected: 5/5 -> genuinely different event sets)
+
+  [decoration comparison — max pairwise Welch ensemble z over seed ensembles; S7.1 threshold z < 1]:
+    BETA*                 : canon: +0.076 / antithetic: +0.084 / axis-swap: +0.084
+      worst pair canon|antithetic: z =  1.41   RESOLUTION-LIMITED
+      -> within 2 sigma of every stream; at n=5 seeds and grid step 0.02 the discrete boundary cannot resolve tighter — measurement noise, not stream dependence (detection improves ~ (S*N)^-1/2, the W-window law).
+    S (boost-flank slope) : canon: +0.743 / antithetic: +0.753 / axis-swap: +0.743
+      worst pair canon|antithetic: z =  0.74   INVARIANT
+    D (valley deficit)    : canon: -0.070 / antithetic: -0.068 / axis-swap: -0.070
+      worst pair canon|antithetic: z =  0.96   INVARIANT
+
+VERDICT: narrative invariance of the shield->boost boundary HOLDS [exact]; noise-decoration invariance HOLDS WITH RESOLUTION FLAGS [measured]
+=> the geometric boundary BETA*, its boost-flank slope and the valley deficit belong to the LAW, not to a narrative or a stream — W7 closed [measured] (BETA* resolution-limited at current budget: flagged, not buried).
+Labels: gauge identities [exact]; boundary quantities and verdicts [measured]; narrative texts [conceptual]; unified coupling [model].

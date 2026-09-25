@@ -27,11 +27,11 @@ flag below carries a tool or a collateralized future tool.
 |---|---|---|---|---|
 | W1 | sharpness of the critical bias b_c: the "universal decade" is size-limited | tool: the same K1 grid at L=256/512/1024 (`bc_finiteness_L`) | **b_c = 0.1263 ± 0.0002, stable; R_edge = 1.841 ± 0.002 — decisive + E4 correction (15.75 was a wrong quotient)** | ✅ done 2026-09-25 |
 | W2 | spectrum of the critical∧REAL composition at the meeting point | tool: `spectral_regime_prediction.py` at b_eff = b_c | single-scale/power-law signature of the composition | pending (collateral: existing tool) |
-| W3 | data-requirement threshold: S·N for d_det below the critical calibration d_crit | tool: `limen_window_resources.py` S5 (price form) | price curve down past 0.002 | pending (collateral: existing tool) |
+| W3 | data-requirement threshold: S·N for d_det below the critical calibration d_crit | tool: `limen_d_crit_price.py` (v5-engine budget ladder + price form) | **the criticality exemption is BUDGET-LIMITED, not absolute:** measured bracket X* ∈ [1.97e7, 2.36e7] walker-steps (10–12x canonical; analytic 8.2x) — at X*, d_det = 0.00194 ≤ d_crit = 0.002 and the notch residue becomes detectable; d_class stays pinned by eps | ✅ done 2026-09-25 |
 | W4 | closed form of omega_n (even/odd epsilon_n correction) | tool: wall model with explicit mu(x) | inner-field/edge-bias opposition → spectrum | pending (collateral: K3/K4 contract) |
 | W5 | the 4.6 ratio of working scales (0.12 eV vs 0.026 eV) | tool: independent kappa_hop measurement in both substrates | the ratio in one scale | pending (collateral: narrow window) |
 | W6 | the five undocumented anchors of S9 (Kant, Russell, Grothendieck, Feynman, Noether) | tool: the LG protocol itself (verified reference + mapping table) | **LG-5..9 built in FA+EN** (Kant 1781/1787; Russell AMJ 30(3) 1908; SGA4 Exp.IV; FLP II §12-1; Nachr. Gött. 235–257) | ✅ done 2026-09-25 |
-| W7 | Ward test on the shield/boost transition edge in the beta plane | tool: `limen_beta_plane.py` + the Ward engine | invariance under three narratives | pending (collateral: S8 test) |
+| W7 | Ward test on the shield/boost transition edge in the beta plane | tool: `limen_beta_ward.py` (three narratives + noise decorations; the S7.1 ensemble-z rule) | **invariance holds:** narrative masks IDENTICAL [exact]; decorations — S and D invariant (z=0.74 / 0.96), BETA* resolution-limited (z=1.41 < 2 sigma, grid step 0.02 — flagged, not buried); BETA* = +0.076, S = +0.743, D = −0.0704 (negative = the below-both-solos boundary does NOT exist — the honest v0.3.0 correction preserved); shape anchor: re-amplification at beta=-2 [measured] | ✅ done 2026-09-25 (BETA* resolution flag) |
 
 ## Realm 2 — Silence: revere [silence: revere]
 
@@ -63,6 +63,8 @@ flag below carries a tool or a collateralized future tool.
 | revere-realm flagged questions | 4 | this register |
 | framework-self flags (F) | 3 (2 work / 1 revere) | this register |
 | W1 | ✅ done — b_c = 0.1263 ± 0.0002, R_edge = 1.841 ± 0.002 (E4 correction) | `bc_finiteness_L` |
+| W3 | ✅ done — the criticality exemption is budget-limited: X* ∈ [1.97e7, 2.36e7] (10–12x canonical); half-notch price 33x, quarter-notch 132x | `limen_d_crit_price` |
+| W7 | ✅ done — narrative invariance [exact] + decoration invariance (S, D); BETA* resolution-limited | `limen_beta_ward` |
 | current ratio | 6:4 (plus 3 framework-self flags: 2 work / 1 revere) | re-reviewed at every new alignment |
 
 ## Epistemic Status
