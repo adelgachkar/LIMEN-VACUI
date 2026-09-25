@@ -50,6 +50,11 @@ $$\text{arrow} = \underbrace{\text{constraint}}_{\text{potential-maker}} \times 
 
 **Migration rule:** a suspended claim with a conceivable test stays pending; with no conceivable test it migrates to absolute silence (E0). The "in-principle-testable" boundary is moving: every new alignment of tool+data+norm admits new residents.
 
+**The sanctity of the boundary; ambiguity ≠ silence (normative correction, 2026-09-25):** absolute silence is not vacancy — it is **sanctity**: peeking over the boundary and entering the pre-boundary is forbidden; every attempt at appropriation lands in category E1, not in an answer. Two hard distinctions:
+
+- **gap ≠ silence:** every known gap inside the boundary must be **flagged** (no claim + present record = suspensive silence with test collateral); an unflagged gap is evasive silence, a violation of E4. A flag is a re-execution commitment, not a declaration of silence.
+- **ambiguity ≠ silence:** ambiguity is a predicate of propositions; inside the boundary, where propositions exist, logically resolvable ambiguity is a **duty** (tools, distinctions, the residue test); at the pre-boundary, where no proposition exists, there is no "ambiguity" to remove — there is sanctity to respect. The two-realm boundary test: **is a tool conceivable? → ambiguity: work. Not? → silence: revere.**
+
 ## 4. Fundamentality and Reference
 
 - **Fundamental = the first registered, not the simplest built.** What crosses the boundary is always composite; the framework *counts* it as "fundamental-within-model-X". Composite fundamentality is the engine: it carries the next layer's observables inside (the cavity is composite — that is why it rings).
