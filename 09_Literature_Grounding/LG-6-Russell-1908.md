@@ -11,7 +11,7 @@ lang: "en"
 
 # LG-6 — Russell, "Mathematical Logic as Based on the Theory of Types" (1908)
 
-> **Role in the protocol:** the anchor for **Russell's paradox as the test of non-idempotent self-reference** — the very distinction §4 draws between the "healthy mother-of-collections" and the "forbidden member"; and the anchor for **hierarchies of frames** on which the in-model-violator mechanism (flag F1) is built. [[Aligned-Protocol-EN]]
+> **Role in the protocol:** the anchor for **Russell's paradox as the test of non-idempotent self-reference** — the very distinction §4 draws between the "healthy mother-of-collections" and the "forbidden member"; and the anchor for **hierarchies of frames** on which the in-model-violator mechanism (flag F1) is built. [[Aligned-Protocol]]
 
 ## Exact reference [verified 2026-09-25]
 
@@ -35,9 +35,9 @@ Paradoxes (Russell, Burali-Forti) arise from **unrestricted self-reference**: wh
 
 ## Links to other anchors
 
-- **Tarski** [[LG-4-Tarski-1955-EN]]: Tarski (1955) generalizes Russell's boundary via non-idempotent fixed points — Russell blocks the paradox, Tarski shows where healthy self-reference **exists**.
-- **Kant** [[LG-5-Kant-1781-1787-EN]]: Kant's Antinomies are the first catalogue of "boundary-crossing as self-defeat"; Russell fixes the same in pure logic.
-- **Grothendieck** [[LG-7-Grothendieck-1963-64-EN]]: set theory's softer answer to Russell — instead of type-theoretic prohibition, **hierarchies of universes** (the universe postulate); the corpus adopted this as its silence-permits pattern.
+- **Tarski** [[LG-4-Tarski-1955]]: Tarski (1955) generalizes Russell's boundary via non-idempotent fixed points — Russell blocks the paradox, Tarski shows where healthy self-reference **exists**.
+- **Kant** [[LG-5-Kant-1781-1787]]: Kant's Antinomies are the first catalogue of "boundary-crossing as self-defeat"; Russell fixes the same in pure logic.
+- **Grothendieck** [[LG-7-Grothendieck-1963-64]]: set theory's softer answer to Russell — instead of type-theoretic prohibition, **hierarchies of universes** (the universe postulate); the corpus adopted this as its silence-permits pattern.
 
 ## Honesty
 
@@ -47,6 +47,6 @@ Paradoxes (Russell, Burali-Forti) arise from **unrestricted self-reference**: wh
 
 ## Related
 
-- [[Aligned-Protocol-EN]] — host clauses: §3 (boundary), §4 (mother of collections), P0 (F1)
-- [[LG-4-Tarski-1955-EN]] · [[LG-5-Kant-1781-1787-EN]] · [[LG-7-Grothendieck-1963-64-EN]]
+- [[Aligned-Protocol]] — host clauses: §3 (boundary), §4 (mother of collections), P0 (F1)
+- [[LG-4-Tarski-1955]] · [[LG-5-Kant-1781-1787]] · [[LG-7-Grothendieck-1963-64]]
 - Persian original: [[LG-6-Russell-1908]]

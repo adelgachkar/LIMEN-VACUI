@@ -49,4 +49,4 @@ lang: "fa"
 
 - [[Aligned-Protocol]] — بند میزبان: §۴ (مرجع و انرژی)
 - [[LG-8-Feynman-1964]] · [[LG-5-Kant-1781-1787]] · [[LG-4-Tarski-1955]]
-- آینهٔ انگلیسی: [[LG-9-Noether-1918-EN]]
+- آینهٔ انگلیسی: [[LG-9-Noether-1918]]

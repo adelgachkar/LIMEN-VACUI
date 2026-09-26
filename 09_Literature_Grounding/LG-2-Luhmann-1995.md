@@ -11,7 +11,7 @@ lang: "en"
 
 # LG-2 — Luhmann, *Soziale Systeme* (1984) / *Social Systems* (1995)
 
-> **Role in the protocol:** the anchor for **"the observer = the distinction"** — placing the observer inside the very operation that observes; the foundation of the second-order audit (self-audit) and of the ledger-silence vs evasion-silence distinction (E4). [[Aligned-Protocol-EN]]
+> **Role in the protocol:** the anchor for **"the observer = the distinction"** — placing the observer inside the very operation that observes; the foundation of the second-order audit (self-audit) and of the ledger-silence vs evasion-silence distinction (E4). [[Aligned-Protocol]]
 
 ## Exact reference [verified 2026-09-25]
 
@@ -22,7 +22,7 @@ lang: "en"
 
 ## The book's core claim
 
-Observation is not the passive intake of a world-given observer — it is **the operation of drawing a distinction**, and every distinction is blind to its own distinction-maker (the observer's blind spot). Meaning (*Sinn*) is the specific mode of being of social systems: **the re-entry of the distinction-making distinction into itself** — explicitly built on Spencer-Brown [[LG-1-Spencer-Brown-1969-EN]] and Maturana's self-reference. The great methodological consequence: every observation observes from somewhere; and second-order observation marks the observer of the observer — **exactly what the protocol's self-audit (§7) does.**
+Observation is not the passive intake of a world-given observer — it is **the operation of drawing a distinction**, and every distinction is blind to its own distinction-maker (the observer's blind spot). Meaning (*Sinn*) is the specific mode of being of social systems: **the re-entry of the distinction-making distinction into itself** — explicitly built on Spencer-Brown [[LG-1-Spencer-Brown-1969]] and Maturana's self-reference. The great methodological consequence: every observation observes from somewhere; and second-order observation marks the observer of the observer — **exactly what the protocol's self-audit (§7) does.**
 
 ## Precise mapping to the protocol
 
@@ -36,9 +36,9 @@ Observation is not the passive intake of a world-given observer — it is **the 
 
 ## Links to the other anchors
 
-- **Spencer-Brown** [[LG-1-Spencer-Brown-1969-EN]] — the direct source: Luhmann's "observer" is the user of the calculus of distinctions; Luhmann cites him (and Maturana) by name.
-- **Tarski** [[LG-4-Tarski-1955-EN]] — Luhmann's second-order observation is the sociological analogue of Tarski's meta-language, but unlike Tarski it makes the hierarchy *re-enterable* (re-entry) — exactly why the protocol chose the lattice fixed point over the truth-hierarchy.
-- **Lakatos** [[LG-3-Lakatos-1976-EN]] — Luhmannian systems are self-testing protective belts; the protocol's suspensive silence is isomorphic to this.
+- **Spencer-Brown** [[LG-1-Spencer-Brown-1969]] — the direct source: Luhmann's "observer" is the user of the calculus of distinctions; Luhmann cites him (and Maturana) by name.
+- **Tarski** [[LG-4-Tarski-1955]] — Luhmann's second-order observation is the sociological analogue of Tarski's meta-language, but unlike Tarski it makes the hierarchy *re-enterable* (re-entry) — exactly why the protocol chose the lattice fixed point over the truth-hierarchy.
+- **Lakatos** [[LG-3-Lakatos-1976]] — Luhmannian systems are self-testing protective belts; the protocol's suspensive silence is isomorphic to this.
 
 ## Integrity
 
@@ -48,6 +48,6 @@ Observation is not the passive intake of a world-given observer — it is **the 
 
 ## Related
 
-- [[Aligned-Protocol-EN]] — hosting clauses: §7 (self-audit = second-order observation) and §9 (the observer's blind spot)
-- [[LG-1-Spencer-Brown-1969-EN]] · [[LG-3-Lakatos-1976-EN]] · [[LG-4-Tarski-1955-EN]]
+- [[Aligned-Protocol]] — hosting clauses: §7 (self-audit = second-order observation) and §9 (the observer's blind spot)
+- [[LG-1-Spencer-Brown-1969]] · [[LG-3-Lakatos-1976]] · [[LG-4-Tarski-1955]]
 - Persian original (canonical): `09_Literature_Grounding/LG-2-Luhmann-1995.md`

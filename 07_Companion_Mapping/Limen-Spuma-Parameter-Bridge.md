@@ -14,7 +14,7 @@ lang: "en"
 > **Structural Causal Chain (LIMEN→SPUMA):**
 > LIMEN overflow (g_max, τ_q, κ) → registered mask (the silent crust) → the very union-find of SPUMA's K1 map → cavity-size distribution → two-way mapping at the shared p_f
 
-This note retires the open caveat in [[Companion-Bridge-EN]]: "no parametric quantification is shared" — now there is one.
+This note retires the open caveat in [[Companion-Bridge]]: "no parametric quantification is shared" — now there is one.
 
 ## 1. The shared core — a one-way absorbing exit
 
@@ -110,6 +110,6 @@ Narrative reading: **SPUMA's popcorn cavities are LIMEN's registered overflow cr
 
 ## Related
 
-- [[Companion-Bridge-EN]] — the retired caveat
-- [[Popcorn-Vacuum-Birth-EN]] · [[K1-Constraint-Overflow-EN]]
+- [[Companion-Bridge]] — the retired caveat
+- [[Popcorn-Vacuum-Birth]] · [[K1-Constraint-Overflow]]
 - Tool: `tools/limen_spuma_bridge.py` — full output: `tools/limen_spuma_bridge_output.txt`

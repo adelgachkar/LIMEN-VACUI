@@ -11,7 +11,7 @@ lang: "en"
 
 # LG-8 — Feynman, Lectures Vol. II §12-1 "The Same Equations Have the Same Solutions" (1964)
 
-> **Role in the protocol:** the anchor for **contractual universality** — physics' most effective pedagogical text on how "universality" comes from sameness of mathematical structure, not sameness of substance; the basis of §4's verdict: "universality from the invariance agreement, not an absolute substrate". [[Aligned-Protocol-EN]]
+> **Role in the protocol:** the anchor for **contractual universality** — physics' most effective pedagogical text on how "universality" comes from sameness of mathematical structure, not sameness of substance; the basis of §4's verdict: "universality from the invariance agreement, not an absolute substrate". [[Aligned-Protocol]]
 
 ## Exact reference [verified 2026-09-25]
 
@@ -34,9 +34,9 @@ Seemingly unrelated phenomena (gravitational mass, electric charge, heat flow, p
 
 ## Links to other anchors
 
-- **Noether** [[LG-9-Noether-1918-EN]]: two halves of structural universality — Feynman: "same equations, same solutions"; Noether: "an equation's symmetry yields conservation". The corpus binds both into one verdict: universality comes from aligned structure.
-- **Tarski** [[LG-4-Tarski-1955-EN]]: "valid translation between frames" is the formal meeting point of the same idea.
-- **Lakatos** [[LG-3-Lakatos-1976-EN]]: carrying solutions between domains is precisely the "inductive rational reconstruction" Lakatos warns about — transfer needs tested legitimacy, not visual similarity; which is why the corpus executes transfers with tests.
+- **Noether** [[LG-9-Noether-1918]]: two halves of structural universality — Feynman: "same equations, same solutions"; Noether: "an equation's symmetry yields conservation". The corpus binds both into one verdict: universality comes from aligned structure.
+- **Tarski** [[LG-4-Tarski-1955]]: "valid translation between frames" is the formal meeting point of the same idea.
+- **Lakatos** [[LG-3-Lakatos-1976]]: carrying solutions between domains is precisely the "inductive rational reconstruction" Lakatos warns about — transfer needs tested legitimacy, not visual similarity; which is why the corpus executes transfers with tests.
 
 ## Honesty
 
@@ -46,6 +46,6 @@ Seemingly unrelated phenomena (gravitational mass, electric charge, heat flow, p
 
 ## Related
 
-- [[Aligned-Protocol-EN]] — host clauses: §2 (frame swap), §4 (universality)
-- [[LG-9-Noether-1918-EN]] · [[LG-3-Lakatos-1976-EN]]
+- [[Aligned-Protocol]] — host clauses: §2 (frame swap), §4 (universality)
+- [[LG-9-Noether-1918]] · [[LG-3-Lakatos-1976]]
 - Persian original: [[LG-8-Feynman-1964]]

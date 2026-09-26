@@ -143,6 +143,6 @@ Forward-prediction table:
 
 ## Related
 
-- [[Limen-Spuma-Parameter-Bridge-EN]] — the quantitative bridge (parent of this test)
-- [[K1-Constraint-Overflow-EN]] · [[Companion-Bridge-EN]]
-- [[MOC-LIMEN-VACUI-EN]]
+- [[Limen-Spuma-Parameter-Bridge]] — the quantitative bridge (parent of this test)
+- [[K1-Constraint-Overflow]] · [[Companion-Bridge]]
+- [[MOC-LIMEN-VACUI]]

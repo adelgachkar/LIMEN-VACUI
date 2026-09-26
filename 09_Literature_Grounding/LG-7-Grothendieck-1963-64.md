@@ -11,7 +11,7 @@ lang: "en"
 
 # LG-7 — Grothendieck/Verdier, SGA 4 Exposé IV — Universes (1963–64)
 
-> **Role in the protocol:** the anchor for **silence-permits as postulate** — the formal model of "adoption, not derivation" in §1 of the protocol: the universe U is postulated so that Russellian prohibitions soften, not "proved" from something simpler. [[Aligned-Protocol-EN]]
+> **Role in the protocol:** the anchor for **silence-permits as postulate** — the formal model of "adoption, not derivation" in §1 of the protocol: the universe U is postulated so that Russellian prohibitions soften, not "proved" from something simpler. [[Aligned-Protocol]]
 
 ## Exact reference [verified 2026-09-25]
 
@@ -34,9 +34,9 @@ For large categorical work, instead of reformulating the prohibition principle (
 
 ## Links to other anchors
 
-- **Russell** [[LG-6-Russell-1908-EN]]: Grothendieck is the softer answer to the same paradox — type prohibition ↔ universe postulate; the corpus chose the latter because a "declared adoption" is more honest than "structural avoidance".
-- **Kant** [[LG-5-Kant-1781-1787-EN]]: universe hierarchies are the mathematical version of transcendental framing — each frame supplies the conditions of possibility of what lives inside it.
-- **Lakatos** [[LG-3-Lakatos-1976-EN]]: the universe postulate was itself a historical "adoption with debt" — exactly the pattern Lakatos documents in his rational reconstructions of mathematics.
+- **Russell** [[LG-6-Russell-1908]]: Grothendieck is the softer answer to the same paradox — type prohibition ↔ universe postulate; the corpus chose the latter because a "declared adoption" is more honest than "structural avoidance".
+- **Kant** [[LG-5-Kant-1781-1787]]: universe hierarchies are the mathematical version of transcendental framing — each frame supplies the conditions of possibility of what lives inside it.
+- **Lakatos** [[LG-3-Lakatos-1976]]: the universe postulate was itself a historical "adoption with debt" — exactly the pattern Lakatos documents in his rational reconstructions of mathematics.
 
 ## Honesty
 
@@ -46,6 +46,6 @@ For large categorical work, instead of reformulating the prohibition principle (
 
 ## Related
 
-- [[Aligned-Protocol-EN]] — host clauses: §1 (silence-permits), §3 (adoption), §4 (mother of collections)
-- [[LG-6-Russell-1908-EN]] · [[LG-5-Kant-1781-1787-EN]]
+- [[Aligned-Protocol]] — host clauses: §1 (silence-permits), §3 (adoption), §4 (mother of collections)
+- [[LG-6-Russell-1908]] · [[LG-5-Kant-1781-1787]]
 - Persian original: [[LG-7-Grothendieck-1963-64]]

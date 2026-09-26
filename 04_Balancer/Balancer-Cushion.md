@@ -40,7 +40,7 @@ Elastic formulation: compression released into an elastic sheet of modulus K spr
 
 ## Related
 
-- [[A3-Arrow-From-Registration-EN]] — the direction of the fronts
-- [[Middle-Atmosphere-Synthesis-EN]] — the three-layer formalism and the T6 tests (the dynamical generalization of this note)
-- [[Popcorn-Vacuum-Birth-EN]] — what is born inside the cushion
-- [[MOC-LIMEN-VACUI-EN]]
+- [[A3-Arrow-From-Registration]] — the direction of the fronts
+- [[Middle-Atmosphere-Synthesis]] — the three-layer formalism and the T6 tests (the dynamical generalization of this note)
+- [[Popcorn-Vacuum-Birth]] — what is born inside the cushion
+- [[MOC-LIMEN-VACUI]]

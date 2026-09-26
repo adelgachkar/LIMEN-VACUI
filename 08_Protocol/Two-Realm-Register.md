@@ -79,5 +79,5 @@ self-audit]`. Conceptual home: A1 three clauses + Protocol S3.
 ## Related
 
 - [[A1-Silent-Boundary]] — the sanctity clause (three operational clauses)
-- [[Aligned-Protocol-EN]] — S3 (three regimes of silence + ambiguity/silence) · S8 (self-audit runs)
-- [[MOC-LIMEN-VACUI-EN]] — the map
+- [[Aligned-Protocol]] — S3 (three regimes of silence + ambiguity/silence) · S8 (self-audit runs)
+- [[MOC-LIMEN-VACUI]] — the map

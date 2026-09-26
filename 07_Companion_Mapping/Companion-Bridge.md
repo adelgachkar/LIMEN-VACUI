@@ -32,11 +32,11 @@ lang: "en"
 
 ## Parametric quantification (now available)
 
-A two-way map LIMEN(g_max, τ_q, κ) ↔ SPUMA(b) at the shared frozen fraction p_f was built and executed: at κ≤0.10, R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] — at weak coupling the cavity-size distributions coincide. Headline mapping: LIMEN(g=0.297, τ_q=40, κ=0.03) ↔ SPUMA(b=0.285). Details and tables: [[Limen-Spuma-Parameter-Bridge-EN]]. In the large-κ regime LIMEN's silent boundary is a spanning web (the other phase of the same registration process).
+A two-way map LIMEN(g_max, τ_q, κ) ↔ SPUMA(b) at the shared frozen fraction p_f was built and executed: at κ≤0.10, R = s̄_LIMEN/s̄_SPUMA ∈ [0.90, 0.98] — at weak coupling the cavity-size distributions coincide. Headline mapping: LIMEN(g=0.297, τ_q=40, κ=0.03) ↔ SPUMA(b=0.285). Details and tables: [[Limen-Spuma-Parameter-Bridge]]. In the large-κ regime LIMEN's silent boundary is a spanning web (the other phase of the same registration process).
 
 ### The unified register (the bridge's open question, now closed)
 
-Going beyond mapping two separate registers: a SINGLE lattice with both canonical one-way exits (T1 registration + K1 freeze) verbatim was built and run. Key results: both archives reproduced in isolation (0.3174/0.2990 vs 0.320/0.299), the exclusive-exit identity p_U = p_A+p_B to machine precision, iid geometry recovered at β=0 (R=0.989), symmetric dose-response (1.8–2.3× amplification at β=+1, 9× shielding at β=−1), and the headline: **negative coupling breaks the bridge's p_f floor** — the shielded union drops below the hard channel's solo rate (0.7551 vs 0.9149). Details: [[Unified-Register-Integration-EN]].
+Going beyond mapping two separate registers: a SINGLE lattice with both canonical one-way exits (T1 registration + K1 freeze) verbatim was built and run. Key results: both archives reproduced in isolation (0.3174/0.2990 vs 0.320/0.299), the exclusive-exit identity p_U = p_A+p_B to machine precision, iid geometry recovered at β=0 (R=0.989), symmetric dose-response (1.8–2.3× amplification at β=+1, 9× shielding at β=−1), and the headline: **negative coupling breaks the bridge's p_f floor** — the shielded union drops below the hard channel's solo rate (0.7551 vs 0.9149). Details: [[Unified-Register-Integration]].
 
 ## Honest boundaries
 
@@ -44,8 +44,8 @@ LIMEN narrates "before" SPUMA (why the boundary exists). The three projects rema
 
 ## Related
 
-- [[Limen-Spuma-Parameter-Bridge-EN]] — the quantitative bridge
-- [[Unified-Register-Integration-EN]] — the unified register
-- [[K1-Constraint-Overflow-EN]] · [[K2-Release-Rings-EN]]
-- [[Middle-Atmosphere-Synthesis-EN]] — the formal layer
-- [[MOC-LIMEN-VACUI-EN]]
+- [[Limen-Spuma-Parameter-Bridge]] — the quantitative bridge
+- [[Unified-Register-Integration]] — the unified register
+- [[K1-Constraint-Overflow]] · [[K2-Release-Rings]]
+- [[Middle-Atmosphere-Synthesis]] — the formal layer
+- [[MOC-LIMEN-VACUI]]

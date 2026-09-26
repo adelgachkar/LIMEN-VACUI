@@ -57,6 +57,6 @@ Three tool generations (v1→v5) are findings in themselves (recorded in the too
 
 ## Related
 
-- [[K1-Constraint-Overflow-EN]] — origin of the central void
-- [[Companion-Bridge-EN]] — mapping to SPUMA K2
-- [[MOC-LIMEN-VACUI-EN]]
+- [[K1-Constraint-Overflow]] — origin of the central void
+- [[Companion-Bridge]] — mapping to SPUMA K2
+- [[MOC-LIMEN-VACUI]]

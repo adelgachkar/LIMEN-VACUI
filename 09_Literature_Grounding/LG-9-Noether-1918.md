@@ -11,7 +11,7 @@ lang: "en"
 
 # LG-9 — Noether, "Invariante Variationsprobleme" (1918)
 
-> **Role in the protocol:** the anchor for **reference = symmetry alignment** — the basis of §4's clause on energy: "its conservation is conditional on the alignment of time-translation symmetry (Noether); a misalignment = a bookkeeping leak (cosmic reddening)". Without Noether, the protocol's reference clause has no historical footing. [[Aligned-Protocol-EN]]
+> **Role in the protocol:** the anchor for **reference = symmetry alignment** — the basis of §4's clause on energy: "its conservation is conditional on the alignment of time-translation symmetry (Noether); a misalignment = a bookkeeping leak (cosmic reddening)". Without Noether, the protocol's reference clause has no historical footing. [[Aligned-Protocol]]
 
 ## Exact reference [verified 2026-09-25]
 
@@ -35,9 +35,9 @@ lang: "en"
 
 ## Links to other anchors
 
-- **Feynman** [[LG-8-Feynman-1964-EN]]: two halves of structural universality — Feynman: "same equations, same solutions"; Noether: "an equation's symmetry yields conservation". The corpus binds both: universality from aligned structure.
-- **Kant** [[LG-5-Kant-1781-1787-EN]]: Noether shows even "reference" (energy) is conditional on alignment — precisely the transcendental verdict: asking for an absolute thing beyond the frame is meaningless.
-- **Tarski** [[LG-4-Tarski-1955-EN]]: the protocol's alignment residue is formalized via fixed points; Noether calls the same residue an "identity" in variational form.
+- **Feynman** [[LG-8-Feynman-1964]]: two halves of structural universality — Feynman: "same equations, same solutions"; Noether: "an equation's symmetry yields conservation". The corpus binds both: universality from aligned structure.
+- **Kant** [[LG-5-Kant-1781-1787]]: Noether shows even "reference" (energy) is conditional on alignment — precisely the transcendental verdict: asking for an absolute thing beyond the frame is meaningless.
+- **Tarski** [[LG-4-Tarski-1955]]: the protocol's alignment residue is formalized via fixed points; Noether calls the same residue an "identity" in variational form.
 
 ## Honesty
 
@@ -47,6 +47,6 @@ lang: "en"
 
 ## Related
 
-- [[Aligned-Protocol-EN]] — host clause: §4 (reference and energy)
-- [[LG-8-Feynman-1964-EN]] · [[LG-5-Kant-1781-1787-EN]] · [[LG-4-Tarski-1955-EN]]
+- [[Aligned-Protocol]] — host clause: §4 (reference and energy)
+- [[LG-8-Feynman-1964]] · [[LG-5-Kant-1781-1787]] · [[LG-4-Tarski-1955]]
 - Persian original: [[LG-9-Noether-1918]]

@@ -32,6 +32,6 @@ This axiom is a **structural-analogical proposition**: it has no direct testabil
 
 ## Related
 
-- [[A1-Silent-Boundary-EN]] — the silent boundary
-- [[Onset-Arrow-EN]] — the prior→posterior arrow (T2)
-- [[MOC-LIMEN-VACUI-EN]]
+- [[A1-Silent-Boundary]] — the silent boundary
+- [[Onset-Arrow]] — the prior→posterior arrow (T2)
+- [[MOC-LIMEN-VACUI]]

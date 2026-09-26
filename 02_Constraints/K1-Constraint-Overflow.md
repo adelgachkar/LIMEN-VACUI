@@ -32,7 +32,7 @@ The two constraints inherited from SPUMA-VACUI play the opening roles here: the 
 
 ## Related
 
-- [[A1-Silent-Boundary-EN]] — interpretation
-- [[Popcorn-Vacuum-Birth-EN]] — the posterior consequence
-- [[Companion-Bridge-EN]] — the SPUMA counterpart
-- [[MOC-LIMEN-VACUI-EN]]
+- [[A1-Silent-Boundary]] — interpretation
+- [[Popcorn-Vacuum-Birth]] — the posterior consequence
+- [[Companion-Bridge]] — the SPUMA counterpart
+- [[MOC-LIMEN-VACUI]]

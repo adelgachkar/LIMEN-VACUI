@@ -35,7 +35,7 @@ The third document (113 KB, an SDF dialogue with a text assistant) makes large c
 
 ## What was deposited from the document (after the audit)
 
-- **The three-component relation** A = A_drive − A_comp + A_bdry → T6a [exact] — see [[Middle-Atmosphere-Synthesis-EN]]
+- **The three-component relation** A = A_drive − A_comp + A_bdry → T6a [exact] — see [[Middle-Atmosphere-Synthesis]]
 - **The Ξ_crit threshold** → T6c [exact] — the foam/transfer-rate link
 - **"An observer inside C_mid"** as a test → T6b [exact; verdict: projection]
 
@@ -45,6 +45,6 @@ The document's honest core — acceleration as a compressive response to boundar
 
 ## Related
 
-- [[Middle-Atmosphere-Synthesis-EN]] — the deposit of documents 1–2
-- [[Popcorn-Vacuum-Birth-EN]] — the birth actually executed
-- [[Companion-Bridge-EN]] · [[MOC-LIMEN-VACUI-EN]]
+- [[Middle-Atmosphere-Synthesis]] — the deposit of documents 1–2
+- [[Popcorn-Vacuum-Birth]] — the birth actually executed
+- [[Companion-Bridge]] · [[MOC-LIMEN-VACUI]]

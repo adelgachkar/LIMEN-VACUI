@@ -155,4 +155,4 @@ $$\text{پیکان} = \underbrace{\text{قید}}_{\text{پتانسیل‌ساز}
 - [[A1-Silent-Boundary]] — نقطهٔ ثابتِ مصداقی: گزارهٔ مرزی
 - [[Unified-Register-Integration]] — هویت انحصاری و دو خروج، منشأ E4
 - [[Limen-Spuma-Parameter-Bridge]] — پل کمّی
-- آینهٔ انگلیسی: [[Aligned-Protocol-EN]]
+- آینهٔ انگلیسی: [[Aligned-Protocol]]

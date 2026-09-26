@@ -34,6 +34,6 @@ The converse proposition was also tested and **rejected**: with sustained noise,
 
 ## Related
 
-- [[K1-Constraint-Overflow-EN]] — quantitative form of the overflow
-- [[A2-Overflow-From-Perfect-Symmetry-EN]] — why the overflow comes from perfect symmetry
-- [[MOC-LIMEN-VACUI-EN]] — the map
+- [[K1-Constraint-Overflow]] — quantitative form of the overflow
+- [[A2-Overflow-From-Perfect-Symmetry]] — why the overflow comes from perfect symmetry
+- [[MOC-LIMEN-VACUI]] — the map

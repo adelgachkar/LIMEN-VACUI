@@ -57,4 +57,4 @@ $$\text{اگر } L\ \text{شبکه‌ای کامل و } f:L\to L\ \text{یکنو
 
 - [[Aligned-Protocol]] — بند میزبان: §۴ (نقطهٔ ثابت) و §۵ (تفکیک ثبت/داوری)
 - [[LG-1-Spencer-Brown-1969]] · [[LG-2-Luhmann-1995]] · [[LG-3-Lakatos-1976]]
-- آینهٔ انگلیسی: [[LG-4-Tarski-1955-EN]]
+- آینهٔ انگلیسی: [[LG-4-Tarski-1955]]

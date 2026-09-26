@@ -11,7 +11,7 @@ lang: "en"
 
 # LG-1 — Spencer-Brown, *Laws of Form* (1969)
 
-> **Role in the protocol:** the anchor for **re-entry** — the mechanism on which §4 of the protocol (registered fundamentality and reference) and the healthy self-reference of meaning both rest. [[Aligned-Protocol-EN]]
+> **Role in the protocol:** the anchor for **re-entry** — the mechanism on which §4 of the protocol (registered fundamentality and reference) and the healthy self-reference of meaning both rest. [[Aligned-Protocol]]
 
 ## Exact reference [verified 2026-09-25]
 
@@ -35,9 +35,9 @@ The beginning of everything is neither an object nor a substance — it is an **
 
 ## Links to the other anchors
 
-- **Luhmann** [[LG-2-Luhmann-1995-EN]] is built directly on this book — "the observer = the distinction" is the sociological translation of "draw a distinction"; Luhmann's own acknowledgments in *Soziale Systeme* name Spencer-Brown and Maturana explicitly.
-- **Tarski** [[LG-4-Tarski-1955-EN]] formalizes the same re-entry: healthy re-entry = the fixed point of a monotone operator; non-monotone re-entry (liar, Russell) has no fixed point.
-- **Lakatos** [[LG-3-Lakatos-1976-EN]] shows how initial distinctions (the polyhedron) get repaired under counterexamples — the temporary license of silence legitimizes a distinction, not its permanence.
+- **Luhmann** [[LG-2-Luhmann-1995]] is built directly on this book — "the observer = the distinction" is the sociological translation of "draw a distinction"; Luhmann's own acknowledgments in *Soziale Systeme* name Spencer-Brown and Maturana explicitly.
+- **Tarski** [[LG-4-Tarski-1955]] formalizes the same re-entry: healthy re-entry = the fixed point of a monotone operator; non-monotone re-entry (liar, Russell) has no fixed point.
+- **Lakatos** [[LG-3-Lakatos-1976]] shows how initial distinctions (the polyhedron) get repaired under counterexamples — the temporary license of silence legitimizes a distinction, not its permanence.
 
 ## Integrity
 
@@ -47,6 +47,6 @@ The beginning of everything is neither an object nor a substance — it is an **
 
 ## Related
 
-- [[Aligned-Protocol-EN]] — hosting clauses: §1 (event), §3 (silence), §4 (re-entry)
-- [[LG-2-Luhmann-1995-EN]] · [[LG-3-Lakatos-1976-EN]] · [[LG-4-Tarski-1955-EN]]
+- [[Aligned-Protocol]] — hosting clauses: §1 (event), §3 (silence), §4 (re-entry)
+- [[LG-2-Luhmann-1995]] · [[LG-3-Lakatos-1976]] · [[LG-4-Tarski-1955]]
 - Persian original (canonical): `09_Literature_Grounding/LG-1-Spencer-Brown-1969.md`

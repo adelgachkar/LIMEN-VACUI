@@ -49,4 +49,4 @@ lang: "fa"
 
 - [[Aligned-Protocol]] — بند میزبان: §۱ (رخداد)، §۳ (سکوت)، §۴ (بازورود)
 - [[LG-2-Luhmann-1995]] · [[LG-3-Lakatos-1976]] · [[LG-4-Tarski-1955]]
-- آینهٔ انگلیسی: [[LG-1-Spencer-Brown-1969-EN]]
+- آینهٔ انگلیسی: [[LG-1-Spencer-Brown-1969]]

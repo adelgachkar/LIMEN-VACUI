@@ -35,6 +35,6 @@ Narrative: "constraint accumulation and the uniformity of density flow into the 
 
 ## Related
 
-- [[A2-Overflow-From-Perfect-Symmetry-EN]] — the arrow's origin
-- [[Balancer-Cushion-EN]] — stabilizing the posterior
-- [[MOC-LIMEN-VACUI-EN]]
+- [[A2-Overflow-From-Perfect-Symmetry]] — the arrow's origin
+- [[Balancer-Cushion]] — stabilizing the posterior
+- [[MOC-LIMEN-VACUI]]

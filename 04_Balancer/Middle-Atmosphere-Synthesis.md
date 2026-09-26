@@ -75,7 +75,7 @@ T6a/T6c are exact (dynamics with explicit parameters); T6b confirms the mapping 
 
 ## Related
 
-- [[Balancer-Cushion-EN]] — the narrative form of the same mechanism
-- [[Popcorn-Vacuum-Birth-EN]] — the super-critical consequence
-- [[Acceleration-Claims-Verdict-EN]] — the verdict on document 3 (the dark claims)
-- [[Companion-Bridge-EN]] · [[MOC-LIMEN-VACUI-EN]]
+- [[Balancer-Cushion]] — the narrative form of the same mechanism
+- [[Popcorn-Vacuum-Birth]] — the super-critical consequence
+- [[Acceleration-Claims-Verdict]] — the verdict on document 3 (the dark claims)
+- [[Companion-Bridge]] · [[MOC-LIMEN-VACUI]]

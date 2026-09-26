@@ -11,7 +11,7 @@ lang: "en"
 
 # LG-3 — Lakatos, *Proofs and Refutations* (1976)
 
-> **Role in the protocol:** the anchor for the **hard core / protective belt** — the historical pattern behind two norms: **E2 (fail-closed)** and **E5 (program-level testing)**; and the secondary source for "the temporary license of silence" (the grounding of protocol §3). [[Aligned-Protocol-EN]]
+> **Role in the protocol:** the anchor for the **hard core / protective belt** — the historical pattern behind two norms: **E2 (fail-closed)** and **E5 (program-level testing)**; and the secondary source for "the temporary license of silence" (the grounding of protocol §3). [[Aligned-Protocol]]
 
 ## Exact reference [verified 2026-09-25]
 
@@ -35,9 +35,9 @@ Mathematical discovery is a dialectical process: a formalized proof is set up �
 
 ## Links to the other anchors
 
-- **Spencer-Brown** [[LG-1-Spencer-Brown-1969-EN]] — Lakatos's initial distinctions (the polyhedron) are precisely "draw a distinction" being repaired under counterexamples; the license of silence is what makes counterexamples landable.
-- **Luhmann** [[LG-2-Luhmann-1995-EN]] — the protective belt is a second-order-observing, self-testing system; repairing the belt = returning the observer to the ledger.
-- **Tarski** [[LG-4-Tarski-1955-EN]] — the lattice fixed point is the formal answer to Lakatos's "atom of mathematics": a genuine programme always has somewhere the repair process converges — otherwise concept-stretching runs without limit.
+- **Spencer-Brown** [[LG-1-Spencer-Brown-1969]] — Lakatos's initial distinctions (the polyhedron) are precisely "draw a distinction" being repaired under counterexamples; the license of silence is what makes counterexamples landable.
+- **Luhmann** [[LG-2-Luhmann-1995]] — the protective belt is a second-order-observing, self-testing system; repairing the belt = returning the observer to the ledger.
+- **Tarski** [[LG-4-Tarski-1955]] — the lattice fixed point is the formal answer to Lakatos's "atom of mathematics": a genuine programme always has somewhere the repair process converges — otherwise concept-stretching runs without limit.
 
 ## Integrity
 
@@ -47,6 +47,6 @@ Mathematical discovery is a dialectical process: a formalized proof is set up �
 
 ## Related
 
-- [[Aligned-Protocol-EN]] — hosting clauses: §2 (E2, E5) and §9 (the adopted residual)
-- [[LG-1-Spencer-Brown-1969-EN]] · [[LG-2-Luhmann-1995-EN]] · [[LG-4-Tarski-1955-EN]]
+- [[Aligned-Protocol]] — hosting clauses: §2 (E2, E5) and §9 (the adopted residual)
+- [[LG-1-Spencer-Brown-1969]] · [[LG-2-Luhmann-1995]] · [[LG-4-Tarski-1955]]
 - Persian original (canonical): `09_Literature_Grounding/LG-3-Lakatos-1976.md`

@@ -33,6 +33,6 @@ The T1/T2 dynamics are stylized (a registration symbol, not a claim about the tr
 
 ## Related
 
-- [[A3-Arrow-From-Registration-EN]] — the axiom
-- [[K1-Constraint-Overflow-EN]] — the generative event
-- [[MOC-LIMEN-VACUI-EN]]
+- [[A3-Arrow-From-Registration]] — the axiom
+- [[K1-Constraint-Overflow]] — the generative event
+- [[MOC-LIMEN-VACUI]]

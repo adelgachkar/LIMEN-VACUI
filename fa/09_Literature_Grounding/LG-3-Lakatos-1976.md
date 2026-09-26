@@ -49,4 +49,4 @@ lang: "fa"
 
 - [[Aligned-Protocol]] — بند میزبان: §۲ (E2, E5) و §۹ (حد اتخاذی)
 - [[LG-1-Spencer-Brown-1969]] · [[LG-2-Luhmann-1995]] · [[LG-4-Tarski-1955]]
-- آینهٔ انگلیسی: [[LG-3-Lakatos-1976-EN]]
+- آینهٔ انگلیسی: [[LG-3-Lakatos-1976]]

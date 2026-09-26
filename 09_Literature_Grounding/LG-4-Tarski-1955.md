@@ -11,7 +11,7 @@ lang: "en"
 
 # LG-4 — Tarski, *A lattice-theoretical fixpoint theorem and its applications* (1955)
 
-> **Role in the protocol:** the anchor for the **lattice-theoretical fixed point** — the formal form of "healthy re-entry": why the self-reference of meaning does not produce a paradox and converges to the boundary proposition; the mathematical core of protocol §4. [[Aligned-Protocol-EN]]
+> **Role in the protocol:** the anchor for the **lattice-theoretical fixed point** — the formal form of "healthy re-entry": why the self-reference of meaning does not produce a paradox and converges to the boundary proposition; the mathematical core of protocol §4. [[Aligned-Protocol]]
 
 ## Exact reference [verified 2026-09-25]
 
@@ -43,9 +43,9 @@ In model theory Tarski was forced to make truth hierarchical (object-language / 
 
 ## Links to the other anchors
 
-- **Spencer-Brown** [[LG-1-Spencer-Brown-1969-EN]] — re-entry is the operational face of the lattice fixed point; the "re-entered form" is exactly x*.
-- **Luhmann** [[LG-2-Luhmann-1995-EN]] — without Tarski, second-order observation slides into an infinite meta-regress; the fixed point caps it: a healthy second-order observation has a least fixed point (the boundary proposition itself).
-- **Lakatos** [[LG-3-Lakatos-1976-EN]] — Lakatosian proofs always have somewhere the repair process converges; without it, concept-stretching runs without limit.
+- **Spencer-Brown** [[LG-1-Spencer-Brown-1969]] — re-entry is the operational face of the lattice fixed point; the "re-entered form" is exactly x*.
+- **Luhmann** [[LG-2-Luhmann-1995]] — without Tarski, second-order observation slides into an infinite meta-regress; the fixed point caps it: a healthy second-order observation has a least fixed point (the boundary proposition itself).
+- **Lakatos** [[LG-3-Lakatos-1976]] — Lakatosian proofs always have somewhere the repair process converges; without it, concept-stretching runs without limit.
 
 ## Integrity
 
@@ -55,6 +55,6 @@ In model theory Tarski was forced to make truth hierarchical (object-language / 
 
 ## Related
 
-- [[Aligned-Protocol-EN]] — hosting clauses: §4 (the fixed point) and §5 (the registration/verdict partition)
-- [[LG-1-Spencer-Brown-1969-EN]] · [[LG-2-Luhmann-1995-EN]] · [[LG-3-Lakatos-1976-EN]]
+- [[Aligned-Protocol]] — hosting clauses: §4 (the fixed point) and §5 (the registration/verdict partition)
+- [[LG-1-Spencer-Brown-1969]] · [[LG-2-Luhmann-1995]] · [[LG-3-Lakatos-1976]]
 - Persian original (canonical): `09_Literature_Grounding/LG-4-Tarski-1955.md`

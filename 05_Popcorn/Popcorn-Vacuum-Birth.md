@@ -37,8 +37,8 @@ Three consequences, three levels of credential:
 
 ## Related
 
-- [[K1-Constraint-Overflow-EN]] — the birth mechanism
-- [[Balancer-Cushion-EN]] — the birth environment
-- [[Middle-Atmosphere-Synthesis-EN]] — the threshold trigger (T6c)
-- [[Companion-Bridge-EN]] — the quantitative link to the companion
-- [[MOC-LIMEN-VACUI-EN]]
+- [[K1-Constraint-Overflow]] — the birth mechanism
+- [[Balancer-Cushion]] — the birth environment
+- [[Middle-Atmosphere-Synthesis]] — the threshold trigger (T6c)
+- [[Companion-Bridge]] — the quantitative link to the companion
+- [[MOC-LIMEN-VACUI]]
