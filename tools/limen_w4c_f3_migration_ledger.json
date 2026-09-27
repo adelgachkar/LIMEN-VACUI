@@ -1,0 +1,113 @@
+{
+  "tool": "limen_w4c_f3_migration",
+  "what_this_is": "pre-committed acceptance gate for the F3 row; NOT a migration event and NOT data",
+  "migration_rule": "S->W requires ALL gates on the SAME aligned dataset; verdict is a register edit anchored to the dataset",
+  "no_go_forever": "isotropic node without direction channel AND without operator -> S1/S2 absorb (not W)",
+  "gate_constants": {
+    "register_row": "F3",
+    "instrument": "aligned companion node spectroscopy (to be named by data)",
+    "tol_split_ratio": 0.3,
+    "tol_flatness": 0.3,
+    "tol_operator": 0.15,
+    "tol_chirality": 0.5,
+    "pred_split_ratio": 0.00016347,
+    "pred_eta": 0.02043361992348174,
+    "pred_operator_power": 2.0
+  },
+  "in_sim_results": {
+    "nodeA-pentagonal": {
+      "node": "nodeA-pentagonal",
+      "declared_geometry": "pentagonal-deficit node (declared donor geometry)",
+      "data_label": "[sim]",
+      "gates": {
+        "D1_opposition_split": {
+          "measured_ratio": 1.000298,
+          "tolerance": 0.3,
+          "pass": true
+        },
+        "D1b_direction_chirality": {
+          "measured_dominance": 0.994897,
+          "tolerance": 0.5,
+          "pass": true
+        },
+        "D2_clock_flatness": {
+          "measured_eta_over_f": 1.003752,
+          "tolerance": 0.3,
+          "pass": true
+        },
+        "D3_operator": {
+          "fitted_power": 1.985501,
+          "fitted_amp": -3.6959445,
+          "registered_power": 2.0,
+          "tolerance": 0.15,
+          "pass": true
+        }
+      },
+      "violations": [],
+      "verdict": "MIGRATE — register row F3 -> work (event: registered)"
+    },
+    "nodeB-isotropic": {
+      "node": "nodeB-isotropic",
+      "declared_geometry": "isotropic node (control; C4 analogue, exact doublets)",
+      "data_label": "[sim]",
+      "gates": {
+        "D1_opposition_split": {
+          "measured_ratio": 0.0,
+          "tolerance": 0.3,
+          "pass": false
+        },
+        "D1b_direction_chirality": {
+          "measured_dominance": 0.02,
+          "tolerance": 0.5,
+          "pass": false
+        },
+        "D2_clock_flatness": {
+          "measured_eta_over_f": 0.009788,
+          "tolerance": 0.3,
+          "pass": false
+        },
+        "D3_operator": {
+          "fitted_power": 2.000878,
+          "fitted_amp": -3.68838493,
+          "registered_power": 2.0,
+          "tolerance": 0.15,
+          "pass": true
+        }
+      },
+      "violations": [],
+      "verdict": "STAY REVERE — F3 unchanged (honest)"
+    },
+    "nodeA2-mimic-split-only": {
+      "node": "nodeA2-mimic-split-only",
+      "declared_geometry": "pentagonal-deficit node (declared donor geometry)",
+      "data_label": "[sim]",
+      "gates": {
+        "D1_opposition_split": {
+          "measured_ratio": 1.000028,
+          "tolerance": 0.3,
+          "pass": true
+        },
+        "D1b_direction_chirality": {
+          "measured_dominance": 0.995135,
+          "tolerance": 0.5,
+          "pass": true
+        },
+        "D2_clock_flatness": {
+          "measured_eta_over_f": -0.5,
+          "tolerance": 0.3,
+          "pass": false
+        },
+        "D3_operator": {
+          "fitted_power": 2.000082,
+          "fitted_amp": -3.68973896,
+          "registered_power": 2.0,
+          "tolerance": 0.15,
+          "pass": true
+        }
+      },
+      "violations": [],
+      "verdict": "STAY REVERE — F3 unchanged (honest)"
+    }
+  },
+  "honesty": "every simulated number [sim]; [measured] reserved for future aligned data; no nature claim made"
+}

@@ -1,0 +1,33 @@
+==========================================================================
+W4c — THE F3 MIGRATION GATE (what data turns S->W into an event)
+==========================================================================
+registered row: F3   dtheta = 7.356103 deg  [exact/closed]
+flux f = dtheta/2pi = 0.0204336  [exact]
+pred split |dw^2|/w0^2 = 2 f (g_eff/g_ring) = 1.634700e-04  [model: W4b one-tube]
+pre-committed tolerances: split 0.30 | flatness 0.30 | operator 0.15 | chirality 0.50
+
+--------------------------------------------------------------------------
+S1 — the companion-data contract (what a REAL dataset must carry)
+--------------------------------------------------------------------------
+  1. node table: geometry declared, k=1 doublet, chiral eigenvectors
+  2. magnitude channel: five-fold flatness amplitude of the wall
+  3. operator ladder: kappa/omega0 at >= 2 declared g-points
+  4. instrument metadata: units, temperature ladder, resolution
+
+--------------------------------------------------------------------------
+S2 — direction-channel fingerprint restated [exact 2x2 algebra]
+--------------------------------------------------------------------------
+  raised_branch_dominance_at_plus_f      = 1.0
+  raised_branch_handedness_at_plus_f     = (-i)-wave
+  raised_branch_dominance_at_minus_f     = 1.0
+  raised_branch_handedness_at_minus_f    = (+i)-wave
+  chirality_odd_flip                     = True
+  label                                  = [exact] (2x2 algebra; simulation only of noise levels)
+
+--------------------------------------------------------------------------
+S3 — gate on nodeA-pentagonal   (ALL PASS -> MIGRATE demonstrated)
+--------------------------------------------------------------------------
+  [PASS] D1_opposition_split        {'measured_ratio': 1.000298, 'tolerance': 0.3}
+  [PASS] D1b_direction_chirality    {'measured_dominance': 0.994897, 'tolerance': 0.5}
+  [PASS] D2_clock_flatness          {'measured_eta_over_f': 1.003752, 'tolerance': 0.3}
+  [PASS] D3_
