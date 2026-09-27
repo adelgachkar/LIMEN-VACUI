@@ -1,6 +1,6 @@
 ---
 title: "Companion Bridge — SPUMA-VACUI and Emergence-SDF"
-aliases: ["Companion Bridge", "Project Family Map", "پل همتا"]
+aliases: ["Companion Bridge", "Project Family Map", "Companion Bridge"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, companion, mapping, en]

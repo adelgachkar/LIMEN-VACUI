@@ -1,6 +1,6 @@
 ---
 title: "A2 — Overflow From Perfect Symmetry"
-aliases: ["A2 Overflow", "Symmetry Overflow Axiom", "A2 — سرریز از تقارن کامل"]
+aliases: ["A2 Overflow", "Symmetry Overflow Axiom", "A2 Overflow from Perfect Symmetry"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, axiom, en]

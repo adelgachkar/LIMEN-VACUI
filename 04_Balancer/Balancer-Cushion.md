@@ -1,6 +1,6 @@
 ---
 title: "Balancer Cushion — Two-Front Compression and the Forbidden Runaway"
-aliases: ["Balancer", "Infinite Inflation Forbidden", "بالشتک بالانس"]
+aliases: ["Balancer", "Infinite Inflation Forbidden", "Balance Cushion"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, balancer, numerics, elastic, en]

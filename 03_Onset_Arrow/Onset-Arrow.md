@@ -1,6 +1,6 @@
 ---
 title: "Onset Arrow — Prior to Posterior Directed Potential"
-aliases: ["Onset Arrow", "Scratch on the Glasses", "پیکان آغازین"]
+aliases: ["Onset Arrow", "Scratch on the Glasses", "Onset Arrow"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, arrow-of-time, numerics, en]

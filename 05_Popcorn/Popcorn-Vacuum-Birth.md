@@ -1,6 +1,6 @@
 ---
 title: "Popcorn Vacuum Birth — Cavity Nucleation and Redshift"
-aliases: ["Popcorn Birth", "Quenched Noise Nucleation", "زایش پاپ‌کورنی"]
+aliases: ["Popcorn Birth", "Quenched Noise Nucleation", "Popcorn Vacuum Birth"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, popcorn, nucleation, redshift, en]

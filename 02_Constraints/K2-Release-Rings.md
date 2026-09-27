@@ -1,6 +1,6 @@
 ---
 title: "K2 — Constraint-Release Rings Around the Void"
-aliases: ["K2 Rings", "Toroidal Release Ladder", "K2 — حلقه‌های رهایش قید"]
+aliases: ["K2 Rings", "Toroidal Release Ladder", "K2 Constraint-Release Rings"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, constraint, rings, topological, en]

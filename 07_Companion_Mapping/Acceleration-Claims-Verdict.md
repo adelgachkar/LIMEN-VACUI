@@ -1,6 +1,6 @@
 ---
 title: "Acceleration Claims Verdict — Technical Audit of the Boundary-Pressure Documents"
-aliases: ["Acceleration Verdict", "Dark Claims Audit", "حکم ادعاهای شتاب"]
+aliases: ["Acceleration Verdict", "Dark Claims Audit", "Acceleration Claims Verdict"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, audit, epistemics, en]

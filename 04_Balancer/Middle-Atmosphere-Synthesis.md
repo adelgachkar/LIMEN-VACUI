@@ -1,6 +1,6 @@
 ---
 title: "Middle-Atmosphere Synthesis — O+/Cmid/D− Three-Layer Dynamics"
-aliases: ["Middle Atmosphere", "Compensatory Closure", "Three-Layer System", "جوّ میانی"]
+aliases: ["Middle Atmosphere", "Compensatory Closure", "Three-Layer System", "Middle-Atmosphere Synthesis"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, balancer, three-layer, numerics, en]

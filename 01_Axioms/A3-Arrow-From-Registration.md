@@ -1,6 +1,6 @@
 ---
 title: "A3 — The Arrow From Registration"
-aliases: ["A3 Arrow", "Prior-to-Posterior Vector", "A3 — پیکان از ثبت"]
+aliases: ["A3 Arrow", "Prior-to-Posterior Vector", "A3 Arrow from Registration"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, axiom, arrow-of-time, en]

@@ -42,7 +42,7 @@ The beginning of everything is neither an object nor a substance — it is an **
 ## Integrity
 
 - Label: `[literature-grounding]` — historical claims about the original text; mappings `[conceptual]`.
-- Precision: "the form enters the form" is more exactly "the re-entered form"; the Persian "بازورود" is the accepted rendering.
+- Precision: "the form enters the form" is more exactly "the re-entered form"; the FA mirror renders this as its own accepted term for re-entry.
 - The mother-of-sets claim (∅, §4 of the protocol) is **not** attributed to Spencer-Brown — that witness is the ZF text; here it is only distinction and re-entry.
 
 ## Related

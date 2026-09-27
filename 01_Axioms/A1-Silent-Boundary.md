@@ -1,6 +1,6 @@
 ---
 title: "A1 — The Boundary Is the Silent Place"
-aliases: ["A1 Silence", "Silent Boundary Axiom", "A1 — مرز، محل سکوت است"]
+aliases: ["A1 Silence", "Silent Boundary Axiom", "A1 The Boundary Is the Silent Place"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, axiom, en]

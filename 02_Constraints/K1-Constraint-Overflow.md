@@ -1,6 +1,6 @@
 ---
 title: "K1 — Constraint Overflow and the Discontinuity Limit"
-aliases: ["K1 Overflow", "LIMEN K1", "K1 — سرریز قید و حد انفصال"]
+aliases: ["K1 Overflow", "LIMEN K1", "K1 Constraint Overflow and Vacuum Discontinuity"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, constraint, numerics, en]

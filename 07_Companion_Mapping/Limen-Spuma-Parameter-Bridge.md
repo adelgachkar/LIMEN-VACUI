@@ -1,6 +1,6 @@
 ---
 title: "LIMEN–SPUMA Quantitative Parameter Bridge (English)"
-aliases: ["Parameter Bridge EN", "LIMEN SPUMA Bridge EN", "پل کمّی LIMEN-SPUMA"]
+aliases: ["Parameter Bridge EN", "LIMEN SPUMA Bridge EN", "LIMEN-SPUMA Quantitative Bridge"]
 created: 2026-09-21
 updated: 2026-09-21
 tags: [limen-vacui, spuma-vacui, bridge, quantitative, en]
