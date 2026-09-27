@@ -8,9 +8,9 @@
 
 | مخزن | نقش | نسخه | چینش زبانی |
 |---|---|---|---|
-| **[LIMEN-VACUI](https://github.com/adelgachkar/LIMEN-VACUI)** | روایت پیشا-مرز؛ **خانهٔ کانونی پروتکل هم‌تراز**، رجیستر دو-قلمرو، و بستار تبیینی | v0.11.1 | ریشه EN + **آینهٔ کامل fa/** |
+| **[LIMEN-VACUI](https://github.com/adelgachkar/LIMEN-VACUI)** | روایت پیشا-مرز؛ **خانهٔ کانونی پروتکل هم‌تراز**، رجیستر دو-قلمرو، و بستار تبیینی | v0.12.0 | ریشه EN + **آینهٔ کامل fa/** |
 | **[SPUMA-VACUI](https://github.com/adelgachkar/SPUMA-VACUI)** | روایت فوم خلأ؛ فیزیک فریز-اوت K1، هارمونیک‌های کاواک، پل همتا | v0.4.7 | فقط EN |
-| **[Emergence-SDF-Vault](https://github.com/adelgachkar/Emergence-SDF-Vault)** | مدل ظهور هندسهٔ گسسته؛ منبع ثابت‌های مشتق (κ_hop، τ_d، δθ) | v30.3.7 | فقط EN |
+| **[Emergence-SDF-Vault](https://github.com/adelgachkar/Emergence-SDF-Vault)** | مدل ظهور هندسهٔ گسسته؛ منبع ثابت‌های مشتق (κ_hop، τ_d، δθ) | v30.3.8 | فقط EN |
 | **[CADENCE-SDF](https://github.com/adelgachkar/CADENCE-SDF)** | ارائهٔ مهندسی اصل/CAD؛ حکمرانی fail-closed (هنجار E2) | v3.6.6 | فقط EN |
 
 *نسخه‌ها تا ۲۰۲۶-۰۹-۲۷. جدول نسخه‌ها آینهٔ README §2b مخزن Vault است.*
@@ -78,6 +78,8 @@ flowchart TD
 - مستندسازی کتاب‌شناختی: نُه لنگر ([LIMEN `09_Literature_Grounding/`](https://github.com/adelgachkar/LIMEN-VACUI/tree/main/09_Literature_Grounding)) — اسپنسر-براون، لومان، لاکاتوس، تارسکی، کانت، راسل، گروتندیک، فاینمن، نوتر.
 - واژگان نردبان مراتب: [Vault `01_Foundations/Rank-Ladder-Glossary`](https://github.com/adelgachkar/Emergence-SDF-Vault/blob/main/01_Foundations/Rank-Ladder-Glossary.md).
 - ظهور به‌مثابه رخداد ثبت: [LIMEN `10_Reference/Emergence-Balance-Reference`](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/10_Reference/Emergence-Balance-Reference.md) (فا+EN).
+- وضعیت پروتکل: [LIMEN `10_Reference/Bank-Complete`](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/10_Reference/Bank-Complete.md) (فا+EN) — هشت آزمون اجراشده، چهار تصحیح E4، اقلام باز به‌عمد.
+- قرارداد واحد f_c (سراسر خانواده): **f_c = κ[rad/s]/π** (Vault، `Optical-Stepping-Synthetic-Gauge` §2.2.2)؛ خوانش κ[Hz]/π دقیقاً 2π تفاوت دارد و هیچ عدد ثبت‌شده‌ای را بازتولید نمی‌کند؛ اتحاد exact **f_c·τ_d = 1/2**.
 
 ---
 
