@@ -22,6 +22,19 @@ pending]` (tool status unknown — suspension with collateral, migration allowed
 both ways). Execution commitment: a flag without a next-row tool is E4 — every
 flag below carries a tool or a collateralized future tool.
 
+## Lock-status snapshot
+
+> At-a-glance state of the four dependent locks (the W/S/F rows below carry the
+> evidence). This table is re-derived from the rows at every bank review — it is
+> a view, not a separate source of truth.
+
+| Lock | Regime | Status | Registered evidence |
+|---|---|---|---|
+| **1 — pre-boundary silence (S1)** | 🔒 closed-permanent | **untouched by all executed work** | Realm-2 row S1: "revere — permanent flag"; every proposition collapses the pre-boundary (A1) |
+| **2 — boundary-born causality (S2)** | 🔒 closed-permanent | **untouched** | Realm-2 row S2: "revere — permanent flag"; causality is a creature of the boundary |
+| **3 — aligned-data vacuum (F3)** | ⚠️ relocated | **CLOSED on the composition axis (W2, 2026-09-26) — the critical∧REAL composition is spectrally invisible at b_eff = b_c (gauge identity mask(b,d) = mask(b+d,0)); the node's even/odd factor δθ = 0.02044 stays the SOLE registered carrier. OPEN-conditional on the W4 axis** (tool banked: wall model with explicit mu(x)); migration S→W only as a registered event upon even/odd detection at the predicted factor | Row W2 verdict [measured in-model] + row F3: "revere — until aligned data" |
+| **4 — substrate axiom (F2)** | 🔓 open-banked | **untouched — banked work, open** | Framework-self row F2: "banked work — open"; executed tools are special cases of the draft formal core |
+
 ## Realm 1 — Ambiguity: work [ambiguity: work]
 
 | # | gap / question | flag | conceivable tool (existing or next row) | bank status |
