@@ -76,3 +76,4 @@ cosmology. MIT.
 - Constraints: [[K1-Constraint-Overflow]] · [[K2-Release-Rings]]
 - Dynamics: [[Onset-Arrow]] · [[Balancer-Cushion]] · [[Middle-Atmosphere-Synthesis]] · [[Popcorn-Vacuum-Birth]]
 - Mapping & audit: [[Companion-Bridge]] · [[Acceleration-Claims-Verdict]] · [[Limen-Spuma-Parameter-Bridge]]
+- Reference: [[Emergence-Balance-Reference]] — emergence from the balance differential: the rank ladder (scalar → vector → tensor → declarative components → dynamics), energy as scalar ledger and dynamics, self-referential measurement
