@@ -1,0 +1,98 @@
+delta_theta = 0.128388 rad   f = delta_theta/2pi = 0.0204336  [exact/closed]
+lattice 71x71, cavity r=12.0, wall width=4.0, mu_wall=8.0, sites=797
+
+[1] VALIDATION — f=0 tie structure vs C4v irreps [exact]
+ |m|        omega  status
+   0     0.064797  1D irrep — no partner by C4v [exact]
+   0     0.234359  1D irrep — no partner by C4v [exact]
+   0     0.244495  1D irrep — no partner by C4v [exact]
+   1     0.147050  E doublet (mirror pair) [exact]
+   1     0.258850  unpaired branch [reported]
+   1     0.267832  unpaired branch [reported]
+   1     0.392139  unpaired branch [reported]
+   2     0.197800  1D irrep — no partner by C4v [exact]
+   2     0.198133  1D irrep — no partner by C4v [exact]
+   2     0.271757  1D irrep — no partner by C4v [exact]
+   2     0.277511  1D irrep — no partner by C4v [exact]
+   2     0.307048  1D irrep — no partner by C4v [exact]
+   2     0.309425  1D irrep — no partner by C4v [exact]
+   2     0.339797  1D irrep — no partner by C4v [exact]
+   2     0.340240  1D irrep — no partner by C4v [exact]
+   3     0.225553  E doublet (mirror pair) [exact]
+   3     0.290353  unpaired branch [reported]
+   3     0.322859  unpaired branch [reported]
+   3     0.356247  unpaired branch [reported]
+   3     0.359719  unpaired branch [reported]
+   4     0.243600  1D irrep — no partner by C4v [exact]
+   4     0.308826  1D irrep — no partner by C4v [exact]
+   4     0.374718  1D irrep — no partner by C4v [exact]
+   8     0.303880  1D irrep — no partner by C4v [exact]
+   8     0.374115  1D irrep — no partner by C4v [exact]
+  12     0.336165  1D irrep — no partner by C4v [exact]
+  omega_1 (m=0 ground state, anchor scale) = 0.064797
+
+[2] CHIRALITY SIGNATURE — 2x2 split at f = delta_theta/2pi (five tubes)
+ |m|      omega0  split/omega  g_eff=dL/2f  g_ring=2w0^2/m  meas/ring
+   1    0.147050     0.000158     0.000167         0.04325     0.0039
+   3    0.225553     0.000004     0.000010         0.03392     0.0003
+  diagonal structure check [exact by symmetry]: max |Re/Im diag| / |offdiag| = 3.60e-08
+  raised branch at +f (|m|=1): component ratio s/c = -0.0026+0.9947j (chiral ideal ±i -> |ratio| = 0.9947)
+  raised branch chirality [DFT-measured]: -M (counter-rotating e^{-im phi})
+  -> the mirror-even and mirror-odd members carry the two split
+     frequencies: the direction channel discriminates parity
+
+[3] LINEARITY — split scales with f (2x2 method, ladder doublets)
+  |m|=1: split(f/2)/split(f) = 0.5000   split(2f)/split(f) = 2.0000   (linear = 0.5000 / 2.0000)
+  |m|=3: split(f/2)/split(f) = 0.5000   split(2f)/split(f) = 2.0003   (linear = 0.5000 / 2.0000)
+  [measured in-model] — deviations are the O(f^2) remainder
+
+[4] FIVE-PHASE REGISTER — five chiral tubes vs uniform (same total)
+ |m|  split_5tube/f   split_unif/f        dev
+   1         0.0077         0.0050     0.0027
+   3         0.0002         0.0015     0.0014
+  max relative deviation (5-tube vs uniform) = 35.5%
+  -> the split follows the flux CONTENT enclosed by the mode's
+  circulation region: placement-dependent in magnitude, gauge-agnostic
+  in structure; exact gauge redundancy only in the fully-enclosed limit
+
+[5] MIRROR REGISTER — spectrum identity and chirality flip
+  full-spectrum identity omega(-f) == omega(+f): max rel dev = 0.00e+00  [exact: H(-f) = H(f)*]
+  |m|=1: raised s/c at +f = -0.0026+0.9947j, at -f = -0.0026-0.9947j, phase flip = -3.136298 (dev from pi: 0.0053)
+  |m|=3: raised s/c at +f = -0.0097+1.0058j, at -f = -0.0097-1.0058j, phase flip = -3.122228 (dev from pi: 0.0194)
+  raised-branch CHIRALITY flips between ±f: True [measured in-model: max phase deviation 0.0194 rad (0.62% of pi) — from the small wrong-chirality admixture e = |Re(s/c)| ~ 3e-3]
+  -> spectrum is magnitude-EVEN in f (identical spectra); WHICH
+     rotation is raised is chirality-ODD — a genuine direction
+     register: the node's parity lives in the assignment, not the
+     magnitude
+
+==========================================================================
+W4b HONEST SUMMARY
+==========================================================================
+* direction channel ONLY: W4-isotropic geometry + synthetic flux
+  f = delta_theta/2pi = 0.0204336 [exact]; no magnitude modulation anywhere
+* METHOD: C4v group structure + machine-tie doublet identification
+  (odd-|m| E doublets exact; A/B 1D irreps honestly unpaired) +
+  first-order degenerate perturbation theory (2x2 H_eff)
+* STRUCTURE THEOREM [exact, mirror + time-reversal]: zero diagonal
+  flux response (verified to 3.6e-8), imaginary off-diagonal ->
+  omega0^2 ± f g: a LINEAR split (verified 0.5000/2.0000) whose
+  eigenmodes are chiral one-term states (s/c ~ 0.99 i) — the mirror-
+  even/odd members carry the two frequencies (parity discrimination
+  lives in the direction register, as the W4 verdict demanded)
+* SPLIT MAGNITUDE [measured in-model]: g_eff/g_ring ~ 4e-3 (m=1) —
+  the localized five-tube realization samples only the mode's weight
+  at the tubes; the full-disk AB anchor 2f/|m| is the dilute-limit
+  ceiling — magnitude is flux-PLACEMENT dependent, structure is not
+* FIVE-PHASE DRESSING [measured]: five chiral tubes vs uniform spread
+  differ by O(mode weight outside the tubes) (~35% at m=1) — the
+  response tracks the flux content enclosed by the mode's circulation
+  region; exact gauge redundancy holds only in the fully-enclosed limit
+* MIRROR REGISTER [exact]: H(-f) = H(f)* -> identical spectra (0.0e+00);
+  the raised branch's CHIRALITY flips between ±f — channel is
+  magnitude-even, chirality-odd: direction register confirmed
+* [model] choice: 'the deficit = synthetic flux through the cavity'
+  — from the registered vocabulary (synthetic gate / phase debt);
+  nature-side status F3, untouched; migration needs aligned data
+* EXPLANATORY CLOSURE (two channels): magnitude channel = even/odd
+  flatness ~ delta_theta/2pi (W4); direction channel = mirror-parity
+  discrimination via the chiral five-phase register (W4b).
