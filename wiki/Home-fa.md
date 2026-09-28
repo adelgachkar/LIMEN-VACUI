@@ -89,12 +89,12 @@ flowchart TD
 
 | مخزن | concept-DOI (همیشه آخرین نسخه) | DOI نسخهٔ فعلاً منتشرشده |
 |---|---|---|
-| LIMEN-VACUI | [10.5281/zenodo.23006050](https://doi.org/10.5281/zenodo.23006050) | [10.5281/zenodo.23006051](https://doi.org/10.5281/zenodo.23006051) (v0.12.2) |
-| SPUMA-VACUI | [10.5281/zenodo.23006052](https://doi.org/10.5281/zenodo.23006052) | [10.5281/zenodo.23006053](https://doi.org/10.5281/zenodo.23006053) (v0.4.9) |
-| Emergence-SDF-Vault | [10.5281/zenodo.22834778](https://doi.org/10.5281/zenodo.22834778) | [10.5281/zenodo.23006054](https://doi.org/10.5281/zenodo.23006054) (v30.3.10) |
-| CADENCE-SDF | [10.5281/zenodo.23006055](https://doi.org/10.5281/zenodo.23006055) | [10.5281/zenodo.23006056](https://doi.org/10.5281/zenodo.23006056) (v3.6.8) |
+| LIMEN-VACUI | [10.5281/zenodo.23006050](https://doi.org/10.5281/zenodo.23006050) | [10.5281/zenodo.23017333](https://doi.org/10.5281/zenodo.23017333) (v0.12.3) |
+| SPUMA-VACUI | [10.5281/zenodo.23006052](https://doi.org/10.5281/zenodo.23006052) | [10.5281/zenodo.23017334](https://doi.org/10.5281/zenodo.23017334) (v0.4.10) |
+| Emergence-SDF-Vault | [10.5281/zenodo.22834778](https://doi.org/10.5281/zenodo.22834778) | [10.5281/zenodo.23017337](https://doi.org/10.5281/zenodo.23017337) (v30.3.11) |
+| CADENCE-SDF | [10.5281/zenodo.23006055](https://doi.org/10.5281/zenodo.23006055) | [10.5281/zenodo.23017338](https://doi.org/10.5281/zenodo.23017338) (v3.6.9) |
 
-*یادداشت صداقت E4: DOI نسخه در هر سطر به رکوردی که تا این لحظه واقعاً منتشر شده لنگر خورده؛ depositهای در راهِ v0.12.3 / v0.4.10 / v30.3.11 / v3.6.9 هنگام Publish شمارهٔ DOI می‌گیرند و همان لحظه در CITATION.cff مخازن ثبت می‌شوند. مگر نسخهٔ منجمد مشخصی لازم داشته باشید، concept-DOI را استناد کنید.*
+*یادداشت صداقت E4: DOI نسخه در هر سطر به رکورد منتشرشدهٔ فعلی لنگر خورده (v0.12.3 / v0.4.10 / v30.3.11 / v3.6.9 — همگی منتشرشدهٔ ۲۰۲۶-۰۹-۲۸ با ORCID راستی‌آزمایی‌شدهٔ نویسنده 0009-0006-7713-6004) و در CITATION.cff و README هر مخزن ثبت شده است. مگر نسخهٔ منجمد مشخصی لازم داشته باشید، concept-DOI را استناد کنید.*
 
 ---
 

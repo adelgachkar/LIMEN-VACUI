@@ -89,12 +89,12 @@ The citation chain is closed and automatic: **commit → tag → GitHub Release 
 
 | Repository | Concept DOI (always latest version) | Version DOI of the currently published record |
 |---|---|---|
-| LIMEN-VACUI | [10.5281/zenodo.23006050](https://doi.org/10.5281/zenodo.23006050) | [10.5281/zenodo.23006051](https://doi.org/10.5281/zenodo.23006051) (v0.12.2) |
-| SPUMA-VACUI | [10.5281/zenodo.23006052](https://doi.org/10.5281/zenodo.23006052) | [10.5281/zenodo.23006053](https://doi.org/10.5281/zenodo.23006053) (v0.4.9) |
-| Emergence-SDF-Vault | [10.5281/zenodo.22834778](https://doi.org/10.5281/zenodo.22834778) | [10.5281/zenodo.23006054](https://doi.org/10.5281/zenodo.23006054) (v30.3.10) |
-| CADENCE-SDF | [10.5281/zenodo.23006055](https://doi.org/10.5281/zenodo.23006055) | [10.5281/zenodo.23006056](https://doi.org/10.5281/zenodo.23006056) (v3.6.8) |
+| LIMEN-VACUI | [10.5281/zenodo.23006050](https://doi.org/10.5281/zenodo.23006050) | [10.5281/zenodo.23017333](https://doi.org/10.5281/zenodo.23017333) (v0.12.3) |
+| SPUMA-VACUI | [10.5281/zenodo.23006052](https://doi.org/10.5281/zenodo.23006052) | [10.5281/zenodo.23017334](https://doi.org/10.5281/zenodo.23017334) (v0.4.10) |
+| Emergence-SDF-Vault | [10.5281/zenodo.22834778](https://doi.org/10.5281/zenodo.22834778) | [10.5281/zenodo.23017337](https://doi.org/10.5281/zenodo.23017337) (v30.3.11) |
+| CADENCE-SDF | [10.5281/zenodo.23006055](https://doi.org/10.5281/zenodo.23006055) | [10.5281/zenodo.23017338](https://doi.org/10.5281/zenodo.23017338) (v3.6.9) |
 
-*E4 honesty note: the version DOI in each row anchors the record actually published so far; the in-flight v0.12.3 / v0.4.10 / v30.3.11 / v3.6.9 deposits mint their DOIs on Publish and will be registered in the repos' CITATION.cff files at that moment. Cite the concept DOI unless you need an exact frozen version.*
+*E4 honesty note: the version DOI in each row anchors the currently published record (v0.12.3 / v0.4.10 / v30.3.11 / v3.6.9 — all published 2026-09-28 with the verified author ORCID 0009-0006-7713-6004) and is registered in each repo's CITATION.cff and README. Cite the concept DOI unless you need an exact frozen version.*
 
 ---
 
