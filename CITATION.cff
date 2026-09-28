@@ -6,8 +6,8 @@ authors:
     affiliation: "Islamic Azad University, Urmia"
     orcid: "https://orcid.org/0009-0006-7713-6004"
 title: "LIMEN-VACUI: The Boundary Is the Silent Place — A Constraint-Release Framework for Pre-Boundary Emergence"
-version: 0.12.2
-doi: 10.5281/zenodo.23006051
+version: 0.12.3
+doi: 10.5281/zenodo.23017333
 date-released: 2026-09-28
 license: "MIT"
 repository-code: "https://github.com/adelgachkar/LIMEN-VACUI"
