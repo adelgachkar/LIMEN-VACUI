@@ -1,5 +1,8 @@
 # LIMEN-VACUI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006050.svg)](https://doi.org/10.5281/zenodo.23006050)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006051.svg)](https://doi.org/10.5281/zenodo.23006051) · version DOI (v0.12.2); the concept DOI above always resolves to the latest version.
+
 **The Vacuum's Threshold** — A Conservative Genesis Narrative: the Silent Boundary, Constraint Overflow, and the Birth of the Arrow
 
 > The English editions live at the repository root; the **canonical Persian originals in `fa/`**
