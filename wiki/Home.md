@@ -6,14 +6,14 @@
 
 ## 1. The family at a glance
 
-| Repository | Role | Version | Language layout |
-|---|---|---|---|
-| **[LIMEN-VACUI](https://github.com/adelgachkar/LIMEN-VACUI)** | pre-boundary narrative; **canonical home of the Aligned Protocol**, the Two-Realm Register, and the Explanatory Closure | v0.12.0 | EN root + **fa/ full mirror** |
-| **[SPUMA-VACUI](https://github.com/adelgachkar/SPUMA-VACUI)** | vacuum-foam narrative; K1 freeze-out physics, cavity harmonics, Companion-Bridge | v0.4.7 | EN only |
-| **[Emergence-SDF-Vault](https://github.com/adelgachkar/Emergence-SDF-Vault)** | discrete-geometry emergence model; the source of derived constants (κ_hop, τ_d, δθ) | v30.3.8 | EN only |
-| **[CADENCE-SDF](https://github.com/adelgachkar/CADENCE-SDF)** | engineering-facing axiom/CAD presentation; fail-closed governance (norm E2) | v3.6.6 | EN only |
+| Repository | Role | Version | Language layout | Zenodo (concept DOI) |
+|---|---|---|---|---|
+| **[LIMEN-VACUI](https://github.com/adelgachkar/LIMEN-VACUI)** | pre-boundary narrative; **canonical home of the Aligned Protocol**, the Two-Realm Register, and the Explanatory Closure | v0.12.3 | EN root + **fa/ full mirror** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006050.svg)](https://doi.org/10.5281/zenodo.23006050) |
+| **[SPUMA-VACUI](https://github.com/adelgachkar/SPUMA-VACUI)** | vacuum-foam narrative; K1 freeze-out physics, cavity harmonics, Companion-Bridge | v0.4.10 | EN only | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006052.svg)](https://doi.org/10.5281/zenodo.23006052) |
+| **[Emergence-SDF-Vault](https://github.com/adelgachkar/Emergence-SDF-Vault)** | discrete-geometry emergence model; the source of derived constants (κ_hop, τ_d, δθ) | v30.3.11 | EN only | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22834778.svg)](https://doi.org/10.5281/zenodo.22834778) |
+| **[CADENCE-SDF](https://github.com/adelgachkar/CADENCE-SDF)** | engineering-facing axiom/CAD presentation; fail-closed governance (norm E2) | v3.6.9 | EN only | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006055.svg)](https://doi.org/10.5281/zenodo.23006055) |
 
-*Versions as of 2026-09-27. The version table is mirrored in Vault README §2b.*
+*Versions as of 2026-09-28. The version table is mirrored in Vault README §2b. A concept DOI always resolves to the newest published version; per-version DOIs are listed in §6.*
 
 ---
 
@@ -80,6 +80,21 @@ Canonical home: [LIMEN `08_Protocol/Two-Realm-Register`](https://github.com/adel
 - Emergence as a registry event: [LIMEN `10_Reference/Emergence-Balance-Reference`](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/10_Reference/Emergence-Balance-Reference.md) (FA+EN).
 - Protocol status: [LIMEN `10_Reference/Bank-Complete`](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/10_Reference/Bank-Complete.md) (FA+EN) — the eight executed tests, the four E4 corrections, the open items as designed.
 - f_c unit convention (family-wide): **f_c = κ[rad/s]/π** (Vault `Optical-Stepping-Synthetic-Gauge` §2.2.2); the κ[Hz]/π reading differs by exactly 2π and reproduces nothing registered; exact identity **f_c·τ_d = 1/2**.
+
+---
+
+## 6. Citing the family
+
+The citation chain is closed and automatic: **commit → tag → GitHub Release → Zenodo deposit (open, MIT, author ORCID 0009-0006-7713-6004) → versioned DOI.** Every future Release mints its own version DOI with no manual step.
+
+| Repository | Concept DOI (always latest version) | Version DOI of the currently published record |
+|---|---|---|
+| LIMEN-VACUI | [10.5281/zenodo.23006050](https://doi.org/10.5281/zenodo.23006050) | [10.5281/zenodo.23006051](https://doi.org/10.5281/zenodo.23006051) (v0.12.2) |
+| SPUMA-VACUI | [10.5281/zenodo.23006052](https://doi.org/10.5281/zenodo.23006052) | [10.5281/zenodo.23006053](https://doi.org/10.5281/zenodo.23006053) (v0.4.9) |
+| Emergence-SDF-Vault | [10.5281/zenodo.22834778](https://doi.org/10.5281/zenodo.22834778) | [10.5281/zenodo.23006054](https://doi.org/10.5281/zenodo.23006054) (v30.3.10) |
+| CADENCE-SDF | [10.5281/zenodo.23006055](https://doi.org/10.5281/zenodo.23006055) | [10.5281/zenodo.23006056](https://doi.org/10.5281/zenodo.23006056) (v3.6.8) |
+
+*E4 honesty note: the version DOI in each row anchors the record actually published so far; the in-flight v0.12.3 / v0.4.10 / v30.3.11 / v3.6.9 deposits mint their DOIs on Publish and will be registered in the repos' CITATION.cff files at that moment. Cite the concept DOI unless you need an exact frozen version.*
 
 ---
 

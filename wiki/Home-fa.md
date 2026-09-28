@@ -6,14 +6,14 @@
 
 ## ۱. خانواده در یک نگاه
 
-| مخزن | نقش | نسخه | چینش زبانی |
-|---|---|---|---|
-| **[LIMEN-VACUI](https://github.com/adelgachkar/LIMEN-VACUI)** | روایت پیشا-مرز؛ **خانهٔ کانونی پروتکل هم‌تراز**، رجیستر دو-قلمرو، و بستار تبیینی | v0.12.0 | ریشه EN + **آینهٔ کامل fa/** |
-| **[SPUMA-VACUI](https://github.com/adelgachkar/SPUMA-VACUI)** | روایت فوم خلأ؛ فیزیک فریز-اوت K1، هارمونیک‌های کاواک، پل همتا | v0.4.7 | فقط EN |
-| **[Emergence-SDF-Vault](https://github.com/adelgachkar/Emergence-SDF-Vault)** | مدل ظهور هندسهٔ گسسته؛ منبع ثابت‌های مشتق (κ_hop، τ_d، δθ) | v30.3.8 | فقط EN |
-| **[CADENCE-SDF](https://github.com/adelgachkar/CADENCE-SDF)** | ارائهٔ مهندسی اصل/CAD؛ حکمرانی fail-closed (هنجار E2) | v3.6.6 | فقط EN |
+| مخزن | نقش | نسخه | چینش زبانی | زنودو (concept-DOI) |
+|---|---|---|---|---|
+| **[LIMEN-VACUI](https://github.com/adelgachkar/LIMEN-VACUI)** | روایت پیشا-مرز؛ **خانهٔ کانونی پروتکل هم‌تراز**، رجیستر دو-قلمرو، و بستار تبیینی | v0.12.3 | ریشه EN + **آینهٔ کامل fa/** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006050.svg)](https://doi.org/10.5281/zenodo.23006050) |
+| **[SPUMA-VACUI](https://github.com/adelgachkar/SPUMA-VACUI)** | روایت فوم خلأ؛ فیزیک فریز-اوت K1، هارمونیک‌های کاواک، پل همتا | v0.4.10 | فقط EN | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006052.svg)](https://doi.org/10.5281/zenodo.23006052) |
+| **[Emergence-SDF-Vault](https://github.com/adelgachkar/Emergence-SDF-Vault)** | مدل ظهور هندسهٔ گسسته؛ منبع ثابت‌های مشتق (κ_hop، τ_d، δθ) | v30.3.11 | فقط EN | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22834778.svg)](https://doi.org/10.5281/zenodo.22834778) |
+| **[CADENCE-SDF](https://github.com/adelgachkar/CADENCE-SDF)** | ارائهٔ مهندسی اصل/CAD؛ حکمرانی fail-closed (هنجار E2) | v3.6.9 | فقط EN | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006055.svg)](https://doi.org/10.5281/zenodo.23006055) |
 
-*نسخه‌ها تا ۲۰۲۶-۰۹-۲۷. جدول نسخه‌ها آینهٔ README §2b مخزن Vault است.*
+*نسخه‌ها تا ۲۰۲۶-۰۹-۲۸. جدول نسخه‌ها آینهٔ README §2b مخزن Vault است. هر concept-DOI همیشه به آخرین نسخهٔ منتشرشده می‌رود؛ DOI تک‌تک نسخه‌ها در §6 آمده است.*
 
 ---
 
@@ -80,6 +80,21 @@ flowchart TD
 - ظهور به‌مثابه رخداد ثبت: [LIMEN `10_Reference/Emergence-Balance-Reference`](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/10_Reference/Emergence-Balance-Reference.md) (فا+EN).
 - وضعیت پروتکل: [LIMEN `10_Reference/Bank-Complete`](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/10_Reference/Bank-Complete.md) (فا+EN) — هشت آزمون اجراشده، چهار تصحیح E4، اقلام باز به‌عمد.
 - قرارداد واحد f_c (سراسر خانواده): **f_c = κ[rad/s]/π** (Vault، `Optical-Stepping-Synthetic-Gauge` §2.2.2)؛ خوانش κ[Hz]/π دقیقاً 2π تفاوت دارد و هیچ عدد ثبت‌شده‌ای را بازتولید نمی‌کند؛ اتحاد exact **f_c·τ_d = 1/2**.
+
+---
+
+## ۶. استناد به خانواده
+
+زنجیرهٔ استناد بسته و خودکار است: **کامیت → تگ → GitHub Release → deposit زنودو (باز، MIT، ORCID نویسنده 0009-0006-7713-6004) → DOI نسخه‌دار.** هر Release آینده DOI نسخهٔ خودش را بدون هیچ گام دستی صادر می‌کند.
+
+| مخزن | concept-DOI (همیشه آخرین نسخه) | DOI نسخهٔ فعلاً منتشرشده |
+|---|---|---|
+| LIMEN-VACUI | [10.5281/zenodo.23006050](https://doi.org/10.5281/zenodo.23006050) | [10.5281/zenodo.23006051](https://doi.org/10.5281/zenodo.23006051) (v0.12.2) |
+| SPUMA-VACUI | [10.5281/zenodo.23006052](https://doi.org/10.5281/zenodo.23006052) | [10.5281/zenodo.23006053](https://doi.org/10.5281/zenodo.23006053) (v0.4.9) |
+| Emergence-SDF-Vault | [10.5281/zenodo.22834778](https://doi.org/10.5281/zenodo.22834778) | [10.5281/zenodo.23006054](https://doi.org/10.5281/zenodo.23006054) (v30.3.10) |
+| CADENCE-SDF | [10.5281/zenodo.23006055](https://doi.org/10.5281/zenodo.23006055) | [10.5281/zenodo.23006056](https://doi.org/10.5281/zenodo.23006056) (v3.6.8) |
+
+*یادداشت صداقت E4: DOI نسخه در هر سطر به رکوردی که تا این لحظه واقعاً منتشر شده لنگر خورده؛ depositهای در راهِ v0.12.3 / v0.4.10 / v30.3.11 / v3.6.9 هنگام Publish شمارهٔ DOI می‌گیرند و همان لحظه در CITATION.cff مخازن ثبت می‌شوند. مگر نسخهٔ منجمد مشخصی لازم داشته باشید، concept-DOI را استناد کنید.*
 
 ---
 

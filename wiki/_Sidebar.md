@@ -17,3 +17,4 @@
 - [Two-Realm Register](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/08_Protocol/Two-Realm-Register.md)
 - [Explanatory Closure](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/10_Reference/Explanatory-Closure.md)
 - [Bank-Complete (protocol status)](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/10_Reference/Bank-Complete.md)
+- [Citing the family — DOI table](Home#6-citing-the-family) · concept DOIs resolve to the latest version
