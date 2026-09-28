@@ -1,0 +1,48 @@
+{
+  "title": "LIMEN-VACUI: The Boundary Is the Silent Place \u2014 A Constraint-Release Framework for Pre-Boundary Emergence",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Gachkar, Adel",
+      "affiliation": "Islamic Azad University, Urmia",
+      "orcid": ""
+    }
+  ],
+  "description": "<p>LIMEN-VACUI is a formal framework in which the pre-boundary is structurally silent (A1) and reality begins at a constraint-release event (K1/K2). It maintains a Two-Realm Register: a working realm of executed tests (W1&ndash;W7, bank 8/0 complete) and a reverence realm of permanent silences (S1&ndash;S4). Includes the aligned protocol (E0&ndash;E5 norms), the unified register, the W4b chiral direction channel, the W5 common-operator result (f_c = &kappa;[rad/s]/&pi;, f_c&middot;&tau;_d = 1/2), and the machine-readable W4c F3 S&rarr;W migration gate. Companion repositories: SPUMA-VACUI, Emergence-SDF-Vault, CADENCE-SDF. Model-level claims with executed numerical protocols; no empirical cosmological claim is made.</p>",
+  "keywords": [
+    "constraint-release",
+    "pre-boundary silence",
+    "two-realm register",
+    "emergence framework",
+    "falsifiability protocol",
+    "chiral register",
+    "Ward invariance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/adelgachkar/LIMEN-VACUI",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/adelgachkar/SPUMA-VACUI",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/adelgachkar/Emergence-SDF-Vault",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/adelgachkar/CADENCE-SDF",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    }
+  ],
+  "communities": [],
+  "grants": []
+}
