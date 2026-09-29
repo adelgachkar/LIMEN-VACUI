@@ -16,6 +16,8 @@
 
 *Versions as of 2026-09-28. The version table is mirrored in Vault README §2b. A concept DOI always resolves to the newest published version; per-version DOIs are listed in §6.*
 
+**Journal status (SPUMA-VACUI):** the manuscript *"SPUMA-VACUI: Emergence of Near-Homogeneous Polarized Cavities in a Vacuum-Foam Substrate via Dual Boundary Constraints"* was submitted to *International Journal of Theoretical Physics* (Springer) on 2026-09-28; after one Technical-Check round (single point: author byline), it was re-submitted on **2026-09-29 17:05** and is in Technical Check again — see the family's first **Publication-Register** (`SPUMA-VACUI/00_MOC/Publication-Register.md`) for the full dated timeline. No acceptance or endorsement is claimed.
+
 ---
 
 ## 2. The two-channel closure of the pentagonal node

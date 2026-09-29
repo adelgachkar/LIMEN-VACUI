@@ -16,6 +16,8 @@
 
 *نسخه‌ها تا ۲۰۲۶-۰۹-۲۸. جدول نسخه‌ها آینهٔ README §2b مخزن Vault است. هر concept-DOI همیشه به آخرین نسخهٔ منتشرشده می‌رود؛ DOI تک‌تک نسخه‌ها در §6 آمده است.*
 
+**وضعیت نشریاتی (SPUMA-VACUI):** دستنوشتهٔ *"SPUMA-VACUI: Emergence of Near-Homogeneous Polarized Cavities in a Vacuum-Foam Substrate via Dual Boundary Constraints"* در ۲۰۲۶-۰۹-۲۸ به *International Journal of Theoretical Physics* (Springer) ارسال شد؛ پس از یک دور چک فنی (تک‌ایراد: بای‌لاین نویسنده)، در **۲۰۲۶-۰۹-۲۹ ساعت ۱۷:۰۵** دوباره ارسال شد و اکنون در مرحلهٔ چک فنی است — شرح کامل زمان‌بندی در نخستین **Publication-Register** خانواده (`SPUMA-VACUI/00_MOC/Publication-Register.md`). هیچ پذیرش یا تأییدیه‌ای ادعا نمی‌شود.
+
 ---
 
 ## ۲. بستار دوکانالهٔ گرهٔ پنج‌گوش
