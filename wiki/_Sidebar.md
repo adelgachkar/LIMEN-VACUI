@@ -12,6 +12,7 @@
 - [Emergence-SDF-Vault](https://github.com/adelgachkar/Emergence-SDF-Vault) — constants source
 - [CADENCE-SDF](https://github.com/adelgachkar/CADENCE-SDF) — fail-closed E2
 - [CRG-Flux](https://github.com/adelgachkar/CRG-Flux) — lab-physics bridge, W8 source
+- VMC-QF — quantum-microcavity narrative *(local, remote pending)* — Vault-11 CPTP record
 
 **Key documents**
 - [Aligned Protocol](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/08_Protocol/Aligned-Protocol.md)
