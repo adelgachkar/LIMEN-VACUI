@@ -1,0 +1,45 @@
+== W8: CRG bistable branches -> unified register exits ==
+L=192, seeds (11, 12, 13), steps<=800, beta=0.0
+CRG recorded reference (Coupled Dynamical Equations): {'alpha1': 0.0252, 'alpha2': 0.042, 'beta2': 40.85, 'gamma1': 0.22, 'gamma2': 0.215, 'lam': 0.0222, 'mu': 15.27}
+[exact] its equilibria in (0,1): x*=0.0029 (stable), x*=0.0994 (saddle), x*=0.9449 (stable)
+   => the recorded exemplar IS bistable (0.0029, 0.9449)
+   frequency context [exact, 20k-draw grid]: multi-root 3.02% of
+   outside-condition draws; bistable 0.37% overall — E4
+   refinement: 'on average two stable' is refuted (mean 1.25).
+
+[measured] canonical reference: pA=0.2736 pB=0.2499 pU=0.5236
+
+[measured] branch-feeding (density-preserving [model] map):
+  branch      x*   amp_A  rho0_B   pA_ctx   pB_ctx       pU
+     low   0.003  0.0001  1.0029   0.2471   0.3415   0.5886
+    high   0.945  0.3502  1.9449   0.3113   0.1830   0.4942
+
+   branch split (high minus low): dpA=+0.0642  dpB=-0.1585  ratio=-0.405
+   => OQ-C4-2 verdict: split toward B: the high-x branch pushes the SPUMA freeze-out exit harder than the LIMEN registration exit
+
+[measured] per-branch solo reads (single-exit runs):
+   low branch: A-solo p=0.3153 | B-solo p=0.4022  -> dominant exit: B (SPUMA)
+   high branch: A-solo p=0.3391 | B-solo p=0.2302  -> dominant exit: A (LIMEN)
+
+Verdict labels: CRG branches [exact]; branch->seed map [model];
+exit reads [measured]; the unified dynamics stays [model] per
+Unified-Register-Integration §9. F3 untouched — no nature-side
+claim; S1/S2 untouched — the CRG core is a boundary-side system.
+
+Honest limit: the x->amplitude identification is ONE calibrated
+choice; sensitivity to eta/delta is the next-row tool (OQ-C4-2b).
+
+[sensitivity] dominant-exit per branch across the (eta, delta) grid
+eta = channel-A swing, delta = channel-B margin swing; seeds (11,12)
+  eta  delta |  low->dominant  high->dominant | split robust?
+  1.5    0.5 |       B(SPUMA)        A(LIMEN) | YES
+  1.5    1.0 |       B(SPUMA)        A(LIMEN) | YES
+  1.5    2.0 |       B(SPUMA)        A(LIMEN) | YES
+  3.0    0.5 |       B(SPUMA)        A(LIMEN) | YES
+  3.0    1.0 |       B(SPUMA)        A(LIMEN) | YES
+  3.0    2.0 |       B(SPUMA)        A(LIMEN) | YES
+  6.0    0.5 |       B(SPUMA)        A(LIMEN) | YES
+  6.0    1.0 |       B(SPUMA)        A(LIMEN) | YES
+  6.0    2.0 |       B(SPUMA)        A(LIMEN) | YES
+
+flips: 0/9 — the branch->exit split is ROBUST across the calibration grid

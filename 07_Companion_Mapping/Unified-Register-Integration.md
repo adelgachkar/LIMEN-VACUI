@@ -141,6 +141,10 @@ Forward-prediction table:
 - Dose-collapse-specific labels: dose math and the mirror identity [exact/structural]; the reference occupancy, F, LOOCV, held-out and forward errors [measured]; the "amplitude-controlled" claim [model with measured support] — and F is phase-local, not universal.
 - The fit itself produced a subtle finding: the frozen β=0 reference predicts better than each run's own occupancy (0.0050 vs 0.0172) — inside suppressed phases the in-run occupancy shifts and is noisier as a predictor.
 
+## 10. W8 — external feeding: the CRG bistable branches (2026-09-28) [measured on a [model] map]
+
+(`tools/limen_w8_crg_branch_register.py`; output: `tools/limen_w8_crg_output.txt`. Answers CRG-Flux Family-Register-Mapping OQ-C4-2.) The unified register accepted an EXTERNAL dynamical system's stable branches as seed states: the CRG three-variable flow (recorded bistable exemplar, reproduced exactly — x* = 0.0029 stable / 0.0994 saddle / 0.9449 stable) feeds each branch through a density-preserving amplitude map (x = 0.5 anchors the canonical seeds; registered [model] choice). Result: **the two stable branches split the two exits** — the low-x (melted-core) branch is dominantly read by exit **B** (SPUMA freeze-out, B-solo 0.4022 vs A-solo 0.3153), the high-x (frozen-core) branch by exit **A** (LIMEN registration, A-solo 0.3391 vs B-solo 0.2302); 0/9 calibration flips across the (eta, delta) grid. The melted-vs-frozen distinction of the external system maps onto the silence-vs-registration distinction of the register. F3 untouched; the unified dynamics stays [model].
+
 ## Related
 
 - [[Limen-Spuma-Parameter-Bridge]] — the quantitative bridge (parent of this test)

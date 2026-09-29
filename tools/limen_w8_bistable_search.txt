@@ -1,0 +1,20 @@
+reference: x*=0.0029 (stable), x*=0.0994 (saddle), x*=0.9449 (stable)
+
+sign-corrected. draws=20000  outside-sufficient=9880  multi-root=298 (3.02% of outside)  bistable=74
+
+exemplar 0: alpha1=0.14919, alpha2=0.68266, beta2=3.29202, gamma1=39.09795, gamma2=3.95661, lam=0.02118, mu=43.14356
+   stable branches: 0.0012(S), 0.9612(S)
+exemplar 1: alpha1=6.81358, alpha2=0.93959, beta2=26.61689, gamma1=5.25919, gamma2=35.87985, lam=1.18850, mu=2.04459
+   stable branches: 0.0600(S), 0.7804(S)
+exemplar 2: alpha1=0.30094, alpha2=9.62820, beta2=8.41426, gamma1=1.88311, gamma2=19.13355, lam=0.01790, mu=4.36581
+   stable branches: 0.0245(S), 0.9406(S)
+exemplar 3: alpha1=38.22616, alpha2=5.43371, beta2=23.68956, gamma1=26.18068, gamma2=14.64809, lam=0.32246, mu=6.39153
+   stable branches: 0.0846(S), 0.7924(S)
+exemplar 4: alpha1=0.87371, alpha2=0.63667, beta2=34.06706, gamma1=1.79870, gamma2=5.15088, lam=0.01603, mu=1.96656
+   stable branches: 0.0198(S), 0.9626(S)
+exemplar 5: alpha1=0.09281, alpha2=0.03961, beta2=45.28609, gamma1=7.10392, gamma2=24.64907, lam=0.01358, mu=7.21579
+   stable branches: 0.0003(S), 0.9947(S)
+exemplar 6: alpha1=0.35616, alpha2=0.02340, beta2=9.09755, gamma1=1.01201, gamma2=3.72680, lam=0.11065, mu=0.05663
+   stable branches: 0.0450(S), 0.7735(S)
+exemplar 7: alpha1=0.07253, alpha2=0.02907, beta2=28.23950, gamma1=0.91007, gamma2=0.37222, lam=0.01179, mu=7.17754
+   stable branches: 0.0030(S), 0.9765(S)

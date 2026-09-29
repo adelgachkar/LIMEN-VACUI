@@ -75,13 +75,15 @@ def _nbr_count(mask):
 def unified_register(L_=L, g_max=G_MAX, tau_q=TAU_Q, kappa=KAPPA, beta=0.0,
                      b_b=B_B, channel="both", seed=0, steps=STEPS,
                      patience=PATIENCE, quiet_thr=QUIET_THR,
-                     sigma0=SIGMA0, gamma=GAMMA):
+                     sigma0=SIGMA0, gamma=GAMMA, phi_amp=None, rho0_mean=None):
     """One lattice, two one-way exits. channel in {'both','A','B'} — the
     disabled channel's exit is HARD-GATED off (true solo runs).
+    phi_amp / rho0_mean: optional seed overrides (W8 cross-vault branch
+    register); None = canonical seeds (0.1 / 1.5) — identical behavior.
     Returns (maskA, maskB, lateA, lateB)."""
     rng = np.random.default_rng(seed)
-    phi = 0.1 * rng.standard_normal((L_, L_))
-    rho = 1.5 + 0.5 * rng.standard_normal((L_, L_))
+    phi = (0.1 if phi_amp is None else phi_amp) * rng.standard_normal((L_, L_))
+    rho = (1.5 if rho0_mean is None else rho0_mean) + 0.5 * rng.standard_normal((L_, L_))
     regA = np.zeros((L_, L_), bool)
     frozB = (rho < 0.0) if channel == "B" else np.zeros((L_, L_), bool)
     lateA, lateB = [], []
