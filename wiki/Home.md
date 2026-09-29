@@ -1,6 +1,6 @@
-# SPUMA–LIMEN–Vault–CADENCE Family — Home
+# SPUMA–LIMEN–Vault–CADENCE–CRG-Flux Family — Home
 
-> **One protocol, four repositories.** All four repos execute the same Aligned Protocol (canonical home: [LIMEN-VACUI `08_Protocol/Aligned-Protocol`](https://github.com/adelgachkar/LIMEN-VACUI)). This wiki is the family's front door: the closure map, the version table, and the fa/↔EN index.
+> **One protocol, five repositories.** All five repos execute the same Aligned Protocol (canonical home: [LIMEN-VACUI `08_Protocol/Aligned-Protocol`](https://github.com/adelgachkar/LIMEN-VACUI)). This wiki is the family's front door: the closure map, the version table, and the fa/↔EN index.
 
 ---
 
@@ -12,6 +12,7 @@
 | **[SPUMA-VACUI](https://github.com/adelgachkar/SPUMA-VACUI)** | vacuum-foam narrative; K1 freeze-out physics, cavity harmonics, Companion-Bridge | v0.4.10 | EN only | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006052.svg)](https://doi.org/10.5281/zenodo.23006052) |
 | **[Emergence-SDF-Vault](https://github.com/adelgachkar/Emergence-SDF-Vault)** | discrete-geometry emergence model; the source of derived constants (κ_hop, τ_d, δθ) | v30.3.11 | EN only | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22834778.svg)](https://doi.org/10.5281/zenodo.22834778) |
 | **[CADENCE-SDF](https://github.com/adelgachkar/CADENCE-SDF)** | engineering-facing axiom/CAD presentation; fail-closed governance (norm E2) | v3.6.9 | EN only | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006055.svg)](https://doi.org/10.5281/zenodo.23006055) |
+| **[CRG-Flux](https://github.com/adelgachkar/CRG-Flux)** | cross-scale flexoelectric→cosmological vault; the family's laboratory-physics bridge (bent-graphene flexoelectricity); source of the W8 external-feeding test | v0.1.0 | EN only | *(pending — first deposit not yet published)* |
 
 *Versions as of 2026-09-28. The version table is mirrored in Vault README §2b. A concept DOI always resolves to the newest published version; per-version DOIs are listed in §6.*
 
@@ -52,8 +53,9 @@ Canonical home: [LIMEN `08_Protocol/Two-Realm-Register`](https://github.com/adel
 
 | Realm | Items | Status |
 |---|---|---|
-| **Work** | W1, W2, W3, W4, W4b, W5, W6, W7 | ✅ **8 done — the work bank is FULLY executed** (W5 closed the 4.6 energy-scale ratio: one operator κ(g), two clocks — no new scale) |
+| **Work** | W1, W2, W3, W4, W4b, W5, W6, W7 | ✅ **8 done** (W5 closed the 4.6 energy-scale ratio: one operator κ(g), two clocks — no new scale) |
 | **Work** | W4c — the F3 S→W migration gate | ✅ done: four acceptance checks (D1 split / D1b chirality / D2 flatness / D3 operator power) pre-committed in `_ledger.json` before any dataset; in-silico the pentagonal node passes all four, the isotropic control and a split-only mimic fail with named gates [sim] |
+| **Work** | W8 — external feeding: the CRG bistable branches → unified register exits (OQ-C4-2, from CRG-Flux) | ✅ done 2026-09-28: the two stable branches **split the two exits** — melted branch → SPUMA freeze-out (B), frozen-core branch → LIMEN registration (A); 0/9 calibration flips; bistability re-measured at 0.37% (E4: mean 1.25 stable equilibria). **Bank 10 done / 0 pending.** |
 | **Sanctity** | S1, S2 | 🔒 permanent — untouched |
 | **Framework** | F1, F2 (banked work) / F3 (revere) | 🔓 open / 🔒 until aligned data — **the migration gate is now machine-readable (W4c)** |
 
@@ -67,6 +69,7 @@ Canonical home: [LIMEN `08_Protocol/Two-Realm-Register`](https://github.com/adel
 | SPUMA-VACUI | root | — | EN-first edition |
 | Emergence-SDF-Vault | root | — | EN-first edition |
 | CADENCE-SDF | root | — | EN-first edition |
+| CRG-Flux | root | — | EN-first edition |
 
 **Mirror rule (LIMEN):** every canonical edit lands in both languages in one commit; the frontmatter `lang` field decides the canonical side for QA.
 
@@ -93,8 +96,9 @@ The citation chain is closed and automatic: **commit → tag → GitHub Release 
 | SPUMA-VACUI | [10.5281/zenodo.23006052](https://doi.org/10.5281/zenodo.23006052) | [10.5281/zenodo.23017334](https://doi.org/10.5281/zenodo.23017334) (v0.4.10) |
 | Emergence-SDF-Vault | [10.5281/zenodo.22834778](https://doi.org/10.5281/zenodo.22834778) | [10.5281/zenodo.23017337](https://doi.org/10.5281/zenodo.23017337) (v30.3.11) |
 | CADENCE-SDF | [10.5281/zenodo.23006055](https://doi.org/10.5281/zenodo.23006055) | [10.5281/zenodo.23017338](https://doi.org/10.5281/zenodo.23017338) (v3.6.9) |
+| CRG-Flux | — (pending) | — (pending — the Zenodo webhook was enabled after the last sync; the first deposit mints at the next release) |
 
-*E4 honesty note: the version DOI in each row anchors the currently published record (v0.12.3 / v0.4.10 / v30.3.11 / v3.6.9 — all published 2026-09-28 with the verified author ORCID 0009-0006-7713-6004) and is registered in each repo's CITATION.cff and README. Cite the concept DOI unless you need an exact frozen version.*
+*E4 honesty note: the version DOI in each row anchors the currently published record (v0.12.3 / v0.4.10 / v30.3.11 / v3.6.9 — all published 2026-09-28 with the verified author ORCID 0009-0006-7713-6004) and is registered in each repo's CITATION.cff and README. CRG-Flux has no deposit yet — no DOI is claimed for it. Cite the concept DOI unless you need an exact frozen version.*
 
 ---
 
