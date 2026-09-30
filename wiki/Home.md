@@ -105,7 +105,7 @@ The citation chain is closed and automatic: **commit → tag → GitHub Release 
 | Emergence-SDF-Vault | [10.5281/zenodo.22834778](https://doi.org/10.5281/zenodo.22834778) | [10.5281/zenodo.23017337](https://doi.org/10.5281/zenodo.23017337) (v30.3.11) |
 | CADENCE-SDF | [10.5281/zenodo.23006055](https://doi.org/10.5281/zenodo.23006055) | [10.5281/zenodo.23017338](https://doi.org/10.5281/zenodo.23017338) (v3.6.9) |
 | CRG-Flux | — (pending) | — (pending — the Zenodo webhook was enabled after the last sync; the first deposit mints at the next release) |
-| VMC-QF | — (pending) | — (pending — the Zenodo webhook is not yet enabled for the repo; releases v0.1.0 + v0.2.0 are published, so the first sync mints the full version chain retroactively) |
+| VMC-QF | — (pending) | — (pending — the Zenodo webhook is not yet enabled for the repo; once enabled, each NEW release mints a deposit — the planned next release starts the chain; v0.1.0/v0.2.0 back-fill is not guaranteed by the integration) |
 
 *E4 honesty note: the version DOI in each row anchors the currently published record (v0.12.3 / v0.4.10 / v30.3.11 / v3.6.9 — all published 2026-09-28 with the verified author ORCID 0009-0006-7713-6004) and is registered in each repo's CITATION.cff and README. CRG-Flux and VMC-QF have no deposit yet — no DOI is claimed for either. Cite the concept DOI unless you need an exact frozen version.*
 
