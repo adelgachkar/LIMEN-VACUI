@@ -1,6 +1,6 @@
 # SPUMA–LIMEN–Vault–CADENCE Family — Home
 
-> **One protocol, seven repositories.** All seven repos execute the same Aligned Protocol (canonical home: [LIMEN-VACUI `08_Protocol/Aligned-Protocol`](https://github.com/adelgachkar/LIMEN-VACUI)). This wiki is the family's front door: the closure map, the version+DOI table, and the fa/↔EN index.
+> **One protocol, eight repositories.** All eight repos execute the same Aligned Protocol (canonical home: [LIMEN-VACUI `08_Protocol/Aligned-Protocol`](https://github.com/adelgachkar/LIMEN-VACUI)). This wiki is the family's front door: the closure map, the version+DOI table, and the fa/↔EN index.
 
 ---
 
@@ -15,8 +15,9 @@
 | **[CRG-Flux](https://github.com/adelgachkar/CRG-Flux)** | cross-scale flexoelectric-to-cosmological framework; condensed-matter archetype | v0.1.0 | *pending* — first webhook deposit | EN only |
 | **[VMC-QF](https://github.com/adelgachkar/VMC-QF)** | vacuum microcavity quantum foam; cadence time & topological solitons | v0.3.1 | [10.5281/zenodo.23094459](https://doi.org/10.5281/zenodo.23094459) | EN only |
 | **[SDF-VLT-Gravity-Dynamics](https://github.com/adelgachkar/SDF-VLT-Gravity-Dynamics)** | void/lattice gravity dynamics; boundary-pressure gravity and the canonical chain | v3.4.3 | [10.5281/zenodo.22412460](https://doi.org/10.5281/zenodo.22412460) | EN only |
+| **[SDF_Lattice_Master](https://github.com/adelgachkar/SDF_Lattice_Master)** | Python execution engine: 12 node modules (Berry dynamics/torque, peristaltic pump, delayed causality, cavity coupling, strain, supercell); 60 tests all green; α-screening reproduces 137.032 | v0.3.4 | [10.5281/zenodo.23271142](https://doi.org/10.5281/zenodo.23271142) | EN only |
 
-*Versions as of 2026-10-05. VMC-QF's first Zenodo deposit was published manually (version DOI [10.5281/zenodo.23094460](https://doi.org/10.5281/zenodo.23094460), v0.3.1) and is now the family's sixth concept record; CRG-Flux's concept DOI mints on its first deposit. The version table is mirrored in Vault README §2b.*
+*Versions as of 2026-10-10. VMC-QF's first Zenodo deposit was published manually (version DOI [10.5281/zenodo.23094460](https://doi.org/10.5281/zenodo.23094460), v0.3.1) and is now the family's sixth concept record; CRG-Flux's concept DOI mints on its first deposit. SDF_Lattice_Master's first deposit was also published manually via the Zenodo API (concept DOI 10.5281/zenodo.23271142, v0.3.4) — the family's eighth member and its executable counterpart. The version table is mirrored in Vault README §2b.*
 
 ---
 
@@ -73,6 +74,7 @@ Canonical home: [LIMEN `08_Protocol/Two-Realm-Register`](https://github.com/adel
 | CRG-Flux | root | — | EN-first edition |
 | VMC-QF | root | — | EN-first edition |
 | SDF-VLT-Gravity-Dynamics | root | — | EN-first edition (v3.4.3 monolingual pass) |
+| SDF_Lattice_Master | root | — | EN-first edition (v0.3.4, zero Persian) |
 
 **Mirror rule (LIMEN):** every canonical edit lands in both languages in one commit; the frontmatter `lang` field decides the canonical side for QA.
 

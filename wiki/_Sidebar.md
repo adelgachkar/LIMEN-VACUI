@@ -14,6 +14,7 @@
 - [CRG-Flux](https://github.com/adelgachkar/CRG-Flux) — flexoelectric cross-scale
 - [VMC-QF](https://github.com/adelgachkar/VMC-QF) — microcavity quantum foam
 - [SDF-VLT-Gravity-Dynamics](https://github.com/adelgachkar/SDF-VLT-Gravity-Dynamics) — boundary-pressure gravity
+- [SDF_Lattice_Master](https://github.com/adelgachkar/SDF_Lattice_Master) — execution engine (v0.3.4)
 
 **Key documents**
 - [Aligned Protocol](https://github.com/adelgachkar/LIMEN-VACUI/blob/main/08_Protocol/Aligned-Protocol.md)
