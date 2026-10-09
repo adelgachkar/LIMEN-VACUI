@@ -12,12 +12,12 @@
 | **[SPUMA-VACUI](https://github.com/adelgachkar/SPUMA-VACUI)** | روایت فوم خلأ؛ فیزیک فریز-اوت K1، هارمونیک‌های کاواک، پل همتا | v0.4.10 | [10.5281/zenodo.23006052](https://doi.org/10.5281/zenodo.23006052) | فقط EN |
 | **[Emergence-SDF-Vault](https://github.com/adelgachkar/Emergence-SDF-Vault)** | مدل ظهور هندسهٔ گسسته؛ منبع ثابت‌های مشتق (κ_hop، τ_d، δθ) | v30.3.11 | [10.5281/zenodo.22834778](https://doi.org/10.5281/zenodo.22834778) | فقط EN |
 | **[CADENCE-SDF](https://github.com/adelgachkar/CADENCE-SDF)** | ارائهٔ مهندسی اصل/CAD؛ حکمرانی fail-closed (هنجار E2) | v3.6.9 | [10.5281/zenodo.23006055](https://doi.org/10.5281/zenodo.23006055) | فقط EN |
-| **[CRG-Flux](https://github.com/adelgachkar/CRG-Flux)** | چارچوب فlexوالکتریک تا کیهان‌شناختیِ میان-مقیاس؛ نمونهٔ ماده‌چگال | v0.1.0 | *در انتظار* — نخستین deposit وب‌هوک | فقط EN |
+| **[CRG-Flux](https://github.com/adelgachkar/CRG-Flux)** | چارچوب فlexوالکتریک تا کیهان‌شناختیِ میان-مقیاس؛ نمونهٔ ماده‌چگال | v0.1.0 | [10.5281/zenodo.23271286](https://doi.org/10.5281/zenodo.23271286) | فقط EN |
 | **[VMC-QF](https://github.com/adelgachkar/VMC-QF)** | فوم کوانتومی ریزحفره‌ای خلأ؛ زمان کادنس و سولیتون‌های توپولوژیک | v0.3.1 | [10.5281/zenodo.23094459](https://doi.org/10.5281/zenodo.23094459) | فقط EN |
 | **[SDF-VLT-Gravity-Dynamics](https://github.com/adelgachkar/SDF-VLT-Gravity-Dynamics)** | دینامیک گرانش خلأ/شبکه؛ گرانش فشار-مرزی و زنجیرهٔ کانونی | v3.4.3 | [10.5281/zenodo.22412460](https://doi.org/10.5281/zenodo.22412460) | فقط EN |
 | **[SDF_Lattice_Master](https://github.com/adelgachkar/SDF_Lattice_Master)** | موتور اجرایی پایتون: ۱۲ ماژول نود (بر tầm/گشتاور بری، پمپ پریستالتیک، علیت تأخیری، جفت‌شدگی حفره، تنش، ابرسلول)؛ ۶۰ تست سبز؛ غربالگری α = ۱۳۷٫۰۳۲ | v0.3.4 | [10.5281/zenodo.23271142](https://doi.org/10.5281/zenodo.23271142) | فقط EN |
 
-*نسخه‌ها تا ۲۰۲۶-۱۰-۱۰. نخستین deposit زنودوی VMC-QF به‌صورت دستی منتشر شد (DOI نسخه: [10.5281/zenodo.23094460](https://doi.org/10.5281/zenodo.23094460)، v0.3.1) و اکنون ششمین رکورد مفهومی خانواده است؛ DOI مفهومی CRG-Flux با نخستین deposit آن ضرب می‌شود. نخستین deposit SDF_Lattice_Master نیز با API زنودو منتشر شد (DOI مفهومی ۱۰٫۵۲۸۱/zenodo.۲۳۲۷۱۱۴۲، v0.3.4) — عضو هشتم و همتای اجرایی خانواده. جدول نسخه‌ها آینهٔ README §2b مخزن Vault است.*
+*نسخه‌ها تا ۲۰۲۶-۱۰-۱۰. نخستین deposit زنودوی VMC-QF به‌صورت دستی منتشر شد (DOI نسخه: [10.5281/zenodo.23094460](https://doi.org/10.5281/zenodo.23094460)، v0.3.1) و اکنون ششمین رکورد مفهومی خانواده است؛ نخستین deposit CRG-Flux در ۲۰۲۶-۱۰-۱۰ منتشر شد (DOI مفهومی ۱۰٫۵۲۸۱/zenodo.۲۳۲۷۱۲۸۶، v0.1.0) — **اکنون هر عضو خانواده DOI مفهومی زنده دارد**. نخستین deposit SDF_Lattice_Master نیز با API زنودو منتشر شد (DOI مفهومی ۱۰٫۵۲۸۱/zenodo.۲۳۲۷۱۱۴۲، v0.3.4) — عضو هشتم و همتای اجرایی خانواده. جدول نسخه‌ها آینهٔ README §2b مخزن Vault است.*
 
 ---
 
